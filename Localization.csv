@@ -740,14 +740,14 @@ PulseLaserChargeRifle,LR Charge,LG Ladung,Заряд ЛВ
 FlakRocket,Flak Shell BA,Flak Geschoss BA,Зенитный снаряд БА
 FlakRocketMS,Flak Shell CV,Flak Geschoss GR,Зенитный снаряд БС
 ArtilleryRocket,Artillery Shell HV,Art. Geschoss BG,Гаубичный снаряд ПС
-SlowRocket,120mm MSL,120mm RAK,120 мм снаряд
-SlowRocketHoming,120mm H-MSL,120mm Z-RAK,120 мм ракета
-FastRocket,135mm MSL SV,135mm RAK KR,135 мм снаряд МС
-FastRocketHoming,135mm H-MSL SV/HV,135mm Z-RAK GR/BG,135 мм ракета МС/ПС
-FastRocketMS,150mm H-MSL CV,150mm Z-RAK GR,150 мм ракета БС
-FastRocketBA,150mm H-MSL BA,150mm Z-RAK BA,150 мм ракета БА
-LargeRocket,160mm MSL BA,160mm RAK BA,160 мм снаряд БА
-LargeRocketMS,160mm MSL CV,160mm RAK GR,160 мм снаряд БС
+SlowRocket,120mm MSL,120mm RAK,120 мм ракета (медленная)
+SlowRocketHoming,120mm H-MSL,120mm Z-RAK,120 мм ракета с наведением (медленная)
+FastRocket,135mm MSL SV,135mm RAK KR,135 мм ракета МС (быстрая)
+FastRocketHoming,135mm H-MSL SV/HV,135mm Z-RAK GR/BG,135 мм ракета с наведением МС/ПС (быстрая)
+FastRocketMS,150mm H-MSL CV,150mm Z-RAK GR,150 мм ракета БС (быстрая)
+FastRocketBA,150mm H-MSL BA,150mm Z-RAK BA,150 мм ракета БА (быстрая)
+LargeRocket,160mm MSL BA,160mm RAK BA,160 мм ракета БА (большая)
+LargeRocketMS,160mm MSL CV,160mm RAK GR,160 мм ракета БС (большая)
 SciFiCannonPlasmaCharge,Pl.Charge Cannon,PK Ladung,Заряд пл. пушки
 PlasmaCannonChargeSS,Pl.Charge SV,PK Ladung KR,Пл. заряд (МС)
 TurretMSPlasmaCharge,Pl.Charge CV,PK Ladung GR,Пл. заряд БС
@@ -1209,8 +1209,8 @@ FlyDirBottom,Flight Direction (Bottom),Flugrichtung (unten),Направлени
 FlyDirTop,Flight Direction (Top),Flugrichtung (oben),Направление полета (вверх)
 FlyDir,Flight Direction,Flugrichtung,Направление полета
 NoRotation,No Rotation,Keine Rotation,Нет врещения
-"OpenWound,PoisonFood",Open Wound / Food Poisoning,Offene Wunde / Lebensmittelvergiftung,Открытая рана / Пищевое отравление
-"OpenWound,PoisonFood,PoisonBit",Open Wound / Food Poisoning / Bites,Offene Wunde / Lebensmittelvergiftung / Giftbiss,Открытая рана / Пищевое отравление / Укусы
+"OpenWound,PoisonFood","Open Wound, Food Poisoning","Offene Wunde, Lebensmittelvergiftung",Открытая рана / Пищевое отравление
+"OpenWound,PoisonFood,PoisonBit","Open Wound, Food Poisoning, Bites","Offene Wunde, Lebensmittelvergiftung, Giftbiss",Открытая рана / Пищевое отравление / Укусы
 PoisonBit,Poisonous Bite,Giftbiss,Ядовитые укусы
 OpenWound,Open Wound,Offene Wunde,Открытая рана
 "Parasite1,Parasite2,Parasite3",Alien Parasite,Alien-Parasit,Внеземной паразит
@@ -1228,14 +1228,14 @@ SS,SV,KR,МС
 GV,HV,BG,ПС
 Base,BA,BA,БА
 Terrain,T,T,Л
-"Base,MS",CV / BA,GR / BA,БА / БС
-"MS,SS",CV / SV,GR / KR,БС / МС
-"MS,GV",CV / HV,GR / BG,БС / ПС
-"SS,GV",SV / HV,KR / BG,МС / ПС
-"Base,MS,Terrain",BA / CV / T,BA / GR / T,БА / БС / Л
-"Base,MS,GV",BA / CV / HV,BA / GR / BG,БА / БС / ПС
-"Base,MS,SS,GV",BA / CV / SV / HV,BA / GR / KR / BG,БА / БС / МС / ПС
-"MS,SS,GV",CV / SV / HV,GR / KR / BG,БС / МС / ПС
+"Base,MS","CV,BA","GR,BA",БА / БС
+"MS,SS","CV,SV","GR,KR",БС / МС
+"MS,GV","CV,HV","GR,BG",БС / ПС
+"SS,GV","SV,HV","KR,BG",МС / ПС
+"Base,MS,Terrain","BA,CV,T","BA,GR,T",БА / БС / Л
+"Base,MS,GV","BA,CV,HV","BA,GR,BG",БА / БС / ПС
+"Base,MS,SS,GV","BA,CV,SV,HV","BA,GR,KR,BG",БА / БС / МС / ПС
+"MS,SS,GV","CV,SV,HV","GR,KR,BG",БС / МС / ПС
 rdlDisassemble,Disassemble,Demontieren,Разобрать
 rdlDisassembleTxt,Returns intact blocks for own structures. Has a chance of returning intact blocks on public structures.,Für eigene Strukturen werden intakte Blöcke zurück gegeben. Für öffentliche Strukturen werden intakte Blöcke mit einer gewissen Wahrscheinlichkeit zurückgegeben,Возвращает неповрежденные блоки для собственных структур. Имеет шанс на возвращение неповрежденных блоков на общественных структур.
 rdlRepair,Repair,Reparieren,Ремонтировать
@@ -1382,8 +1382,8 @@ SvrNameConflict,Name conflict: Name '{0}' already exists - Please change your na
 SvrWorldNotFound,{0} is not available on this server.,{0} ist auf diesem Server nicht verfügbar.,{0} не доступно на этом сервере.
 tutHintsActivated,"In-game hints are activated. To de-activate them, go into Misc under Options",Die Spielhinweise sind aktiv. Man kann sie in Optionen / Divers deaktivieren,"Внутриигровые подсказки включены. Чтобы отключить их, зайдите 'Опции' - 'Разное'"
 tutPDA,Press '{0}' to access the PDA with its tutorials and FAQs,Drücke '{0}' um den PDA mit seinen Tutorials und Hilfetexten zu öffnen,Нажмите '{0}' чтобы открыть КПК с руководствами и ЧАВО.
-tutAtmoBreathable,If the atmosphere is breathable. you can take off your helmet and save oxygen. press '{0}',Wenn die Atmosphäre atembar ist. nimm deinen Helm mit '{0}' ab. um Sauerstoff zu sparen,Если атмосфера пригодна для дыхания. Вы можете снять шлем и экономить кислород. Нажмите '{0}'
-tutSwimFreeHand,For swimming you must have your hands free. Otherwise you will sink to the ground,Halte beim Schwimmen nichts in der Hand. sonst sinkst du auf den Grund,Для плаванья ваши руки должны быть свободны. Иначе вы опуститесь на дно.
+tutAtmoBreathable,"If the atmosphere is breathable, you can take off your helmet and save oxygen, press '{0}'","Wenn die Atmosphäre atembar ist, nimm deinen Helm mit '{0}' ab, um Sauerstoff zu sparen",Если атмосфера пригодна для дыхания. Вы можете снять шлем и экономить кислород. Нажмите '{0}'
+tutSwimFreeHand,For swimming you must have your hands free. Otherwise you will sink to the ground,"Halte beim Schwimmen nichts in der Hand, sonst sinkst du auf den Grund",Для плаванья ваши руки должны быть свободны. Иначе вы опуститесь на дно.
 tutJetpackJump,Use your jetpack for higher jumps on planets.,"Benutze den Jetpack ('{0}'), um auf Planeten höher zu springen.","Используйте реактивный ранец, чтобы высоко прыгать на планетах."
 lpsUseSpotlights,Use spotlights to explore during night,Benutze Scheinwerfer für nächtliche Erkundungen,Используйте прожекторы для исследования ночью
 lpsBeWellPrepared,Be well prepared for the next adventure,Bereite dich gut auf das nächste Abenteuer vor,Будьте готовы к следующему приключению
@@ -1398,7 +1398,7 @@ lpsZascosiumOnLava,The rare Erestrum ore can be found on lava planets,Das selten
 lpsErestrumOnIce,Ice planets are the home of the dangerous Ice Golems,Eisplaneten sind die Heimat der gefährlichen Eisgolems,Редкая неодимовая руда может быть найдена на ледяных планетах
 lpsOxygenSupply,Always be sure to have enough oxygen supply,Sorge immer für genügend Sauerstoffvorrat,"Удостоверьтесь, что имеете достаточные запасы кислорода"
 lpsBaseInWater,A base in the water makes oxygen production easier,Eine Basis im Wasser erleichtert die Sauerstoffversorgung,Водная база делает производство кислорода проще
-lpsHelmetAtmo,Take off helmet in breathable atmosphere to save oxygen,Nimm den Helm in atembarer Atmosphäre ab. um Sauerstoff zu sparen,Снимите шлем в пригодной для дыхания атмосфере чтобы сэкономить кислород
+lpsHelmetAtmo,Take off helmet in breathable atmosphere to save oxygen,"Nimm den Helm in atembarer Atmosphäre ab, um Sauerstoff zu sparen",Снимите шлем в пригодной для дыхания атмосфере чтобы сэкономить кислород
 lpsTemperatePlanetAtmo,Temperate planets often have a breathable atmosphere,Gemäßigte Planeten haben oft eine atembare Atmosphäre,Планеты с умеренным климатом часто имеют атмосферу пригодную для дыхания
 lpsHelmetForDiving,For diving you need to wear your helmet,Zum Tauchen musst du deinen Helm tragen,Чтобы плавать под водой вы должны надеть шлем
 lpsExploreVessel,Use your small vessel for fast exploration,Verwende dein kleines Raumschiff für schnelle Erkundungen,Используйте ваше малое судно для быстрого исследования
@@ -1420,8 +1420,8 @@ lpsResourceAsteroids,Asteroids provide you with valuable resources,Asteroiden li
 lpsRaptors,Raptors are fast and deadly predators,Raptoren sind schnelle und tödliche Raubtiere,Ящеры очень быстрые и смертельно опасные хищники.
 lpsAlienWorld,Alien worlds are full of hidden dangers,Alienwelten stecken voller Gefahren,Чужие миры полны скрытых опасностей.
 lpsDangerousCreatures,Be prepared to engage some creepy creatures,Sei bereit dich mit gruseligen Kreaturen auseinander zu setzen,Приготовьтесь встретить различных жутких существ.
-lpsHoverVessel,Hover vessels can serves a heavy combat tanks,Bodengleiter können als schwere Kampfpanzer dienen,Парящие суда могут служить как тяжелые боевые танки.
-lpsOutside,Before you venture outside. make sure that the coast is clear,"Bevor du raus gehst, solltest du sicher gehen dass die Luft rein ist",Перед тем как выходить наружу - убедитесь что там безопасно.
+lpsHoverVessel,Hover vessels can serve as heavy combat tanks,Bodengleiter können als schwere Kampfpanzer dienen,Парящие суда могут служить как тяжелые боевые танки.
+lpsOutside,"Before you venture outside, make sure that the coast is clear","Bevor du raus gehst, solltest du sicher gehen dass die Luft rein ist",Перед тем как выходить наружу - убедитесь что там безопасно.
 lpsTroopTransport,Alien troop transports can bring deadly reinforcement,Alien Truppentransporter können tödlichen Nachschub liefern,Транспорт Чужих может привезти смертоносное подкрепление.
 Hint:,Hint:,Tipp:,Совет:
 Health:,Health:,Gesundheit:,Здоровье:
@@ -1486,11 +1486,11 @@ mnuQualityBest,Best Quality: Shadow of lights enabled. High-res textures. High-r
 mnuQualityGood,Good Quality: Shadow of lights disabled. High-res textures. High-res reflection probe for water. Medium rendering distance for decorations and medium grass density. Medium quality for LODs.,"Gute Qualität: Lichter-Schatten deaktiviert, Texturen mit hoher Auflösung, hohe Qualität der Wasser-Reflexionen. Mittlere Renderdistanz der Dekorationen und Grassdichte. Mittlere LOD Qualität.",Хорошее качество: тени от источников освещения выключены. Текстуры высокого разрешения. Отражения высокого разрешения. Среднее расстояние отображения декораций и средняя плотность травы. Среднее качество LOD-текстур.
 mnuQualityFast,Least Quality: Shadow of lights disabled. Medium-res textures. Low-res reflection probe for water. Lowest rendering distance for decorations and lowest grass density. Low quality for LODs.,"Geringe Qualität: Lichter-Schatten deaktiviert, Texturen mit mittelhoher Auflösung, niedrige Qualität der Wasser-Reflexionen. Niedrigste Renderdistanz der Dekorationen und Grassdichte. Niedrigste LOD Qualität.",Низкое качество: тени от источников освещения выключены. Текстуры среднего разрешения. Отражения низкого разрешения. Низкое расстояние отображения декораций и низкая плотность травы. Низкое качество LOD-текстур.
 mnuIntro Omicron Orbit,The space around the planet Omicron contains a small asteroid field and an abandoned research facility.,In dem Weltraum um den Planeten Omicron befindet sich ein kleines Asteroidenfeld und eine verlassene Forschungsstation.,Пространство вокруг планеты Омикрон содержит маленькое астероидное поле и заброшенную исследовательскую станцию.
-mnuIntro Omicron,"[c][d29818]Difficulty: Medium[-][/c]\nOmicron is a desert planet with mountain ranges / lakes / plains and rugged terrain. The atmosphere is relatively thin and non breathable. However oxygen can be generated from the water of the lakes. [c][e02020]Be warned, choosing this planet as the survival start is recommended for experienced players only.[-][/c]",[c][d29818]Schwierigkeit: Mittel[-][/c]\nOmicron ist ein Wüstenplanet mit Bergketten / Seen / weiten Ebenen und felsigem Gelände. Die Atmosphäre ist relativ dünn und nicht atembar. Allerdings kann Sauerstoff aus dem Wasser der Seen gewonnen werden. [c][e02020]Sei gewarnt: Diesen Planet as Startplanet in Survival zu wählen wird nur erfahrenen Spielern empfohlen.[-][/c],[c][d29818]Сложность: Средняя[-][/c]\nОмикрон - пустынная планета с горными хребтами / озерами / равнинами и пересеченной местностью. Атмосфера относительно тонка и непригодна для дыхания. Тем не менее кислород можно добывать из воды озер.\n[c][e0e020]Внимание: Выбор этой планеты в качестве начальной рекомендован только опытным игрокам.[-][/c]
-mnuIntro Aestus,Aestus is a lava planet with unforgiving conditions whose surface is mostly covered by molten lava. The very thick atmosphere is non breathable but oxygen can be generated on the greenish alien-like areas. The gravity is strong with 1.15 g and the average temperature is 53°C. The rare ore Zascosium can be found on Aestus.,"Aestus ist ein Lavaplanet mit erschwerten Bedingungen dessen Oberfläche zu großen Teilen von flüssiger Lava bedeckt ist. Die dichte Atmosphäre ist nicht atembar Sauerstoff kann jedoch auf den grünlichen fremdartigen Gebieten gewonnen werden. Die Schwerkraft beträgt 1,15 g und die Durchschnittstemperatur liegt bei 53°C. Hier gibt es Vorkommen des seltenen Zascosium-Erzes.",Аэстус - лавовая планета с суровыми не прощающими ошибок условиями поверхность которой в основном покрыта расплавленной лавой. Очень тонкая атмосфера не пригодна для дыхания однако кислород может быть получен в зеленоватых странного вида областях. Большая сила тяжести - 1.15 g и средняя температура 53°C. Редкая заскозиевая руда может быть найдена на Аэстусе.
-mnuIntro Akua,[c][d29818]Difficulty: Easy[-][/c]\nAkua is a temperate planet with vast oceans / volcanic islands and large continents with mountain ranges. It has a breathable atmosphere. The average temperature is 23°C and gravity amounts to 0.84g.,"[c][d29818]Schwierigkeit: Leicht[-][/c]\nAkua ist ein gemäßigter Planet mit großen Ozeanen vulkanischen Inseln sowie großen Kontinenten mit Bergketten. Er hat eine atembare Atmosphäre. Die Durchschnittstemperatur beträgt 23°C und die Schwerkraft liegt bei 0,84 g.","[c][d29818]Сложность: Легко[-][/c]\nАкуа - умеренная планета с обширными океанами / вулканическими островами и большими континентами, имеющими горные хребты. Обладает пригодной для дыхания атмосферой. Средняя температура 23°C и сила тяжести 0.84 g.[-][/c]"
-mnuIntro Ningues,[c][d29818]Difficulty: Medium[-][/c]\nNingues is an ice planet with steep mountains / large plains and hot springs. There is no breathable atmosphere but oxygen can be generated from the snow. [c][e02020]Be warned / choosing this planet as the survival start is recommended for experienced players only.[-][/c],"[c][d29818]Schwierigkeit: Mittel[-][/c]\nNingues ist ein Eisplanet mit steilen Bergen / weiten Ebenen und heißen Quellen. Es gibt dort keine atembare Atmosphäre aber Sauerstoff kann aus dem Schnee gewonnen werden. [e02020]Sei gewarnt: Diesen Planet as Startplanet in Survival zu wählen, wird nur erfahrenen Spielern empfohlen.[-][/c]",[c][d29818]Сложность: Средняя[-][/c]\nНингус - ледяная планета с высокими горами / широкими равнинами и горячими источниками. Пригодной для дыхания атмосферы нет но кислород может быть сгенерирован из снега. Средняя температура -38°C и сила тяжести 0.54 g. Редкая эреструмовая руда может быть найдена на Нингусе.[-][/c]
-mnuIntro Masperon,"[c][d29818]Difficulty: Hard[-][/c]\nMasperon is a very hostile but beautiful alien planet with mountain ranges / lakes and plains lying in the fog. The atmosphere is not breathable or at least no human ever tried it. However, oxygen can be generated from the water of the hidden lakes. Some resources can only be found in POIs. [c][e02020]Be warned choosing this planet as the survival start is recommended for very experienced players only.[-][/c]",[c][d29818]Schwierigkeit: Schwer [-][/c]\nMasperon ist ein lebensfeindlicher  aber sehr schöner Alienplanet mit Bergketten Seen und im Nebel liegenden Ebenen. Die Atmosphäre ist nicht atembar - allerdings kann Sauerstoff aus dem Wasser der im Nebel versteckten Seen gewonnen werden. Einige Rohstoffe lassen sich nur in POIs finden. [c][e02020]Sei gewarnt: Diesen Planet as Startplanet in Survival zu wählen wird nur sehr erfahrenen Spielern empfohlen.[-][/c],[c][d29818]Уровень сложности: Высокий [-][/c]\nМасперон очень враждебная но красивая чужая планета с горными хребтами / озерами и равнинами лежащими в тумане. Атмосфера не пропускает воздух или по крайней мере ни один человек никогда не пробовал. Тем не менее кислород может быть получен из воды в скрытых озерах. Некоторые ресурсы могут быть найдены только в POI. [c][e02020] Имейте в виду выбирать эту планету рекомендуется только для очень опытных игроков..[-][/c]
+mnuIntro Omicron,"[c][d29818]Difficulty: Medium[-][/c]\nOmicron is a desert planet with mountain ranges, lakes, plains and rugged terrain. The atmosphere is relatively thin and non breathable. However, oxygen can be generated from the water of the lakes. [c][e02020]Be warned, choosing this planet as the survival start is recommended for experienced players only.[-][/c]","[c][d29818]Schwierigkeit: Mittel[-][/c]\nOmicron ist ein Wüstenplanet mit Bergketten, Seen, weiten Ebenen und felsigem Gelände. Die Atmosphäre ist relativ dünn und nicht atembar. Allerdings kann Sauerstoff aus dem Wasser der Seen gewonnen werden. [c][e02020]Sei gewarnt: Diesen Planet as Startplanet in Survival zu wählen, wird nur erfahrenen Spielern empfohlen.[-][/c]",[c][d29818]Сложность: Средняя[-][/c]\nОмикрон - пустынная планета с горными хребтами / озерами / равнинами и пересеченной местностью. Атмосфера относительно тонка и непригодна для дыхания. Тем не менее кислород можно добывать из воды озер.\n[c][e0e020]Внимание: Выбор этой планеты в качестве начальной рекомендован только опытным игрокам.[-][/c]
+mnuIntro Aestus,Aestus is a lava planet with unforgiving conditions whose surface is mostly covered by molten lava. The very thick atmosphere is non breathable but oxygen can be generated on the greenish alien-like areas. The gravity is strong with 1.15 g and the average temperature is 53°C. The rare ore Zascosium can be found on Aestus.,"Aestus ist ein Lavaplanet mit erschwerten Bedingungen, dessen Oberfläche zu großen Teilen von flüssiger Lava bedeckt ist. Die dichte Atmosphäre ist nicht atembar, Sauerstoff kann jedoch auf den grünlichen fremdartigen Gebieten gewonnen werden. Die Schwerkraft beträgt 1,15 g und die Durchschnittstemperatur liegt bei 53°C. Hier gibt es Vorkommen des seltenen Zascosium-Erzes.",Аэстус - лавовая планета с суровыми не прощающими ошибок условиями поверхность которой в основном покрыта расплавленной лавой. Очень тонкая атмосфера не пригодна для дыхания однако кислород может быть получен в зеленоватых странного вида областях. Большая сила тяжести - 1.15 g и средняя температура 53°C. Редкая заскозиевая руда может быть найдена на Аэстусе.
+mnuIntro Akua,"[c][d29818]Difficulty: Easy[-][/c]\nAkua is a temperate planet with vast oceans, volcanic islands and large continents with mountain ranges. It has a breathable atmosphere. The average temperature is 23°C and gravity amounts to 0.84g.","[c][d29818]Schwierigkeit: Leicht[-][/c]\nAkua ist ein gemäßigter Planet mit großen Ozeanen, vulkanischen Inseln sowie großen Kontinenten mit Bergketten. Er hat eine atembare Atmosphäre. Die Durchschnittstemperatur beträgt 23°C und die Schwerkraft liegt bei 0,84 g.","[c][d29818]Сложность: Легко[-][/c]\nАкуа - умеренная планета с обширными океанами / вулканическими островами и большими континентами, имеющими горные хребты. Обладает пригодной для дыхания атмосферой. Средняя температура 23°C и сила тяжести 0.84 g.[-][/c]"
+mnuIntro Ningues,"[c][d29818]Difficulty: Medium[-][/c]\nNingues is an ice planet with steep mountains, large plains and hot springs. There is no breathable atmosphere but oxygen can be generated from the snow. [c][e02020]Be warned, choosing this planet as the survival start is recommended for experienced players only.[-][/c]","[c][d29818]Schwierigkeit: Mittel[-][/c]\nNingues ist ein Eisplanet mit steilen Bergen, weiten Ebenen und heißen Quellen. Es gibt dort keine atembare Atmosphäre aber Sauerstoff kann aus dem Schnee gewonnen werden. [e02020]Sei gewarnt: Diesen Planet as Startplanet in Survival zu wählen, wird nur erfahrenen Spielern empfohlen.[-][/c]",[c][d29818]Сложность: Средняя[-][/c]\nНингус - ледяная планета с высокими горами / широкими равнинами и горячими источниками. Пригодной для дыхания атмосферы нет но кислород может быть сгенерирован из снега. Средняя температура -38°C и сила тяжести 0.54 g. Редкая эреструмовая руда может быть найдена на Нингусе.[-][/c]
+mnuIntro Masperon,"[c][d29818]Difficulty: Hard[-][/c]\nMasperon is a very hostile but beautiful alien planet with mountain ranges, lakes and plains lying in the fog. The atmosphere is not breathable or at least no human ever tried it. However, oxygen can be generated from the water of the hidden lakes. Some resources can only be found in POIs. [c][e02020]Be warned, choosing this planet as the survival start is recommended for very experienced players only.[-][/c]","[c][d29818]Schwierigkeit: Schwer [-][/c]\nMasperon ist ein lebensfeindlicher, aber sehr schöner Alienplanet mit Bergketten, Seen und im Nebel liegenden Ebenen. Die Atmosphäre ist nicht atembar - allerdings kann Sauerstoff aus dem Wasser der im Nebel versteckten Seen gewonnen werden. Einige Rohstoffe lassen sich nur in POIs finden. [c][e02020]Sei gewarnt: Diesen Planet as Startplanet in Survival zu wählen, wird nur sehr erfahrenen Spielern empfohlen.[-][/c]",[c][d29818]Уровень сложности: Высокий [-][/c]\nМасперон очень враждебная но красивая чужая планета с горными хребтами / озерами и равнинами лежащими в тумане. Атмосфера не пропускает воздух или по крайней мере ни один человек никогда не пробовал. Тем не менее кислород может быть получен из воды в скрытых озерах. Некоторые ресурсы могут быть найдены только в POI. [c][e02020] Имейте в виду выбирать эту планету рекомендуется только для очень опытных игроков..[-][/c]
 inpForward,Forward,Vorwärts,Вперед
 inpBack,Back,Rückwärts,Назад
 inpLeft,Left,Links,Влево
@@ -2413,7 +2413,7 @@ cplTurret,Turret,Geschütz,Орудийная башня
 cplMountedWeapon,Mounted Weapon,Befestigte Waffe,Навесное орудие
 cplThruster,Thruster,Schubdüse,Двигатель
 cplGenerator,Generator,Generator,Генератор
-cplTurretNoTargetInfo,If nothing is selected - turret will shoot at center of target,Geschütz schiesst in die Mitte des Zielobjekts -  wenn nichts ausgewählt ist,Если ничего не выбрано то турель будет стрелять в центре мишени.
+cplTurretNoTargetInfo,"Select device on which turret should shoot. If nothing is selected, turret will not shoot","Wähle das Zielobjekt aus. Wenn nichts ausgewählt ist, schiesst Geschütz nicht.",Если ничего не выбрано то турель будет стрелять в центре мишени.
 ACS_VersionInfo,,,Релиз-версия русификации для версии 5.3 (подготовлена Marader1980)
 Salami,,,Салями
 StomachPills,,,Таблетки для желудка
