@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2017-02-09T21:07:02">
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2017-02-10T19:50:07">
 <Localization>
 <KEY>HullSmallBlocks</KEY>
 <English>Steel Blocks S</English>
@@ -4400,49 +4400,49 @@
 <KEY>SlowRocket</KEY>
 <English>120mm MSL</English>
 <Deutsch>120mm RAK</Deutsch>
-<Russian>120 мм снаряд</Russian>
+<Russian>120 мм ракета (медленная)</Russian>
 </Localization>
 <Localization>
 <KEY>SlowRocketHoming</KEY>
 <English>120mm H-MSL</English>
 <Deutsch>120mm Z-RAK</Deutsch>
-<Russian>120 мм ракета</Russian>
+<Russian>120 мм ракета с наведением (медленная)</Russian>
 </Localization>
 <Localization>
 <KEY>FastRocket</KEY>
 <English>135mm MSL SV</English>
 <Deutsch>135mm RAK KR</Deutsch>
-<Russian>135 мм снаряд МС</Russian>
+<Russian>135 мм ракета МС (быстрая)</Russian>
 </Localization>
 <Localization>
 <KEY>FastRocketHoming</KEY>
 <English>135mm H-MSL SV/HV</English>
 <Deutsch>135mm Z-RAK GR/BG</Deutsch>
-<Russian>135 мм ракета МС/ПС</Russian>
+<Russian>135 мм ракета с наведением МС/ПС (быстрая)</Russian>
 </Localization>
 <Localization>
 <KEY>FastRocketMS</KEY>
 <English>150mm H-MSL CV</English>
 <Deutsch>150mm Z-RAK GR</Deutsch>
-<Russian>150 мм ракета БС</Russian>
+<Russian>150 мм ракета БС (быстрая)</Russian>
 </Localization>
 <Localization>
 <KEY>FastRocketBA</KEY>
 <English>150mm H-MSL BA</English>
 <Deutsch>150mm Z-RAK BA</Deutsch>
-<Russian>150 мм ракета БА</Russian>
+<Russian>150 мм ракета БА (быстрая)</Russian>
 </Localization>
 <Localization>
 <KEY>LargeRocket</KEY>
 <English>160mm MSL BA</English>
 <Deutsch>160mm RAK BA</Deutsch>
-<Russian>160 мм снаряд БА</Russian>
+<Russian>160 мм ракета БА (большая)</Russian>
 </Localization>
 <Localization>
 <KEY>LargeRocketMS</KEY>
 <English>160mm MSL CV</English>
 <Deutsch>160mm RAK GR</Deutsch>
-<Russian>160 мм снаряд БС</Russian>
+<Russian>160 мм ракета БС (большая)</Russian>
 </Localization>
 <Localization>
 <KEY>SciFiCannonPlasmaCharge</KEY>
@@ -7151,14 +7151,14 @@
 </Localization>
 <Localization>
 <KEY>OpenWound,PoisonFood</KEY>
-<English>Open Wound / Food Poisoning</English>
-<Deutsch>Offene Wunde / Lebensmittelvergiftung</Deutsch>
+<English>Open Wound, Food Poisoning</English>
+<Deutsch>Offene Wunde, Lebensmittelvergiftung</Deutsch>
 <Russian>Открытая рана / Пищевое отравление</Russian>
 </Localization>
 <Localization>
 <KEY>OpenWound,PoisonFood,PoisonBit</KEY>
-<English>Open Wound / Food Poisoning / Bites</English>
-<Deutsch>Offene Wunde / Lebensmittelvergiftung / Giftbiss</Deutsch>
+<English>Open Wound, Food Poisoning, Bites</English>
+<Deutsch>Offene Wunde, Lebensmittelvergiftung, Giftbiss</Deutsch>
 <Russian>Открытая рана / Пищевое отравление / Укусы</Russian>
 </Localization>
 <Localization>
@@ -7265,50 +7265,50 @@
 </Localization>
 <Localization>
 <KEY>Base,MS</KEY>
-<English>CV / BA</English>
-<Deutsch>GR / BA</Deutsch>
+<English>CV,BA</English>
+<Deutsch>GR,BA</Deutsch>
 <Russian>БА / БС</Russian>
 </Localization>
 <Localization>
 <KEY>MS,SS</KEY>
-<English>CV / SV</English>
-<Deutsch>GR / KR</Deutsch>
+<English>CV,SV</English>
+<Deutsch>GR,KR</Deutsch>
 <Russian>БС / МС</Russian>
 </Localization>
 <Localization>
 <KEY>MS,GV</KEY>
-<English>CV / HV</English>
-<Deutsch>GR / BG</Deutsch>
+<English>CV,HV</English>
+<Deutsch>GR,BG</Deutsch>
 <Russian>БС / ПС</Russian>
 </Localization>
 <Localization>
 <KEY>SS,GV</KEY>
-<English>SV / HV</English>
-<Deutsch>KR / BG</Deutsch>
+<English>SV,HV</English>
+<Deutsch>KR,BG</Deutsch>
 <Russian>МС / ПС</Russian>
 </Localization>
 <Localization>
 <KEY>Base,MS,Terrain</KEY>
-<English>BA / CV / T</English>
-<Deutsch>BA / GR / T</Deutsch>
+<English>BA,CV,T</English>
+<Deutsch>BA,GR,T</Deutsch>
 <Russian>БА / БС / Л</Russian>
 </Localization>
 <Localization>
 <KEY>Base,MS,GV</KEY>
-<English>BA / CV / HV</English>
-<Deutsch>BA / GR / BG</Deutsch>
+<English>BA,CV,HV</English>
+<Deutsch>BA,GR,BG</Deutsch>
 <Russian>БА / БС / ПС</Russian>
 </Localization>
 <Localization>
 <KEY>Base,MS,SS,GV</KEY>
-<English>BA / CV / SV / HV</English>
-<Deutsch>BA / GR / KR / BG</Deutsch>
+<English>BA,CV,SV,HV</English>
+<Deutsch>BA,GR,KR,BG</Deutsch>
 <Russian>БА / БС / МС / ПС</Russian>
 </Localization>
 <Localization>
 <KEY>MS,SS,GV</KEY>
-<English>CV / SV / HV</English>
-<Deutsch>GR / KR / BG</Deutsch>
+<English>CV,SV,HV</English>
+<Deutsch>GR,KR,BG</Deutsch>
 <Russian>БС / МС / ПС</Russian>
 </Localization>
 <Localization>
@@ -8182,14 +8182,14 @@
 </Localization>
 <Localization>
 <KEY>tutAtmoBreathable</KEY>
-<English>If the atmosphere is breathable. you can take off your helmet and save oxygen. press &apos;{0}&apos;</English>
-<Deutsch>Wenn die Atmosphäre atembar ist. nimm deinen Helm mit &apos;{0}&apos; ab. um Sauerstoff zu sparen</Deutsch>
+<English>If the atmosphere is breathable, you can take off your helmet and save oxygen, press &apos;{0}&apos;</English>
+<Deutsch>Wenn die Atmosphäre atembar ist, nimm deinen Helm mit &apos;{0}&apos; ab, um Sauerstoff zu sparen</Deutsch>
 <Russian>Если атмосфера пригодна для дыхания. Вы можете снять шлем и экономить кислород. Нажмите &apos;{0}&apos;</Russian>
 </Localization>
 <Localization>
 <KEY>tutSwimFreeHand</KEY>
 <English>For swimming you must have your hands free. Otherwise you will sink to the ground</English>
-<Deutsch>Halte beim Schwimmen nichts in der Hand. sonst sinkst du auf den Grund</Deutsch>
+<Deutsch>Halte beim Schwimmen nichts in der Hand, sonst sinkst du auf den Grund</Deutsch>
 <Russian>Для плаванья ваши руки должны быть свободны. Иначе вы опуститесь на дно.</Russian>
 </Localization>
 <Localization>
@@ -8279,7 +8279,7 @@
 <Localization>
 <KEY>lpsHelmetAtmo</KEY>
 <English>Take off helmet in breathable atmosphere to save oxygen</English>
-<Deutsch>Nimm den Helm in atembarer Atmosphäre ab. um Sauerstoff zu sparen</Deutsch>
+<Deutsch>Nimm den Helm in atembarer Atmosphäre ab, um Sauerstoff zu sparen</Deutsch>
 <Russian>Снимите шлем в пригодной для дыхания атмосфере чтобы сэкономить кислород</Russian>
 </Localization>
 <Localization>
@@ -8410,13 +8410,13 @@
 </Localization>
 <Localization>
 <KEY>lpsHoverVessel</KEY>
-<English>Hover vessels can serves a heavy combat tanks</English>
+<English>Hover vessels can serve as heavy combat tanks</English>
 <Deutsch>Bodengleiter können als schwere Kampfpanzer dienen</Deutsch>
 <Russian>Парящие суда могут служить как тяжелые боевые танки.</Russian>
 </Localization>
 <Localization>
 <KEY>lpsOutside</KEY>
-<English>Before you venture outside. make sure that the coast is clear</English>
+<English>Before you venture outside, make sure that the coast is clear</English>
 <Deutsch>Bevor du raus gehst, solltest du sicher gehen dass die Luft rein ist</Deutsch>
 <Russian>Перед тем как выходить наружу - убедитесь что там безопасно.</Russian>
 </Localization>
@@ -8806,32 +8806,32 @@
 </Localization>
 <Localization>
 <KEY>mnuIntro Omicron</KEY>
-<English>[c][d29818]Difficulty: Medium[-][/c]\nOmicron is a desert planet with mountain ranges / lakes / plains and rugged terrain. The atmosphere is relatively thin and non breathable. However oxygen can be generated from the water of the lakes. [c][e02020]Be war</English>
-<Deutsch>[c][d29818]Schwierigkeit: Mittel[-][/c]\nOmicron ist ein Wüstenplanet mit Bergketten / Seen / weiten Ebenen und felsigem Gelände. Die Atmosphäre ist relativ dünn und nicht atembar. Allerdings kann Sauerstoff aus dem Wasser der Seen gewonnen werden. [c][e0</Deutsch>
+<English>[c][d29818]Difficulty: Medium[-][/c]\nOmicron is a desert planet with mountain ranges, lakes, plains and rugged terrain. The atmosphere is relatively thin and non breathable. However, oxygen can be generated from the water of the lakes. [c][e02020]Be warn</English>
+<Deutsch>[c][d29818]Schwierigkeit: Mittel[-][/c]\nOmicron ist ein Wüstenplanet mit Bergketten, Seen, weiten Ebenen und felsigem Gelände. Die Atmosphäre ist relativ dünn und nicht atembar. Allerdings kann Sauerstoff aus dem Wasser der Seen gewonnen werden. [c][e020</Deutsch>
 <Russian>[c][d29818]Сложность: Средняя[-][/c]\nОмикрон - пустынная планета с горными хребтами / озерами / равнинами и пересеченной местностью. Атмосфера относительно тонка и непригодна для дыхания. Тем не менее кислород можно добывать из воды озер.\n[c][e0e020]Вни</Russian>
 </Localization>
 <Localization>
 <KEY>mnuIntro Aestus</KEY>
 <English>Aestus is a lava planet with unforgiving conditions whose surface is mostly covered by molten lava. The very thick atmosphere is non breathable but oxygen can be generated on the greenish alien-like areas. The gravity is strong with 1.15 g and the average</English>
-<Deutsch>Aestus ist ein Lavaplanet mit erschwerten Bedingungen dessen Oberfläche zu großen Teilen von flüssiger Lava bedeckt ist. Die dichte Atmosphäre ist nicht atembar Sauerstoff kann jedoch auf den grünlichen fremdartigen Gebieten gewonnen werden. Die Schwerkra</Deutsch>
+<Deutsch>Aestus ist ein Lavaplanet mit erschwerten Bedingungen, dessen Oberfläche zu großen Teilen von flüssiger Lava bedeckt ist. Die dichte Atmosphäre ist nicht atembar, Sauerstoff kann jedoch auf den grünlichen fremdartigen Gebieten gewonnen werden. Die Schwerk</Deutsch>
 <Russian>Аэстус - лавовая планета с суровыми не прощающими ошибок условиями поверхность которой в основном покрыта расплавленной лавой. Очень тонкая атмосфера не пригодна для дыхания однако кислород может быть получен в зеленоватых странного вида областях. Большая</Russian>
 </Localization>
 <Localization>
 <KEY>mnuIntro Akua</KEY>
-<English>[c][d29818]Difficulty: Easy[-][/c]\nAkua is a temperate planet with vast oceans / volcanic islands and large continents with mountain ranges. It has a breathable atmosphere. The average temperature is 23°C and gravity amounts to 0.84g.</English>
-<Deutsch>[c][d29818]Schwierigkeit: Leicht[-][/c]\nAkua ist ein gemäßigter Planet mit großen Ozeanen vulkanischen Inseln sowie großen Kontinenten mit Bergketten. Er hat eine atembare Atmosphäre. Die Durchschnittstemperatur beträgt 23°C und die Schwerkraft liegt bei</Deutsch>
+<English>[c][d29818]Difficulty: Easy[-][/c]\nAkua is a temperate planet with vast oceans, volcanic islands and large continents with mountain ranges. It has a breathable atmosphere. The average temperature is 23°C and gravity amounts to 0.84g.</English>
+<Deutsch>[c][d29818]Schwierigkeit: Leicht[-][/c]\nAkua ist ein gemäßigter Planet mit großen Ozeanen, vulkanischen Inseln sowie großen Kontinenten mit Bergketten. Er hat eine atembare Atmosphäre. Die Durchschnittstemperatur beträgt 23°C und die Schwerkraft liegt be</Deutsch>
 <Russian>[c][d29818]Сложность: Легко[-][/c]\nАкуа - умеренная планета с обширными океанами / вулканическими островами и большими континентами, имеющими горные хребты. Обладает пригодной для дыхания атмосферой. Средняя температура 23°C и сила тяжести 0.84 g.[-][/c]</Russian>
 </Localization>
 <Localization>
 <KEY>mnuIntro Ningues</KEY>
-<English>[c][d29818]Difficulty: Medium[-][/c]\nNingues is an ice planet with steep mountains / large plains and hot springs. There is no breathable atmosphere but oxygen can be generated from the snow. [c][e02020]Be warned / choosing this planet as the survival st</English>
-<Deutsch>[c][d29818]Schwierigkeit: Mittel[-][/c]\nNingues ist ein Eisplanet mit steilen Bergen / weiten Ebenen und heißen Quellen. Es gibt dort keine atembare Atmosphäre aber Sauerstoff kann aus dem Schnee gewonnen werden. [e02020]Sei gewarnt: Diesen Planet as Sta</Deutsch>
+<English>[c][d29818]Difficulty: Medium[-][/c]\nNingues is an ice planet with steep mountains, large plains and hot springs. There is no breathable atmosphere but oxygen can be generated from the snow. [c][e02020]Be warned, choosing this planet as the survival star</English>
+<Deutsch>[c][d29818]Schwierigkeit: Mittel[-][/c]\nNingues ist ein Eisplanet mit steilen Bergen, weiten Ebenen und heißen Quellen. Es gibt dort keine atembare Atmosphäre aber Sauerstoff kann aus dem Schnee gewonnen werden. [e02020]Sei gewarnt: Diesen Planet as Star</Deutsch>
 <Russian>[c][d29818]Сложность: Средняя[-][/c]\nНингус - ледяная планета с высокими горами / широкими равнинами и горячими источниками. Пригодной для дыхания атмосферы нет но кислород может быть сгенерирован из снега. Средняя температура -38°C и сила тяжести 0.54 g</Russian>
 </Localization>
 <Localization>
 <KEY>mnuIntro Masperon</KEY>
-<English>[c][d29818]Difficulty: Hard[-][/c]\nMasperon is a very hostile but beautiful alien planet with mountain ranges / lakes and plains lying in the fog. The atmosphere is not breathable or at least no human ever tried it. However, oxygen can be generated from </English>
-<Deutsch>[c][d29818]Schwierigkeit: Schwer [-][/c]\nMasperon ist ein lebensfeindlicher  aber sehr schöner Alienplanet mit Bergketten Seen und im Nebel liegenden Ebenen. Die Atmosphäre ist nicht atembar - allerdings kann Sauerstoff aus dem Wasser der im Nebel verste</Deutsch>
+<English>[c][d29818]Difficulty: Hard[-][/c]\nMasperon is a very hostile but beautiful alien planet with mountain ranges, lakes and plains lying in the fog. The atmosphere is not breathable or at least no human ever tried it. However, oxygen can be generated from t</English>
+<Deutsch>[c][d29818]Schwierigkeit: Schwer [-][/c]\nMasperon ist ein lebensfeindlicher, aber sehr schöner Alienplanet mit Bergketten, Seen und im Nebel liegenden Ebenen. Die Atmosphäre ist nicht atembar - allerdings kann Sauerstoff aus dem Wasser der im Nebel verst</Deutsch>
 <Russian>[c][d29818]Уровень сложности: Высокий [-][/c]\nМасперон очень враждебная но красивая чужая планета с горными хребтами / озерами и равнинами лежащими в тумане. Атмосфера не пропускает воздух или по крайней мере ни один человек никогда не пробовал. Тем не м</Russian>
 </Localization>
 <Localization>
@@ -14366,8 +14366,8 @@
 </Localization>
 <Localization>
 <KEY>cplTurretNoTargetInfo</KEY>
-<English>If nothing is selected - turret will shoot at center of target</English>
-<Deutsch>Geschütz schiesst in die Mitte des Zielobjekts -  wenn nichts ausgewählt ist</Deutsch>
+<English>Select device on which turret should shoot. If nothing is selected, turret will not shoot</English>
+<Deutsch>Wähle das Zielobjekt aus. Wenn nichts ausgewählt ist, schiesst Geschütz nicht.</Deutsch>
 <Russian>Если ничего не выбрано то турель будет стрелять в центре мишени.</Russian>
 </Localization>
 <Localization>
