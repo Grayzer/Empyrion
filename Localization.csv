@@ -148,17 +148,17 @@ StairsBlocks,Stairs Blocks,Treppenblöcke,Лестничные блоки
 StairsMS,Stairs Freestanding,Treppe freistehend,Лестница
 StairsWedge,Stairs Wedge,Treppe schräg,Лестничный пролет
 StairsWedgeLong,Stairs Wedge Long,Treppe schräg (lang),Длинный лестничный пролет
-Stairs1x1x1,Stairs Wedge (texturable),Treppe schräg (texturierbar),Лестничный пролет (текстурный)
-StairsCurved,Stairs Corner (texturable),Treppe Ecke (texturierbar),Лесница угловая (текстурный)
+Stairs1x1x1,Stairs Wedge (texturable),Treppe schräg (texturierbar),Лестничный пролет (текстурируемый)
+StairsCurved,Stairs Corner (texturable),Treppe Ecke (texturierbar),Лесница угловая (текстурируемая)
 WalkwayBlocks,Walkway & Railing Blocks,Gehweg- & Geländerblöcke,Блоки дорожек и ограждений
 WalkwayVertNew,Walkway,Gehweg,Дорожка
 WalkwayVert02,Walkway 2,Gehweg 2,Дорожка 2
 WalkwaySlope,Walkway Slope,Gehweg schräg,Дорожка наклонная
 WalkwaySlopeNew,Walkway Slope 2,Gehweg schräg 2,Дорожка наклонная 2
-RailingVert,Railing,Geländer,Ограда
-RailingDiagonal,Railing Diagonal,Geländer diagonal,Ограда диагональная
-RailingSlopeLeft,Railing Slope (left),Geländer schräg (links),Ограда наклонная (левая)
-RailingSlopeRight,Railing Slope (right),Geländer schräg (rechts),Ограда наклонная (правая)
+RailingVert,Railing,Geländer,Перила
+RailingDiagonal,Railing Diagonal,Geländer diagonal,Перила диагональные
+RailingSlopeLeft,Railing Slope (left),Geländer schräg (links),Перила наклонные (левые)
+RailingSlopeRight,Railing Slope (right),Geländer schräg (rechts),Перила наклонные (правые)
 RailingL,Railing L-Shape,Geländer L-Form,Перила L-образные
 RailingRound,Railing Round,Geländer rund,Перила круглые
 RailingVertGlass,Glass Railing,Glasgeländer,Стеклянные перила
@@ -621,9 +621,9 @@ TurretMSPlasma,Plasma Turret,Plasma Geschütz,Плазменная турель
 TurretMSArtillery,Artillery Turret,Artillerie Geschütz,Гаубичная турель
 TurretMSPulseLaser,Pulse Laser Turret,Laser Geschütz,Импульсная лазерная турель
 TurretBaseMinigun,Minigun Turret,Minigun-Geschütz,Пулеметная турель
-TurretBaseCannonOld,Cannon Turret (obsolete),Kanonen Geschütz (alt),Крупнокалиберная турель
+TurretBaseCannonOld,Cannon Turret (obsolete),Kanonen Geschütz (alt),Крупнокалиберная турель (устаревшая)
 TurretBaseCannon,Cannon Turret,Kanonen Geschütz,Крупнокалиберная турель
-TurretBaseRocketOld,Rocket Turret (obsolete),Raketenwerfer-Geschütz (alt),Ракетная турель
+TurretBaseRocketOld,Rocket Turret (obsolete),Raketenwerfer-Geschütz (alt),Ракетная турель (устаревшая)
 TurretBaseRocket,Rocket Turret,Raketenwerfer-Geschütz,Ракетная турель
 TurretBaseFlak,Flak Turret,Flak Geschütz,Зенитная турель
 TurretBasePlasma,Plasma Turret,Plasma Geschütz,Плазменная турель
@@ -668,8 +668,8 @@ Flashlight,Flashlight,Taschenlampe,Фонарь
 Drill,Drill,Bohrer (T1),Бур
 DrillT2,Drill (T2),Bohrer (T2),Бур (К2)
 DrillT0,Mechanical Drill,Mechanischer Bohrer,Механический бур
-MultiTool,Multi Tool,Multiwerkzeug T1,Мультиинструмент
-MultiToolT2,Multi Tool (T2),Multiwerkzeug T2,Мультиинструмент (К2)
+MultiTool,Multi Tool,Multiwerkzeug T1,Мульти-инструмент
+MultiToolT2,Multi Tool (T2),Multiwerkzeug T2,Мульти-инструмент (К2)
 Fillertool,Filler & Flatten Tool,Füll- & Einebnungsgerät,Ландшафтный инструмент
 Backpack,Backpack,Rucksack,Ранец
 DropContainer,Drop Container,Notbehälter,Сбрасываемый контейнер
@@ -999,7 +999,7 @@ CV_Freighter_LightCarrier,Freighter Light Carrier,,Легкий перевозч
 CV_Freighter_Mule-Class-Bulk-Frgt,Freighter Mule Class Bulk,,Магистральный перевозчик класса Мул
 CV_Freighter_Stalos-MK4,Freighter Stalos MK4,,Перевозчик Сталос MK4
 CV_Freighter-A1,Freighter A1,,Перевозчик А1
-CV_Freighter_Warhound-Transport,Freighter Warhound Transport,,Перевозчик Гончие Войны
+CV_Freighter_Warhound-Transport,Freighter Warhound Transport,,Перевозчик Гончая Войны
 CV_Freighter_Pharos-Small-Freighter,Freighter Pharos,,Перевозчик Фарос
 CV_Freighter-02-Cargo,Freighter Cargo 02,,Грузовой контейнер 02
 CV_Freighter-04-Cargo,Freighter Cargo 04,,Грузовой контейнер 04
@@ -1008,7 +1008,7 @@ CV_Freighter-Tug-3,Freighter Tug 3,,Грузовой буксир 3
 CV_Freighter-Tug-6,Freighter Tug 6,,Грузовой буксир 6
 CV_Freighter_Luxonberg-Ore-Hauler,Freighter Luxonberg,,Рудовоз Luxonberg
 CV_Freighter_Attenborough-Research,Freighter Attenborough Research,,Грузовой иследователь Attenborough
-CV_Freighter_Atherton-Heavy-Lift,Freighter Atherton Heavy Lift,,Супер грузовик Atherton
+CV_Freighter_Atherton-Heavy-Lift,Freighter Atherton Heavy Lift,,Тяжелый грузовик Atherton
 CV_Freighter_TVI_Freighter_1,Freighter TVI,,Грузовик TVI
 CaveWormGrey,Arachnid,Arachnid,Арахнид
 CaveWormGreyLeader,Arachnid - Leader,Arachnid - Anführer,Арахнид - лидер
@@ -1061,12 +1061,12 @@ RaptorGroup,Raptor,Raptor,Раптор
 ParasaurLeader,Parasaur - Leader,Parasaurier - Anführer,Паразавр - лидер
 ParasaurGroup,Parasaur,Parasaurier,Паразавр
 ParasaurBaby,Parasaur Baby,Parasaurierbaby,Детеныш паразавра
-AlienAssassinGrey,Alien Assassin,Alien Meuchler,Чужой-убийца
-AlienAssassinRed,Alien Assassin,Alien Meuchler,Астероид
-Asteroid_resource01,Asteroid,Sathium Asteroid,Разбившийся Титан (корма)
-CV_Talos_Destroyed_back,Crashed MS Titan (back part),Abgestürzte MS Titan (Heck),Разбившийся Титан (нос)
-CV_Talos_Destroyed_front,Crashed MS Titan (front part),Abgestürzte MS Titan (Vorderteil),Разбившийся Титан (центр)
-CV_Talos_Destroyed_mid,Crashed MS Titan (mid part),Abgestürzte MS Titan (Mittelteil),Разбившийся корабль
+AlienAssassinGrey,Alien Assassin,Alien Meuchler,Серый Чужой-убийца
+AlienAssassinRed,Alien Assassin,Alien Meuchler,Красный Чужой-убийца
+Asteroid_resource01,Asteroid,Sathium Asteroid,Астероид
+CV_Talos_Destroyed_back,Crashed MS Titan (back part),Abgestürzte MS Titan (Heck),Разбившийся Титан (корма)
+CV_Talos_Destroyed_front,Crashed MS Titan (front part),Abgestürzte MS Titan (Vorderteil),Разбившийся Титан (нос)
+CV_Talos_Destroyed_mid,Crashed MS Titan (mid part),Abgestürzte MS Titan (Mittelteil),Разбившийся Титан (центр)
 CV_Titan_crashed_GC,Crashed Ship,Abgestürztes Raumschiff,Разбившийся корабль
 CV_Titan_crashed,Crashed Ship,Abgestürztes Raumschiff,Разбившийся корабль
 CV_Titan_crashedV2,Crashed Ship,Abgestürztes Raumschiff,Разбившийся корабль
@@ -1208,7 +1208,7 @@ Place,Placement,Platzierung,Размещение
 FlyDirBottom,Flight Direction (Bottom),Flugrichtung (unten),Направление полета (вниз)
 FlyDirTop,Flight Direction (Top),Flugrichtung (oben),Направление полета (вверх)
 FlyDir,Flight Direction,Flugrichtung,Направление полета
-NoRotation,No Rotation,Keine Rotation,Нет врещения
+NoRotation,No Rotation,Keine Rotation,Нет вращения
 "OpenWound,PoisonFood","Open Wound, Food Poisoning","Offene Wunde, Lebensmittelvergiftung",Открытая рана / Пищевое отравление
 "OpenWound,PoisonFood,PoisonBit","Open Wound, Food Poisoning, Bites","Offene Wunde, Lebensmittelvergiftung, Giftbiss",Открытая рана / Пищевое отравление / Укусы
 PoisonBit,Poisonous Bite,Giftbiss,Ядовитые укусы
@@ -1238,17 +1238,17 @@ Terrain,T,T,Л
 "MS,SS,GV","CV,SV,HV","GR,KR,BG",БС / МС / ПС
 rdlDisassemble,Disassemble,Demontieren,Разобрать
 rdlDisassembleTxt,Returns intact blocks for own structures. Has a chance of returning intact blocks on public structures.,Für eigene Strukturen werden intakte Blöcke zurück gegeben. Für öffentliche Strukturen werden intakte Blöcke mit einer gewissen Wahrscheinlichkeit zurückgegeben,Возвращает неповрежденные блоки для собственных структур. Имеет шанс на возвращение неповрежденных блоков на общественных структур.
-rdlRepair,Repair,Reparieren,Починка
+rdlRepair,Repair,Reparieren,Ремонт
 rdlRepairTxt,Used for repairing devices and building blocks,Repariert Geräte und Baublöcke,Используется для ремонта устройств и строительных блоков
 rdlChangeRotate,Change and Rotate,Austauschen und Rotieren,Изменение и Вращение
 rdlChangeRotateTxt,Used for changing transparency of some windows (LMB) and rotation of building blocks and small devices of size 1x1 (Insert/Delete/Home/End),Zum Ändern der Transparenz von verschiedenen Fenstern (LMT) und Rotieren von Baublöcken und kleinen Geräten der Grösse 1x1 (RMT),Используется для изменения прозрачности некоторых окон (ЛКМ) и вращение строительных блоков и небольших устройств размером 1x1 (Insert / Delete / Home / End)
 rdlUpgrade,Upgrade,Upgraden,Модернизация
 rdlUpgradeTxt,Used for upgrading devices and building blocks. Block must have full hitpoints in order to be upgradeable.,Zum Upgraden von Geräten und Blöcken. Block muss volle Lebenspunkte haben damit Upgrade möglich ist.,Используется для модернизации устройств и строительных блоков. Блок должен быть целым для модернизации.
 rdlDeconstruct,Deconstruct,Zerlegen,Демонтаж
-rdlDeconstructTxt,Deconstructing own and public structures. Will always return components.,Zerlegt eigene und öffentliche Strukturen. Es werden immer Komponenten zurück gegeben.,Разламывает ваши и общественные структуры. Всегда возвращает компоненты.
+rdlDeconstructTxt,Deconstructing own and public structures. Will always return components.,Zerlegt eigene und öffentliche Strukturen. Es werden immer Komponenten zurück gegeben.,Демонтирует ваши и общественные структуры. Всегда возвращает компоненты.
 rdlResourceMining,Resource Mining,Rohstoffabbau,Добыча ресурсов
 rdlResourceMiningTxt,Used for removing terrain and mining ores. Drill automatically picks up ores,Zur Gewinnung von Rohstoffen mit gleichzeitigem Abbau des Terrains. Rohstoffe werden automatisch aufgesammelt.,Используется для удаления местности и добычи руд. Автоматически подбирает ресурсы
-rdlTerrainRemoval,Terrain Removal,Geländeabbau,Удалитель земли
+rdlTerrainRemoval,Terrain Removal,Geländeabbau,Ямокопатель
 rdlTerrainRemovalTxt,Used for fast removal of terrain. Using this mode does not mine ores,Zum schnellen Terrainabbau. Dieser Modus baut keine Rohstoffe ab.,Используется для быстрого удаления земли. Использование этого режима не добывает ресурсы
 rdlFiller,Filler,Auffüllen,Заполнитель
 rdlFillerTxt,Used for filling holes and adding terrain,Zum Auffüllen von Löchern und Hinzufügen von Terrain.,Используется для заполнения ям и наращивания земли
@@ -1404,7 +1404,7 @@ lpsHelmetForDiving,For diving you need to wear your helmet,Zum Tauchen musst du 
 lpsExploreVessel,Use your small vessel for fast exploration,Verwende dein kleines Raumschiff für schnelle Erkundungen,Используйте ваше малое судно для быстрого исследования
 lpsFancyHome,Build yourself a fancy home,Bau dir ein schönes Zuhause,Проявите фантазию при постройке вашего дома.
 lpsForestPlanet,Forest planets are the home of dangerous spiders,Waldplaneten sind die Heimat gefährlicher Spinnen,Лесные планеты - дом опасных пауков
-lpsAsteroidField,It pays ou to capture a freighter and loot its cargo,Es lohnt sich einen Frachter zu entern um an seine Ladung zu gelangen,"Будьте осторожны, когда пересекаете астероидное поле"
+lpsAsteroidField,It pays ou to capture a freighter and loot its cargo,Es lohnt sich einen Frachter zu entern um an seine Ladung zu gelangen,Выгодно захватить грузовое судно и забрать его груз
 lpsLootPOI,Be sure to search for valuable loot in POIs,Vergiss nicht nach wertvoller Beute in POIs zu suchen,"Будьте уверены, в ТИ вы найдете много ценного."
 lpsMotorbike,Your motorbike is useful for fast exploration,Verwende dein Motorrad für schnelle Erkundungen,Ваш мотоцикл полезен для быстрой разведки.
 lpsPrepareForNight,Be prepared for the night,Bereit dich auf die Nacht vor,Будьте готовы к ночи.
@@ -1600,7 +1600,7 @@ tutPlayerDrone,Press '{0}' to activate your personal drone - it will be a big he
 tutOxygenUsage,Place oxygen bottles in oxygen tank and then use an oxygen station to fill up your suit's oxygen,"Befülle den Sauerstofftank mit Sauerstoffflaschen, um dann an einer Sauerstoffstation den Sauerstoff deines Raumanzugs zu befüllen",Поместите кислородные балоны в кислородный бак и используйте кислородную станцию для пополнения запаса кислорода вашего скафандра.
 tutOxygenGenerator,Place an oxygen generator in the water to produce oxygen bottles,"Stelle einen O2 Generator ins Wasser, um O2 Flaschen herzustellen","Установите генератор кислорода в воду, чтобы он мог создавать кислородные баллоны"
 tutBuildBase,"To build a Base, craft 'Base Starter' in constructor and place it on flat terrain","Um eine Basis zu bauen, stelle einen ""Basis-Starter"" im Konstruktor her und platziere ihn auf ebenem Terrain","Чтобы построить базу (БА), изготовьте в конструкторе 'основу базы' и поместите её на ровный участок грунта"
-tutMultiTool,"Use the 'Multitool' for multiple purposes (repair, remove, upgrade, change and rotate blocks and devices)","Verwende das ""Multifunktionswerkzeug"" für verschiedene Zwecke (reparieren, zerlegen, upgraden, austauschen und rotieren von Blöcken)","Используйте MultiTool для различных целей (ремонт, удаление, улучшения, изменения и вращения блоков и устройств)"
+tutMultiTool,"Use the 'Multitool' for multiple purposes (repair, remove, upgrade, change and rotate blocks and devices)","Verwende das ""Multifunktionswerkzeug"" für verschiedene Zwecke (reparieren, zerlegen, upgraden, austauschen und rotieren von Blöcken)","Используйте Мульти-инструмент для различных целей (ремонт, удаление, улучшения, изменения и вращения блоков и устройств)"
 tutModularBuilding,"To enable modular building, press '{0}' to open the 'Building Tools' menu and activate 'Connect to Base'","Für modulares Bauen, drücke '{0}' um das ""Bauhilfsmenu"" zu öffnen und aktiviere ""Mit Basis verbinden""","Чтобы включить модульное строительство, нажмите '{0}', чтобы открыть меню Строительные сервисы и активируйте Подключение к базе"
 tutPlacePowerGenerator,Place a power generator on your base,Stelle einen Stromgenerator in deine Basis,Установите генератор на вашей базе.
 tutPlaceFuelTank,Place a fuel tank on your base and fill it with fuel packs,Stelle einen Kraftstofftank in deine Basis und befülle ihn mit Kraftstoffzellen,Установите топливный бак на своей базе и поместите в него батареи
@@ -1652,7 +1652,7 @@ igmWrongFactionOrNoCore,Wrong faction or no core present!,Falsche Fraktion oder 
 igmWrongFaction,Wrong faction!,Falsche Fraktion!,Неправильная фракция!
 igmWrongFactionOrPrivate,Wrong faction or private!,Falsche Fraktion oder privat!,Неправильная фракция или личное!
 igmCannotEnterTooNearToPlanet,"Cannot enter, too near to a planet!","Kann nicht einsteigen, zu nah an einem Planeten","Невозможно войти, слишком близко к планете!"
-igmOtherFactionBaseNearby,Cannot build or drill nearby an enemy base,Bauen oder bohren in der Nähe einer feindlichen Basis nicht möglich,Нельзя построить рядом с вражеской базой
+igmOtherFactionBaseNearby,Cannot build or drill nearby an enemy base,Bauen oder bohren in der Nähe einer feindlichen Basis nicht möglich,Нельзя строить или бурить рядом с вражеской базой
 igmResourceNearby,Cannot create nearby a resource deposit,Nicht möglich in der Nähe eines Rohstoffvorkommens zu bauen.,Нельзя создать рядом с ресурсным месторождением
 igmSpawnColliderOverlaps,There is another object in the spawn area,Da ist ein anderes Objekt im Bereich,В месте установки есть какой-то объект
 igmNoSpaceToPlace,No empty space to place block,Kein freier Platz um Block zu setzen,Нет свободного места для размещения блока
@@ -1812,9 +1812,9 @@ igmWarpJumpPassengers,All players have to be on passenger seats,Alle Spieler mü
 igmDetachNotPossible,You cannot do this now - you have to wait,Du kannst das momentan nicht machen - du musst etwas warten,Невозможно выполнить это сейчас - подождите немного
 igmSectorLeaving,You need a warp drive to travel to a location outside your sector,Du brauchst einen Warpantrieb um ein Ziel außerhalb deines Sektors zu erreichen,"Нужен прыжковый двигатель, чтобы достигнуть локации за пределами текущего сектора"
 igmWeaponNotShootableHere,You cannot shoot this weapon on a planet,Du kannst die Waffe auf einem Planeten nicht abfeuern,Невозможно выстрелить из этого оружия на планете
-igmWeaponNotShootableUnderWater,You cannot shoot this weapon under water,Du kannst die Waffe nicht unter Wasser abfeuern,You cannot shoot this weapon under water
+igmWeaponNotShootableUnderWater,You cannot shoot this weapon under water,Du kannst die Waffe nicht unter Wasser abfeuern,Невозможно выстрелить из этого оружия под водой
 igmFlyRestriction,Flying only possible if all players leave the docked ships,Alle Spieler müssen die gedockten Schiffe verlassen um fliegen zu können,"Полет возможен только в том случае, когда все игроки покинули пристыкованные корабли"
-igmFreighterSpotted,Freighter has been spotted that carries valuable goods,Frachter mit wertvoller Ware gesichtet,Freighter has been spotted that carries valuable goods
+igmFreighterSpotted,Freighter has been spotted that carries valuable goods,Frachter mit wertvoller Ware gesichtet,Обнаружено грузовое судно с ценным товаром
 igmFreighterSelfDestruction,Freighter self desctruction sequence has been activated. Freighter will explode in 30min,Selbstzerstörungsmechanismus des Frachters wurde aktiviert. Frachter zerstört sich selbst in 30min,Грузовое судно активировало систему самоуничтожения. Грузовик взорвется через 30 мин.
 igmFreighterCanNotBeControlled,This freighter can not be controlled,Dieser Frachter kann nicht selbst geflogen werden,Вы не можете управлять этим грузовым судном
 igmFreighterLastWarning,Only 5min left until self destruction of freighter,Es verbleiben nur noch 5min bis zur Selbstzerstörung des Frachters,Осталось 5 минут до самоуничтожения грузового судна
@@ -1994,7 +1994,7 @@ vstCargoBoxes,Cargo Boxes:,Frachtboxen:,Грузовые отсеки:
 vstAmmoContainers,Ammo Boxes:,Munitionskisten:,Патронные короба:
 vstFuelTanks,Fuel Tanks:,Treibstofftanks:,Топливные баки:
 vstOxygenTanks,Oxygen Tanks:,Sauerstofftanks:,Кислородные баки:
-vstThrusters,Thrusters:,Schubdüsen:,Двигатели:
+vstThrusters,Thrusters:,Schubdüsen:,Маневровые двигатели:
 vstRCS,RCS:,RCS:,РСУ:
 cplStatisticsTooltip,Statistics,Statistiken:,Статистика
 cplAccessTooltip,Press the button to directly access the device,Drücke auf den Knopf um direkt auf den Block zuzugreifen,Нажмите кнопку для прямого доступа к устройству
@@ -2400,7 +2400,7 @@ titleTrader,Trader,Händler,Торговец
 mapLineYellow,< 15 AU,< 15 AU,менее 15 а.е.
 mapLineOrange,15 - 20 AU,15 - 20 AU,от 15 до 20 а.е.
 mapLineRed,20 - 25 AU,20 - 25 AU,от 20 до 25 а.е.
-mapLineWormhole,Wormhole,Wurmloch,Червоточена
+mapLineWormhole,Wormhole,Wurmloch,Червоточина
 titleSignEdit,Edit Sign Content,Anzeigeinhalt bearbeiten,Редактировать контент
 titleSignContent,Sign Content,Anzeigeinhalt,Контент
 mnuReflectionsMedium,Medium,Mittel,Средние
@@ -2409,12 +2409,14 @@ sswFixed,Fixed,Fix,Исправлено
 sswFree,Free,Frei,Свободно
 txtNoEmailSoftwareInstalled,You have no email software installed,Du hast keine Email-Software installiert,У вас нет программы для отправки электронной почты
 cplCore,Core,Kern,Ядро
-cplTurret,Turret,Geschütz,Орудийная башня
-cplMountedWeapon,Mounted Weapon,Befestigte Waffe,Навесное орудие
+cplTurret,Turret,Geschütz,Турель
+cplMountedWeapon,Mounted Weapon,Befestigte Waffe,Навесное оружие
 cplThruster,Thruster,Schubdüse,Двигатель
 cplGenerator,Generator,Generator,Генератор
 cplTurretNoTargetInfo,"Select device on which turret should shoot. If nothing is selected, turret will not shoot","Wähle das Zielobjekt aus. Wenn nichts ausgewählt ist, schiesst Geschütz nicht.","Выберите устройство, в которое турель должна стрелять. Если ничего не выбрано, турель не будет стрелять."
-ACS_VersionInfo,,,Релиз-версия русификации для версии 5.3.2
+ACS_VersionInfo,,,Русификации для версии 5.4.0 (0867)
+HullCylinder,,,Колонна
+Sugarcane,,,Сахарный тростник
 Salami,,,Салями
 StomachPills,,,Таблетки для желудка
 Flour,,,Мука
@@ -2423,7 +2425,6 @@ Torque,,,Крутящий момент
 FALSE,,,Ложь
 TRUE,,,Истина
 Homing,,,Наведение
-MaxCount,,,Макс. количество
 Start,,,Старт
 Save as...,,,Сохранить как...
 Overwrite,,,Перезаписать
