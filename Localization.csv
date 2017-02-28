@@ -341,9 +341,20 @@ WindowSlopedBase,Slope (transparent),Schräg (transparent),Наклонное (�
 WindowVertMS,Vertical (non-transparent),Vertikal (nicht transparent),Вертикальное (не прозр.)
 WindowSlopedMS,Slope (non-transparent),Schräg (nicht transparent),Наклонное (не прозр.)
 WindowSloped2MS,Slope Inv (non-transparent),Schräg inv. (nicht transparent),Наклонное инв. (не прозр.)
-TrussCube,Truss Block,Gerüstblock,Стропила
-TrussWedge,Truss Slope,Gerüstblock schräg,Стропила наклонные
-TrussCorner,Truss Corner,Gerüstblock Ecke,Стропила угловые
+TrussCube,Cube,Würfel,Куб
+TrussWedge,Slope,Rampe,Скос
+TrussCorner,Corner,Ecke,Угол
+TrussCurveOutSlope,Curved Corner,Gekrümmte Ecke,Закругленный угол
+TrussHalfRound,Round Corner,Runde Ecke,Четверть полусферы
+TrussQuarterRound,Round Slope,Runde Rampe,Четверть круга
+TrussCylinder,Cylinder,Zylinder,Цилиндр
+TrussQuarterRoundInv,Inward Round Slope,Runde Rampe (invertiert),Обратная четверть круга
+TrussWall,Wall,Wand,Стена
+TrussWedgeThin,Thin Slope,Rampe (dünn),Тонкий скос
+TrussQuarterRoundThin,Round Slope Thin,Runde Rampe (dünn),Четверть сферы тонкая
+TrussCornerThin,Thin Corner,Ecke (dünn),Тонкий угол
+TrussCornerRoundThin,Round Slope Thin,Runde Rampe (dünn),Скругленный скос тонкий
+TrussCornerRoundThin2,Corner Round Thin 2,Runde Rampe 2 (dünn),Скругленный угол тонкий
 TrussSmallBlocks,Truss Blocks S,Gerüstblöcke S,Блоки стропил М
 TrussLargeBlocks,Truss Blocks L,Gerüstblöcke L,Блоки стропил Б
 ArmorPlate,Armor Plate,Gepanzerte Platte,Бронеплита
@@ -386,6 +397,7 @@ LCDNoFrame05x05,LCD 0.5x0.5 (No Frame),LCD 0.5x0.5 (ohne Rahmen),ЖК 0.5х0.5 (
 LCDNoFrame02x1,LCD 0.2x1 (No Frame),LCD 0.2x1 (ohne Rahmen),ЖК 0.2х1 (без рамки)
 LCDNoFrame02x05,LCD 0.2x0.5 (No Frame),LCD 0.2x0.5 (ohne Rahmen),ЖК 0.2х0.5 (без рамки)
 IndoorPlants,Artificial Plants (Deco),Künstliche Zimmerpflanzen,Искуственные растения (декор)
+Lever,Lever,Kippschalter,Рычаг
 CockpitMS01,Cockpit,Cockpit,Кабина
 CockpitMS02,Cockpit 2,Cockpit 2,Кабина 2
 ThrusterJetRound1x3x1,Thruster Jet S (1x3x1),Schubdüse Jet S (1x3x1),Прямоточный двигатель М (1х3х1)
@@ -427,18 +439,18 @@ PassengerSeat2SV,Passenger Seat (open),Passagiersitz (offen),Пассажирс�
 PassengerSeatSV,Passenger Seat (closed),Passagiersitz (geschlossen),Пассажирское сиденье (закрытое)
 PassengerSeatSS_Slope,Passenger Seat,Passagiersitz,Пассажирское сиденье
 PassengerSeatSS_Cube,Passenger Seat,Passagiersitz,Пассажирское сиденье
-ConstructorT1,Large Constructor (old - please replace),Konstruktor groß (alt - bitte austauschen),"Большой конструктор (устарел - пожалуйста, замените)"
-ConstructorT1V2,Large Constructor,Konstruktor groß,Большой конструктор
-ConstructorT2,Advanced Constructor,Verbesserter Konstruktor,Расширенный конструктор
+ConstructorT1,Large Constructor (old - please replace),Konstruktor groß (alt - bitte austauschen),"Большой ассемблер (устарел - пожалуйста, замените)"
+ConstructorT1V2,Large Constructor,Konstruktor groß,Большой ассемблер
+ConstructorT2,Advanced Constructor,Verbesserter Konstruktor,Расширенный ассемблер
 AutoMiningDeviceT1,Auto Mining Device (T1),Automatisches Bergbaugerät (T1),Экстрактор (К1)
 AutoMiningDeviceT2,Auto Mining Device (T2),Automatisches Bergbaugerät (T2),Экстрактор (К2)
 AutoMiningDeviceT3,Auto Mining Device (T3),Automatisches Bergbaugerät (T3),Экстрактор (К3)
-ConstructorMS,Large Constructor,Konstruktor groß,Большой конструктор
-ConstructorRecursive,Advanced Constructor,Verbesserter Konstruktor,Расширенный конструктор
-ConstructorSV,Mobile Constructor (old - please replace),Mobiler Konstruktor (alt - bitte austauschen),"Мобильный конструктор (устарел - пожалуйста, замените)"
-ConstructorSmallV2,Mobile Constructor,Mobiler Konstruktor,Мобильный конструктор
-ConstructorSurvival,Survival Constructor,Überlebens-Konstruktor,Аварийный конструктор
-ConstructorSurvivalV2,Survival Constructor,Überlebens-Konstruktor,Аварийный конструктор
+ConstructorMS,Large Constructor,Konstruktor groß,Большой ассемблер
+ConstructorRecursive,Advanced Constructor,Verbesserter Konstruktor,Расширенный ассемблер
+ConstructorSV,Mobile Constructor (old - please replace),Mobiler Konstruktor (alt - bitte austauschen),"Мобильный ассемблер(устарел - пожалуйста, замените)"
+ConstructorSmallV2,Mobile Constructor,Mobiler Konstruktor,Мобильный ассемблер
+ConstructorSurvival,Survival Constructor,Überlebens-Konstruktor,Аварийный ассемблер
+ConstructorSurvivalV2,Survival Constructor,Überlebens-Konstruktor,Аварийный ассемблер
 ElevatorMS,Elevator Block,Aufzugsblock,Секция антигравитационного лифта
 WarpDriveTank,Warp Drive Tank,Warpantrieb Treibstofftank,Бак прыжкового двигателя
 WarpDrive,Warp Drive,Warp Antrieb,Прыжковый двигатель
@@ -521,7 +533,7 @@ Ramp3x4x2,Ramp (3x4x2),Rampe (3x4x2),Аппарель (3x4x2)
 Ramp3x5x3,Ramp (3x5x3),Rampe (3x5x3),Аппарель (3x5x3)
 OxygenGeneratorSmall,Emergency O2 Generator,Notfall O2 Generator,Аварийный генератор кислорода
 OxygenGenerator,Oxygen Generator,Sauerstoff Generator,Генератор кислорода
-OxygenHydrogenGenerator,Oxygen Hydrogen Generator,Sauerstoff/Wasserstoff Generator,"Генератор водорода, кислорода"
+OxygenHydrogenGenerator,Hydrogen Generator,Wasserstoff Generator,"Генератор водорода, кислорода"
 WaterGenerator,Water Generator,Wassergenerator,Генератор воды
 FoodProcessorMS,Food Processor (old - please replace),Nahrungsmittel-Prozessor (alt - bitte austauschen),"Пищевой процессор (устарел - пожалуйста, замените)"
 FoodProcessorV2,Food Processor,Nahrungsmittel-Prozessor,Пищевой процессор
@@ -636,10 +648,10 @@ TurretGVMinigun,Minigun Turret,Minigun Geschütz,Пулеметная турел
 TurretGVRocket,Rocket Turret,Raketenwerfer-Geschütz,Ракетная турель
 TurretGVPlasma,Plasma Turret,Plasma Geschütz,Плазменная турель
 TurretGVArtillery,Artillery Turret,Artillerie Geschütz,Гаубичная турель
-TurretDrill,Drill Turret,Bohr Geschütz,Буровая турель
-TurretDrillWeapon,Drill Turret,Bohr Geschütz,Буровая турель
-TurretDrillMS,Drill Turret,Bohr Geschütz,Буровая турель
-TurretDrillMSWeapon,Drill Turret,Bohr Geschütz,Буровая турель
+TurretGVDrill,Drill Turret,Bohr Geschütz,Добывающая турель
+TurretGVDrillWeapon,Drill Turret,Bohr Geschütz,Добывающая турель
+TurretMSDrill,Drill Turret,Bohr Geschütz,Добывающая турель
+TurretMSDrillWeapon,Drill Turret,Bohr Geschütz,Добывающая турель
 SentryGun01,Sentry Gun 1 (Alien),Selbstschussanlage 1 (Alien),Охранная турель 1 (чужие)
 SentryGun02,Sentry Gun 2 (Alien),Selbstschussanlage 2 (Alien),Охранная турель 2 (чужие)
 SentryGun03,Sentry Gun 3 (Player),Selbstschussanlage 3 (Spieler),Охранная турель 3 (игрок)
@@ -755,6 +767,7 @@ TurretBAPlasmaCharge,Pl.Charge BA,PK Ladung BA,Пл. заряд БА
 TurretGVPlasmaCharge,Pl.Charge HV,PK Ladung BG,Пл. заряд ПС
 PulseLaserChargeSS,Ls.Charge SV,Ls.Ladung KR,Лаз. заряд (МС)
 PulseLaserChargeMS,Ls.Charge CV,Ls.Ladung GR,Лаз. заряд БС
+PulseLaserChargeMSWeapon,Ls.Charge II CV,Ls.Ladung II GR,Лаз. заряд БС (К2)
 PulseLaserChargeBA,Ls.Charge BA,Ls.Ladung BA,Лаз. заряд БА
 IONCannonCharge,ION Charge,Ionen-Ladung,Ионный заряд
 IONCannonCharge2,ION Charge,Ionen-Ladung,Ионный заряд (версия 2)
@@ -994,6 +1007,7 @@ DroneLargeSlowGardian,Heavy Drone (short range fire),Schwere Drohne (kurze Reich
 SpaceDroneLaser,Space Drone (Laser),Weltraumdrohne (Laser),Космический дрон (лазер)
 SpaceDronePlasma,Space Drone (Plasma),Weltraumdrohne (Plasma),Космический дрон (плазма)
 DroneTroopsTransport,Troop Transport,Truppentransport,Войсковой транспорт
+DroneTroopsTransport01,Troop Transport,Truppentransport,Войсковой транспорт
 CV_Freighter_ClassI,Freighter Class I,,Перевозчик Класса I
 CV_Freighter_LightCarrier,Freighter Light Carrier,,Легкий перевозчик
 CV_Freighter_Mule-Class-Bulk-Frgt,Freighter Mule Class Bulk,,Магистральный перевозчик класса Мул
@@ -1109,6 +1123,7 @@ BA_GhostRiderDefenceIV,Ghost Rider Defence IV,Ghost Rider Verteidigung IV,Обо
 BA_GhostRiderBiolab,Ghost Rider Biolab,Ghost Rider Biolabor,Биолаборатория Призрачных Гонщиков
 BA_GhostRiderHQ,Ghost Rider HQ,Ghost Rider Hauptquartier,Штаб Призрачных Гонщиков
 BA_MiningComplex,Xenu Mining Complex,Xenu Minenkomplex,Добывающий комплекс Ксену
+BA_XenuWeaponBunker,Xenu Weapon Bunker,Xenu Waffenlager,Оружейный бункер Ксену
 BA_XenuRareSupplyStation,Xenu Supply Station,Xenu Versorgungsstation,Станция снабжения Ксену
 BA_XenuWalkerBase,Xenu Walker Base,Xenu Walker Basis,Перевалочная база Ксену
 BA_XenuDefenceI,Xenu Defence I,Xenu Verteidigung I,Оборона Ксену I
@@ -1320,7 +1335,7 @@ bkiLandinggearHV,Device used for docking your Hover Vessels to Capital Vessels,G
 bkiLandinggearSV,Device used for docking your Small Vessels to Capital Vessels,Gerät zum Andocken eines kleinen Raumschiffs an ein großes Raumschiff,Устройство используется для стыковки ваших малых судов к большим судам
 bkiGenerator,Device used for generating power. Requires fuel tank filled with fuel packs to operate,Gerät zur Stromerzeugung. Benötigt Kraftstofftanks gefüllt mit Kraftstoffzellen um zu funktionieren,"Устройство используется для производства энергии. Для работы необходим топливный бак, заполненный батареями."
 bkiFridge,Device used for storing food. When powered stops food from perishing,Gerät zum Lagern von verderblichen Nahrungsmitteln. Stoppt Verfallszeit,Устройство используется для хранения еды. Когда подсоединено к питанию предотвращает порчу еды.
-,,,
+,,,Ложь
 bkiWeaponShipSpace,Attachable to your vessel but only functional in space.,"Kann an einem Schiff angebracht werden, funktioniert aber nur im Weltraum","Крепится к судну, но функционирует только в космосе."
 bkiWeaponShip,Attachable to your vessel. Range given for space. On planets range is lower and depends on atmosphere density,"Kann an einem Schiff angebracht werden.  Reichweitenangabe für Weltraum.  Reichweite  innerhalb der Atmosphäre geringer, je nach deren Dichte",Крепится к судну. Дальность приведена для космоса. На планетах дальность ниже и зависит от плотности атмосферы.
 bkiWeaponHandheld,Range given for space. On planets range is lower and depends on atmosphere density,"Reichweitenangabe für Weltraum. Reichweite innerhalb der Atmosphäre geringer, je nach deren Dichte",Дальность приведена для космоса. На планетах дальность ниже и зависит от плотности атмосферы.
@@ -1334,7 +1349,7 @@ bkiHoverBooster,This device applies a short but strong force to allow your HV to
 bkiGrowingPot,Required for growing plants together with illumination of grow light,Benötigt um Pflanzen zu züchten. Muss mit Pflanzenlicht beschienen werden,"Также как и специальное освещение, требуется для выращивания растений."
 bkiOxygenGenerator,Converts H2O into oxygen bottles. Must be deployed in water,Erzeugt O2 Flaschen aus H2O. Muss im Wasser platziert werden,Перерабатывает воду в кислородные баллоны. Должен быть размещен в воде.
 bkiOxygenGeneratorSmall,Extracts oxygen from the atmosphere to generate small oxygen bottles.,Extrahiert Sauerstoff aus der Atmosphere und erzeugt daraus kleine O2 Flaschen.,"Выделяет кислород из атмосферы, производит малые кислородные баллоны"
-bkiOxygenHydrogenGenerator,Converts H2O into oxygen and hydrogen bottles. Must be deployed in water,Erzeugt aus H2O sowohl O2 Flaschen als auch Wasserstoff-Flaschen. Muss im Wasser platziert werden,Перерабатывает воду в баллоны с водородом. Должен быть размещен в воде.
+bkiOxygenHydrogenGenerator,Converts H2O into hydrogen bottles. Must be deployed in water,Erzeugt aus H2O Wasserstoff-Flaschen. Gerät muss im Wasser platziert werden,Перерабатывает воду в баллоны с водородом. Должен быть размещен в воде.
 bkiSpotlight,Strong light source for external illumination,Starke Lichtquelle für die Außenbeleuchtung,Сильный источник света для наружного освещения.
 bkiArtificialmass,Artificial Mass adds additional weight and is used to balance the Center of Mass of the vessel for improved flight and hover behavior.,Block fügt extra Gewicht hinzu und kann verwendet werden um den Masseschwerpunkt deines Schiffs für verbesserte Flug- u Hovereigenschaften anzupassen.,"Искуственная масса добавляет дополнительный вес и используется для балансировки центра масс на судах, тем самым улучшая их летные характеристики."
 bkiCore,Central processing unit required on every structure. When destroyed structure is not controllable anymore,Zentrale Prozessoreinheit. Wird für jede Struktur benötigt. Bei Verlust ist die Struktur nicht mehr kontrollierbar,"Центр обработки данных, необходимый в каждой конструкции. Если ядро будет уничтожено, то конструкция перестанет быть управляемой."
@@ -1404,7 +1419,7 @@ lpsHelmetForDiving,For diving you need to wear your helmet,Zum Tauchen musst du 
 lpsExploreVessel,Use your small vessel for fast exploration,Verwende dein kleines Raumschiff für schnelle Erkundungen,Используйте ваше малое судно для быстрого исследования
 lpsFancyHome,Build yourself a fancy home,Bau dir ein schönes Zuhause,Проявите фантазию при постройке вашего дома.
 lpsForestPlanet,Forest planets are the home of dangerous spiders,Waldplaneten sind die Heimat gefährlicher Spinnen,Лесные планеты - дом опасных пауков
-lpsAsteroidField,It pays ou to capture a freighter and loot its cargo,Es lohnt sich einen Frachter zu entern um an seine Ladung zu gelangen,Выгодно захватить грузовое судно и забрать его груз
+lpsAsteroidField,It pays out to capture a freighter and loot its cargo,Es lohnt sich einen Frachter zu entern um an seine Ladung zu gelangen,Выгодно захватить грузовое судно и забрать его груз
 lpsLootPOI,Be sure to search for valuable loot in POIs,Vergiss nicht nach wertvoller Beute in POIs zu suchen,"Будьте уверены, в ТИ вы найдете много ценного."
 lpsMotorbike,Your motorbike is useful for fast exploration,Verwende dein Motorrad für schnelle Erkundungen,Ваш мотоцикл полезен для быстрой разведки.
 lpsPrepareForNight,Be prepared for the night,Bereit dich auf die Nacht vor,Будьте готовы к ночи.
@@ -1489,7 +1504,7 @@ mnuIntro Omicron Orbit,The space around the planet Omicron contains a small aste
 mnuIntro Omicron,"[c][d29818]Difficulty: Medium[-][/c]\nOmicron is a desert planet with mountain ranges, lakes, plains and rugged terrain. The atmosphere is relatively thin and non breathable. However, oxygen can be generated from the water of the lakes. [c][e02020]Be warned, choosing this planet as the survival start is recommended for experienced players only.[-][/c]","[c][d29818]Schwierigkeit: Mittel[-][/c]\nOmicron ist ein Wüstenplanet mit Bergketten, Seen, weiten Ebenen und felsigem Gelände. Die Atmosphäre ist relativ dünn und nicht atembar. Allerdings kann Sauerstoff aus dem Wasser der Seen gewonnen werden. [c][e02020]Sei gewarnt: Diesen Planet as Startplanet in Survival zu wählen, wird nur erfahrenen Spielern empfohlen.[-][/c]",[c][d29818]Сложность: Средняя[-][/c]\nОмикрон - пустынная планета с горными хребтами / озерами / равнинами и пересеченной местностью. Атмосфера относительно тонка и непригодна для дыхания. Тем не менее кислород можно добывать из воды озер.\n[c][e0e020]Внимание: Выбор этой планеты в качестве начальной рекомендован только опытным игрокам.[-][/c]
 mnuIntro Aestus,Aestus is a lava planet with unforgiving conditions whose surface is mostly covered by molten lava. The very thick atmosphere is non breathable but oxygen can be generated on the greenish alien-like areas. The gravity is strong with 1.15 g and the average temperature is 53°C. The rare ore Zascosium can be found on Aestus.,"Aestus ist ein Lavaplanet mit erschwerten Bedingungen, dessen Oberfläche zu großen Teilen von flüssiger Lava bedeckt ist. Die dichte Atmosphäre ist nicht atembar, Sauerstoff kann jedoch auf den grünlichen fremdartigen Gebieten gewonnen werden. Die Schwerkraft beträgt 1,15 g und die Durchschnittstemperatur liegt bei 53°C. Hier gibt es Vorkommen des seltenen Zascosium-Erzes.",[c][d29818]Сложность: Средняя[-][/c]\nАэстус - лавовая планета с суровыми не прощающими ошибок условиями поверхность которой в основном покрыта расплавленной лавой. Очень тонкая атмосфера не пригодна для дыхания однако кислород может быть получен в зеленоватых странного вида областях. Большая сила тяжести - 1.15 g и средняя температура 53°C. Редкая заскозиевая руда может быть найдена на Аэстусе.[-]
 mnuIntro Akua,"[c][d29818]Difficulty: Easy[-][/c]\nAkua is a temperate planet with vast oceans, volcanic islands and large continents with mountain ranges. It has a breathable atmosphere. The average temperature is 23°C and gravity amounts to 0.84g.","[c][d29818]Schwierigkeit: Leicht[-][/c]\nAkua ist ein gemäßigter Planet mit großen Ozeanen, vulkanischen Inseln sowie großen Kontinenten mit Bergketten. Er hat eine atembare Atmosphäre. Die Durchschnittstemperatur beträgt 23°C und die Schwerkraft liegt bei 0,84 g.","[c][d29818]Сложность: Легко[-][/c]\nАкуа - умеренная планета с обширными океанами / вулканическими островами и большими континентами, имеющими горные хребты. Обладает пригодной для дыхания атмосферой. Средняя температура 23°C и сила тяжести 0.84 g.[-]"
-mnuIntro Ningues,"[c][d29818]Difficulty: Medium[-][/c]\nNingues is an ice planet with steep mountains, large plains and hot springs. There is no breathable atmosphere but oxygen can be generated from the snow. [c][e02020]Be warned, choosing this planet as the survival start is recommended for experienced players only.[-][/c]","[c][d29818]Schwierigkeit: Mittel[-][/c]\nNingues ist ein Eisplanet mit steilen Bergen, weiten Ebenen und heißen Quellen. Es gibt dort keine atembare Atmosphäre aber Sauerstoff kann aus dem Schnee gewonnen werden. [e02020]Sei gewarnt: Diesen Planet as Startplanet in Survival zu wählen, wird nur erfahrenen Spielern empfohlen.[-][/c]",[c][d29818]Сложность: Средняя[-][/c]\nНингус - ледяная планета с высокими горами / широкими равнинами и горячими источниками. Пригодной для дыхания атмосферы нет но кислород может быть сгенерирован из снега. Средняя температура -38°C и сила тяжести 0.54 g. Редкая эреструмовая руда может быть найдена на Нингусе.[-][/c]
+mnuIntro Ningues,"[c][d29818]Difficulty: Medium[-][/c]\nNingues is an ice planet with steep mountains, large plains and hot springs. There is no breathable atmosphere but oxygen can be generated from the snow. [c][e02020]Be warned, choosing this planet as the survival start is recommended for experienced players only.[-][/c]","[c][d29818]Schwierigkeit: Mittel[-][/c]\nNingues ist ein Eisplanet mit steilen Bergen, weiten Ebenen und heißen Quellen. Es gibt dort keine atembare Atmosphäre aber Sauerstoff kann aus dem Schnee gewonnen werden. [e02020]Sei gewarnt: Diesen Planet as Startplanet in Survival zu wählen, wird nur erfahrenen Spielern empfohlen.[-][/c]",[c][d29818]Сложность: Средняя[-][/c]\nНингус - ледяная планета с высокими горами / широкими равнинами и горячими источниками. Пригодной для дыхания атмосферы нет но кислород может быть сгенерирован из снега. [c][e02020] Имейте в виду выбирать эту планету рекомендуется только для очень опытных игроков..[-][/c]
 mnuIntro Masperon,"[c][d29818]Difficulty: Hard[-][/c]\nMasperon is a very hostile but beautiful alien planet with mountain ranges, lakes and plains lying in the fog. The atmosphere is not breathable or at least no human ever tried it. However, oxygen can be generated from the water of the hidden lakes. Some resources can only be found in POIs. [c][e02020]Be warned, choosing this planet as the survival start is recommended for very experienced players only.[-][/c]","[c][d29818]Schwierigkeit: Schwer [-][/c]\nMasperon ist ein lebensfeindlicher, aber sehr schöner Alienplanet mit Bergketten, Seen und im Nebel liegenden Ebenen. Die Atmosphäre ist nicht atembar - allerdings kann Sauerstoff aus dem Wasser der im Nebel versteckten Seen gewonnen werden. Einige Rohstoffe lassen sich nur in POIs finden. [c][e02020]Sei gewarnt: Diesen Planet as Startplanet in Survival zu wählen, wird nur sehr erfahrenen Spielern empfohlen.[-][/c]",[c][d29818]Сложность: Высокая[-][/c]\nМасперон очень враждебная но красивая чужая планета с горными хребтами / озерами и равнинами лежащими в тумане. Атмосфера не пропускает воздух или по крайней мере ни один человек никогда не пробовал. Тем не менее кислород может быть получен из воды в скрытых озерах. Некоторые ресурсы могут быть найдены только в POI. [c][e02020] Имейте в виду выбирать эту планету рекомендуется только для очень опытных игроков..[-][/c]
 inpForward,Forward,Vorwärts,Вперед
 inpBack,Back,Rückwärts,Назад
@@ -1572,7 +1587,7 @@ Player,Player,Spieler,Игрок
 Drop,Drop,Ablegen,Выбросить
 Trash,Trash,Vernichten,Мусор
 Player Inventory,Player Inventory,Inventar,Инвентарь игрока
-Constructor,Constructor,Konstruktor,Конструктор
+Constructor,Constructor,Konstruktor,Ассемблер
 Food Processor,Food Processor,Nahrungsprozessor,Пищевой процессор
 Templates,Templates,Vorlagen,Шаблоны
 Construction Queue,Construction Queue,Warteschlange,Очередь постройки
@@ -1599,16 +1614,16 @@ Size:,Size:,Größe:,Размер:
 tutPlayerDrone,Press '{0}' to activate your personal drone - it will be a big help for building your base,Drücke '{0}' um deine persönliche Drohne zu aktivieren - sie wird dir beim Bauen sehr hilfreich sein,Нажмите '{0}' для активации вашего персонального дрона - он окажет большую помощь в создании вашей базы
 tutOxygenUsage,Place oxygen bottles in oxygen tank and then use an oxygen station to fill up your suit's oxygen,"Befülle den Sauerstofftank mit Sauerstoffflaschen, um dann an einer Sauerstoffstation den Sauerstoff deines Raumanzugs zu befüllen",Поместите кислородные балоны в кислородный бак и используйте кислородную станцию для пополнения запаса кислорода вашего скафандра.
 tutOxygenGenerator,Place an oxygen generator in the water to produce oxygen bottles,"Stelle einen O2 Generator ins Wasser, um O2 Flaschen herzustellen","Установите генератор кислорода в воду, чтобы он мог создавать кислородные баллоны"
-tutBuildBase,"To build a Base, craft 'Base Starter' in constructor and place it on flat terrain","Um eine Basis zu bauen, stelle einen ""Basis-Starter"" im Konstruktor her und platziere ihn auf ebenem Terrain","Чтобы построить базу (БА), изготовьте в конструкторе 'основу базы' и поместите её на ровный участок грунта"
+tutBuildBase,"To build a Base, craft 'Base Starter' in constructor and place it on flat terrain","Um eine Basis zu bauen, stelle einen ""Basis-Starter"" im Konstruktor her und platziere ihn auf ebenem Terrain","Чтобы построить базу (БА), изготовьте в Ассемблере 'основу базы' и поместите её на ровный участок грунта"
 tutMultiTool,"Use the 'Multitool' for multiple purposes (repair, remove, upgrade, change and rotate blocks and devices)","Verwende das ""Multifunktionswerkzeug"" für verschiedene Zwecke (reparieren, zerlegen, upgraden, austauschen und rotieren von Blöcken)","Используйте Мульти-инструмент для различных целей (ремонт, удаление, улучшения, изменения и вращения блоков и устройств)"
 tutModularBuilding,"To enable modular building, press '{0}' to open the 'Building Tools' menu and activate 'Connect to Base'","Für modulares Bauen, drücke '{0}' um das ""Bauhilfsmenu"" zu öffnen und aktiviere ""Mit Basis verbinden""","Чтобы включить модульное строительство, нажмите '{0}', чтобы открыть меню Строительные сервисы и активируйте Подключение к базе"
 tutPlacePowerGenerator,Place a power generator on your base,Stelle einen Stromgenerator in deine Basis,Установите генератор на вашей базе.
 tutPlaceFuelTank,Place a fuel tank on your base and fill it with fuel packs,Stelle einen Kraftstofftank in deine Basis und befülle ihn mit Kraftstoffzellen,Установите топливный бак на своей базе и поместите в него батареи
 tutPlaceMedicStation,Place a medic station to set your spawn point and for healing,"Stelle eine Medizinstation in deine Basis, um dich zu heilen und einen Startpunkt zu definieren",Установите медицинскую станцию для лечения и создания точки возрождения
-tutPlaceLargeConstructor,Place a large constructor to craft advanced devices,"Stelle einen großen Konstruktor in deine Basis, um fortgeschritte Gegenstände herzustellen",Установите большой конструктор для создания более технологически сложный вещей
+tutPlaceLargeConstructor,Place a large constructor to craft advanced devices,"Stelle einen großen Konstruktor in deine Basis, um fortgeschritte Gegenstände herzustellen",Установите Большой ассемблер для создания более технологически сложный вещей
 tutPlaceFoodProcessor,Place a food processor to cook and process food items,Stelle einen Nahrungsmittel-Prozessor in deine Basis um Nahrungsmittel herzustellen,Установите пищевой процессор для готовки и создания пищевых продуктов
-tutBuildHV,"To build a Hover Vessel (HV), craft 'Hover Vessel Starter' in constructor and place it somewhere","Um einen Bodengleiter zu bauen, stelle einen ""Bodengleiter-Starter"" her und platziere diesen irgendwo","Чтобы построить парящее судно (ПС), создайте в конструкторе 'основу парящего судна' и разместите её где-нибудь"
-tutBuildSV,"To build a Small Vessel (SV), craft 'Small Vessel Starter' in large constructor and place it somewhere","Um ein kleines Raumschiff zu bauen, stelle einen ""Kleines-Raumschiff-Starter"" her und platziere diesen irgendwo","Чтобы построить малое судно (МС), создайте в конструкторе 'основу малого судна' и разместите её где-нибудь"
+tutBuildHV,"To build a Hover Vessel (HV), craft 'Hover Vessel Starter' in constructor and place it somewhere","Um einen Bodengleiter zu bauen, stelle einen ""Bodengleiter-Starter"" her und platziere diesen irgendwo","Чтобы построить парящее судно (ПС), создайте в Ассемблере основу парящего судна и разместите её где-нибудь"
+tutBuildSV,"To build a Small Vessel (SV), craft 'Small Vessel Starter' in large constructor and place it somewhere","Um ein kleines Raumschiff zu bauen, stelle einen ""Kleines-Raumschiff-Starter"" her und platziere diesen irgendwo","Чтобы построить малое судно (МС), создайте в Ассемблере основу малого судна и разместите её где-нибудь"
 tutEatOrProcessFood,Find something to eat and/or process your food in a Food Processor,Finde etwas zu essen und / oder verarbeite Nahrungsmittel im Nahrungsmittel-Prozessor,Найдите какую-нибудь пищу и/или приготовьте еду при помощи кухонного комбайна
 tutUseControlPanel,"To control and manage your base or ship, use the Control Panel ('{0}') while being in a base or cockpit","Um deine Basis / dein Schiff zu steuern und zu kontrollieren, benutze die Steuereinheit ('{0}') während du dich in einer Basis / einem Cockpit befindest","Для контроля и управления вашим кораблем или базой используйте панель управления ('{0}'), когда находитесь внутри базы или кабины."
 tutWhatsNeededForHV,"To build functional HV you need: cockpit, generator, fuel tank, RCS, thrusters (on all sides). Hover engine is already placed","Um einen funktionierenden Bodengleiter herzustellen, benötigst du: Cockpit, Generator, Kraftstofftank, RCS und Antriebsdüsen an allen vier Seiten. Eine Schwebeeinheit ist bereits verbaut.","Чтобы построить работающее ПС вам нужны: кабина, генератор, топливный бак, РСУ, двигатели (со всех сторон). Двигатель парения уже установлен."
@@ -1663,7 +1678,7 @@ igmEnterCockpitSS,Press '{0}' to enter the small vessel,Drücke '{0}' um das kle
 igmEnterEntityGeneral,Press '{0}' to enter {1},Drücke '{0}' um in {1} einzusteigen,"Нажмите '{0}', чтобы войти в {1}"
 igmEnterPlayerBike,Press '{0}' to enter {2} or press {1} to pick it up,Drücke '{0}' um in {2} einzusteigen oder {1} um es aufzunehmen,"Нажмите '{0}', чтобы сесть на {2} или нажмите {1} чтобы подобрать его"
 igmPickupPlayerBike,Press '{0}' to pick up {1},Drücke {0} um {1} aufzunehmen,"Нажмите '{0}', чтобы взять {1}"
-igmUseConstructor,Press '{0}' to use the Constructor,Drücke '{0}' um den Konstruktor zu benutzen,"Нажмите '{0}', чтобы использовать конструктор"
+igmUseConstructor,Press '{0}' to use the Constructor,Drücke '{0}' um den Konstruktor zu benutzen,"Нажмите '{0}', чтобы использовать Ассемблер"
 igmUseATM,Press '{0}' to use the Automated Teller Machine,Drücke '{0}' um den Geldautomat zu benutzen,"Нажмите '{0}', чтобы использовать банкомат"
 igmUseTradingStation,Press '{0}' to use the Trading Station,Drücke '{0}' um die Handelsstation zu benutzen,Нажмите '{0}'
 igmCoreInfo,Core: {0} Faction,Kern: {0}-Fraktion,Ядро: {0} Фракция
@@ -1695,7 +1710,7 @@ igmEffectApplyMedikitLarge,You applied a large medikit.,Du hast ein großes Medi
 igmEffectMedicStation,Your health level is increasing.,Deine Gesundheit verbessert sich,Ваш уровень здоровья повышается.
 igmEffectOxygenStation,Your oxygen is refilling.,Dein Sauerstoff wird aufgefüllt,Ваш кислород пополняется.
 igmEffectStaminaBoost,You obtained a Stamina boost.,Du hast einen Stamina-Boost erhalten.,Вы чуствуете прилив сил.
-igmEffectFoodPoisoning,"You have a food poisoning. Use an appropriate remedy (e.g., medikit or stomach pill) to cure the poisoning!",Du hast eine Lebensmittlevergiftung. Verwende ein geeignetes Medikament (zB Medikit oder Magentablette) um die Vergiftung zu heilen!,"Вы получили пищевое отравление. Примените соответствующее средство (например, аптечку или таблетки для желудка), чтобы вылечить отравление!"
+igmEffectFoodPoisoning,"You have a food poisoning. Use an appropriate remedy (e.g., medikit or stomach pill) to cure the poisoning!",Du hast eine Lebensmittelvergiftung. Verwende ein geeignetes Medikament (zB Medikit oder Magentablette) um die Vergiftung zu heilen!,"Вы получили пищевое отравление. Примените соответствующее средство (например, аптечку или таблетки для желудка), чтобы вылечить отравление!"
 igmEffectPoisonBite,"You have been bitten and now you are poisoned. Use an appropriate remedy (e.g., medikit or antidote) to cure the poisoning!",Du hast einen Giftbiss abbekommen. Verwende ein geeignetes Medikament (zB Medikit oder Gegengift) um die Vergiftung zu heilen!,"Вас покусали и теперь вы отравлены. Примените соответствующее средство (например, аптечку или противоядие), чтобы вылечить отравление!"
 igmEffectOpenWound,"You have an open wound. Use an appropriate remedy (e.g., medikit or bandages) to heal the wound!",Du hast eine offene Wunde. Verwende ein geeignetes Heilmittel (zB Medikit oder Bandage) um die Wunde zu versorgen!,"У вас открытая рана. Примените соответствующее средство (например, аптечку или бинт), чтобы вылечить рану!"
 igmEffectStimBoostUp,You obtained a Stamina boost.,Du hast einen Stamina-Boost erhalten.,Вы чуствуете прилив сил.
@@ -2043,7 +2058,7 @@ scfgOfflProtTime,Offline Protection Time,Offline Schutzzeit,Длительнос
 scfgWipeTime,Remove Time (Unvisited Structures),Löschzeit nicht besuchter Strukturen,Время уничтожения (непосещенных структур)
 scfgDecayTime,Remove Time (Unvisited Mini Structures),Löschzeit nicht besuchter Mini-Strukturen,Время уничтожения (непосещенных мини структур)
 scfgMaxStructures,Max. Structures per Playfield,Max. Anzahl Strukturen pro Spielfeld,Макс. структур на игровое поле
-scfgAntiGriefDist,Anti-Griefing Distance,Anti-Störer Abstand,Противогрифеское расстояние
+scfgAntiGriefDist,Anti-Griefing Distance,Anti-Störer Abstand,Защита от марадеров (метров)
 scfgNumPlayfields,Number of Playfields,Anzahl Spielfelder,Количество игровых полей
 scfgNumStartPlanets,Number of Starting Planets,Anzahl Startplaneten,Количество стартовых планет
 lblDisabled,Disabled,Deaktiviert,Выключено
@@ -2146,7 +2161,7 @@ mnuOverallDronePresence,Overall Drone Presence:,Anzahl Drohnen:,Общая пл�
 mnuDroneBaseAttack,Drone Base Attack:,Drohnenangriffe auf Basis:,Атаки базы дронами:
 mnuRateofNPCSpawn,Rate of NPC Spawn:,Spawnrate NPC:,Скорость возрождения НИП:
 mnuEnemyDifficulty,Enemy Difficulty:,Schwierigkeitsgrad Feinde:,Сложность противников:
-mnuConstructorCraftSpeed,Constructor Craft Speed:,Geschwindigkeit Konstruktoren:,Скорость производства конструктором:
+mnuConstructorCraftSpeed,Constructor Craft Speed:,Geschwindigkeit Konstruktoren:,Скорость производства Ассемблером:
 mnuBlueprintProductionSpeed,Blueprint Production Speed:,Geschwindigkeit Blueprints:,Скорость производства по чертежу:
 mnuDifficultySettings,Difficulty Settings,Schwierigkeitsgrad:,Настройки сложности
 difDifficultyPresetEasy,Easy,Leicht,Легко
@@ -2189,7 +2204,7 @@ bhiOverallDronePresence,Influences the overall number of drones that are present
 bhiDroneBaseAttack,"Influences the difficulty of the drone base attacks (number of waves, number of drones per wave, etc.)","Beeinflusst den Schwierigkeitsgrad der Drohnenangriffe auf deine Basis (Anzahl der Angriffswellen, Zusammensetzung etc.)","Влияет на сложность дронов, атакующих вашу базу (количество волн, количество дронов в волне и т.п.)"
 bhiRateofNPCSpawn,Influences the spawn rate of enemy NPCs on a planet.,Beeinflusst die Spawnrate der feindlichen NPC pro Planet.,Влияет на скорость возрождения вражеских НИП на планете.
 bhiEnemyDifficulty,Influences the overall difficulty when attacking enemies.,Beeinflusst den allgemeinen Schwierigkeitsgrad von Feindinteraktionen.,Влияет на общую сложность врагов.
-bhiConstructorCraftSpeed,Influences the overall craft speed of constructors.,Beeinflusst die allgemeine Geschwindigkeit von Konstruktoren,Влияет на общую скорость производства при помощи конструкторов.
+bhiConstructorCraftSpeed,Influences the overall craft speed of constructors.,Beeinflusst die allgemeine Geschwindigkeit von Konstruktoren,Влияет на общую скорость производства при помощи Ассемблера.
 bhiBlueprintProductionSpeed,Influences the overall production speed of the blueprint factory.,Beeinflusst die Geschwindigkeit für die Herstellung von Blueprints.,Влияет на общую скорость производства при помощи фабрики чертежей.
 mapAtmosphereO2,Atmosphere O2 / Breathable:,Atmosphäre O2 / Atembar:,Кислорода в атмосфере / возможно дышать:
 lblBalance,Balance,Guthaben,Балланс
@@ -2343,7 +2358,7 @@ mnuCharacterTextureResMax,Max,Max,Максимальное
 mnuCharacterTextureResHalf,Half,Halb,Половинное
 mnuCharacterTextureResQuarter,Quarter,Viertel,Четвертное
 bhiCharacterTextureResolution,"Set Texture Resolution of Character Models. Limited to ""Half"" if Video Memory is 2GB or to ""Quarter"" if Video Memory is 1GB.","Legt Texturauflösung des Spielermodells fest. Auf ""halb"" (bzw ""viertel"") limitiert wenn VRAM deiner Videokarte 2GB (bzw 1GB) beträgt. ","Установите разрешение текстур персонажей. Ограничено половинным, если видеопамять 2 Гб или четвертным, если видеопамять 1 Гб."
-wdwConstructorOld,Constructor (old - please replace),Konstruktor (alt - bitte austauschen),"Конструктор (устарел - пожалуйста, замените)"
+wdwConstructorOld,Constructor (old - please replace),Konstruktor (alt - bitte austauschen),"Ассемблер (устарел - пожалуйста, замените)"
 bswMerge,Connect To,Verbinden mit,Connect To
 pswPlayerName,Player Name:,Spieler Name:,Имя игрока:
 pswGender,Gender:,Geschlecht:,Пол:
@@ -2414,7 +2429,12 @@ cplMountedWeapon,Mounted Weapon,Befestigte Waffe,Навесное оружие
 cplThruster,Thruster,Schubdüse,Двигатель
 cplGenerator,Generator,Generator,Генератор
 cplTurretNoTargetInfo,"Select device on which turret should shoot. If nothing is selected, turret will not shoot","Wähle das Zielobjekt aus. Wenn nichts ausgewählt ist, schiesst Geschütz nicht.","Выберите устройство, в которое турель должна стрелять. Если ничего не выбрано, турель не будет стрелять."
-ACS_VersionInfo,,,Русификации для версии 5.4.0 (0867)
+cplO2,O2,,O2
+TurretDrill,,,Буровая турель
+TurretDrillWeapon,,,Буровая турель
+TurretDrillMS,,,Буровая турель
+TurretDrillMSWeapon,,,Буровая турель
+ACS_VersionInfo,,,Русификации для версии 5.5.0 (0880)
 HullCylinder,,,Колонна
 Sugarcane,,,Сахарный тростник
 Salami,,,Салями
@@ -2422,7 +2442,6 @@ StomachPills,,,Таблетки для желудка
 Flour,,,Мука
 bkiElevator,,,Секция антигравитационного лифта
 Torque,,,Крутящий момент
-FALSE,,,Ложь
 TRUE,,,Истина
 Homing,,,Наведение
 Start,,,Старт
