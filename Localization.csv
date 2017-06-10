@@ -446,7 +446,7 @@ DecoBlocks2,Tech Equipment (Deco),Technische Geräte (Deko-Blöcke),Технич
 Scanner3,Scanner 3,Scanner 3,Сканер 3
 Scanner2,Scanner 2,Scanner 2,Сканер 2
 ScannerBase1,Scanner 1,Scanner 1,Сканер 1
-Console4,Scanner 4,Scanner 4,Консоль
+Console4,Scanner 4,Scanner 4,Сканер 4
 LabTable1,Lab Table 1,Labortisch 1,Лаболаторный стол 1
 LabTable2,Lab Table 2,Labortisch 2,Лаболаторный стол 2
 LabTable3,Lab Table 3,Labortisch 3,Лаболаторный стол 3
@@ -472,7 +472,7 @@ LCDNoFrame05x05,LCD 0.5x0.5 (No Frame),LCD 0.5x0.5 (ohne Rahmen),ЖК 0.5х0.5 (
 LCDNoFrame02x1,LCD 0.2x1 (No Frame),LCD 0.2x1 (ohne Rahmen),ЖК 0.2х1 (без рамки)
 LCDNoFrame02x05,LCD 0.2x0.5 (No Frame),LCD 0.2x0.5 (ohne Rahmen),ЖК 0.2х0.5 (без рамки)
 IndoorPlants,Artificial Plants (Deco),Künstliche Zimmerpflanzen,Искуственные растения (декор)
-CockpitMS01,Cockpit 1,Cockpit 1,Кабина
+CockpitMS01,Cockpit 1,Cockpit 1,Кабина 1
 CockpitMS02,Cockpit 2,Cockpit 2,Кабина 2
 CockpitMS03,Cockpit 3,Cockpit 3,Кабина 3
 ThrusterJetRound1x3x1,Thruster Jet S (1x3x1),Schubdüse Jet S (1x3x1),Прямоточный двигатель М (1х3х1)
@@ -515,7 +515,7 @@ PassengerSeat2SV,Passenger Seat (open),Passagiersitz (offen),Пассажирс�
 PassengerSeatSV,Passenger Seat (closed),Passagiersitz (geschlossen),Пассажирское сиденье (закрытое)
 PassengerSeatSS_Slope,Passenger Seat,Passagiersitz,Пассажирское сиденье
 PassengerSeatSS_Cube,Passenger Seat,Passagiersitz,Пассажирское сиденье
-ConstructorT1,Large Constructor (old - please replace),Konstruktor groß (alt - bitte austauschen),"Большой конструктор(устарел - пожалуйста, замените)"
+ConstructorT1,Large Constructor (old - please replace),Konstruktor groß (alt - bitte austauschen),Большой конструктор(устарел - замените)
 ConstructorT1V2,Large Constructor,Konstruktor groß,Большой конструктор
 ConstructorT2,Advanced Constructor,Verbesserter Konstruktor,Расширенный конструктор
 ArmorLocker,Armor Locker,Anzugstation,Шкаф аммуниции
@@ -524,9 +524,9 @@ RepairStation,Repair Station,Reparaturstation,Ремонтная Станция
 AutoMiningDeviceT1,Auto Mining Device (T1),Automatisches Bergbaugerät (T1),Экстрактор (К1)
 AutoMiningDeviceT2,Auto Mining Device (T2),Automatisches Bergbaugerät (T2),Экстрактор (К2)
 AutoMiningDeviceT3,Auto Mining Device (T3),Automatisches Bergbaugerät (T3),Экстрактор (К3)
-ConstructorMS,Large Constructor (old - please replace),Konstruktor groß (alt - bitte austauschen),Большой конструктор
-ConstructorRecursive,Advanced Constructor (old - please replace),Verbesserter Konstruktor (alt - bitte austauschen),Расширенный конструктор
-ConstructorSV,Mobile Constructor (old - please replace),Mobiler Konstruktor (alt - bitte austauschen),"Мобильный конструктор(устарел - пожалуйста, замените)"
+ConstructorMS,Large Constructor (old - please replace),Konstruktor groß (alt - bitte austauschen),"Большой конструктор (старый, замените)"
+ConstructorRecursive,Advanced Constructor (old - please replace),Verbesserter Konstruktor (alt - bitte austauschen),Расширенный конструктор (старый - замените)
+ConstructorSV,Mobile Constructor (old - please replace),Mobiler Konstruktor (alt - bitte austauschen),Мобильный конструктор (старый - замените)
 ConstructorSmallV2,Mobile Constructor,Mobiler Konstruktor,Мобильный конструктор
 ConstructorSurvival,Survival Constructor,Überlebens-Konstruktor,Аварийный конструктор
 ConstructorSurvivalV2,Survival Constructor,Überlebens-Konstruktor,Аварийный конструктор
@@ -536,7 +536,7 @@ PlayerSpawnerPlate,Player Spawner (Plate),Spieler Spawner (Platte),Спауне�
 PlayerSpawnerBlock,Player Spawner (Block),Spieler Spawner (Platte),Спаунер игрока (блок)
 PlayerSpawnerPlateThin,Player Spawner (Thin Plate),Spieler Spawner (Dünne Platte),Спаунер игрока (тонкая плита)
 Portal,Portal,Portal,Портал
-ElevatorMS,Elevator Block,Aufzugsblock,Секция антигравитационного лифта
+ElevatorMS,Elevator Block,Aufzugsblock,Блок лифта
 WarpDriveTank,Warp Drive Tank,Warpantrieb Treibstofftank,Бак прыжкового двигателя
 WarpDrive,Warp Drive,Warp Antrieb,Прыжковый двигатель
 GeneratorMS,Large Generator (T1),Generator groß (T1),Большой генератор (К1)
@@ -557,7 +557,7 @@ RCSBlockMS_T2,RCS (T2),RCS (T2),РСУ (К2)
 ContainerBlocks,Cargo Box Blocks,Frachtboxblöcke,Блоки контейнера
 ContainerMS01,Cargo Box,Frachtbox,Контейнер
 ContainerPersonal,Personal Cargo Box,Persönliche Frachtbox,Персональный контейнер
-ContainerHarvest,Cargo Box (Harvest),Frachtbox (Erze und Holz),Контейнер (Сборщик ресурсов)
+ContainerHarvest,Cargo Box (Harvest),Frachtbox (Erze und Holz),Контейнер (Сборщик)
 ContainerRandom,Cargo Box (POI),Frachtbox (POI),Контейнер (ТИ)
 ContainerUltraRare,Cargo Box (POI) - Ultra Rare,Frachtbox (POI) - extrem selten,Контейнер (ТИ) - Очень редкий
 LightLargeBlocks,Light Blocks,Lichtblöcke,Осветительные блоки
@@ -581,9 +581,9 @@ DoorInterior01,Automatic Door 2,Automatiktür 2,Автоматическая д�
 DoorInterior02,Automatic Door 3,Automatiktür 3,Автоматическая дверь 3
 DoorVertical,Automatic Door 1 (vert),Automatiktür 1 (vertikal),Автоматическая дверь 1 (верт)
 DoorVerticalGlass,Automatic Door 2 (vert),Automatiktür 2 (vertikal),Автоматическая дверь 2 (верт)
-DoorArmoredBlocks,Armored Automatic Door Blocks,Automatiktür Blöcke (gepanzert),Блок бронированной автоматической двери
+DoorArmoredBlocks,Armored Automatic Door Blocks,Automatiktür Blöcke (gepanzert),Блоки бронированной автоматической двери
 DoorArmored,Automatic Armored Door,Gepanzerte Automatiktür,Автоматическая бронированная дверь
-DoorVerticalArmored,Automatic Armored Door (vert),Gepanzerte Automatiktür (vertikal),Автоматическая бронированная дверь 1 (верт)
+DoorVerticalArmored,Automatic Armored Door (vert),Gepanzerte Automatiktür (vertikal),Автоматическая бронированная дверь (верт)
 DoorBlocksSV,Manual Door Blocks,Manuelle Türblöcke,Блок механической двери
 DoorSS01,Manual Door,Manuelle Türe,Механическая дверь
 DoorInterior01SV,Manual Interior Door,Manuelle Innentüre,Внутренняя механическая дверь
@@ -623,7 +623,7 @@ OxygenGeneratorSmall,Emergency O2 Generator,Notfall O2 Generator,Аварийн�
 OxygenGenerator,Oxygen Generator,Sauerstoff Generator,Генератор кислорода
 OxygenHydrogenGenerator,Hydrogen Generator,Wasserstoff Generator,Генератор водорода
 WaterGenerator,Water Generator,Wassergenerator,Генератор воды
-FoodProcessorMS,Food Processor (old - please replace),Nahrungsmittel-Prozessor (alt - bitte austauschen),"Пищевой процессор (устарел - пожалуйста, замените)"
+FoodProcessorMS,Food Processor (old - please replace),Nahrungsmittel-Prozessor (alt - bitte austauschen),Пищевой процессор (устарел - замените)
 FoodProcessorV2,Food Processor,Nahrungsmittel-Prozessor,Пищевой процессор
 DockingPad,Docking Pad,Andockplatte,Стыковочный узел
 LandinggearBlocksSV,Landinggear Blocks (T1),Fahrwerksblöcke (T1),Блоки посадочных опор (К1)
@@ -724,14 +724,14 @@ ArmorLightEpic,Epic Light Armor,Epische Leichte Rüstung,Эпическая ле
 ArmorMediumEpic,Epic Medium Armor,Epische Mittlere Rüstung,Эпическая средняя броня
 ArmorHeavyEpic,Epic Heavy Armor,Epische Schwere Rüstung,Эпическая тяжелая броня
 JetpackBoost,Jetpack Boost,,Усилитель - Ракетный ранец
-MultiBoost,Multi Boost,,Мульти-усилитель
+MultiBoost,Multi Boost,,Усилитель - Общий
 OxygenBoost,Oxygen Boost,,Усилитель - Кислород
 InsulationBoost,Insulation Boost,,Усилитель - Изоляция
 MobilityBoost,Mobility Boost,,Усилитель - Мобильность
 RadiationBoost,Radiation Boost,,Усилитель - Радиация
 EVABoost,EVA Boost,,Усилитель - EVA
 JetpackBoostEpic,Epic Jetpack Boost,,Эпический усилитель - Ракетный ранец
-MultiBoostEpic,Epic Multi Boost,,Эпический мульти-усилитель
+MultiBoostEpic,Epic Multi Boost,,Эпический усилитель - Общий
 OxygenBoostEpic,Epic Oxygen Boost,,Эпический усилитель - Кислород
 InsulationBoostEpic,Epic Insulation Boost,,Эпический усилитель - Изоляция
 MobilityBoostEpic,Epic Mobility Boost,,Эпический усилитель - Мобильность
@@ -759,7 +759,7 @@ HoloScreen02,Holographic Screen 02,Holo Bildschirm 02,Голографическ
 HoloScreen03,Holographic Screen 03,Holo Bildschirm 03,Голографический экран 03
 HoloScreen04,Holographic Screen 04,Holo Bildschirm 04,Голографический экран 04
 HoloScreen05,Holographic Screen 05,Holo Bildschirm 05,Голографический экран 05
-SciencelabMS,Science Lab (Deco),Labor (Deco),Мобильная лаборатория (Декор)
+SciencelabMS,Science Lab (Deco),Labor (Deco),Научная лаборатория (Декор)
 TurretMSMinigun,Minigun Turret,Minigun-Geschütz,Пулеметная турель
 TurretMSCannon,Cannon Turret,Kanonen Geschütz,Крупнокалиберная турель
 TurretMSFlak,Flak Turret,Flak Geschütz,Зенитная турель
@@ -777,8 +777,8 @@ TurretBasePlasma,Plasma Turret,Plasma Geschütz,Плазменная турел�
 TurretBasePulseLaser,Pulse Laser Turret,Laser Geschütz,Импульсная лазерная турель
 TurretBaseArtillery,Artillery Turret,Artillerie Geschütz,Гаубичная турель
 TurretEnemyLaser,Laser Turret (Alien),Laser-Kanone (Alien),Лазерная турель (чужие)
-TurretIONCannon,Ion Cannon - Planet (Alien),Ionen-Kanone Planet (Alien),Ионная пушка - планетарная (чужие)
-TurretIONCannon2,Ion Cannon - Space (Alien),Ionen-Kanone Weltraum (Alien),Ионная пушка - космосмическая (чужие)
+TurretIONCannon,Ion Cannon - Planet (Alien),Ionen-Kanone Planet (Alien),Ионная пушка - планета (чужие)
+TurretIONCannon2,Ion Cannon - Space (Alien),Ionen-Kanone Weltraum (Alien),Ионная пушка - космос (чужие)
 TurretGVMinigun,Minigun Turret,Minigun Geschütz,Пулеметная турель
 TurretGVRocket,Rocket Turret,Raketenwerfer-Geschütz,Ракетная турель
 TurretGVPlasma,Plasma Turret,Plasma Geschütz,Плазменная турель
@@ -933,18 +933,18 @@ EnergyCell,Fuel Pack (Promethium),Kraftstoffzelle (Promethium),Батарея (�
 EnergyCellHydrogen,Fuel Pack (Hydrogen),Kraftstoffzelle (Hydrogen),Батарея (водород)
 EnergyCellLarge,Large Fuel Pack (Promethium),Kraftstoffzelle groß (Promethium),Большая батарея (прометий)
 FusionCell,Fusion Cell,Fusionszelle,Энергоячейка
-IronResource,Iron Deposit,Eisenerz Lager,Залежи железа
-PromethiumResource,Promethium Deposit,Promethiumerz Lager,Залежи прометия
-CopperResource,Copper Deposit,Kupfererz Lager,Залежи меди
-CobaltResource,Cobalt Deposit,Kobalterz Lager,Залежи кобальта
-SiliconResource,Silicon Deposit,Siliziumerz Lager,Залежи кремния
-MagnesiumResource,Magnesium Deposit,Magnesiumerz Lager,Залежи магния
-NeodymiumResource,Neodymium Deposit,Neodymiumerz Lager,Залежи неодима
-ErestrumResource,Erestrum Deposit,Erestrumerz Lager,Залежи эреструма
-ZascosiumResource,Zascosium Deposit,Zascosiumerz Lager,Залежи заскозия
-SathiumResource,Sathium Deposit,Sathiumerz Lager,Залежи сатия
-GoldResource,Gold Deposit,Gold Ader,Залежи золота
-PentaxidResource,Pentaxid Deposit,Pentaxiderz Lager,Залежи пентаксида
+IronResource,Iron Deposit,Eisenerz Lager,Железные залежи
+PromethiumResource,Promethium Deposit,Promethiumerz Lager,Прометиевые залежи
+CopperResource,Copper Deposit,Kupfererz Lager,Медные залежи
+CobaltResource,Cobalt Deposit,Kobalterz Lager,Кобальтовые залежи
+SiliconResource,Silicon Deposit,Siliziumerz Lager,Кремниевые залежи
+MagnesiumResource,Magnesium Deposit,Magnesiumerz Lager,Магниевые залежи
+NeodymiumResource,Neodymium Deposit,Neodymiumerz Lager,Неодимовые залежи
+ErestrumResource,Erestrum Deposit,Erestrumerz Lager,Эреструмные залежи
+ZascosiumResource,Zascosium Deposit,Zascosiumerz Lager,Заскозиевые залежи
+SathiumResource,Sathium Deposit,Sathiumerz Lager,Сатиумные залежи
+GoldResource,Gold Deposit,Gold Ader,Золотые залежи
+PentaxidResource,Pentaxid Deposit,Pentaxiderz Lager,Пентаксидные залежи
 AsteroidIron,Iron Meteorite,Eisenmeteorit,Железный метеорит
 AsteroidCopper,Copper Meteorite,Kupfermeteorit,Медный метеорит
 AsteroidPromethium,Promethium Meteorite,Promethiummeteorit,Прометиевый метеорит
@@ -1102,7 +1102,7 @@ Varonroot,Varon Root,Varon-Wurzel,Варон-корень
 MushroomSpiky,Spiky Mushroom,Stachelige Pilze,Шипастый гриб
 MushroomBrown,Brown Mushroom,Braune Pilze,Коричневый гриб
 TexturedPlantProtein,Textured Plant Protein,Texturiertes Pflanzeneiweiß,Растительный белок
-BulbPlantPod,Gaea's Seed Pod,Gaea's Samenhülsen,Стручок гэи
+BulbPlantPod,Gaea's Seed Pod,Gaea's Samenhülsen,Стручок Гайи
 VeggiePatty,Veggie Patty,Veggie-Patty,Вегетарианский пирожок
 VeggieBurger,Veggie Burger,Veggie-Burger,Вегетарианский бургер
 MeatBurger,Meat Burger,Fleisch-Burger,Мясной бургер
@@ -1114,9 +1114,9 @@ MuleMilk,Mule Milk,Maultiermilch,Молоко мула
 AloeVera,Aloe Vera,Aloe Vera,Алоэ вера
 NutrientSolution,Nutrient Solution,Nährlösung,Удобрение
 PixieStalkBundle,Pixie Stalk Bundle,Pixie Stiel-Bündel,Пучок стеблей пикси
-PhoenixFernPlant,Phoenix Fern Plant,Phoenix Farnpflanze,Росток финикового папоротника
-PhoenixFernRoot,Phoenix Fern Root,Phoenix Farnwurzel,Корень финикового папоротника
-PhoenixFernFonds,Phoenix Fern Frond,Phoenix Fern Frond,Ветвь финикового папоротника
+PhoenixFernPlant,Phoenix Fern Plant,Phoenix Farnpflanze,Папортник Феникс - росток
+PhoenixFernRoot,Phoenix Fern Root,Phoenix Farnwurzel,Папортник Феникс - корень
+PhoenixFernFonds,Phoenix Fern Frond,Phoenix Fern Frond,Папортник Феникс - ветка
 AlienThorn,Alien Thorn,Aliendorn,Инопланетный шип
 AlienTooth,Alien Tooth,Alienzahn,Инопланетный клык
 CornDogFruit,Corn Dog,Corn Dog,Камыш
@@ -1178,10 +1178,10 @@ Cables,Cables,Kabel,Проводка
 Pipes,Pipes,Rohre,Трубы
 Computer,Computer,Computer,Компьютер
 AdvancedCPU,Advanced CPU,Erweiterte CPU,Улучшенный ЦП
-SpawnNewBase,Base Starter,Basis-Starter,Основа базы
-SpawnNewSV,Small Vessel Starter,Kleines-Raumschiff-Starter,Основа малого судна
-SpawnNewCV,Capital Vessel Starter,Großes-Raumschiff-Starter,Основа большого судна
-SpawnNewGV,Hover Vessel Starter,Bodengleiter-Starter,Основа парящего судна
+SpawnNewBase,Base Starter,Basis-Starter,Основа БА
+SpawnNewSV,Small Vessel Starter,Kleines-Raumschiff-Starter,Основа МС
+SpawnNewCV,Capital Vessel Starter,Großes-Raumschiff-Starter,Основа БС
+SpawnNewGV,Hover Vessel Starter,Bodengleiter-Starter,Основа ПС
 NameBase,Base,Basis,База
 NameSV,Small Vessel,Kleines Raumschiff,Малое судно
 NameCV,Capital Vessel,Großes Raumschiff,Большое судно
@@ -1445,7 +1445,7 @@ OxygenValue,Oxygen,Sauerstoffwert,Кислород
 TemperatureValue,Body Temperature,Körpertemperatur,Температура тела
 RadiationValue,Radiation,Strahlung,Радиация
 Range,Range (m),Reichweite (m),Дальность (м)
-DmgMultiplierHead,Dmg Multi Head,Kopfschussfaktor,Множитель попадания в голову
+DmgMultiplierHead,Dmg Multi Head,Kopfschussfaktor,Крит в голову
 ROF,Rate of Fire,Feuerrate,Скорострельность
 Effect,Effect,Effekt,Эффект
 EffectiveAgainst,Effective Against,Hilft gegen,Эффективно против
@@ -1824,7 +1824,7 @@ inpFlashlight,Lights,Lichter,Огни
 inpWarpDrive,Warp Drive,Warpantrieb,Прыжковый двигатель
 inpBuildTools,Build Tools,Bau-Hilfen,Строительные инструменты
 inpPDA,PDA,PDA,КПК
-inpTechTreeMenu,Tech Tree Menu,Technikbaum-Menü,Меню дерева технологий
+inpTechTreeMenu,Tech Tree Menu,Technikbaum-Menü,Меню Технологии
 inpConsole,Console,Konsole,Консоль
 inpAutoRotate,Auto Rotate,Automatische Ausrichtung,Автовыравнивание (прижать)
 inpPersonalLight,Player Shoulder Light,Schulterlicht Spieler,Наплечный фонарь
@@ -1876,14 +1876,14 @@ Atmo Density:,Density:,Dichte:,Плотность атмосферы:
 igmResourceDiscovered,{0} discovered a new resource:\n{1},{0} hat eine Resource entdeckt:\n{1},{0} обнаружен новый ресурс:\n{1}
 igmPoiDiscovered,{0} discovered a new POI:\n{1},{0} hat ein interessantes Objekt entdeckt:\n{1},{0} обнаружена новая точка интереса:\n{1}
 igmLandingEscapePod,You are approaching planet {0}. Steer your Escape Pod to a safe spot and watch out for abandoned outposts in your area!,Du näherst dich dem Planeten {0}. Steuere deine Rettungskapsel an einen sicheren Ort und halte Ausschau nach verlassenen Aussenposten!,Вы приближаетесь к поверхности планеты {0}. Направьте вашу спасательную капсулу к безопасному месту!
-igmLeaveEscapePod,Press '{0}' to leave the escape pod,Drücke '{0}' um die Rettungskapsel zu verlassen,"Нажмите '{0}', чтобы покинуть спасательную капсулу"
-igmWarpCrystals,You have only {0} {1} but need {2} to warp,Du hast nur {0} {1} aber benötigst {2} zum warpen,"У вас есть только {0} {1}, а для прыжка нужно {2}"
+igmLeaveEscapePod,Press '{0}' to leave the escape pod,Drücke '{0}' um die Rettungskapsel zu verlassen,Нажмите '{0}' чтобы покинуть спасательную капсулу
+igmWarpCrystals,You have only {0} {1} but need {2} to warp,Du hast nur {0} {1} aber benötigst {2} zum warpen,У вас есть только {0} {1} а для прыжка нужно {2}
 igmWarpInSpace,You can only warp in space,Warpen nur im Weltraum möglich!,Прыжок возможен только в космосе
 Size:,Size:,Größe:,Размер:
 tutPlayerDrone,Press '{0}' to activate your personal drone - it will be a big help for building your base,Drücke '{0}' um deine persönliche Drohne zu aktivieren - sie wird dir beim Bauen sehr hilfreich sein,Нажмите '{0}' для активации вашего персонального дрона - он окажет большую помощь в создании вашей базы
 tutOxygenUsage,Place oxygen bottles in oxygen tank and then use an oxygen station to fill up your suit's oxygen,"Befülle den Sauerstofftank mit Sauerstoffflaschen, um dann an einer Sauerstoffstation den Sauerstoff deines Raumanzugs zu befüllen",Поместите кислородные балоны в кислородный бак и используйте кислородную станцию для пополнения запаса кислорода вашего скафандра.
 tutOxygenGenerator,Place an oxygen generator in the water to produce oxygen bottles,"Stelle einen O2 Generator ins Wasser, um O2 Flaschen herzustellen","Установите генератор кислорода в воду, чтобы он мог создавать кислородные баллоны"
-tutBuildBase,"To build a Base, craft 'Base Starter' in constructor and place it on flat terrain","Um eine Basis zu bauen, stelle einen ""Basis-Starter"" im Konstruktor her und platziere ihn auf ebenem Terrain","Чтобы построить базу (БА), изготовьте в Конструкторе 'основу базы' и поместите её на ровный участок грунта"
+tutBuildBase,"To build a Base, craft 'Base Starter' in constructor and place it on flat terrain","Um eine Basis zu bauen, stelle einen ""Basis-Starter"" im Konstruktor her und platziere ihn auf ebenem Terrain","Чтобы построить базу (БА), изготовьте в Конструкторе Основу БА и поместите её на ровный участок грунта"
 tutMultiTool,"Use the 'Multitool' for multiple purposes (repair, remove, upgrade, change and rotate blocks and devices)","Verwende das ""Multifunktionswerkzeug"" für verschiedene Zwecke (reparieren, zerlegen, upgraden, austauschen und rotieren von Blöcken)","Используйте Мульти-инструмент для различных целей (ремонт, удаление, улучшения, изменения и вращения блоков и устройств)"
 tutModularBuilding,"To enable modular building, press '{0}' to open the 'Building Tools' menu and activate 'Connect to Base'","Für modulares Bauen, drücke '{0}' um das ""Bauhilfsmenu"" zu öffnen und aktiviere ""Mit Basis verbinden""","Чтобы включить модульное строительство, нажмите '{0}', чтобы открыть меню Строительные сервисы и активируйте Подключение к базе"
 tutPlacePowerGenerator,Place a power generator on your base,Stelle einen Stromgenerator in deine Basis,Установите генератор на вашей базе.
@@ -2023,7 +2023,7 @@ PoisonBit,Poisonous Bite,Giftbiss,Ядовитые укусы
 PoisonFood,Food Poisoning,Lebensmittelvergiftung,Пищевое отравление
 OpenWound,Open Wound,Offene Wunde,Открытая рана
 RadiationPoisoning,Radiation Poisoning,Verstrahlung,Радиационное отравление
-"Parasite1,Parasite2,Parasite3",Alien Parasite,Alien-Parasit,Внеземной паразит
+"Parasite1,Parasite2,Parasite3",Alien Parasite,Alien-Parasit,Паразит Чужих
 igmNoExternalOxygen,No oxygen! Wearing your helmet may help.,Kein Sauerstoff! Helm aufsetzen kann helfen.,Нет кислорода! Если вы наденете шлем - это может помочь.
 igmEffectNoFood,You are dying from lack of food.,Du stirbst langsam mangels Nahrung!,Вы умираете от недостатка пищи.
 igmEffectLowFood,You are feeling very hungry. Find something to eat!,Du fühlst dich sehr hungrig. Finde schnell etwas zu essen!,Вы очень голодны. Найдите еду!
@@ -2252,7 +2252,7 @@ mnuRespFreshStartTitle,Fresh Start,Kompletter Neustart,Бодрый старт
 mnuStartWorldChangeEscapePod,You will re-restart the game on {0} in your escape pod.,Du wirst das Spiel neu auf {0} in deiner Rettungskapsel beginnen.,Вы перезапустите игру на {0} в вашей спасательной капсуле.
 mnuStartWorldChangeStructure,You will re-start the game on {0} at {1}.,Du wirst das Spiel neu auf {0} in {1} beginnen.,Вы перезапустите игру на {0} до {1}.
 mnuStartWorldChangeDefault,You will re-start the game on {0}.,Du wirst das Spiel neu auf {0}beginnen.,Вы перезапустите игру на {0}.
-mnuStartWorldWarning,"""[c][ff4040]Note: All other players will lose their inventory and get respawned with you.""","""[c][ff4040]Hinweis: Alle anderen Spieler verlieren ihre Gegenstände und werden mit dir versetzt.""","""[c][ff4040]Сообщение:Все остальные игроки потеряют свой инвентарь и будут возрождены вместе с вами."""
+mnuStartWorldWarning,"""[c][ff4040]Note: All other players will lose their inventory and get respawned with you.""","""[c][ff4040]Hinweis: Alle anderen Spieler verlieren ihre Gegenstände und werden mit dir versetzt.""","""[c][ff4040]Сообщение: Все остальные игроки потеряют свой инвентарь и будут возрождены вместе с вами."""
 dlgEacIntegrityProblem,EAC detected an integrity problem:,AntiCheat hat ein Integritätsproblem festgestellt:,EAC обнаружила проблему целостности:
 dlgEacUnknownError,Unknown EAC error:,Unbekannter AntiCheat-Fehler:,Неизвестная ошибка EAC:
 dlgOnlyUnprotectedMP,Multiplayer is only possible with unprotected servers!,Mehrspieler-Modus nur mit nicht geschützten Servern möglich!,Мультиплеер возможен только на незащищенных серверах!
@@ -2558,7 +2558,7 @@ difNumberofDepositsHard,Few,Wenig,Мало
 difOverallDronePresenceEasy,Low,Wenig,Низко
 difOverallDronePresenceMedium,Normal,Normal,Нормально
 difOverallDronePresenceHard,High,Viel,Высоко
-difOverallDronePresenceOff,Off,Aus,Выкл.
+difOverallDronePresenceOff,Off,Aus,Выкл
 difDroneBaseAttackEasy,Easy,Leicht,Легко
 difDroneBaseAttackMedium,Medium,Mittel,Средне
 difDroneBaseAttackHard,Hard,Schwer,Тяжело
@@ -2865,7 +2865,7 @@ bswShowOxygen,Show Oxygen,Sauerstoff anzeigen,Показать кислород
 fcwFactionWindowTitle,FACTIONS,FRAKTIONEN,ФРАКЦИИ
 ttwTechTreeTitle,TECH TREE,TECHNIKBAUM,ТЕХНОЛОГИИ
 mpwMarketplaceTitle,MARKETPLACE,MARKTPLATZ,РЫНОК
-rgwRegistryTitle,REGISTRY,REGISTRATUR,ВЛАДЕНИЯ
+rgwRegistryTitle,REGISTRY,REGISTRATUR,РЕЕСТР
 titleCircuit2xAnd,2x AND,2x UND,2x AND
 titleCircuit4xAnd,4x AND,4x UND,4x AND
 titleCircuit2xOr,2x OR,2x ODER,2x OR
@@ -3122,7 +3122,7 @@ TurretDrill,,,Буровая турель
 TurretDrillWeapon,,,Буровая турель
 TurretDrillMS,,,Буровая турель
 TurretDrillMSWeapon,,,Буровая турель
-ACS_VersionInfo,,,Русификации для версии 6.0.0 (1077)
+ACS_VersionInfo,,,Русификации для версии 6.0.1 (1082)
 HullCylinder,,,Колонна
 Sugarcane,,,Сахарный тростник
 Salami,,,Салями
