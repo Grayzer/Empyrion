@@ -2,6 +2,7 @@ KEY,English,Deutsch,Russian
 chptitleWelcomeBack,Chapter 1: The Robinson Protocol,Kapitel 1: Das Robinson Protokoll,Раздел 1: Протокол Робинзон
 chpPreWelcomeBack,"[i]...Initializing restart sequence...Checking logs...Reason for crash: unknown...Position: unknown...Titan: contact lost...Loading failsafe data...Restarting Integrated Data Assistant...Success![/i]\n\nGreetings, Commander!\n\nThis is I.D.A reporting for duty.\nI am glad you survived the incident! My internal sensors indicate only minor damage to your suit.\n\nAlthough your vital signs are within normal parameters, studies indicate that disorientation after such incidents is to be expected.\n\nTo assist you, I have created a list of tasks, following the Robinson Protocol. During our  descent, the sensors of the escape capsule detected an uninhabited structure close by.","[i]...Neustart initialisiert...Logs werden geprüft...Absturzgrund: unbekannt...Postion: unbekannt...Titan: kein Kontakt...Sicherheitsspeicher wird geladen...Integrierter Daten Assistent wird geladen...Erfolgreich![/i]\n\n
 Willkommen zurück, Commander!\n\nI.D.A. ist wieder voll einsatzbereit.\nIch bin froh dass Sie den Vorfall gut überstanden haben! Meine internen Sensoren zeigen nur minimale Schäden am Anzug.\n\nObwohl Ihre Lebensfunktionen innerhalb normaler Parameter liegen, belegen Studien dass es zu Desorientierung nach solchen Ereignissen kommen kann.\n\nIch habe Ihnen daher zur Unterstützung eine Liste an Aufgaben, basierend auf dem Robinson Protokoll erstellt. Die Sensoren der Notfallkapsel haben bereits einen geeigneten Unterschlupf in der Nähe gefunden.","[i]...Инициализация последовательности перезапуска...Проверка журналов...Причина сбоя: неизвестно...Позиция: неизвестно...Титан: контакт потерян...Загрузка отказоустойчивых данных...Перезапуск данных интегрированного помощника...Успешно![/i]\n\nПоздравляю, Командующий!\n\nЭто отчет IDA для дежурства.\nЯ рад, что вы пережили инцидент! Мои внутренние датчики указывают только незначительный урон вашему костюму.\n\nВсе ваши жизненные показатели находятся в пределах нормальных параметров, но исследования показывают, что следует ожидать дезориентации после таких инцидентов.\n\nЧтобы помочь вам, я создал список задач следуя Протоколу Робинсона. Во время нашего спуска датчики спасательной капсулы обнаружили неподалеку необжитую структуру."
+,,,
 chpdescWelcomeBack,I scanned the internal systems of the suit.\nSome of the integrated utilities are non-functioning but the critical ones are operational . I shall endeavor to repair or reconstruct them as we go.\n\nTechnical advice for handling the Survival Suit Mark II:\n\nThe internal suit logistic system allows easy adding or swapping items and tools to and from your toolbelt via [c][ff4444]drag&drop[-][/c] or holding [c][ff4444]SHIFT + left-mouse button[-][/c] click. This also works for emptying cargo containers!\n\nThe wireless command interface allows access of any device by just pointing at it and using button [c][ff4444]F[-][/c].\n\nTo show our communication feed press [c][ff4444].[-][/c] (period). Use [c][ff4444]Enter[-][/c] to close feed.\n\nPlease start the Robinson Protocol when you are ready.,"Bitte prüfen Sie zunächst Ihre Ausrüstung (TAB).\nEinige der Geräte scheinen defekt, aber die die wir benötigen, sind noch intakt. Ich werde versuchen, die defekten Geräte nach und nach wieder herzustellen\n\nHinweis zur Steuerung des Überlebensanzugs Mark II:\n\nDas interne Anzuglogistiksystem erlaubt Ihnen, Geräte und Gegenstände per [c][ff4444]Auswählen & Ziehen[-][/c] oder mit [c][ff4444]SHIFT + Linker Mausklick[-][/c] in den Werkzeuggürtel zu verlegen. Dies funktioniert identisch beim Leeren von Containern!\n\nDas kontaktlose Kommunikationsinterface erlaubt den Zugriff auf jedes Gerät. Zeigen Sie auf eines und drücken sie [c][ff4444]F[-][/c].\n\nDen Kommunikationsverlauf können Sie mit der Taste [c][ff4444].[-][/c] (Punkt)  aufrufen. Schließen mit [c][ff4444]Eingabe[-][/c].\n\nBitte starten Sie das Robinson Protokoll sobald Sie bereit sind.","Я просмотрел внутренние системы костюма.\nНекоторые из интегрированных утилит не функционируют, но критические работают. Я попытаюсь отремонтировать или восстановить их пока мы будем идти.\n\nТехнический совет для костюма выживания Mark II:\n\nБольшая 
 внутренняя система логистики позволяет легко добавлять или заменять предметы и инструменты через [c][ff4444]drag&drop[-][/c] или через [c][ff4444]SHIFT +ЛКМ[-][/c]. Это также работает для разгрузки грузовых контейнеров!\n\nБеспроводной Интерфейс позволяет получить доступ к любому устройству, просто указав на него и используя кнопку [c][ff4444]F[-][/c].\n\nЧтобы показать наше сообщение нажмите [c][ff4444].[-][/c] (period). Используйте [c][ff4444]Enter[-][/c] чтобы закрыть канал.\n\nПожалуйста, запустите Протокол Робинзон, когда вы будете готовы."
 tasktitleCheckInventory,Check Loadout,Ausrüstung prüfen,Проверить снаряжение
@@ -62,7 +63,6 @@ acttitlePlaceOxGen,Place O2 generator,O2 Generator setzen,Установите �
 actdescPlaceOxGen,"\n[c][66ffff]I.D.A.   -[011]-[-][/c]\nNow drive towards the [c][FFFF00]yellow marker[-][/c]. Use [c][ff4444]W,S,A,D[-][/c] for steering the bike.\n\nI just managed to repair the broken O2 Generator. Add it to your toolbelt and place it in the water when arriving at the shore.\n\nTechnical note: To pick up a placed device or motorbike, aim at it and use [c][ff4444]SHIFT + F[-][/c].",,"\n[c][66ffff]I.D.A.   -[011]-[-][/c]\nДвигайтесь к [c][FFFF00]желтому маркеру[-][/c]. Используйте [c][ff4444]W,S,A,D[-][/c] для управления мотоциклом.\n\nМне удалось восстановить поврежденный генератор O2. Добавьте его на свою панель и поместите его в воду, когда доберетесь до берега.\n\nТехническая заметка: Чтобы забрать размещенное устройство или мотоцикл, наведите на него и используйте [c][ff4444]SHIFT + F[-][/c]."
 acttitlePowerOxGen,Activate O2 gen.,O2 Generator aktivieren,Активируйте Генератор кислорода
 actdescPowerOxGen,"\n[c][66ffff]I.D.A.   -[012]-[-][/c]\nThe O2 generator produces blue O2 bottles over time.\n\nYou need them to fill your base, ships or simply your suit with oxygen.\n\nAccess the device [c][ff4444](F)[-][/c] and add one of the fuel packs to start the process.",,"\n[c][66ffff]I.D.A.   -[012]-[-][/c]\nГенератор кислорода постепенно создает синие бутылки с кислородом.\n\nОни вам требуются для снабжения кислородом базы, судна и вашего костюма.\n\nВойдите в устройство [c][ff4444](F)[-][/c] и установите в него топливные элементы для начала производства."
-actdescPlaceWaterGen,\n\n[c][66ffff]I.D.A.   -[012]-[-][/c]\nThe Water Generator produces water jugs. You can make them into Purified Water if you own a Food Processor. Purified Water will reduce your body temperature and partially replenish your stamina.,,"\n\n[c][66ffff]I.D.A.   -[012]-[-][/c]\nГенератор воды создает бутыли с водой. Вы можете сделать из них  очищенную воду, если у вас есть Пищевой процессор. Очищенная вода уменьшит температуру вашего тела и частично пополнит вашу выносливость."
 tasktitleRobinson2b,Break Stones,Steine klopfen,Ломаем камни
 taskheadRobinson2b,Break Stones,Steine klopfen,Ломаем камни
 acttitlePickupOre,Pick up ore,Erzbrocken aufsammeln,Возьмите руду
@@ -96,8 +96,7 @@ actdescMinePromethiumOre,,,
 tasktitleRobinson3a,Processing ore,Erze verarbeiten,Обработка руды
 taskheadRobinson3a,Processing ore,Erze verarbeiten,Обработка руды
 acttitleBackTbase2,Back to base,Zurück zu Basis,Вернитесь на базу
-actdescBackTbase2,\n[c][66ffff]I.D.A.   -[016]-[-][/c]\n[c][ff4444]Now lets go back to base and let's process the ore![-][/c],,\n[c][66ffff]I.D.A.   -[016]-[-][/c]\n[c][ff4444]Теперь вернемся к базе и обработаем руду![-][/c]
-actdescBackTbase3,"\n[c][66ffff]I.D.A.   -[017]-[-][/c]\nGo to the Survival Constructor and put all the ore into inventory. Use the small symbol icons on the top right row to switch to the [c][ff4444]COMPONENTS templates[-][/c]. Add at least 30 ingot and pellet templates for each ore. \n\nTip:\n- Use [c][ff4444]SHIFT+left-mouse click[-][/c] (LMB) to add 10 templates at once. [c][ff4444]CTRL+LMB[-][/c] adds 100 templates at once!\n- As long as the constructor is switched OFF or the queued item is not processed, you can remove the same amount of templates with the same button-combos!",,"\n[c][66ffff]I.D.A.   -[017]-[-][/c]\Идите в Аварийный конструктор и поместите всю руду в инвентарь. Используйте маленькие значки символов в верхней правой строке, чтобы перейти к шаблонам [c][ff4444]Компоненты[-][/c]. Добавьте по крайней мере 30 шаблонов слитков и гранул для каждой руды. \n\nСовет:\n- Используйте [c][ff4444]SHIFT+ЛКМ[-][/c] чтобы добавить 10 шт одновременно. [c][ff4444]CTRL+ЛКМ[-][/c] добавляет сразу 100 шт!\n- Пока конструктор выключен или очередь не обрабатывается, вы можете удалить одинаковое количество шаблонов с помощью тех же кнопочные комбинации!"
+actdescBackTbase2,"\n[c][66ffff]I.D.A.   -[016]-[-][/c]\n[c][ff4444]Now lets go back to base and let's process the ore![-][/c]\n\n[c][66ffff]I.D.A.   -[017]-[-][/c]\nGo to the Survival Constructor and put all the ore into inventory. Use the small symbol icons on the top right row to switch to the [c][ff4444]COMPONENTS templates[-][/c]. Add at least 30 ingot and pellet templates for each ore. \n\nTip:\n- Use [c][ff4444]SHIFT+left-mouse click[-][/c] (LMB) to add 10 templates at once. [c][ff4444]CTRL+LMB[-][/c] adds 100 templates at once!\n- As long as the constructor is switched OFF or the queued item is not processed, you can remove the same amount of templates with the same button-combos!",,\n[c][66ffff]I.D.A.   -[016]-[-][/c]\n[c][ff4444]Теперь вернемся к базе и обработаем руду![-][/c]
 acttitleProcessIron,Iron Ingots,Eisenbarren,Железный слиток
 actdescProcessIron,,,
 acttitleProcessCopper,Copper Ingots,Kupferbarren,Медный слиток
@@ -187,6 +186,8 @@ acttitleLizM,Kill Lizard Mule,,Убейте мулоящера
 actdescLizM,Lizard Mules are wandering around in herds in the Open Plains at daytime.,,Мулоящеры в дневное время табунами бродят в степях.
 acttitleRaptD,Kill Raptor,,Убейте раптора
 actdescRaptD,Raptors are wandering around in herds in the Open Plains at daytime. Be cautious - attacking a member of the herd will result in the herd attacking YOU!,,В дневное время рапторы стаями бродят в степях. Будьте осторожны - ранение одного члена стаи провоцирует атаку ВСЕЙ стаи!
+acttitleHMakSpider01,Kill Spider |Night,,Убейте паука |Night
+actdescHMakSpider01,Spiders can be found in Tropical Forest at night.,,Пауков можно найти ночью в Тропических лесах.
 chptitleElem,Elemental Enemy,,Стихийный враг
 chpdescElem,Messing with the elements? Find and hunt down some Golems!,,Проблемы с элементами? Найдите и подстрелите несколько Големов!
 tasktitleElemFK,Find and Kill,,Найти и уничтожить
@@ -629,6 +630,19 @@ acttitleSP03Inj,Possible injuries:,Mögliche Verletzungen:,Возможные т
 actdescSP03Inj,"Poisonous Bite, Open Wound, Alien Parasit","Giftbiss, Offene Wunde, Alien Parasit","Ядовитый укус, Открытая рана, Паразит Чужих"
 acttitleSP03Loot,Possible Loot:,Mögliches Loot:,Возможные трофеи:
 actdescSP03Loot,Raw Meat\n\nAlien Parts,Rohes Fleisch\n\nAlien Teile,Мясо\n\nФрагменты Чужих
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
 chptitleWildlifePrey,WILDLIFE (Prey),WILDTIERE (Prey),Дикая природа (Добыча)
 chpdescWildlifePrey,The worlds of Empyrion are rich of wildlife - dangerous and harmless. \n\nNote for Hunters: Attacking might lead to all nearby creatures attacking YOU!,Die Welten von Empyrion sind reich an Leben - gefährlich und harmlos.\n\nHinweis für Jäger: Ein Agriff kann dazu führen dass alle Kreaturen in der Nähe DICH angreifen!,"Миры Эмпириона богаты дикой природой - опасными и безвредными. \n\nПримечание для охотников: атака может привести к тому, что все ближайшие существа атакуют вас!"
 tasktitleLizardMuleHerd,Lizard Mule (Herd),Lizard Mule (Herde),Мулоящеры (Стадо)
@@ -681,9 +695,40 @@ acttitleAlienBug01Inj,Possible injuries:,Mögliche Verletzungen:,Возможн�
 actdescAlienBug01Inj,"Poisonous Bite, Open Wound","Giftbiss, Offene Wunde","Ядовитый укус, Открытая рана"
 acttitleAlienBug01Loot,Possible Loot:,Mögliches Loot:,Возможные трофеи:
 actdescAlienBug01Loot,Raw Meat\n\nAlien Tooth,Rohes Fleisch\n\nAlien Zahn,Мясо\n\nКлыки Чужих
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
 chptitleNPC,Natives,,Туземцы
 chpdescNPC,,,
-chptitleNPC,Aliens & Mutants,,Чужие и Мутанты
+,"Aggressive, CanInteract",,
+,"Deco-Aliens, Traders, Talon",,
+chptitleNPC,Aliens & Mutants,,Туземцы
 chpdescNPC,,,
-chptitleNPC,Military NPCs,,Военные NPC
+,"Hexapods, Nightmares, Overseer, Plant Monsters",,
+,,,
+chptitleNPC,Military NPCs,,Туземцы
 chpdescNPC,,,
+,Zirax,,
+actdescPlaceWaterGen,,,"\n\n[c][66ffff]I.D.A.   -[012]-[-][/c]\nГенератор воды создает бутыли с водой. Вы можете сделать из них  очищенную воду, если у вас есть Пищевой процессор. Очищенная вода уменьшит температуру вашего тела и частично пополнит вашу выносливость."
+actdescBackTbase3,,,"\n[c][66ffff]I.D.A.   -[017]-[-][/c]\Идите в Аварийный конструктор и поместите всю руду в инвентарь. Используйте маленькие значки символов в верхней правой строке, чтобы перейти к шаблонам [c][ff4444]Компоненты[-][/c]. Добавьте по крайней мере 30 шаблонов слитков и гранул для каждой руды. \n\nСовет:\n- Используйте [c][ff4444]SHIFT+ЛКМ[-][/c] чтобы добавить 10 шт одновременно. [c][ff4444]CTRL+ЛКМ[-][/c] добавляет сразу 100 шт!\n- Пока конструктор выключен или очередь не обрабатывается, вы можете удалить одинаковое количество шаблонов с помощью тех же кнопочные комбинации!"

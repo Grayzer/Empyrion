@@ -667,16 +667,17 @@ CockpitSV01,Cockpit 1,Cockpit 1,Кабина 1
 CockpitSV_ShortRange,Cockpit 2,Cockpit 2,Кабина 2
 CockpitSV02New,Cockpit 3,Cockpit 3,Кабина 3
 CockpitSV04,Cockpit 4,Cockpit 4,Кабина 4
-CockpitSV02,Cockpit 5 (Legacy),Cockpit 5 (Legacy),Кабина 5 (Наследие)
-CockpitSV05,Cockpit 6 (Legacy),Cockpit 6 (Legacy),Кабина 6 (Наследие)
-CockpitSV03,Cockpit 7 (Legacy),Cockpit 7 (Legacy),Кабина 7 (Наследие)
-CockpitSV07,Cockpit 8 (Legacy),Cockpit 8 (Legacy),Кабина 8 (Наследие)
+CockpitSV05New,Cockpit 5,Cockpit 5,Кабина 5
+CockpitSV02,Cockpit 6 (Legacy),Cockpit 6 (Legacy),Кабина 6 (Наследие)
+CockpitSV05,Cockpit 7 (Legacy),Cockpit 7 (Legacy),Кабина 7 (Наследие)
+CockpitSV03,Cockpit 8 (Legacy),Cockpit 8 (Legacy),Кабина 8 (Наследие)
+CockpitSV07,Cockpit 9 (Legacy),Cockpit 9 (Legacy),Кабина 9 (Наследие)
 CockpitOpenSV,Cockpit 1 (open),Cockpit 1 (offen),Кабина 1 (открытая)
 CockpitOpen2SV,Cockpit 2 (open),Cockpit 2 (offen),Кабина 2 (открытая)
 PassengerSeatMS,Passenger Seat,Passagiersitz,Пассажирское сиденье
-SpotlightSS,Spotlight Slope,Schweinwerfer schräg,Наклонный прожектор
+SpotlightSlope,Spotlight Slope,Schweinwerfer schräg,Прожектор наклонный
 SpotlightSSCube,Spotlight Cube,Scheinwerfer,Прожектор
-SensorTriggerBlocks,Sensor and Signal Blocks,Sensoren und Signalblöcke,Сенсорный и сигнальный блок
+SensorTriggerBlocks,Sensor and Signal Blocks,Sensoren und Signalblöcke,Сенсорные и сигнальные блоки
 MotionSensor,Motion Sensor,Bewegungsmelder,Сенсор движения
 LightBarrier,Light Barrier,Lichtschranke,Барьер
 Lever,Lever,Schalter,Рычаг
@@ -714,7 +715,8 @@ CorePlayerAdmin,Core (Admin),Kern (Admin),Ядро (Админ)
 CoreFlyDir,Core (obsolete),Kern (veraltet),Ядро (устаревшее)
 Stone,Stone,Stein,Камень
 Air,Container,Container,Контейнер
-PlayerBike,Motorbike,Motorbike,Мотоцикл
+PlayerBike,Motorbike,Motorrad,Мотоцикл
+PlayerBikeFolded,Motorbike (energy-save mode),Motorrad (Energiesparmodus),Мотоцикл (режим энергосбережения)
 PlayerBikeKit,Motorbike Construction Kit,Motorradbausatz,Комплект для сборки мотоциклов
 AutoMinerCore,Auto Miner Core,Bergbaugerätkern,Ядро Экстрактора
 ArmorLight,Light Armor,Leichte Rüstung,Легкая броня
@@ -1032,7 +1034,8 @@ AlienPepperStage3,Durian - Growing 2,,Дуриан - рост 2
 AlienPepperStage4,Durian - Growing 3,,Дуриан - рост 3
 AlienPepperStage5NoFruit,Durian - Pre-Harvest,,Дуриан - созревание
 AlienPepperStage5,Durian - Harvestable,,Дуриан - созревший
-PlantDead2,Dead Plant,Tote Pflanze,Умершее растение
+PlantDead,Dead Plant (small),Tote Pflanze (klein),Умершее растение (малое)
+PlantDead2,Dead Plant (large),Tote Pflanze (gross),Умершее растение (большое)
 CornStage1,Corn - Sprout,Mais-Keim,Кукуруза - росток
 CornStage2,Corn - Growing,,Кукуруза - рост
 CornStage3,Corn - Harvestable,,Кукуруза - созревшая
@@ -1285,10 +1288,10 @@ Slime,Slime,Glibber,Слизень
 TurretRobot,Turret Robot,Roboter,Роботурель
 PlantMonster,Plant Monster,Pflanzenmonster,Растительный монстр
 Hexapod,Alien Insect,Alien Insekt,Шестиног
-RaptorNight,Raptor Night,Raptor (nachtaktiv),Ночной раптор
-Raptor,Raptor,Raptor,Раптор
-RaptorLeader,Raptor - Leader,Raptor - Anführer,Раптор - лидер
-RaptorGroup,Raptor,Raptor,Раптор
+RaptorNight,Aggressive Dinosaur,Aggressiver Dinosaurier,Ночной раптор
+Raptor,Dinosaur,Dinosaurier,Раптор
+RaptorLeader,Dinosaur - Leader,Dinosaurier - Anführer,Раптор - лидер
+RaptorGroup,Dinosaur,Dinosaurier,Раптор
 ParasaurLeader,Parasaur - Leader,Parasaurier - Anführer,Паразавр - лидер
 ParasaurGroup,Parasaur,Parasaurier,Паразавр
 ParasaurBaby,Parasaur Baby,Parasaurierbaby,Детеныш паразавра
@@ -1536,7 +1539,8 @@ bkiEnergyPills,Stamina boost during 300 seconds. Some side effects and slight ch
 bkiNightVision,Item used for seeing better during night. Can be activated by the same key that is also used for player light (toggles between player light and night vision). Item has to be in inventory and you have to wear your helmet.,Gerät um besser in der Nacht zu sehen. Wird mit der gleichen Taste wie das Spielerlicht angeschaltet (hin und her schalten zwischen Spielerlicht und Nachtsichtgerät). Das Gerät muss im Inventar sein und du musst einen Helm tragen.,Используется только ночью. Включается кнопкой фонарика (переключается между освещение и ночным зрением). Для использования должны быть в инвентаре и у вас должен быть надет шлем.
 bkiDrill,Tool used for drilling holes into terrain and mining resources.,Werkezug um Terrain abzutragen und Rohstoffe freizulegen.,Инструмент используется для бурения дыр в земле и добычи ресурсов.
 bkiDrillT2,Tool used for drilling holes into terrain and mining resources. Automatic pickup of ores. Different drill modes available.,Werkezug um Terrain abzutragen und Rohstoffe freizulegen. Automatisches Aufsammeln von Rohstoffen. Verschiedene Drill Modi verfügbar,Инструмент используется для бурения дыр в земле и добычи ресурсов. Автоматический подбор руды. Доступны различные режимы бурения.
-bkiDrillAttachment,Device Tool used for drilling holes into terrain and mining resources. It does not work for resource meteorites,Gerät um Terrain abzutragen und Rohstoffe freizulegen. Gerät funktioniert nicht für Rohstoffmeteoriten,Инструмент используется для сверления отверстий в местности и добычи полезных ископаемых. Не работает на метеоритах
+bkiDrillAttachment,Tool used for drilling holes into terrain and mining resources. It does not work for resource meteorites,Gerät um Terrain abzutragen und Rohstoffe freizulegen. Gerät funktioniert nicht für Rohstoffmeteoriten,Инструмент используется для сверления отверстий в местности и добычи полезных ископаемых. Не работает на метеоритах
+bkiPlayerBike,Motorbike is used for fast travelling on a planet. You should always pick it up when used because it will despawn after a while if placed on terrain and not used.,Motorrad zur schnellen Fortbewegung auf einem Planeten. Du solltest es nach Gebrauch immer aufsammeln denn es wird de-spawnen wenn es zu lange unbenutzt auf dem Terrain steht.,"Мотоцикл используется для быстрого передвижения по планете. Всегда забирайте его в инвентарь если им не пользуетесь, иначе он пропадет с местности."
 bkiMultiTool,"Tool used for removing, repairing, changing, rotating and upgrading blocks","Werkezug um Blocks zu zerlegen, aufsammeln, reparieren, umwandeln, rotieren und aufwerten","Инструмент используется для демонтажа, ремонта, изменения, вращения и улучшения блоков."
 bkiFillertool,Tool used for filling up terrain (LMB) or flattening terrain (RMB),"Terrain auffüllen (LMT), einebnen (RMT)",Инструмент используется для выравнивания (ПКМ) и наращивания (ЛКМ) ландшафта.
 bkiTextureTool,Tool used for texturing building blocks. Add to toolbar and apply texture with LMB. Open texture selection menu with RMB.,In Schnellzugriff legen und mit LMT Texture anwenden. Mit RMT kann Texturauswahlmenu geöffnet werden.,Инструмент используется для текстурирования строительных блоков. Добавьте его на свою панель инструментов и текстурируйте блоки при помощи ЛКМ. Открыть меню выбора текстуры можно при помощи ПКМ.
@@ -1573,7 +1577,7 @@ bkiLandinggearHV,Device used for docking your Hover Vessels to Capital Vessels,G
 bkiLandinggearSV,Device used for docking your Small Vessels to Capital Vessels,Gerät zum Andocken eines kleinen Raumschiffs an ein großes Raumschiff,Устройство используется для стыковки ваших малых судов к большим судам
 bkiGenerator,Device used for generating power. Requires fuel tank filled with fuel packs to operate,Gerät zur Stromerzeugung. Benötigt Kraftstofftanks gefüllt mit Kraftstoffzellen um zu funktionieren,"Устройство используется для производства энергии. Для работы необходим топливный бак, заполненный батареями."
 bkiFridge,Device used for storing food. When powered stops food from perishing,Gerät zum Lagern von verderblichen Nahrungsmitteln. Stoppt Verfallszeit,Устройство используется для хранения еды. Когда подсоединено к питанию предотвращает порчу еды.
-False,,,Ложь
+,,,
 bkiWeaponShipSpace,Attachable to your vessel but only functional in space.,"Kann an einem Schiff angebracht werden, funktioniert aber nur im Weltraum","Крепится к судну, но функционирует только в космосе."
 bkiWeaponShip,Attachable to your vessel. Range given for space. On planets range is lower and depends on atmosphere density,"Kann an einem Schiff angebracht werden.  Reichweitenangabe für Weltraum.  Reichweite  innerhalb der Atmosphäre geringer, je nach deren Dichte",Крепится к судну. Дальность приведена для космоса. На планетах дальность ниже и зависит от плотности атмосферы.
 bkiWeaponHandheld,Range given for space. On planets range is lower and depends on atmosphere density,"Reichweitenangabe für Weltraum. Reichweite innerhalb der Atmosphäre geringer, je nach deren Dichte",Дальность приведена для космоса. На планетах дальность ниже и зависит от плотности атмосферы.
@@ -1921,9 +1925,9 @@ igmCVCannotEnterPlanet,"You cannot enter this planet with a CV, please turn arou
 Server Port:,Server Port:,Server Port:,Порт сервера:
 Blueprints,Blueprints,Baupläne,Чертежи
 Load,Load,Laden,Загрузить
-Energy Items,Energy Items,Kraftstoffe,Питание
-Output Items,Output Items,Erzeugte Gegenstände,Выход
-Status,Status,Status,Статус
+Energy Items,ENERGY ITEMS,KRAFTSTOFFE,Питание
+Output Items,OUTPUT ITEMS,ERZEUGTE GEGENSTÄNDE,Выход
+Status,STATUS,STATUS,Статус
 Operational time [h:mm]:,Operational time [h:mm]:,Restarbeitszeit [h:mm]:,Время работы [ч:мм]
 Status:,Status:,Status:,Статус:
 Source quality:,Source quality:,Qualität Quellmaterial:,Качество источника:
@@ -3047,8 +3051,8 @@ mnuWorldO2Content,O2 Content / Breathable:,O2 verfügbar / atembar:,Содерж
 mnuWorldMode,Mode:,Modus:,Режим:
 mnuWorldOrigin,Origin:,Herkunft:,Источник:
 mnuWorldDifficulty,Difficulty:,Schwierigkeit:,Сложность:
-mnuWorkshop,Workshop,Workshop,Workshop
-mnuDeposits,Deposits:,Erzlager:,Месторождение:
+mnuWorkshop,Workshop,Workshop,Мастерская
+mnuDeposits,Deposits:,Erzlager:,Месторождения:
 mnuMeteoritesDepletion,Meteorites (Depletion):,Meteoriten:,Метеориты (истощение):
 cplInfoHeader,INFO,INFO,ИНФО
 cplMainToggleHeader,GENERAL,ALLGEMEIN,ГЛАВНОЕ
@@ -3076,6 +3080,9 @@ mnuMeteoritesRandom,Meteorites (Random):,Meteoriten (zufällig):,Метеори�
 mnuWindowDarkening,Background Darkening:,Hintergrund abdunkeln:,Затенение фона:
 bhiWindowDarkening,Adjust the amount of darkening when opening a window,Passt das Abdunkeln des Hintergrunds beim Öffnen von Fenstern an,Отрегулируйте количество затемнения при открытии окна
 mnuAsteroids,Asteroids:,Asteroiden:,Астероиды:
+igmBpSaveError,Could not save Blueprint!,Konnte Bauplan nicht speichern!,Не удалось сохранить чертеж!
+SpotlightSS,,,Наклонный прожектор
+FALSE,,,Ложь
 AlienThinBlocks,,,Инопланетные блоки (тонкие)
 RoundCornerLongThin,,,Скругленный угол тонкий
 ContainerEscapePod1,,,Контейнер

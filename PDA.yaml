@@ -80,11 +80,11 @@ Chapters:
             AllowManualCompletion: true
           #  CompletedMessage: $ 
             
-          - ActionTitle: acttitleEquipWater
-            Description: actdescEquipWater
-            Check: ToolbarContains
-            Types: [ WaterBottle ]
-            AllowManualCompletion: true
+          # - ActionTitle: acttitleEquipWater
+            # Description: actdescEquipWater
+            # Check: ToolbarContains
+            # Types: [ WaterBottle ]
+            # AllowManualCompletion: true
             CompletedMessage: actdescFindH
             
       - TaskTitle: tasktitleHideout
@@ -674,6 +674,12 @@ Chapters:
             Description: actdescRaptD
             Check: SubjectKilled
             Names: [ RaptorLeader, RaptorGroup ]
+            NamesRequired: NeedOne
+            CompletedMessage: $    
+          - ActionTitle: acttitleHMakSpider01
+            Description: actdescHMakSpider01
+            Check: SubjectKilled
+            Names: [ Spider01 ]
             NamesRequired: NeedOne
             CompletedMessage: $    
 
