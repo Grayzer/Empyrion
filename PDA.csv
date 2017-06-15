@@ -105,7 +105,7 @@ acttitleProcessCobalt,Cobalt Ingots,Kobaltbarren,Кобальтовый слит
 actdescProcessCobalt,,,
 acttitleProcessSilicon,Silicon Ingots,Siliziumbarren,Кремниевый слиток
 actdescProcessSilicon,,,
-acttitleProcessPromethium,Promethium Pellets,Promethium Pellets,Прометиевые таблетки
+acttitleProcessPromethium,Promethium Pellets,Promethium Pellets,Прометиевые гранулы
 actdescProcessPromethium,,,
 acttitleCreateFuelPacks,Create Fuel Packs,Kraftstoffzellen herstellen,Создайте Топливный элемент
 actdescCreateFuelPacks,\n[c][66ffff]I.D.A.   -[018]-[-][/c]\nThe base will be running low on fuel soon!\n\nWe need to create fuel packs to keep it running. [c][ff4444]Add fuel pack templates[-][/c] to the Survival Constructor  queue as well!\n\nTip: You can add as many templates as you like. The constructor will proceed to the next queued template as soon as the available resources are consumed or skip templates that are missing the needed materials.,,"\n[c][66ffff]I.D.A.   -[018]-[-][/c]\nНа базе скоро опять закончиться топливо!\n\nНужно создать топливные элементы чтобы это предотвратить. [c][ff4444]Добавьте схему Топливной ячейки[-][/c] в Аварийный конструктор!\n\nСовет: Вы можете добавить несколько схем в очередь. Конструктор перейдет к производству следующей, если будет хватать ресурсов, или же её пропустит, если их будет нехватать."

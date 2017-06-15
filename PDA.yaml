@@ -12,7 +12,7 @@ Chapters:
     # RewardedChapters: [ chptitleBuildBase ]
     ActivateChapterOnCompletion: chptitleMrsSmith
     AutoActivateOnGameStart: True
-    CompletedMessage: "Robinson Protocol completed.\n\nMESSAGE INCOMING!"
+    CompletedMessage: "Robinson Protocol completed!"
     CompletedSound: Sounds/Misc/DroneSignalBad
     Rewards:
       - Item: IronIngot
