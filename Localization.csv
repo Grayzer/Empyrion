@@ -1611,8 +1611,8 @@ bkiTraderBlock,Placeholder block for trader NPC. Configure the trader in Creativ
 igmRepairLimit,Repair limit reached,Reparaturlimit erreicht,Достигнут предел ремонта
 igmRepairWouldDamage,It does not make sense to repair now. Wait until item is more damaged.,Es lohnt sich jetzt nicht zu reparieren. Warte bis das Objekt stärker beschädigt ist.,"Сейчас нет смысла ремонтировать. Подождите, пока элемент будет поврежден."
 igmRemoveBlockFromMap,{0} is gone. Removing it from map,{0} ist verschwunden. Wird von der Karte entfernt,{0} хана. Убираю с карты
-igmItemAccessSingle,Press '{0}' to pick up {1},Drücke '{0}' um {1} aufzuheben,Нажмите '{0}' чтобы взять {1}
-igmItemAccessMany,Press '{0}' to pick up {2}x {1},Drücke '{0}' um {2}x {1} aufzuheben,Нажмите '{0}' чтобы взять {2}x {1}
+igmItemAccessSingle,Press '{0}' to pick up {1}\n(removed in {3} minutes),Drücke '{0}' um {1} aufzuheben\n(entfernt in {3} Minuten),Нажмите '{0}' чтобы взять {1}
+igmItemAccessMany,Press '{0}' to pick up {2}x {1}\n(removed in {3} minutes),Drücke '{0}' um {2}x {1} aufzuheben\n(entfernt in {3} Minuten),Нажмите '{0}' чтобы взять {2}x {1}
 igmContainerAccess,Press '{{0}}' to access {0},Drücke '{{0}}' um {0} zu öffnen,Нажмите '{{0}}' для доступа к {0}
 igmEntityAccess,Press '{0}' to access {1},Drücke '{0}' um {1} zu öffnen,Нажмите '{0}' для доступа к {1}
 igmBlockPickup,Press '{{0}}' to pick up {0},Drücke '{{0}}' um {0} aufzuheben,Нажмите '{{0}}' чтобы взять {0}
@@ -3107,7 +3107,7 @@ PulseLaserChargePistolT2,,,Заряд ЛП (К2)
 SpaceOrange,,,Космические апельсины
 SpaceDurian,,,Космические дурианы
 ZiraxFemale,,,Зираксина
-tutAtmoBreathable,,,Если атмосфера пригодна для дыхания. Вы можете снять шлем и экономить кислород. Нажмите '{0}'
+tutAtmoBreathable,,,Если атмосфера пригодна для дыхания. То вы можете снять шлем и экономить кислород. Нажмите '{0}'
 igmWrongFactionOrNoCore,,,Неправильная фракция или отсутствует ядро!
 mnuAmount,,,Количество
 mnuRemainTime,,,Время до завершения:
