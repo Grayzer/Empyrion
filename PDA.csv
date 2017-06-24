@@ -96,7 +96,7 @@ actdescMinePromethiumOre,,,
 tasktitleRobinson3a,Processing ore,Erze verarbeiten,Обработка руды
 taskheadRobinson3a,Processing ore,Erze verarbeiten,Обработка руды
 acttitleBackTbase2,Back to base,Zurück zu Basis,Вернитесь на базу
-actdescBackTbase2,"\n[c][66ffff]I.D.A.   -[016]-[-][/c]\n[c][ff4444]Now lets go back to base and let's process the ore![-][/c]\n\n[c][66ffff]I.D.A.   -[017]-[-][/c]\nGo to the Survival Constructor and put all the ore into inventory. Use the small symbol icons on the top right row to switch to the [c][ff4444]COMPONENTS templates[-][/c]. Add at least 30 ingot and pellet templates for each ore. \n\nTip:\n- Use [c][ff4444]SHIFT+left-mouse click[-][/c] (LMB) to add 10 templates at once. [c][ff4444]CTRL+LMB[-][/c] adds 100 templates at once!\n- As long as the constructor is switched OFF or the queued item is not processed, you can remove the same amount of templates with the same button-combos!",,\n[c][66ffff]I.D.A.   -[016]-[-][/c]\n[c][ff4444]Теперь вернемся к базе и обработаем руду![-][/c]
+actdescBackTbase2,"\n[c][66ffff]I.D.A.   -[016]-[-][/c]\n[c][ff4444]As soon as you are done with all the mining, go back to base and process the ore![-][/c]\n\n[c][66ffff]I.D.A.   -[017]-[-][/c]\nGo to the Survival Constructor and put all the ore into inventory. Use the small symbol icons on the top right row to switch to the [c][ff4444]COMPONENTS templates[-][/c]. Add at least 30 ingot and pellet templates for each ore. \n\nTip:\n- Use [c][ff4444]SHIFT+left-mouse click[-][/c] (LMB) to add 10 templates at once. [c][ff4444]CTRL+LMB[-][/c] adds 100 templates at once!\n- As long as the constructor is switched OFF or the queued item is not processed, you can remove the same amount of templates with the same button-combos!",,\n[c][66ffff]I.D.A.   -[016]-[-][/c]\n[c][ff4444]Теперь вернемся к базе и обработаем руду![-][/c]
 acttitleProcessIron,Iron Ingots,Eisenbarren,Железный слиток
 actdescProcessIron,,,
 acttitleProcessCopper,Copper Ingots,Kupferbarren,Медный слиток
@@ -611,7 +611,7 @@ actdescSP01Inj,Poisonous Bite,Giftbiss,Ядовитый укус
 acttitleSP01Loot,Possible Loot:,Mögliches Loot:,Возможные трофеи:
 actdescSP01Loot,Raw Meat\n\nAlien Parts,Rohes Fleisch\n\nAlien Teile,Мясо\n\nФрагменты Чужих
 tasktitleSpider02,Spiders 02,,Пауки 02
-taskheadSpider02,Spiders 02,,Пауки 03
+taskheadSpider02,Spiders 02,,Пауки 02
 acttitleSP02Agg,Aggression Level:,Aggressionslevel:,Уровень агрессии:
 actdescSP02Agg,Will attack on sight,Greift auf Sicht an,Атакует как видит
 acttitleSP02Att,Attack Mode:,Angriffsvarianten:,Режим атаки:
@@ -621,7 +621,7 @@ actdescSP02Inj,"Poisonous Bite, Alien Parasite","Giftbiss, Alien Parasit","Яд�
 acttitleSP02Loot,Possible Loot:,Mögliches Loot:,Возможные трофеи:
 actdescSP02Loot,Raw Meat\n\nAlien Parts,Rohes Fleisch\n\nAlien Teile,Мясо\n\nФрагменты Чужих
 tasktitleSpider03,Spiders 03,,Пауки 03
-taskheadSpider03,Spiders 03,,Пауки 04
+taskheadSpider03,Spiders 03,,Пауки 03
 acttitleSP03Agg,Aggression Level:,Aggressionslevel:,Уровень агрессии:
 actdescSP03Agg,Will attack on sight,Greift auf Sicht an,Атакует как видит
 acttitleSP03Att,Attack Mode:,Angriffsvarianten:,Режим атаки:
@@ -684,7 +684,7 @@ actdescRaptorsHerdAtt,Melee,Melee,Рукопашная
 acttitleRaptorsHerdInj,Possible injuries:,Mögliche Verletzungen:,Возможные травмы:
 actdescRaptorsHerdInj,Open Wound,Offene Wunde,Открытая рана
 acttitleRaptorsHerdLoot,Possible Loot:,Mögliches Loot:,Возможные трофеи:
-actdescRaptorsHerdLoot,Raw Meat,Rohes Fleisch,Мясо
+actdescRaptorsHerdLoot,Raw Meat,Rohes Fleisch ,Мясо
 tasktitleAlienBug01,AlienBug01,,Жук Чужих
 taskheadAlienBug01,AlienBug01,,Жук Чужих
 acttitleAlienBug01Agg,Aggression Level:,Aggressionslevel:,Уровень агрессии:
@@ -730,5 +730,5 @@ chpdescNPC,,,
 chptitleNPC,Military NPCs,,Туземцы
 chpdescNPC,,,
 ,Zirax,,
-actdescPlaceWaterGen,,,"\n\n[c][66ffff]I.D.A.   -[012]-[-][/c]\nГенератор воды создает бутыли с водой. Вы можете сделать из них  очищенную воду, если у вас есть Пищевой процессор. Очищенная вода уменьшит температуру вашего тела и частично пополнит вашу выносливость."
-actdescBackTbase3,,,"\n[c][66ffff]I.D.A.   -[017]-[-][/c]\Идите в Аварийный конструктор и поместите всю руду в инвентарь. Используйте маленькие значки символов в верхней правой строке, чтобы перейти к шаблонам [c][ff4444]Компоненты[-][/c]. Добавьте по крайней мере 30 шаблонов слитков и гранул для каждой руды. \n\nСовет:\n- Используйте [c][ff4444]SHIFT+ЛКМ[-][/c] чтобы добавить 10 шт одновременно. [c][ff4444]CTRL+ЛКМ[-][/c] добавляет сразу 100 шт!\n- Пока конструктор выключен или очередь не обрабатывается, вы можете удалить одинаковое количество шаблонов с помощью тех же кнопочные комбинации!"
+,,,"\n\n[c][66ffff]I.D.A.   -[012]-[-][/c]\nГенератор воды создает бутыли с водой. Вы можете сделать из них  очищенную воду, если у вас есть Пищевой процессор. Очищенная вода уменьшит температуру вашего тела и частично пополнит вашу выносливость."
+,,,"\n[c][66ffff]I.D.A.   -[017]-[-][/c]\Идите в Аварийный конструктор и поместите всю руду в инвентарь. Используйте маленькие значки символов в верхней правой строке, чтобы перейти к шаблонам [c][ff4444]Компоненты[-][/c]. Добавьте по крайней мере 30 шаблонов слитков и гранул для каждой руды. \n\nСовет:\n- Используйте [c][ff4444]SHIFT+ЛКМ[-][/c] чтобы добавить 10 шт одновременно. [c][ff4444]CTRL+ЛКМ[-][/c] добавляет сразу 100 шт!\n- Пока конструктор выключен или очередь не обрабатывается, вы можете удалить одинаковое количество шаблонов с помощью тех же кнопочные комбинации!"
