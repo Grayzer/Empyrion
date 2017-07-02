@@ -76,14 +76,14 @@ ConcreteFullDestroyed,Concrete Block - Destroyed,Betonblock - zerstört,Бето
 ConcreteThin,Concrete Block,Betonblock,Бетонный блок (тонкий)
 ConcreteThinBlocks,Concrete Blocks (thin),Betonblöcke (dünn),Бетонные блоки (тонкие)
 ConcreteThinDestroyed,Concrete Blocks (thin) - Destroyed,Betonblöcke (dünn) - zerstört,Бетонные блоки (тонкие) - сломано
-GrowingPot,Growing Plot (Steel),Pflanzenbeet (Stahl),Растительный модуль (Сталь)
+GrowingPot,Growing Plot (Plastic),Pflanzenbeet (Plastik),Растительный модуль (Сталь)
 GrowingPotConcrete,Growing Plot (Concrete),Pflanzenbeet (Beton),Растительный модуль (Бетон)
 GrowingPotWood,Growing Plot (Wood),Pflanzenbeet (Holz),Растительный модуль (Дерево)
 Hull,Hull Cube (Grey),Rumpfblock (grau),Корпус (серый)
 HullArmoredFull,Hardened Steel Block,Gehärteter Stahlblock,Блок из закаленной стали
 HullArmoredFullLarge,Hardened Steel Block L,Gehärteter Stahlblock L,Блок из закаленной стали Б
 HullArmoredFullSmall,Hardened Steel Block S,Gehärteter Stahlblock S,Блок из закаленной стали М
-HullArmoredLargeBlocks,Hardened Steel Blocks L ,Gehärtete Stahlblöcke L ,Блоки из закаленной стали Б
+HullArmoredLargeBlocks,Hardened Steel Blocks L,Gehärtete Stahlblöcke L,Блоки из закаленной стали Б
 HullArmoredSmallBlocks,Hardened Steel Blocks S,Gehärtete Stahlblöcke S,Блоки из закаленной стали М
 HullArmoredThin,Hardened Steel Block,Gehärteter Stahlblock,Блок из закаленной стали (тонкий)
 HullArmoredThinLarge,Hardened Steel Block L,Gehärteter Stahlblock L,Блок из закаленной стали Б (тонкий)
@@ -445,7 +445,7 @@ ScifiContainer2,Cargo Box 2,Frachtbox 2,Контейнер 2
 ScifiContainerEnergy,Power Storage (Deco),Energiebehälter (Deko),Энергохранилища (декор)
 ScifiContainerPower,Cargo Box 3,Frachtbox 3,Контейнер 3
 ScifiLargeSofa,Bench,Sitzbank,Лежанка
-ScifiLargeSofaNPC,Bench 2 NPC,,Скамейка 2 NPC
+ScifiLargeSofaNPC,Bench 2 NPC,Sitzbank 2 NPC,Скамейка 2 NPC
 ScifiMediaCenter,Media Center,Mediacenter,Мультимедийный центр
 ScifiNightstand,Nightstand,Nachttisch,Тумбочка
 ScifiPlant,Artificial Indoor Plant 4,Künstliche Zimmerpflanze 4,Искусственное растение 4
@@ -537,9 +537,11 @@ DoorBlocks,Automatic Door Blocks,Automatiktür Blöcke,Блок автомати
 DoorBlocksSV,Manual Door Blocks,Manuelle Türblöcke,Блок механической двери
 DoorInterior01,Automatic Door 2,Automatiktür 2,Автоматическая дверь 2
 DoorInterior01SV,Manual Interior Door,Manuelle Innentüre,Внутренняя механическая дверь
+DoorInterior01SlimSV,Manual Interior Door (Slim),Manuelle Innentüre (schmal),Внутренняя механическая дверь (тонкая)
 DoorInterior02,Automatic Door 3,Automatiktür 3,Автоматическая дверь 3
 DoorMS01,Automatic Door 1,Automatiktür 1,Автоматическая дверь 1
 DoorSS01,Manual Door,Manuelle Türe,Механическая дверь
+DoorSS01Slim,Manual Door (Slim),Manuelle Türe (schmal),Механическая дверь (тонкая)
 DoorVertical,Automatic Door 1 (vert),Automatiktür 1 (vertikal),Автоматическая дверь 1 (верт)
 DoorVerticalArmored,Automatic Armored Door (vert),Gepanzerte Automatiktür (vertikal),Автоматическая бронированная дверь (верт)
 DoorVerticalGlass,Automatic Door 2 (vert),Automatiktür 2 (vertikal),Автоматическая дверь 2 (верт)
@@ -1294,10 +1296,10 @@ Wheat,Wheat,Weizen,Пшеница
 WoodLogs,Wood Logs,Holzstämme,Бревна
 WoodPlanks,Wood Planks,Holzlatten,Доски
 ZascosiumIngot,Zascosium Ingot,Zascosiumbarren,Заскозиевый слиток
-srvExitWarning,WARNING: In {0} minute(s) the server will be shutdown! Please log out timely to avoid data loss.,"WARNUNG: In {0} Minuten wird der Server heruntergefahren. Bitte rechtzeitig ausloggen, um Datenverlust zu vermeiden.","ВНИМАНИЕ: Через {0} минут(у ы) сервер будет отключен! Пожалуйста, во избежание потери данных отключитесь вовремя."
+srvExitWarning,"WARNING: In {0} minute(s), the server will shutdown! Please log out timely to avoid data loss.","WARNUNG: In {0} Minuten wird der Server heruntergefahren. Bitte rechtzeitig ausloggen, um Datenverlust zu vermeiden.","ВНИМАНИЕ: Через {0} минут(у ы) сервер будет отключен! Пожалуйста, во избежание потери данных отключитесь вовремя."
 srvNoPermission,Permission error: Command '{0}' cannot be executed by client {1},Berechtigungsfehler: Kommando '{0}' kann nicht von Anwender {1} ausgeführt werden,Ошибка прав: Команда '{0}' не может быть выполнена клиентом {1}
-srvStopAllWarning,WARNING: In {0} minute(s) all playfield servers will be stopped! After that you can reconnect within a minute.,WARNUNG: In {0} Minuten werden die Spielfeld-Server gestoppt. Danach kannst du dich innerhalb einer Minute wieder einloggen.,ВНИМАНИЕ: Через {0} минут(у ы) все сервера игровых полей будут остановлены! После этого вы сможете переподключится в течение минуты.
-srvStopWarning,WARNING: In {0} minute(s) the '{1}' server will be stopped! After that you can reconnect within a minute.,WARNUNG: In {0} Minuten wird der '{1}' Server gestoppt. Danach kannst du dich innerhalb einer Minute wieder einloggen.,ВНИМАНИЕ: Через {0} минут(у ы) сервер '{1}' будет остановлен! После этого вы сможете переподключится в течение минуты.
+srvStopAllWarning,"WARNING: In {0} minute(s), all playfield servers will be stopped! After that you can reconnect within a minute.",WARNUNG: In {0} Minuten werden alle Spielfeld-Server gestoppt. Danach kannst du dich innerhalb einer Minute wieder einloggen.,ВНИМАНИЕ: Через {0} минут(у ы) все сервера игровых полей будут остановлены! После этого вы сможете переподключится в течение минуты.
+srvStopWarning,"WARNING: In {0} minute(s), the '{1}' playfield will be stopped! After that you can reconnect within a minute.",WARNUNG: In {0} Minuten wird das '{1}' Spielfeld gestoppt. Danach kannst du dich innerhalb einer Minute wieder einloggen.,ВНИМАНИЕ: Через {0} минут(у ы) сервер '{1}' будет остановлен! После этого вы сможете переподключится в течение минуты.
 SvrAccessNoWhitelist,Access denied: Not on whitelist of server.,Zugriff verweigert: Nicht auf Whitelist des Servers.,Доступ запрещен: вас нет в белом списке сервера.
 SvrActivationError,Activation error: Please activate your account '{0}'.,Aktivierungsfehler: Bitte aktiviere deinen Account '{0}'.,Ошибка активации: Пожалуйста активируйте свой аккаунт '{0}'.
 SvrBannedPlayer,Ban of player '{0}' until {1}: {2}.,Bann des Spielers '{0}' bis {1}: {2}.,Игрок '{0}' забанен на {1}: {2}.
@@ -1860,7 +1862,7 @@ hintCannotPublishStockScenario,Cannot publish stock scenario,Kann kein Bestandss
 hintCannotPublishSubscribedScenario,Cannot publish subscribed scenario,Kann kein abonniertes Szenario veröffentlichen,Невозможно опубликовать подписанный сценарий
 hintCannotSellDontHaveThatItem,"Cannot sell, have no {0}","Verkauf nicht möglich, du hast kein {0}","Невозможно продать, не хватает {0}"
 hintCannotSellToMyself,Cannot sell to myself,Du kannst nicht an dich selbst verkaufen,Нельзя продать себе
-hintCheckPdaWhenInGame,"Gameplay questions? The PDA ( '{0}' ) not only provides answers in the Knowledge Base, but also offers detailed info about the Tutorial!","Fragen zum Spiel? Der PDA ( '{0}' ) gibt dir nicht nur Antworten in der Wissensdatenbank, sondern auch ausführliche Hinweise zum Tutorial!","""Вопросы по игре? КПК ( '{0}' ) не только предоставляет ответы в базе знаний, но и содержит детальную информацию об обучающем руководстве!"""
+hintCheckPdaWhenInGame,"Gameplay questions? The PDA ( '{0}' ) not only provides answers in the Knowledge Base, but also offers detailed info about the Tutorial!","Fragen zum Spiel? Der PDA ( '{0}' ) gibt dir nicht nur Antworten in der Wissensdatenbank, sondern auch ausführliche Hinweise zum Tutorial!","Вопросы по игре? КПК ( '{0}' ) не только предоставляет ответы в базе знаний, но и содержит детальную информацию об обучающем руководстве!"
 hintClaimGoodsAtTS,Claim goods at correct Trading Station,Übernehme Waren an richtiger Handelsstation,Запрашивайте товары на хороших торговых станциях
 hintContainsForbiddenFiles,"Contains forbidden files (e.g. raw, png, area)","Enthält unzulässige Dateien (z.B. png, raw, area)","Содержит запрещенные файлы (например, raw, png, area)"
 hintCount>OfferedCount,Count > offered count,Anzahl ist größer als angebotene Anzahl,Количество > предложенного
@@ -1868,7 +1870,7 @@ hintCreateSaleOfferAtTS,Create For-Sale offer at a Trading Station,Erstelle Verk
 hintEnterAmount,Please enter an amount,Bitte gib eine Anzahl ein,"Пожалуйста, введите количество"
 hintEnterAmount>0,Amount has to be > 0,Anzahl muss größer als 0 sein,Количество должно быть > 0
 hintEnterDuration,Please enter a duration,Bitte gib eine Dauer ein,"Пожалуйста, укажите длительность"
-hintEnterDuration>0,"Duration must be >0 and in correct format (e.g., 2h 5m)",Die Dauer muss größer als 0 und im richtigen Format sein (zB 2h 5m),"""Длительность должна быть > 0 и в корректном формате (например, 2h 5m)"""
+hintEnterDuration>0,"Duration must be >0 and in correct format (e.g., 2h 5m)",Die Dauer muss größer als 0 und im richtigen Format sein (zB 2h 5m),"Длительность должна быть > 0 и в корректном формате (например, 2h 5m)"
 hintEnterNameToSave,Enter name to save,Gib einen Namen zum Speichern ein,Введите имя для сохранения
 hintEnterPrice,Please enter a price,Bitte gib einen Preis ein,"Пожалуйста, укажите цену"
 hintEnterPrice>0,Price has to be > 0,Preis muss größer als 0 sein,Цена должна быть > 0
@@ -1961,6 +1963,7 @@ igmEnterPlayerBike,Press '{0}' to enter {2} or press {1} to pick it up,Drücke '
 igmEnterTurret,Press '{{0}}' to remote control {0},Drücke '{{0}}' um {0} aus der Distanz zu bedienen,"Нажмите '{0}', чтобы удаленно управлять турелью"
 igmEnterWorldOnlyTogether,You can enter the planet only in a ship with all players onboard!,Du kannst den Planet nur in einem Raumschiff mit allen Spielern an Bord betreten!,Вы не можете войти в атмосферу планеты пока все игроки не будут на борту судна!
 igmEntityAccess,Press '{0}' to access {1},Drücke '{0}' um {1} zu öffnen,Нажмите '{0}' для доступа к {1}
+igmEntityAccessDead,Press '{0}' to access {1}\n(will be removed in {2}),Drücke '{0}' um {1} zu öffnen\n(entfernt in {2}),Нажмите '{0}' для доступа к {1}\n(исчезнет через {2})
 igmExceededBases,In this version there is a limited number of bases you can create ({0}). Cannot create more for now,In dieser Version gibt es eine limitierte Anzahl von Basen die man bauen kann ({0}). Keine weiteren mehr möglich,В текущей версии игры присутствуют ограничения на создание баз ({0}). Нельзя создать больше
 igmFindAnAtm,Find an ATM to transfer the money to your account,Finde einen Bankautomaten um das Geld auf dein Konto zu überweisen,Найдите банкомат чтобы перевести деньги на свой счет
 igmFlattenTerrainFirst,You need to flatten the terrain first,Du musst zuerst das Terrain einebnen,Вы должны предварительно сгладить ландшафт
@@ -1978,8 +1981,10 @@ igmIncomingAsteroid,Meteorite incoming! Watch out - it may contain new resources
 igmInstanceTimeout,Instance will close in {0} seconds,Die Instanz wird in {0} Sekunden schliessen﻿,Будет закрыто через {0} сек.
 igmInvalidItemForContainer,Cannot put this item here,Gegenstand kann nicht in diesen Container gelegt werden,Нельзя поместить сюда этот предмет.
 igmInventoryFull,Cannot pick up - inventory full,Inventar voll - kann Gegenstand nicht aufheben,Невозможно взять - инвентарь полон
-igmItemAccessMany,Press '{0}' to pick up {2}x {1}\n(removed in {3} minutes),Drücke '{0}' um {2}x {1} aufzuheben\n(entfernt in {3} Minuten),Нажмите '{0}' чтобы взять {2}x {1}\n(пропадет через {3} мин)
-igmItemAccessSingle,Press '{0}' to pick up {1}\n(removed in {3} minutes),Drücke '{0}' um {1} aufzuheben\n(entfernt in {3} Minuten),Нажмите '{0}' чтобы взять {1}\n(пропадет через {3} мин)
+igmItemAccessMany,Press '{0}' to pick up {2}x {1}\n(will be removed in {3}),Drücke '{0}' um {2}x {1} aufzuheben\n(entfernt in {3}),Нажмите '{0}' чтобы взять {2}x {1}\n(пропадет через {3} мин)
+igmItemAccessSingle,Press '{0}' to pick up {1}\n(will be removed in {3}),Drücke '{0}' um {1} aufzuheben\n(entfernt in {3}),Нажмите '{0}' чтобы взять {1}\n(пропадет через {3} мин)
+igmMinutes,{0} minutes,{0} Minuten,{0} мин
+igmSeconds,{0} seconds,{0} Sekunden,{0} сек
 igmItemNoContribToBp,Item doesn't contribute to Blueprint production,Element trägt nicht zur Produktion des Bauplans bei,Предмет не соответствует ни одному из необходимых ресурсов
 igmJustBoughtNItems,Just bought {0}x {1} for {2} Cr,Gerade eben {0}x {1} für {2} Cr gekauft,Только что куплено {0}x {1} за {2} Cr
 igmJustSoldNItems,Just sold {0}x {1} for {2} Cr,Gerade eben {0}x {1} für {2} Cr verkauft,Только что продано {0}x {1} за {2} Cr
@@ -2054,12 +2059,13 @@ igmWarpJumpPassengers,All players have to be on passenger seats,Alle Spieler mü
 igmWeaponNotShootableHere,You cannot shoot this weapon on a planet,Du kannst die Waffe auf einem Planeten nicht abfeuern,Невозможно выстрелить из этого оружия на планете
 igmWeaponNotShootableUnderWater,You cannot shoot this weapon under water,Du kannst die Waffe nicht unter Wasser abfeuern,Невозможно выстрелить из этого оружия под водой
 igmWrongCode,Wrong code,Falscher Code,Неправильный код
-igmWrongFaction,Wrong faction!,Falsche Fraktion!,Неправильная фракция!
+igmWrongFaction,No access possible: wrong faction!,Kein Zugriff möglich: falsche Fraktion!,Доступ невозможен: неправильная фракция!
+igmBlockWrongFaction,Cannot access {0}: other faction!,Kann {0} nicht zugreifen: andere Fraktion!,Нет доступа {0}: другая фракция!
 igmWrongFactionOrPrivate,Wrong faction or private!,Falsche Fraktion oder privat!,Неправильная фракция или личное!
 igmYouCompletedAction,You successfully completed '{0}',Du hast erfolgreich '{0}' erledigt,Вы успешно завершили '{0}'
 inpAction1,Primary Action,Primäre Aktion,Основное действие
 inpAction2,Secondary Action,Sekundäre Aktion,Дополнительное действие
-inpAutoBreak,Auto Break,Automatische Bremse,Авто-прерыватель
+inpAutoBreak,Auto Brake,Automatische Bremse,Авто-прерыватель
 inpAutoRotate,Auto Rotate,Automatische Ausrichtung,Автовыравнивание (прижать)
 inpBack,Back,Rückwärts,Назад
 inpBlockRotAxis-,Rotation Axis -,Rotationsachse -,Ось вращения -
@@ -2147,7 +2153,7 @@ lblEnterTextHere,Enter text here...,Hier Text eingeben...,Введите тек�
 lblExpired,expired/aborted,abgelaufen/abgebrochen,просрочено/отменено
 lblFeeNPercent:,Fee ({0}%):,Gebühr ({0}%):,Комиссия ({0}%):
 lblFontSize,Font size,Schriftgröße,Размер шрифта
-lblFor,for,für,за
+lblFor,for,für,для
 lblHideStandardServers,Hide standard servers,Zeige Standard-Server nicht an,Скрыть стандартные серверы
 lblHostedBy:,Hosted by:,Gehostet von:,Хостинг от:
 lblInventory,Inventory,Inventar,Инвентарь
@@ -2189,7 +2195,7 @@ lblTotal:,Total:,Gesamt:,Итого:
 lblTotalProdTime:,Total Production Time:,Gesamt-Produktionszeit:,Общее время производства:
 lblTradingStation,Trading Station,Handelsstation,Торговая станция
 lblTradingStation:,Trading Station:,Handelsstation:,Торговая станция:
-lblTrustedServer,Trusted Server,Vertrauenswürdiger\nServer,Доверенный сервер
+lblTrustedServer,Verified Server,Verifizierter Server,Доверенный сервер
 lblVendor,Vendor,Verkäufer,Продавец
 lblWaitingForServerApproval,Waiting for server approval...,Warte auf Server-Genehmigung...,Ожидайте подтверждение сервера ...
 lblWidthdraw:,Withdraw:,Abheben:,Снять:
@@ -2342,11 +2348,11 @@ mnuHoverLabelEAC,This determines if Empyrion is started the next time with or wi
 mnuHoverLabelIngameHints,Here you can choose to have in-game hints in Survival mode enabled or disabled.,Wähle ob du im Survival-Modus Hilfetexte haben möchtest,Здесь можно указать необходимость получения внутриигровых подсказок в режиме Выживания.
 mnuHoverLabelServerPort,This is the port if you are server in a multiplayer game.,Port-Nummer wenn du in einem Multiplayer-Spiel der Server bist,"Это номер порта для случая, когда вы являетесь сервером в многопользовательской игре."
 mnuHoverLabelTempFormat,This determines if the temperature is shown in Celsius or Fahrenheit,Hier kannst du entscheiden ob die Temperatur in Celsius oder Fahrenheit angezeigt werden soll,"Это определяет как будет показана температура, в Цельсиях или Фаренгейтах."
-mnuIntro Aestus,Aestus is a lava planet with unforgiving conditions whose surface is mostly covered by molten lava. The very thick atmosphere is non breathable but oxygen can be generated on the greenish alien-like areas. The gravity is strong with 1.15 g and the average temperature is 53°C. The rare ore Zascosium can be found on Aestus.,"Aestus ist ein Lavaplanet mit erschwerten Bedingungen, dessen Oberfläche zu großen Teilen von flüssiger Lava bedeckt ist. Die dichte Atmosphäre ist nicht atembar, Sauerstoff kann jedoch auf den grünlichen fremdartigen Gebieten gewonnen werden. Die Schwerkraft beträgt 1,15 g und die Durchschnittstemperatur liegt bei 53°C. Hier gibt es Vorkommen des seltenen Zascosium-Erzes.","""[c][d29818]Сложность: Высокая[-][/c]\nАэстус - лавовая планета с суровыми не прощающими ошибок условиями поверхность которой в основном покрыта расплавленной лавой. Очень тонкая атмосфера не пригодна для дыхания однако кислород может быть получен в зеленоватых странного вида областях. Большая сила тяжести - 1.15 g и средняя температура 53°C. Редкая заскозиевая руда может быть найдена на Аэстусе.[-]"""
-mnuIntro Akua,"[c][d29818]Difficulty: Easy[-][/c]\nAkua is a temperate planet with vast oceans, volcanic islands and large continents with mountain ranges. It has a breathable atmosphere. The average temperature is 23°C and gravity amounts to 0.84g.","[c][d29818]Schwierigkeit: Leicht[-][/c]\nAkua ist ein gemäßigter Planet mit großen Ozeanen, vulkanischen Inseln sowie großen Kontinenten mit Bergketten. Er hat eine atembare Atmosphäre. Die Durchschnittstemperatur beträgt 23°C und die Schwerkraft liegt bei 0,84 g.","""[c][d29818]Сложность: Легко[-][/c]\nАкуа - умеренная планета с обширными океанами / вулканическими островами и большими континентами, имеющими горные хребты. Обладает пригодной для дыхания атмосферой. Средняя температура 23°C и сила тяжести 0.84 g.[-]"""
-mnuIntro Masperon,"[c][d29818]Difficulty: Hard[-][/c]\nMasperon is a very hostile but beautiful alien planet with mountain ranges, lakes and plains lying in the fog. The atmosphere is not breathable or at least no human ever tried it. However, oxygen can be generated from the water of the hidden lakes. Some resources can only be found in POIs. [c][e02020]Be warned, choosing this planet as the survival start is recommended for very experienced players only.[-][/c]","[c][d29818]Schwierigkeit: Schwer [-][/c]\nMasperon ist ein lebensfeindlicher, aber sehr schöner Alienplanet mit Bergketten, Seen und im Nebel liegenden Ebenen. Die Atmosphäre ist nicht atembar - allerdings kann Sauerstoff aus dem Wasser der im Nebel versteckten Seen gewonnen werden. Einige Rohstoffe lassen sich nur in POIs finden. [c][e02020]Sei gewarnt: Diesen Planet as Startplanet in Survival zu wählen, wird nur sehr erfahrenen Spielern empfohlen.[-][/c]","""[c][d29818]Сложность: Высокая[-][/c]\nМасперон очень враждебная но красивая чужая планета с горными хребтами / озерами и равнинами лежащими в тумане. Атмосфера не пропускает воздух или по крайней мере ни один человек никогда не пробовал. Тем не менее кислород может быть получен из воды в скрытых озерах. Некоторые ресурсы могут быть найдены только в POI. [c][e02020] Имейте в виду выбирать эту планету рекомендуется только для очень опытных игроков..[-][/c]"""
-mnuIntro Ningues,"[c][d29818]Difficulty: Medium[-][/c]\nNingues is an ice planet with steep mountains, large plains and hot springs. There is no breathable atmosphere but oxygen can be generated from the snow. [c][e02020]Be warned, choosing this planet as the survival start is recommended for experienced players only.[-][/c]","[c][d29818]Schwierigkeit: Mittel[-][/c]\nNingues ist ein Eisplanet mit steilen Bergen, weiten Ebenen und heißen Quellen. Es gibt dort keine atembare Atmosphäre aber Sauerstoff kann aus dem Schnee gewonnen werden. [e02020]Sei gewarnt: Diesen Planet as Startplanet in Survival zu wählen, wird nur erfahrenen Spielern empfohlen.[-][/c]","""[c][d29818]Сложность: Средняя[-][/c]\nНингус - ледяная планета с высокими горами / широкими равнинами и горячими источниками. Пригодной для дыхания атмосферы нет но кислород может быть сгенерирован из снега. [c][e02020]Внимание: Выбор этой планеты в качестве начальной рекомендован только опытным игрокам.[-][/c]"""
-mnuIntro Omicron,"[c][d29818]Difficulty: Medium[-][/c]\nOmicron is a desert planet with mountain ranges, lakes, plains and rugged terrain. The atmosphere is relatively thin and non breathable. However, oxygen can be generated from the water of the lakes. [c][e02020]Be warned, choosing this planet as the survival start is recommended for experienced players only.[-][/c]","[c][d29818]Schwierigkeit: Mittel[-][/c]\nOmicron ist ein Wüstenplanet mit Bergketten, Seen, weiten Ebenen und felsigem Gelände. Die Atmosphäre ist relativ dünn und nicht atembar. Allerdings kann Sauerstoff aus dem Wasser der Seen gewonnen werden. [c][e02020]Sei gewarnt: Diesen Planet as Startplanet in Survival zu wählen, wird nur erfahrenen Spielern empfohlen.[-][/c]","""[c][d29818]Сложность: Средняя[-][/c]\nОмикрон - пустынная планета с горными хребтами / озерами / равнинами и пересеченной местностью. Атмосфера относительно тонка и непригодна для дыхания. Тем не менее кислород можно добывать из воды озер.\n[c][e0e020]Внимание: Выбор этой планеты в качестве начальной рекомендован только опытным игрокам.[-][/c]"""
+mnuIntro Aestus,Aestus is a lava planet with unforgiving conditions whose surface is mostly covered by molten lava. The very thick atmosphere is non breathable but oxygen can be generated on the greenish alien-like areas. The gravity is strong with 1.15 g and the average temperature is 53°C. The rare ore Zascosium can be found on Aestus.,"Aestus ist ein Lavaplanet mit erschwerten Bedingungen, dessen Oberfläche zu großen Teilen von flüssiger Lava bedeckt ist. Die dichte Atmosphäre ist nicht atembar, Sauerstoff kann jedoch auf den grünlichen fremdartigen Gebieten gewonnen werden. Die Schwerkraft beträgt 1,15 g und die Durchschnittstemperatur liegt bei 53°C. Hier gibt es Vorkommen des seltenen Zascosium-Erzes.",[c][d29818]Сложность: Высокая[-][/c]\nАэстус - лавовая планета с суровыми не прощающими ошибок условиями поверхность которой в основном покрыта расплавленной лавой. Очень тонкая атмосфера не пригодна для дыхания однако кислород может быть получен в зеленоватых странного вида областях. Большая сила тяжести - 1.15 g и средняя температура 53°C. Редкая заскозиевая руда может быть найдена на Аэстусе.
+mnuIntro Akua,"[c][d29818]Difficulty: Easy[-][/c]\nAkua is a temperate planet with vast oceans, volcanic islands and large continents with mountain ranges. It has a breathable atmosphere. The average temperature is 23°C and gravity amounts to 0.84g.","[c][d29818]Schwierigkeit: Leicht[-][/c]\nAkua ist ein gemäßigter Planet mit großen Ozeanen, vulkanischen Inseln sowie großen Kontinenten mit Bergketten. Er hat eine atembare Atmosphäre. Die Durchschnittstemperatur beträgt 23°C und die Schwerkraft liegt bei 0,84 g.","[c][d29818]Сложность: Легко[-][/c]\nАкуа - умеренная планета с обширными океанами / вулканическими островами и большими континентами, имеющими горные хребты. Обладает пригодной для дыхания атмосферой. Средняя температура 23°C и сила тяжести 0.84 g."
+mnuIntro Masperon,"[c][d29818]Difficulty: Hard[-][/c]\nMasperon is a very hostile but beautiful alien planet with mountain ranges, lakes and plains lying in the fog. The atmosphere is not breathable or at least no human ever tried it. However, oxygen can be generated from the water of the hidden lakes. Some resources can only be found in POIs. [c][e02020]Be warned, choosing this planet as the survival start is recommended for very experienced players only.[-][/c]","[c][d29818]Schwierigkeit: Schwer [-][/c]\nMasperon ist ein lebensfeindlicher, aber sehr schöner Alienplanet mit Bergketten, Seen und im Nebel liegenden Ebenen. Die Atmosphäre ist nicht atembar - allerdings kann Sauerstoff aus dem Wasser der im Nebel versteckten Seen gewonnen werden. Einige Rohstoffe lassen sich nur in POIs finden. [c][e02020]Sei gewarnt: Diesen Planet as Startplanet in Survival zu wählen, wird nur sehr erfahrenen Spielern empfohlen.[-][/c]",[c][d29818]Сложность: Высокая[-][/c]\nМасперон очень враждебная но красивая чужая планета с горными хребтами / озерами и равнинами лежащими в тумане. Атмосфера не пропускает воздух или по крайней мере ни один человек никогда не пробовал. Тем не менее кислород может быть получен из воды в скрытых озерах. Некоторые ресурсы могут быть найдены только в POI. [c][e02020] Имейте в виду выбирать эту планету рекомендуется только для очень опытных игроков..[-][/c]
+mnuIntro Ningues,"[c][d29818]Difficulty: Medium[-][/c]\nNingues is an ice planet with steep mountains, large plains and hot springs. There is no breathable atmosphere but oxygen can be generated from the snow. [c][e02020]Be warned, choosing this planet as the survival start is recommended for experienced players only.[-][/c]","[c][d29818]Schwierigkeit: Mittel[-][/c]\nNingues ist ein Eisplanet mit steilen Bergen, weiten Ebenen und heißen Quellen. Es gibt dort keine atembare Atmosphäre aber Sauerstoff kann aus dem Schnee gewonnen werden. [e02020]Sei gewarnt: Diesen Planet as Startplanet in Survival zu wählen, wird nur erfahrenen Spielern empfohlen.[-][/c]",[c][d29818]Сложность: Средняя[-][/c]\nНингус - ледяная планета с высокими горами / широкими равнинами и горячими источниками. Пригодной для дыхания атмосферы нет но кислород может быть сгенерирован из снега. [c][e02020]Внимание: Выбор этой планеты в качестве начальной рекомендован только опытным игрокам.[-][/c]
+mnuIntro Omicron,"[c][d29818]Difficulty: Medium[-][/c]\nOmicron is a desert planet with mountain ranges, lakes, plains and rugged terrain. The atmosphere is relatively thin and non breathable. However, oxygen can be generated from the water of the lakes. [c][e02020]Be warned, choosing this planet as the survival start is recommended for experienced players only.[-][/c]","[c][d29818]Schwierigkeit: Mittel[-][/c]\nOmicron ist ein Wüstenplanet mit Bergketten, Seen, weiten Ebenen und felsigem Gelände. Die Atmosphäre ist relativ dünn und nicht atembar. Allerdings kann Sauerstoff aus dem Wasser der Seen gewonnen werden. [c][e02020]Sei gewarnt: Diesen Planet as Startplanet in Survival zu wählen, wird nur erfahrenen Spielern empfohlen.[-][/c]",[c][d29818]Сложность: Средняя[-][/c]\nОмикрон - пустынная планета с горными хребтами / озерами / равнинами и пересеченной местностью. Атмосфера относительно тонка и непригодна для дыхания. Тем не менее кислород можно добывать из воды озер.\n[c][e0e020]Внимание: Выбор этой планеты в качестве начальной рекомендован только опытным игрокам.[-][/c]
 mnuIntro Omicron Orbit,The space around the planet Omicron contains a small asteroid field and an abandoned research facility.,In dem Weltraum um den Planeten Omicron befindet sich ein kleines Asteroidenfeld und eine verlassene Forschungsstation.,Пространство вокруг планеты Омикрон содержит маленькое астероидное поле и заброшенную исследовательскую станцию.
 mnuManualCompletionHint,(* = can be manually completed),(* = kann manuell erledigt werden),(* = может быть закончено вручную)
 mnuMaxLOD,LOD Quality,LOD Qualität,Качество LOD
@@ -2697,56 +2703,47 @@ scfgWipeTime,Remove Time (Unvisited Structures),Löschzeit nicht besuchter Struk
 sswDrillMode,Drill Mode:,Drill Modus:,Режим добычи
 sswFixed,Fixed,Fix,Исправлено
 sswFree,Free,Frei,Свободно
-MedicStation,First Aid,Erste Hilfe,Первая помощь
 "ReduceRadiation,DecreaseBodyTemp,IncreaseBodyTemp","Reduces Radiation, Decreases and Increases Body Temperature","Reduziert Strahlung, Senkt bzw erhöht Körpertemperatur","Слабая радиация, лихорадка"
-StaminaRecover,Stamina Recovery,Staminaerholung,Выносливость восстановлена
 "BrokenLeg,OpenWound","Broken Leg, Open Wound","Gebrochenes Bein, Offene Wunde",Сломанная нога / Открытая рана
 "Freezing,HeatStroke,RadiationSick1,RadiationSick2,RadiationPoisoning","Freezing, Heat Stroke, Radiation Sickness and Poisoning","Erfrieren, Hitzeschlag, Strahlungserkrankung, Verstrahlung",Обморожение / Ожог / Радиационное заражение и отравление
-OpenWound,Open Wound,Offene Wunde,Открытая рана
 "OpenWound,BrokenLeg,PoisonFood","Open Wound, Broken Leg, Food Poisoning","Offene Wunde, Gebrochenes Bein, Lebensmittelvergiftung",Открытая рана / Сломанная нога / Пищевое отравление
 "OpenWound,BrokenLeg,PoisonFood,PoisonBit","Open Wound, Broken Leg, Food Poisoning, Poisonous Bite","Offene Wunde, Gebrochenes Bein, Lebensmittelvergiftung, Giftbiss",Открытая рана / Сломанная нога / Пищевое отравление / Ядовитый укус
 "OpenWound,PoisonFood","Open Wound, Food Poisoning","Offene Wunde, Lebensmittelvergiftung",Открытая рана / Пищевое отравление
 "OpenWound,PoisonFood,PoisonBit","Open Wound, Food Poisoning, Poisonous Bite","Offene Wunde, Lebensmittelvergiftung, Giftbiss",Открытая рана / Пищевое отравление / Ядовитые укусы
 "Parasite1,Parasite2,Parasite3",Alien Parasite,Alien-Parasit,Паразит Чужих
-PoisonBit,Poisonous Bite,Giftbiss,Ядовитые укусы
-PoisonFood,Food Poisoning,Lebensmittelvergiftung,Пищевое отравление
 "PoisonFood,BadTrip","Food Poisoning, Bad Trip","Lebensmittelvergiftung, Horrortrip",Пищевое отравление / Отходняк
 "PoisonFood,PoisonBit","Food Poisoning, Poisonous Bite","Lebensmittelvergiftung, Giftbiss",Пищевое отравление / Ядовитый укус
+BadTrip,Bad Trip,Horrortrip,Отходняк
+Bandages,First Aid,Erste Hilfe,Бинты
+BrokenLeg,Broken Leg,Gebrochenes Bein,Сломанная нога
+Cold,Too Cold,Zu Kalt,Холодно
+DecreaseBodyTemp,Reduce Temperature,Temperaturrückgang,Озноб
+Fire,Catching Fire,Feuer,Горим!
+Freezing,Freezing,Erfrieren,Обморожение
+HealBrokenLeg,Heal Broken Leg,Gebrochenes Bein Heilen,Сломанная нога излечена
+HeatStroke,Heat Stroke,Hitzeschlag,Ожог
+Hot,Too Hot,Zu Heiss,Жарко
+IncreaseBodyTemp,Increase Temperature,Temperaturanstieg,Горячка
+LowFood,Low Food,Hunger,Голод
+MedicStation,First Aid,Erste Hilfe,Первая помощь (Мед станция)
+MedikitLarge,First Aid,Erste Hilfe,Первая помощь (Большая аптечка)
+MedikitSmall,First Aid,Erste Hilfe,Первая помощь (Малая аптечка)
+NoFood,Starving,Verhungern,Истощение
+NoOxygen,No Oxygen,Kein Sauerstoff,Нет воздуха
+OpenWound,Open Wound,Offene Wunde,Открытая рана
+Parasite1,Parasite Stage 1,Parasit Stufe 1,Паразит (стадия 1)
+Parasite2,Parasite Stage 2,Parasit Stufe 2,Паразит (стадия 2)
+Parasite3,Parasite Stage 3,Parasit Stufe 3,Паразит (стадия 3)
+PoisonBit,Poisonous Bite,Giftbiss,Ядовитые укусы
+PoisonFood,Food Poisoning,Lebensmittelvergiftung,Пищевое отравление
 RadiationPoisoning,Radiation Poisoning,Verstrahlung,Радиационное отравление
-senBadTrip,Bad Trip,Horrortrip,Отходняк!
-senBandages,First Aid,Erste Hilfe,Первая помошь - бинты
-senBrokenLeg,Broken Leg,Gebrochenes Bein,Сломанная нога
-senCold,Too Cold,Zu Kalt,Слишком холодно
-senDecreaseBodyTemp,Reduce Temperature,Temperaturrückgang,Уменьшите температуру
-senFire,Catching Fire,Feuer,Под огнем
-senFreezing,Freezing,Erfrieren,Обморожение
-senHealBrokenLeg,Heal Broken Leg,Gebrochenes Bein Heilen,Вылеченная сломанная нога
-senHeatStroke,Heat Stroke,Hitzeschlag,Перегрев
-senHot,Too Hot,Zu Heiss,Ожоги
-senIncreaseBodyTemp,Increase Temperature,Temperaturanstieg,Увеличьте температуру
-senLowFood,Low Food,Hunger,Вам требуется еда
-senMedicStation,First Aid,Erste Hilfe,Первая помощь - Медицинская Станция
-senMedikitLarge,First Aid,Erste Hilfe,Первая помощь - большая аптечка
-senMedikitSmall,First Aid,Erste Hilfe,Первая помощь - малая аптечка
-senNoFood,Starving,Verhungern,Вы на грани истощения
-senNoOxygen,No Oxygen,Kein Sauerstoff,Нет кислорода
-senOpenWound,Open Wound,Offene Wunde,Открытая рана
-senOxygenBottleSmall,Oxygen Fill,Sauerstoff Auffüllen,Кислород закачан
-senOxygenStation,Oxygen Fill,Sauerstoff Auffüllen,Кислород закачан
-senOxygenStationSS,Oxygen Fill,Sauerstoff Auffüllen,Кислород закачан
-senParasite1,Parasite Stage 1,Parasit Stufe 1,Паразиты - стадия 1
-senParasite2,Parasite Stage 2,Parasit Stufe 2,Паразиты - стадия 2
-senParasite3,Parasite Stage 3,Parasit Stufe 3,Паразиты - стадия 3
-senPoisonBit,Poisonous Bite,Giftbiss,Отравленный укус
-senPoisonFood,Food Poisoning,Lebensmittelvergiftung,Отравленная еда
-senRadiationPoisoning,Radiation Poisoning,Verstrahlung,Радиационное отравление
-senRadiationSick1,Radiation Sickness 1,Strahlungserkrankung 1,Радиационное поражение 1
-senRadiationSick2,Radiation Sickness 2,Strahlungserkrankung 2,Радиационное поражение 2
-senReduceRadiation,Reduce Radiation,Strahlungsreduktion,Уменьшите радиацию
-senStaminaBoost,Stamina Boost,Stamina Booster,Выносливость усилина
-senStaminaRecover,Stamina Recovery,Staminaerholung,Выносливость востановлена
-senStimBoosterDown,Stim Booster Down,Stim Booster Runter,Стимуляция понижается
-senStimBoosterUp,Stim Booster Up,Stim Booster Hoch,Стимуляция повышается
+RadiationSick1,Radiation Sickness 1,Strahlungserkrankung 1,Поражение радиацией стадия 1
+RadiationSick2,Radiation Sickness 2,Strahlungserkrankung 2,Поражение радиацией стадия 2
+ReduceRadiation,Reduce Radiation,Strahlungsreduktion,Поражение радиацией понижено
+StaminaBoost,Stamina Boost,Stamina Booster,Выносливость усилена
+StaminaRecover,Stamina Recovery,Staminaerholung,Выносливость восстановлена
+StimBoosterDown,Stim Booster Down,Stim Booster Runter,Стимулятор деактивирован
+StimBoosterUp,Stim Booster Up,Stim Booster Hoch,Стимулятор активирован
 Build,Build,Build,Версия
 Direct IP and Port:,Direct IP and Port:,Direkte IP und Port,Прямой IP и порт:
 Hide incompatible builds,Hide incompatible builds,Inkompatible Versionen verstecken,Скрыть несовместимые версии
@@ -2941,8 +2938,8 @@ vstYaw,Yaw,Gieren,Рыскание
 ArtilleryRocket,Artillery Shell HV,Art. Geschoss BG,Гаубичный снаряд ПС
 BioFuel,Bio Fuel,Biokraftstoff,Биотопливо
 DrillCharge,Drill Charge,Bohrer-Ladung,Заряд бура
-FastRocket,130mm MSL,130mm RAK,135 мм ракета МС (быстрая)
-FastRocketBA,155mm H-MSL,155mm Z-RAK,150 мм ракета БА (быстрая)
+FastRocket,130mm MSL,130mm RAK,130 мм ракета МС (быстрая)
+FastRocketBA,155mm H-MSL,155mm Z-RAK,155 мм ракета БА (быстрая)
 FastRocketHoming,135mm H-MSL,135mm Z-RAK,135 мм ракета с наведением МС/ПС (быстрая)
 FastRocketMS,150mm H-MSL,150mm Z-RAK,150 мм ракета БС (быстрая)
 FillerCharge,F&F Charge,F&E Ladung,Заряд ЛИ
@@ -2950,7 +2947,7 @@ FlakRocket,Flak Shell BA,Flak Geschoss BA,Зенитный снаряд БА
 FlakRocketMS,Flak Shell CV,Flak Geschoss GR,Зенитный снаряд БС
 IONCannonCharge,ION Charge,Ionen-Ladung,Ионный заряд
 IONCannonCharge2,ION Charge,Ionen-Ladung,Ионный заряд (версия 2)
-LargeRocket,165mm MSL,165mm RAK,160 мм ракета БА (большая)
+LargeRocket,165mm MSL,165mm RAK,165 мм ракета БА (большая)
 LargeRocketMS,160mm MSL,160mm RAK,160 мм ракета БС (большая)
 MultiCharge,Multi Charge,Multi Ladung,Заряд МИ
 PlasmaCannonChargeSS,Pl.Charge SV,PK Ladung KR,Пл. заряд (МС)
@@ -3099,6 +3096,47 @@ weSnowLight,Light Snow,Leichter Schneefall,Снежок
 weSnowMedium,Medium Snow,Mittlerer Schneefall,Снег
 weStorm,Storm,Sturm,Шторм
 weWind,Wind,Wind,Ветер
+,,,
+mnuRentServer,Setup Your Own Server,Eigenen Server einrichten,Настройка собственного сервера
+mapPrivate,Private,Privat,Личная
+mapPublic,Public,Alle,Общая
+AmmoInfinite,Unlimited,Unlimitiert,Безконечные
+mnuLocalMP,Local Coop,Lokales Coop,Кооператив
+mnuPing,Servers with Ping:,Server mit Ping:,Задержка до сервера:
+senBadTrip,,,Отходняк!
+senBandages,,,Первая помошь - бинты
+senBrokenLeg,,,Сломанная нога
+senCold,,,Слишком холодно
+senDecreaseBodyTemp,,,Уменьшите температуру
+senFire,,,Под огнем
+senFreezing,,,Обморожение
+senHealBrokenLeg,,,Вылеченная сломанная нога
+senHeatStroke,,,Перегрев
+senHot,,,Ожоги
+senIncreaseBodyTemp,,,Увеличьте температуру
+senLowFood,,,Вам требуется еда
+senMedicStation,,,Первая помощь - Медицинская Станция
+senMedikitLarge,,,Первая помощь - большая аптечка
+senMedikitSmall,,,Первая помощь - малая аптечка
+senNoFood,,,Вы на грани истощения
+senNoOxygen,,,Нет кислорода
+senOpenWound,,,Открытая рана
+senOxygenBottleSmall,,,Кислород закачан
+senOxygenStation,,,Кислород закачан
+senOxygenStationSS,,,Кислород закачан
+senParasite1,,,Паразиты - стадия 1
+senParasite2,,,Паразиты - стадия 2
+senParasite3,,,Паразиты - стадия 3
+senPoisonBit,,,Отравленный укус
+senPoisonFood,,,Отравленная еда
+senRadiationPoisoning,,,Радиационное отравление
+senRadiationSick1,,,Радиационное поражение 1
+senRadiationSick2,,,Радиационное поражение 2
+senReduceRadiation,,,Уменьшите радиацию
+senStaminaBoost,,,Выносливость усилина
+senStaminaRecover,,,Выносливость востановлена
+senStimBoosterDown,,,Стимуляция понижается
+senStimBoosterUp,,,Стимуляция повышается
 SpotlightSS,,,Наклонный прожектор
 FALSE,,,ЛОЖЬ
 AlienThinBlocks,,,Инопланетные блоки (тонкие)
@@ -3122,7 +3160,7 @@ btnActivateChapter,,,Активировать раздел
 btnDeactivateChapter,,,Деактивировать раздел
 btnActivateMission,,,Активировать миссию
 btnDeactivateMission,,,Деактивировать миссию
-mnuStartWorldChange,,,Вы возродитесь на вашей стартовой точке {0}. [c][ff4040]Примечание: Все прочие игроки теряют предметы и также появляются на {0}.
+mnuStartWorldChange,,,Вы возродитесь на вашей стартовой точке {0}. [c][ff4040]Примечание: Все прочие игроки теряют предметы и также появляются на {0}.[-][/c]
 mnuStartWorldChangeAlone,,,Вы возродитесь на вашей стартовой точке {0}.
 cplPowered,,,Запитано
 Fridge,,,Холодильник
@@ -3147,7 +3185,7 @@ TurretDrill,,,Буровая турель
 TurretDrillWeapon,,,Буровая турель
 TurretDrillMS,,,Буровая турель
 TurretDrillMSWeapon,,,Буровая турель
-ACS_VersionInfo,,,Русификации для версии 6.2.0 (1109)
+ACS_VersionInfo,,,Русификации для версии 6.3.0 (1117)
 HullCylinder,,,Колонна
 Sugarcane,,,Сахарный тростник
 Salami,,,Салями
