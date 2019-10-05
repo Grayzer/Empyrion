@@ -1,0 +1,1648 @@
+Creator: Eleon Game Studios
+Chapters:
+#=======================================================================================================================#
+#============================================= PLAYER FACTION Missions =================================================#
+#=======================================================================================================================#
+
+  - ChapterTitle: chptitleMiningC
+    Category: FactionMission
+    Description: chpdescMiningC
+    PictureFile: miningcorp.jpg
+    # Activatable: WhenRewarded   # same settings as Visibility (default: Always)
+    # RewardedChapters: [ chptitleReadFirst ]
+    PlayerLevel: 1
+    Visibility: Always    # or ByLevel, WhenRewarded
+    Rewards:
+      - Item: ContainerMS01
+        Count: 4
+      - Item: ContainerAmmoLarge
+        Count: 4
+      - Item: ConstructorT2
+        Count: 1
+    Tasks:
+      - TaskTitle: tasktitleMiningCo
+        PictureFile: miningcorp.jpg
+        Actions:
+          - ActionTitle: acttitlePromMC
+            Description: actdescPromMC
+            Check: ItemsPickedUp
+            Types: [ PromethiumOre ]
+            Amount: 1000
+            CompletedMessage: $
+
+          - ActionTitle: acttitleMagMC
+            Description: actdescMagMC
+            Check: ItemsPickedUp
+            Types: [ MagnesiumOre ]
+            Amount: 1000
+            CompletedMessage: $
+
+          - ActionTitle: acttitleCobaltMC
+            Description: actdescCobaltMC
+            Check: ItemsPickedUp
+            Types: [ CobaltOre ]
+            Amount: 1000
+            CompletedMessage: $
+
+          - ActionTitle: acttitleSathMC
+            Description: actdescSathMC
+            Check: ItemsPickedUp
+            Types: [ SathiumOre ]
+            Amount: 500
+            CompletedMessage: $
+
+          - ActionTitle: acttitleNeoMC
+            Description: actdescNeoMC
+            Check: ItemsPickedUp
+            Types: [ NeodymiumOre ]
+            Amount: 500
+            CompletedMessage: $
+
+  - ChapterTitle: chptitleGasStation
+    Category: FactionMission
+    Description: chpdescGasStation
+    PictureFile: gasstation.jpg
+    PlayerLevel: 1
+    Visibility: Always    # or ByLevel, WhenRewarded
+    # Activatable: WhenRewarded   # same settings as Visibility (default: Always)
+    # RewardedChapters: [ chptitleReadFirst ]
+    Rewards:
+      - Item: FuelTankMSLargeT2
+        Count: 4
+      - Item: PentaxidTank
+        Count: 1
+    Tasks:
+      - TaskTitle: tasktitleGStation
+        PictureFile: gasstation.jpg
+        Actions:
+          - ActionTitle: acttitleGSlfp
+            Description: actdescGSlfp
+            Check: ItemsCrafted     # output count = 2, so we need to craft 1000 
+            Names: [ ConstructorT1V2, ConstructorT2, ConstructorSmallV2, ConstructorSV, ConstructorHV ]
+            Types: [ EnergyCellLarge ]
+            Amount: 500
+            CompletedMessage: $
+
+          - ActionTitle: acttitleGSpenta
+            Description: actdescGSpenta
+            Check: ItemsCrafted
+            Names: [ ConstructorT1V2, ConstructorT2, ConstructorSmallV2, ConstructorSV, ConstructorHV ]
+            Types: [ PentaxidCrystal ]
+            Amount: 100
+            CompletedMessage: $
+
+  - ChapterTitle: chptitlePfBMedi
+    Category: FactionMission
+    Description: chpdescPfBMedi
+    PictureFile: pfbmedical.jpg
+    PlayerLevel: 1
+    Visibility: Always    # or ByLevel, WhenRewarded
+    # Activatable: WhenRewarded   # same settings as Visibility (default: Always)
+    # RewardedChapters: [ chptitleReadFirst ]
+    Rewards:
+      - Item: Medikit03
+        Count: 10
+    Tasks:
+      - TaskTitle: tasktitlePfBMedical
+        PictureFile: pfbmedical.jpg
+        Actions:
+          - ActionTitle: acttitleHealthPack
+            Description: actdescDoctorsJournal
+            Check: ItemsCrafted
+            Names: [ FoodProcessorV2 ]
+            Types: [ Medikit04 ]
+            Amount: 15
+            CompletedMessage: $
+          - ActionTitle: acttitleTraumaKit
+            Description: actdescDoctorsJournal
+            Check: ItemsCrafted
+            Names: [ FoodProcessorV2 ]
+            Types: [ Medikit01 ]
+            Amount: 10
+            CompletedMessage: $
+          - ActionTitle: acttitleDetoxKit
+            Description: actdescDoctorsJournal
+            Check: ItemsCrafted
+            Names: [ FoodProcessorV2 ]
+            Types: [ Medikit02 ]
+            Amount: 10
+            CompletedMessage: $
+          - ActionTitle: acttitleDeconKit
+            Description: actdescDoctorsJournal
+            Check: ItemsCrafted
+            Names: [ FoodProcessorV2 ]
+            Types: [ Medikit03 ]
+            Amount: 5
+            CompletedMessage: $
+
+  - ChapterTitle: chptitlePfBSupport
+    Category: FactionMission
+    Description: chpdescPfBSupport
+    PictureFile: pfbsupport.jpg
+    PlayerLevel: 1
+    Visibility: Always    # or ByLevel, WhenRewarded
+    # Activatable: WhenRewarded   # same settings as Visibility (default: Always)
+    # RewardedChapters: [ chptitleReadFirst ]
+    Rewards:
+      - Item: EmergencyRations
+        Count: 10
+    Tasks:
+      - TaskTitle: tasktitlePfBSupp
+        PictureFile: pfbsupport.jpg
+        Actions:
+          - ActionTitle: acttitlePfBcannM
+            Description: actdescPfBcannM
+            Check: ItemsCrafted
+            Names: [ FoodProcessorV2 ]
+            Types: [ CannedMeat ]
+            Amount: 5
+            CompletedMessage: $
+
+          - ActionTitle: acttitlePfBcannV
+            Description: actdescPfBcannV
+            Check: ItemsCrafted
+            Names: [ FoodProcessorV2 ]
+            Types: [ CannedVegetables ]
+            Amount: 5
+            CompletedMessage: $
+
+          # - ActionTitle: acttitlePfBo2bot
+            # Description: actdescPfBo2bot
+            # Check: ItemsCrafted
+            # Names: [ ConstructorT1V2, ConstructorT2, ConstructorSmallV2, ConstructorSV, ConstructorHV ]
+            # Types: [ RespiratorCharge ]
+            # Amount: 20
+            # CompletedMessage: $
+
+  - ChapterTitle: chptitleRaidApoi
+    Category: FactionMission
+    Description: chpdescRaidApoi
+    PictureFile: raidpoi.jpg
+    PlayerLevel: 1
+    Visibility: Always    # or ByLevel, WhenRewarded
+    # Activatable: WhenRewarded   # same settings as Visibility (default: Always)
+    # RewardedChapters: [ chptitleReadFirst ]
+    Rewards:
+      - Item: Sniper2Epic
+        Count: 1
+      - Item: Sniper2Epic
+        Count: 1
+      - Item: Sniper2Epic
+        Count: 1
+      - Item: Sniper2Epic
+        Count: 1
+    Tasks:
+      - TaskTitle: tasktitleRaidAlienP
+        PictureFile: raidpoi.jpg
+        Actions:
+          - ActionTitle: acttitleEpsilonA
+            Description: actdescConquerAS
+            Check: BlockDestroyed
+            Types: [ CoreNPC ]
+            Names: [ EpsilonMain, EpsilonAuxT1, EpsilonDefenceT1, EpsilonAuxT2, EpsilonBunker ]
+            CompletedMessage: $
+          - ActionTitle: acttitleXenuO
+            Description: actdescConquerAS
+            Check: BlockDestroyed
+            Types: [ CoreNPC ]
+            Names: [ XenuMainframe, XenuRadarMain, XenuRadarAddition, XenuRadarTurret, XenuShrine, XenuAuxT2, XenuAuxT1, XenuDefenceT2, XenuBunker ]
+            CompletedMessage: $
+          - ActionTitle: acttitleGhostRM
+            Description: actdescConquerAS
+            Check: BlockDestroyed
+            Types: [ CoreNPC ]
+            Names: [ GhystMain, GhystAuxT1, GhystAuxT2, GhystDefenceT1, GhystDefenceT2, GhystBunker, GhystPVHQ ]
+            CompletedMessage: $
+          - ActionTitle: acttitleRados
+            Description: actdescConquerAS
+            Check: BlockDestroyed
+            Types: [ CoreNPC ]
+            Names: [ RadosMain, RadosAuxT1, RadosDefenceT1, RadosBunker, RadosAuxT2 ]
+            CompletedMessage: $
+            
+
+
+#=======================================================================================================================#
+#============================================= EMPYRIOPEDIA =================================================#
+#=======================================================================================================================#
+
+
+  - ChapterTitle: 10 Tips for GETTING STARTED  
+    Category: FAQ
+    Preamble: ""
+    Description: "1. Play the Robinson Protocol (Singleplayer, Default Random Scenario)\n2. The [ffff00]SURVIVAL TOOL[-] has a DEFENCE mode!\n3. Use RIGHT-MOUSE button to set your weapons and tools to the correct WORKING MODE before using!\n4a. Plan AHEAD what you need to pick up and mind the VOLUME and MASS limit of your suit!\n4b. Try to buld a Portable Constructor early on to store the surplus!\n5a. Deco Rocks will not hold any ore, but different amounts of Crushed Stones, which can again be made into some Ores!\n5b. As soon as you found or crafted a Portable Constructor, [ffff00]craft a DRILL T1[-] as this will allow you to drill underground ore deposits! The required [ffff00]BIOFUEL[-] (Which can also power your vessels and bases!) can be made from fiber, which can be made from wood logs or fiber plant!\n5d. Avoid getting trapped in a mine shaft by using your PERSONAL DRONE (F5) for mining.\n6. Cold and Heat can be countered either by the [ffff00]Portable Heater/Cooler[-] (Survival Constructor) or Hot- and Cold Beverages/Juices!\n7. Do grab anything you run into, but mind that most of the edible items will SPOIL/Perish.\n7a. Craft higher tier items from your collected items asap! Those have an increased perish time and do not spoil that fast!\n7b. Plants will regrow - if you find a rare plant, mark it on your minimap with a waypoint! [ffff00]Check Empyriopedia > Game Mechanics Q&A > Global Game Mechanics Part II[-] for more info on how to do that!\n8. Remember, that other players can NOT see your markers, even when they are in your faction!. You need to SHARE your markers on the MAP (M) and other players need to pick them FROM the MAP screen!\n9. The PORTABLE CONSTRUCTOR can build a LIGHT ARMOR in the PORTABLE CONSTRUCTOR, but you need a ARMOR LOCKER (in a vessel or your base) to equip it! The Locker is also craftable in the Portable Constructor\n[ff4444]10. Read the JOURNALS and GUIDES in the list on the left for MORE INFO about gameplay and environment![-]" 
+    PictureFile: readfirst.jpg
+    PlayerLevel: 1
+    Visibility: Always    # or ByLevel, WhenRewarded
+    Tasks:
+      - TaskTitle: Click HEADLINE and PDA INFO
+     #   PictureFile: AlienParasite.jpg
+        Actions:
+          - ActionTitle: Rules to follow
+            Description: "[ffff00]Click on the header of this chapter (10 Tips for GETTING STARTED) in the list on the LEFT to reveal the content of this chapter[-]\n[ffff00]IF nothing is shown, make sure the button PDA INFO is highlighted in the TOP RIGHT![-]"
+
+# ENZYCLOPEDIA - DOCTORS JOURNAL
+  - ChapterTitle: DOCTORS JOURNAL  
+    Category: FAQ
+    Preamble: ""
+    Description: "[i]When getting stranded in a remote place,\nit is always useful to know what diseases\nyou could probably be faced with\n...and how to cure them.\n\n[/i]Forel Mayne, MD\nUCH Medical Corps\n2470 AD\n\n---\n[ff4444]To show all topics of this guide, click the DROPDOWN ARROW of this chapters HEADLINE in the list on the left!\nClick the SUB-task to reveal the info contained.\nMake sure the PDA INFO button on the TOP RIGHT of the screen is selected![-]" 
+    PictureFile: pfbmedical.jpg
+    PlayerLevel: 1
+    Visibility: Always    # or ByLevel, WhenRewarded
+    Tasks:
+      - TaskTitle: DOCTORS 101
+     #   PictureFile: AlienParasite.jpg
+        Actions:
+          - ActionTitle: Rules to follow
+            Description: "1. Cure a disease in its early stage, as any following stage will make it worse.\n\n2. All diseases can be cured with one of this medication classes:\n *Antibotics\n *Antitoxin\n *Antiparasite\n *Antiradiation\n *Bones\n\n3. Exception: Effects that are related to outside temperature are cured f.ex. by going to a a warmer or cooler place\n\n4. The diseases progress in stages. Each stage has a defined class of medical items to use:\n *Stage 1: Ointments (f.ex Antibiotic Ointment)\n *Stage 2: Pills (f.ex. Antibiotic Pills)\n *Stage 3: Injections (f.ex. Antibiotic Injections; Will also cure Stage 2)\n\n5. While medical items are effective only agains a few diseases at the same time, [ff4444]Medikits and Medical Stations[-] offer a much broader range of available cures!\n\n6. Food, Beverages or using furniture for sleeping, taking a shower and more are helping to get rid of some of the diseases or at least stop their progress!\n\n[ff4444]Open the DROPDOWN of the DOCTORS JOURNAL on the left to learn more about the diseases and their remedies![-]"
+      - TaskTitle: STAGES OF DISEASES
+     #   PictureFile: AlienParasite.jpg
+        Actions:
+          - ActionTitle: TEMPERATURE BRANCH
+            Description: "[bcd3d4](In-Suit Temperature)\nToo Hot (>35°) >> Heat Stroke (>45°) >> Heat Collapse (>55°)\nToo Cold (<15°) >> Hypothermia (<10°) >> Freezing (<5°)[-]"
+          - ActionTitle: ANTIBIOTICS BRANCH
+            Description: "[bcd3d4]Open Wound >> Infected Wound >> Sepsis\nDermal Burn >> Infected Wound >> Sepsis\nFrostbite >> Necrosis >> (Intoxication)[-]"
+          - ActionTitle: ANTITOXIC BRANCH
+            Description: "[bcd3d4]Poison Bite >> Intoxication >> Organ Failure\nIndigestion >> Food Poisoning >> Fever Attack >> Organ Failure [-]"
+          - ActionTitle: BONES BRANCH
+            Description: "[bcd3d4]Broken Leg >>> Mutilation\nClosed Fracture >> Open Fracture >> Mutilation[-]"
+          - ActionTitle: PARASITES BRANCH
+            Description: "[bcd3d4]Dermal Parasite >> Endo Parasite >> Alien Parasite"
+          - ActionTitle: RADIATION BRANCH
+            Description: "[bcd3d4]Radiation Burn (>1 Rad) >> Radiation Poisoning >> Radiation Sickness (>4 Rad)[-]"
+          - ActionTitle: HANGOVER BRANCH
+            Description: "[bcd3d4]Hangover >> Bad Trip[-]\n\n[ff4444]Open the DROPDOWN of the DOCTORS JOURNAL on the left to learn more about the diseases and their remedies![-]"
+
+      - TaskTitle: Alien Parasite
+        PictureFile: AlienParasite.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: "[ffff00]- Antiparasite Injection\n- Decontamination Kit[-]"
+          - ActionTitle: MEDICAL STATIONS
+            Description: "[ffff00]- Medical Station Type 4[-]"
+          - ActionTitle: OTHER CURES
+            Description: "n/a"
+          - ActionTitle: OTHER CONSUMABLES
+            Description: "n/a"
+          - ActionTitle: SIDE EFFECTS..
+            Description: "  ..when received: [ff4444]Fever Attack[-]\n  ..when cured: -\n  ..when not cured: [ff4444]Death[-]"
+ 
+      - TaskTitle: Bad Trip
+        PictureFile: BadTrip.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: "n/a"
+          - ActionTitle: MEDICAL STATIONS
+            Description: "n/a"
+          - ActionTitle: OTHER CURES
+            Description: "- Sleeping\n- Use Toilet"
+          - ActionTitle: OTHER CONSUMABLES
+            Description: "- Milk\n- Hot Beverage"
+          - ActionTitle: SIDE EFFECTS..
+            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Hangover[-]" 
+          - ActionTitle: CONDITIONS
+            Description: "Over-consumption of Energy Pills and Natural Stimulant"  
+ 
+      - TaskTitle: Broken Leg
+        PictureFile: BrokenLeg.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: "[ffff00]- Bandages\n- Trauma Kit[-]"
+          - ActionTitle: MEDICAL STATIONS
+            Description: "[ffff00]- Medical Station Type 3[-]"
+          - ActionTitle: OTHER CURES
+            Description: "n/a"
+          - ActionTitle: OTHER CONSUMABLES
+            Description: "n/a"
+          - ActionTitle: SIDE EFFECTS..
+            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Mutilation[-]" 
+ 
+      - TaskTitle: Closed Fracture
+        PictureFile: FractureClosed.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: "[ffff00]- Bandages\n- Trauma Kit[-]"
+          - ActionTitle: MEDICAL STATIONS
+            Description: "[ffff00]- Medical Station Type 3[-]"
+          - ActionTitle: OTHER CURES
+            Description: "n/a"
+          - ActionTitle: OTHER CONSUMABLES
+            Description: "n/a"
+          - ActionTitle: SIDE EFFECTS..
+            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Mutilation[-]" 
+ 
+      - TaskTitle: Dermal Burn
+        PictureFile: DermalBurn.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: "[ffff00]- Antibiotic Ointment\n- Antibiotic Pills\n- Antibiotic Injection\n- Trauma Kit[-]"
+          - ActionTitle: MEDICAL STATIONS
+            Description: "[ffff00]- Medic Station\n- Medical Station Type 2[-]"
+          - ActionTitle: OTHER CURES
+            Description: "n/a"
+          - ActionTitle: OTHER CONSUMABLES
+            Description: "- Natural Sweetener\n - Herbal Leaves"
+          - ActionTitle: SIDE EFFECTS..
+            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Infected Wound[-]"
+  
+      - TaskTitle: Dermal Parasite
+        PictureFile: DermalParasite.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: "[ffff00]- Antitoxic Ointment\n- Antiparasite Pills\n- Antiparasite Injection\n- Decontamination Kit[-]"
+          - ActionTitle: MEDICAL STATIONS
+            Description: "[ffff00]- Medical Station Type 1\n- Medical Station Type 4[-]"
+          - ActionTitle: OTHER CURES
+            Description: "n/a"
+          - ActionTitle: OTHER CONSUMABLES
+            Description: "n/a"
+          - ActionTitle: SIDE EFFECTS..
+            Description: "  ..when received: -\n  ..when cured: [ff4444]Open Wound[-]\n  ..when not cured: [ff4444]Endo Parasite[-]" 
+ 
+      - TaskTitle: Endo Parasite
+        PictureFile: EndoParasite.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: "[ffff00]- Antiparasite Pills\n- Antiparasite Injection\n- Decontamination Kit[-]"
+          - ActionTitle: MEDICAL STATIONS
+            Description: "[ffff00]- Medical Station Type 4[-]"
+          - ActionTitle: OTHER CURES
+            Description: "n/a"
+          - ActionTitle: OTHER CONSUMABLES
+            Description: "n/a"
+          - ActionTitle: SIDE EFFECTS..
+            Description: "  ..when received: [ff4444]Infected Wound[-]\n  ..when cured: -\n  ..when not cured: [ff4444]Alien Parasite[-]" 
+ 
+      - TaskTitle: Fever Attack
+        PictureFile: FeverAttack.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: "[ffff00]- Anti Toxic Injection\n- Detox Kit[-]"
+          - ActionTitle: MEDICAL STATIONS
+            Description: "[ffff00]- Medical Station Type 1\n- Medical Station Type 4[-]"
+          - ActionTitle: OTHER CURES
+            Description: "n/a"
+          - ActionTitle: OTHER CONSUMABLES
+            Description: "n/a"
+          - ActionTitle: SIDE EFFECTS..
+            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Organ Failure[-]" 
+ 
+      - TaskTitle: Food Poisoning
+        PictureFile: PoisonFood.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: "[ffff00]- Antitoxic Pills\n- Antitoxic Injection\n- Detox Kit[-]"
+          - ActionTitle: MEDICAL STATIONS
+            Description: "[ffff00]- Medic Station\n- Medical Station Type 1[-]"
+          - ActionTitle: OTHER CURES
+            Description: "n/a"
+          - ActionTitle: OTHER CONSUMABLES
+            Description: "n/a"
+          - ActionTitle: SIDE EFFECTS..
+            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Fever Attack[-]" 
+ 
+      - TaskTitle: Freezing (to death)
+        PictureFile: BlackoutCold.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: "n/a"
+          - ActionTitle: MEDICAL STATIONS
+            Description: "n/a"
+          - ActionTitle: OTHER CURES
+            Description: "- [ffff00]Increase In-Suit Temperature above 5°C by..[-]\n    ..Sleeping\n    ..taking a Shower\n    ..going inside a powered base or vessel\n    ..using the Mobile AirCon"
+          - ActionTitle: OTHER CONSUMABLES
+            Description: "- Hot Beverages and most meals will increase your temperature as well"
+          - ActionTitle: SIDE EFFECTS..
+            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Death[-]"
+          - ActionTitle: CONDITIONS
+            Description: "In-Suit Temperature lower than 5°C"  
+
+      - TaskTitle: Frostbite
+        PictureFile: Frostbite.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: "[ffff00]- Antibiotic Ointment\n-Antibiotic Pills\n- Antibiotic Injection\n- Trauma Kit[-]"
+          - ActionTitle: MEDICAL STATIONS
+            Description: "[ffff00]- Medic Station\n- Medical Station Type 2[-]"
+          - ActionTitle: OTHER CURES
+            Description: "n/a"
+          - ActionTitle: OTHER CONSUMABLES
+            Description: "- Spice"
+          - ActionTitle: SIDE EFFECTS..
+            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Necrosis[-]"  
+ 
+      - TaskTitle: Hangover
+        PictureFile: Hangover.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: "n/a"
+          - ActionTitle: MEDICAL STATIONS
+            Description: "n/a"
+          - ActionTitle: OTHER CURES
+            Description: "- Sleeping\n- Use Toilet"
+          - ActionTitle: OTHER CONSUMABLES
+            Description: "- Purified Water\n- Hot Beverage\n- Fruit Juice"
+          - ActionTitle: SIDE EFFECTS..
+            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Bad Trip[-]"  
+          - ActionTitle: CONDITIONS
+            Description: "Over-consumption of alcoholic beverages and energy drinks"  
+ 
+      - TaskTitle: Heat Collapse
+        PictureFile: BlackoutHot.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: "n/a"
+          - ActionTitle: MEDICAL STATIONS
+            Description: "n/a"
+          - ActionTitle: OTHER CURES
+            Description: "- [ffff00]Decrease In-Suit Temperature below 55°C by..[-]\n    ..Sleeping\n    ..taking a Shower\n    ..going inside a powered base or vessel\n    ..using the Mobile AirCon"
+          - ActionTitle: OTHER CONSUMABLES
+            Description: "- Purified Water, Juices, Milk, Fruits and a few meals will decrease your temperature"
+          - ActionTitle: SIDE EFFECTS..
+            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Death[-]"
+          - ActionTitle: CONDITIONS
+            Description: "In-Suit Temperature higher than 55°C"  
+ 
+      - TaskTitle: Heat Stroke
+        PictureFile: HeatStroke.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: "n/a"
+          - ActionTitle: MEDICAL STATIONS
+            Description: "n/a"
+          - ActionTitle: OTHER CURES
+            Description: "- [ffff00]Decrease In-Suit Temperature below 45°C by..[-]\n    ..Sleeping\n    ..taking a Shower\n    ..going inside a powered base or vessel\n    ..using the Mobile AirCon"
+          - ActionTitle: OTHER CONSUMABLES
+            Description: "- Purified Water, Juices, Milk, Fruits and a few meals will decrease your temperature"
+          - ActionTitle: SIDE EFFECTS..
+            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Death[-]"
+          - ActionTitle: CONDITIONS
+            Description: "In-Suit Temperature higher than 45°C" 
+ 
+      - TaskTitle: Hypothermia
+        PictureFile: Freezing.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: "n/a"
+          - ActionTitle: MEDICAL STATIONS
+            Description: "n/a"
+          - ActionTitle: OTHER CURES
+            Description: "- [ffff00]Increase In-Suit Temperature above 10°C by..[-]\n    ..Sleeping\n    ..taking a Shower\n    ..going inside a powered base or vessel\n    ..using the Mobile AirCon"
+          - ActionTitle: OTHER CONSUMABLES
+            Description: "- Hot Beverages and most meals will increase your temperature as well"
+          - ActionTitle: SIDE EFFECTS..
+            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Death[-]"
+          - ActionTitle: CONDITIONS
+            Description: "In-Suit Temperature lower than 10°C"  
+ 
+      - TaskTitle: Indigestion
+        PictureFile: Indigestion.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: "[ffff00]- Stomach Pills\n- Antitoxic Pills\n- Antitoxic Injection\n- Detox Kit[-]"
+          - ActionTitle: MEDICAL STATIONS
+            Description: "[ffff00]- Medical Station Type 1[-]"
+          - ActionTitle: OTHER CURES
+            Description: "- Use Toilet"
+          - ActionTitle: OTHER CONSUMABLES
+            Description: "- Natural Sweetener\n- Herbal Leaves\n- Spice (small chance to cause Indigestion again!)"
+          - ActionTitle: SIDE EFFECTS..
+            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Food Poisoning[-]"  
+          - ActionTitle: CAN SOURCE FROM
+            Description: "- Eating raw ingredients, plants or crops\n- Overusing Pills and Injections"  
+ 
+      - TaskTitle: Infected Wound
+        PictureFile: InfectedWound.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: "[ffff00]- Antibiotic Pills\n- Antibiotic Injection\n- Trauma Kit[-]"
+          - ActionTitle: MEDICAL STATIONS
+            Description: "[ffff00]- Medical Station Type 2[-]"
+          - ActionTitle: OTHER CURES
+            Description: "n/a"
+          - ActionTitle: OTHER CONSUMABLES
+            Description: "n/a"
+          - ActionTitle: SIDE EFFECTS..
+            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Sepsis[-]"  
+ 
+      - TaskTitle: Intoxication
+        PictureFile: Intoxication.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: "[ffff00]- Antitoxic Pills\n- Antitoxic Injection\n- Detox Kit[-]"
+          - ActionTitle: MEDICAL STATIONS
+            Description: "[ffff00]- Medical Station Type 1[-]"
+          - ActionTitle: OTHER CURES
+            Description: "n/a"
+          - ActionTitle: OTHER CONSUMABLES
+            Description: "n/a"
+          - ActionTitle: SIDE EFFECTS..
+            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Organ Failure[-]"  
+ 
+      - TaskTitle: Mutilation
+        PictureFile: Mutilation.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: "n/a"
+          - ActionTitle: MEDICAL STATIONS
+            Description: "[ffff00]- Medical Station Type 3[-]"
+          - ActionTitle: OTHER CURES
+            Description: "n/a"
+          - ActionTitle: OTHER CONSUMABLES
+            Description: "n/a"
+          - ActionTitle: SIDE EFFECTS..
+            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Very slow movement / No stamina[-]"  
+ 
+      - TaskTitle: Necrosis
+        PictureFile: Necrosis.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: "[ffff00]- Antibiotic Ointment\n- Antibiotic Pills\n- Antibiotic Injection\n- Trauma Kit[-]"
+          - ActionTitle: MEDICAL STATIONS
+            Description: "[ffff00]- Medical Station Type 2[-]"
+          - ActionTitle: OTHER CURES
+            Description: "n/a"
+          - ActionTitle: OTHER CONSUMABLES
+            Description: "n/a"
+          - ActionTitle: SIDE EFFECTS..
+            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Intoxication[-]"  
+ 
+      - TaskTitle: Open Fracture
+        PictureFile: FractureOpen.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: "[ffff00]- Bandages\n- Trauma Kit[-]"
+          - ActionTitle: MEDICAL STATIONS
+            Description: "[ffff00]- Medical Station Type 3[-]"
+          - ActionTitle: OTHER CURES
+            Description: "n/a"
+          - ActionTitle: OTHER CONSUMABLES
+            Description: "n/a"
+          - ActionTitle: SIDE EFFECTS..
+            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Mutilation[-]"  
+ 
+      - TaskTitle: Open Wound
+        PictureFile: Wound.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: "[ffff00]- Bandages\n- Antibiotic Ointment\n- Antibiotic Pills\n- Antibiotic Injection\n- Health Pack\n- Trauma Kit[-]"
+          - ActionTitle: MEDICAL STATIONS
+            Description: "[ffff00]- Medical Station Type 2[-]"
+          - ActionTitle: OTHER CURES
+            Description: "n/a"
+          - ActionTitle: OTHER CONSUMABLES
+            Description: "n/a"
+          - ActionTitle: SIDE EFFECTS..
+            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Infected Wound[-]"  
+ 
+      - TaskTitle: Organ Failure
+        PictureFile: OrganFailure.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: "[ffff00]- Antitoxic Injection\n- Detox Kit[-]"
+          - ActionTitle: MEDICAL STATIONS
+            Description: "[ffff00]- Medical Station Type 1[-]"
+          - ActionTitle: OTHER CURES
+            Description: "n/a"
+          - ActionTitle: OTHER CONSUMABLES
+            Description: "n/a"
+          - ActionTitle: SIDE EFFECTS..
+            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Death[-]"   
+ 
+      - TaskTitle: Poison Bit
+        PictureFile: PoisonBite.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: "[ffff00]- Antitoxic Ointment\n- Antitoxic Pills\n-Antitoxic Injection\n- Detox Kit[-]"
+          - ActionTitle: MEDICAL STATIONS
+            Description: "[ffff00]- Medical Station Type 1 [-]"
+          - ActionTitle: OTHER CURES
+            Description: "n/a"
+          - ActionTitle: OTHER CONSUMABLES
+            Description: "-Natural Sweetener\n- Herbal Leaves\n- Mushrooms\n- Varon Root"
+          - ActionTitle: SIDE EFFECTS..
+            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Intoxication[-]"   
+ 
+      - TaskTitle: Radiation Burn
+        PictureFile: RadiationBurn.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: "[ffff00]- Antiradiation Ointment\n- Radiation Pills\n- Antiradiation Injection\n- Decontamination Kit[-]"
+          - ActionTitle: MEDICAL STATIONS
+            Description: "[ffff00]- Medical Station Type 4[-]"
+          - ActionTitle: REQUIRED ADDITIONAL CURES
+            Description: "- You also [ffff00]NEED TO LOWER Body Radiation below 1[-] by..\n    ..taking a Shower\n    ..consuming Radiation Pills"
+          - ActionTitle: OTHER CONSUMABLES
+            Description: "n/a"
+          - ActionTitle: SIDE EFFECTS..
+            Description: "  ..when received: [ff4444]Open Wound[-]\n  ..when cured: -\n  ..when not cured: [ff4444]Radiation Poisoning[-]"   
+          - ActionTitle: CONDITIONS
+            Description: "Body Radiation > 1"   
+ 
+      - TaskTitle: Radiation Poisoning
+        PictureFile: RadiationPoisoning.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: "[ffff00]- Radiation Pills\n- Antiradiation Injection\n- Decontamination Kit[-]"
+          - ActionTitle: MEDICAL STATIONS
+            Description: "[ffff00]- Medical Station Type 4[-]"
+          - ActionTitle: OTHER CURES
+            Description: "n/a"
+          - ActionTitle: OTHER CONSUMABLES
+            Description: "n/a"
+          - ActionTitle: SIDE EFFECTS..
+            Description: "  ..when received: [ff4444]Intoxication[-]\n  ..when cured: -\n  ..when not cured: [ff4444]Radiation Sickness[-]"   
+ 
+      - TaskTitle: Radiation Sickness
+        PictureFile: RadiationSick1.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: "[ffff00]- Antiradiation Injection\n- Decontamination Kit[-]"
+          - ActionTitle: MEDICAL STATIONS
+            Description: "[ffff00]- Medical Station Type 4[-]"
+          - ActionTitle: REQUIRED ADDITIONAL CURES
+            Description: "- You also [ffff00]NEED TO LOWER Body Radiation below 1[-] by..\n    ..taking a Shower\n    ..consuming Radiation Pills"
+          - ActionTitle: OTHER CONSUMABLES
+            Description: "n/a"
+          - ActionTitle: SIDE EFFECTS..
+            Description: "  ..when received: [ff4444]Intoxication[-]\n  ..when cured: -\n  ..when not cured: [ff4444]Death[-]"   
+          - ActionTitle: CONDITIONS
+            Description: "Body Radiation > 4"   
+
+      - TaskTitle: Sepsis
+        PictureFile: Sepsis.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: "[ffff00]- Antibiotic Injection\n- Trauma Kit[-]"
+          - ActionTitle: MEDICAL STATIONS
+            Description: "[ffff00]- Medical Station Type 2[-]"
+          - ActionTitle: OTHER CURES
+            Description: "n/a"
+          - ActionTitle: OTHER CONSUMABLES
+            Description: "n/a"
+          - ActionTitle: SIDE EFFECTS..
+            Description: "  ..when received: [ff4444]Fever Attack[-]\n  ..when cured: -\n  ..when not cured: [ff4444]Death[-]"       
+
+      - TaskTitle: Stunned
+        PictureFile: Stunned.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: "- Energy Pills\n- Adrenaline Injection"
+          - ActionTitle: MEDICAL STATIONS
+            Description: "n/a"
+          - ActionTitle: OTHER CURES
+            Description: "- [ffff00]Wait until effect is removed (5 seconds)[-]"
+          - ActionTitle: OTHER CONSUMABLES
+            Description: "- Natural Stimulant\n- Energy Drink"
+          - ActionTitle: SIDE EFFECTS..
+            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: -" 
+ 
+      - TaskTitle: Too Cold
+        PictureFile: Cold.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: "n/a"
+          - ActionTitle: MEDICAL STATIONS
+            Description: "n/a"
+          - ActionTitle: OTHER CURES
+            Description: "- [ffff00]Increase In-Suit Temperature above 15°C by..[-]\n    ..Sleeping\n    ..taking a Shower\n    ..going inside a powered base or vessel\n    ..using the Mobile AirCon"
+          - ActionTitle: OTHER CONSUMABLES
+            Description: "- Hot Beverages and most meals will increase your temperature as well"
+          - ActionTitle: SIDE EFFECTS..
+            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Starving[-]"
+          - ActionTitle: CONDITIONS
+            Description: "In-Suit Temperature lower than 15°C"  
+ 
+      - TaskTitle: Too Hot
+        PictureFile: Hot.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: "n/a"
+          - ActionTitle: MEDICAL STATIONS
+            Description: "n/a"
+          - ActionTitle: OTHER CURES
+            Description: "- [ffff00]Decrease In-Suit Temperature below 35°C by..[-]\n    ..Sleeping\n    ..taking a Shower\n    ..going inside a powered base or vessel\n    ..using the Mobile AirCon"
+          - ActionTitle: OTHER CONSUMABLES
+            Description: "- Purified Water, Juices, Milk, Fruits and a few meals will decrease your temperature"
+          - ActionTitle: SIDE EFFECTS..
+            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Stamina Low[-]"
+          - ActionTitle: CONDITIONS
+            Description: "In-Suit Temperature higher than 35°C"
+
+# ENZYCLOPEDIA: BIOLOGISTS
+
+  - ChapterTitle: BIOLOGISTS GUIDE  
+    Category: FAQ
+    Description: "[i]We always assume that evolution\nin the universe follows the same rules,\nso there is a high chance that we do not\nsee anything extraordinary when looking to the stars.\nOf course, the chances that we are wrong, are equally high.\n\n[/i]Ernest Jakkard, Sc.D\nUCH Xenobiological Research Facility\n2468 AD\n\n---\n[ff4444]To show all topics of this guide, click the DROPDOWN ARROW of this chapters HEADLINE in the list on the left!\nClick the SUB-task to reveal the info contained.\nMake sure the PDA INFO button on the TOP RIGHT of the screen is selected![-]"
+    PictureFile: Farmers101.jpg
+    PlayerLevel: 1
+    Visibility: Always    # or ByLevel, WhenRewarded
+    Tasks:
+      - TaskTitle: FARMERS 101
+        PictureFile: Farmers101.jpg
+        Actions:
+          - ActionTitle: INGREDIENT GROUPS
+            Description: "[bcd3d4]Your suit will automatically test and categorize any biological and non-biological item according to similarities found with earth organisms with the build-in xenobiological testing procedure. This means: Even if an item might look different or drop from a plant that does not even remotely look earth-like, anything you can harvest from a plant will be categorized into [-][ffff00]Nutrition Groups[-][bcd3d4] and displayed as: PlantProtein, Natural Sweetener, Grain, Berries, Fruit, Mushroom, Natural Stimulant, Vegetables, Spice, Buds.[-]\n[ffff00]Medical ingredients[-][bcd3d4] are displayed as: Herbal Leaves, Confetti Moss Scrapings, Fire Moss Scrapings, Alien Tooth, Alien Parts, Alien Plasma T6, Alien Plasma ZR1, Alien Thorn[-]\n\nNote: Eating ingredients or raw food has a risk of getting you an Indigestion!"
+          - ActionTitle: SPROUTS
+            Description: "[bcd3d4]Sprouts are created in the food processor from an item/crop of the plant and Nutrient Solution.\nExample: Plant Protein + Nutrient Solution will give you an Ahax Sprout.[-]"
+          - ActionTitle: GROWING CONDITIONS
+            Description: "[bcd3d4]Oxygen: Always required | No O2 = [-][ffff00]Plant will stop growing[-][bcd3d4]\nTemperature: 15-35°C | lower 0 or higher than 50 = [ff4444]Plant will die[-]\nRadiation: 0[-] | RAD higher than 3 = [ff4444]Plant will die[-][-]" 
+          - ActionTitle: REQUIRED TECH
+            Description: "[bcd3d4] - Base / Vessel needs to be powered | No Power  = [ffff00]Plant will stop growing[-][-]\n - Inside a base or Vessel you need a GROWING LIGHT. Place it on the ceiling with exactly 2 blocks in between the top side of the growing plot and the ceiling where the Growing Light is placed\n- A growing light can support 3x3 growing plots at max when placed at the ceiling in the center spot of this array.\n - If the outside conditions meet the Growing Conditions, you can set up a farm without a growing light on the outside. In this case OUTSIDE = open to the sky with no roof (includes NO windows)[-]"
+          - ActionTitle: ALTERNATIVE CRAFTING
+            Description: "[bcd3d4]For most of the items, protocols allow to [ffff00]alternatively craft them from different ingredients[-] as well. For example: Milk, Meat, Plantprotein and most of the Medical ingredients like Scrapings, Alien Parts and Plasma can be converted from substitutes![-]"
+      - TaskTitle: AlienParts01
+        PictureFile: AlienParts01.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: "[bcd3d4]  *Reef Plant\n  *Red Coral[-]"
+          - ActionTitle: FARMABLE WITH
+            Description: "[bcd3d4]  *n/a[-]"
+          - ActionTitle: CRAFTABLE FROM
+            Description: "[bcd3d4]  *Egg + Alien Parts + Nitrocellulose[-]"
+          - ActionTitle: USED FOR
+            Description: "[bcd3d4]  *Medikits[-]"
+      - TaskTitle: AlienParts02
+        PictureFile: AlienParts02.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: "[bcd3d4]  *Loot of NPC and creatures[-]"
+          - ActionTitle: FARMABLE WITH
+            Description: "[bcd3d4]  *n/a[-]"
+          - ActionTitle: CRAFTABLE FROM
+            Description: "[bcd3d4]  *Meat + Alien Tooth + Nutrient Solution[-]"
+          - ActionTitle: USED FOR
+            Description: "[bcd3d4]  *Antiparasite medication[-]"
+      - TaskTitle: AlienParts03
+        PictureFile: AlienParts03.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: "[bcd3d4]  *Pod Plant\n  *White Coral [-]"
+          - ActionTitle: FARMABLE WITH
+            Description: "[bcd3d4]  *n/a[-]"
+          - ActionTitle: CRAFTABLE FROM
+            Description: "[bcd3d4]  *Egg + Alien plasma ZR1 + Nitrocellulose"
+          - ActionTitle: USED FOR
+            Description: "[bcd3d4]  *Medikits[-]"
+      - TaskTitle: AlienThorn
+        PictureFile: AlienThorn.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: "[bcd3d4]  *Opuntia Cactus\n  *Thorn Plant\n  *Beehive Cactus [-]"
+          - ActionTitle: FARMABLE WITH
+            Description: "[bcd3d4]  *n/a [-]"
+          - ActionTitle: CRAFTABLE FROM
+            Description: "[bcd3d4]  *Alien Tooth + Nitrocellulose + Pentaxid Ore"
+          - ActionTitle: USED FOR
+            Description: "[bcd3d4]  *Medikits[-]"
+      - TaskTitle: AlienTooth
+        PictureFile: AlienTooth.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: "[bcd3d4]  *Loot of NPC and creatures[-]"
+          - ActionTitle: FARMABLE WITH
+            Description: "[bcd3d4]  *n/a[-]"
+          - ActionTitle: CRAFTABLE FROM
+            Description: "[bcd3d4]  *n/a[-]"
+          - ActionTitle: USED FOR
+            Description: "[bcd3d4]  *Antitoxic medication\n  *Medikits[-]"
+      - TaskTitle: Berries
+        PictureFile: Berries.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: "[bcd3d4]  *Akua Berries bush[-]"
+          - ActionTitle: FARMABLE WITH
+            Description: "[bcd3d4]  *Akua Berries bush[-]"
+          - ActionTitle: CRAFTABLE FROM
+            Description: "[bcd3d4]  *n/a[-]"
+          - ActionTitle: USED FOR
+            Description: "[bcd3d4]  *[ffff00]Reducing Body Temperature[-]\n  *Healthy Juices\n  *Meals[-]"
+      - TaskTitle: Buds
+        PictureFile: Buds.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: "[bcd3d4]  *Blue Alien Flower[-]"
+          - ActionTitle: FARMABLE WITH
+            Description: "[bcd3d4]  *n/a[-]"
+          - ActionTitle: CRAFTABLE FROM
+            Description: "[bcd3d4]  *n/a[-]"
+          - ActionTitle: USED FOR
+            Description: "[bcd3d4]  *Creating Hot Beverages ([ffff00]Increasing Body Temperature[-])[-]"
+      - TaskTitle: ConfettiMossScrapings
+        PictureFile: ConfettiMossScrapings.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: "[bcd3d4]  *Confetti Moss\n  *Dimple Dome\n  *Dimple Dome Snow[-]"
+          - ActionTitle: FARMABLE WITH
+            Description: "[bcd3d4]  *n/a[-]"
+          - ActionTitle: CRAFTABLE FROM
+            Description: "[bcd3d4]  *Crushed Stones + Mushrooms + Promethium Pellets[-]"
+          - ActionTitle: USED FOR
+            Description: "[bcd3d4]  *Required ingredient for all PILL medications\n  *Medikits\n  *Stamina Boosters[-]"
+      - TaskTitle: Egg
+        PictureFile: Egg.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: "[bcd3d4]  *Loot of NPC and creatures[-]"
+          - ActionTitle: FARMABLE WITH
+            Description: "[bcd3d4]  *n/a[-]"
+          - ActionTitle: CRAFTABLE FROM
+            Description: "[bcd3d4]  *n/a[-]"
+          - ActionTitle: USED FOR
+            Description: "[bcd3d4]  *Ingredient for meals[-]"
+      - TaskTitle: Fibers
+        PictureFile: Fiber.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: "[bcd3d4]  *Fiber Plant[-]"
+          - ActionTitle: FARMABLE WITH
+            Description: "[bcd3d4]  *Fiber Plant[-]"
+          - ActionTitle: CRAFTABLE FROM
+            Description: "[bcd3d4]  *Wood Logs[-]"
+          - ActionTitle: USED FOR
+            Description: "[bcd3d4]  *Crafting BioFuel and Survival Tent\n  *Crafting ingredient for Farming tech and devices\n  *Ingredient for Bandages and Medikits[-]"
+      - TaskTitle: FireMossScrapings
+        PictureFile: FireMossScrapings.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: "[bcd3d4]  *Fire Moss[-]"
+          - ActionTitle: FARMABLE WITH
+            Description: "[bcd3d4]  *n/a [-]"
+          - ActionTitle: CRAFTABLE FROM
+            Description: "[bcd3d4]  *Crushed Stones + Mushrooms + Promethium Pellets[-]"
+          - ActionTitle: USED FOR
+            Description: "[bcd3d4]  *Required ingredient for all INJECTION medications\n  *Medikits\n..*Stamina Boosters[-]"
+      - TaskTitle: Fruit
+        PictureFile: Fruit.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: "[bcd3d4]  *Pearthing Plant\n  *Space Orange Tree[-]"
+          - ActionTitle: FARMABLE WITH
+            Description: "[bcd3d4]  *Pearthing Plant\n  *Space Orange Tree[-][-]"
+          - ActionTitle: CRAFTABLE FROM
+            Description: "[bcd3d4]  *n/a[-]"
+          - ActionTitle: USED FOR
+            Description: "[bcd3d4]  *[ffff00]Reducing Body Temperature[-]\n  *Healthy Juices\n  *Meals[-]"
+      - TaskTitle: Grain
+        PictureFile: Grain.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: "[bcd3d4]  *Wild Grain[-]"
+          - ActionTitle: FARMABLE WITH
+            Description: "[bcd3d4]  *Corn plant\n  *Wheat plant[-]"
+          - ActionTitle: CRAFTABLE FROM
+            Description: "[bcd3d4]  *n/a[-]"
+          - ActionTitle: USED FOR
+            Description: "[bcd3d4]  *Meals[-]"
+      - TaskTitle: HerbalLeaves
+        PictureFile: HerbalLeaves.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: "[bcd3d4]  *Pixie Stalks & Pixie Stalks Snow\nAloe Vera[-]"
+          - ActionTitle: FARMABLE WITH
+            Description: "[bcd3d4]  *Aloe Vera[-]"
+          - ActionTitle: CRAFTABLE FROM
+            Description: "[bcd3d4]  *n/a[-]"
+          - ActionTitle: USED FOR
+            Description: "[bcd3d4]  *[ffff00]Removes INDIGESTION when consumed[-]\n  *Basic ingredient for nearly all medications and Medikits[-]"
+      - TaskTitle: Meat
+        PictureFile: Meat.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: "[bcd3d4]    *Loot of NPC and creatures[-]"
+          - ActionTitle: FARMABLE WITH
+            Description: "[bcd3d4]  *n/a[-]"
+          - ActionTitle: CRAFTABLE FROM
+            Description: "[bcd3d4]  *Plant Protein + Vegetables[-]"
+          - ActionTitle: USED FOR
+            Description: "[bcd3d4]  *Growing Alien Parts\n  *Ingredient for meals[-]"
+      - TaskTitle: Milk
+        PictureFile: Milk.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: "[bcd3d4]    *Loot of NPC and creatures[-]"
+          - ActionTitle: FARMABLE WITH
+            Description: "[bcd3d4]  *n/a[-]"
+          - ActionTitle: CRAFTABLE FROM
+            Description: "[bcd3d4]  *Plant Protein + Purified Water[-]"
+          - ActionTitle: USED FOR
+            Description: "[bcd3d4]  *Ingredient for meals[-]"
+      - TaskTitle: Mushrooms
+        PictureFile: Mushrooms.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: "[bcd3d4]  *Green Spiky Mushroom\n  *Brown Mushroom\n  *Tall Green Mushroom[-]"
+          - ActionTitle: FARMABLE WITH
+            Description: "[bcd3d4]  *Brown Mushroom[-]"
+          - ActionTitle: CRAFTABLE FROM
+            Description: "[bcd3d4]  *n/a[-]"
+          - ActionTitle: USED FOR
+            Description: "[bcd3d4]  *[ffff00]Removes POISON BITE when consumed[-]\n  *Ingredient for all Radiation medications\n  *Medikits[-]"
+      - TaskTitle: NaturalStimulant
+        PictureFile: NaturalStimulant.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: "[bcd3d4]  *Kavae Plant\n  *Brain Fungus & Brain Fungus Snow\n  *Pulpit Fungus[-]"
+          - ActionTitle: FARMABLE WITH
+            Description: "[bcd3d4]  *Kavae Plant[-]"
+          - ActionTitle: CRAFTABLE FROM
+            Description: "[bcd3d4]  *n/a[-]"
+          - ActionTitle: USED FOR
+            Description: "[bcd3d4]  *[ffff00]Removes STUNNED when consumed[-]\n [-]  *Ingredient for all stamina-boosting Drinks and Drugs[-]"
+      - TaskTitle: NaturalSweetener
+        PictureFile: NaturalSweetener.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: "[bcd3d4]  *Alien Worm plant[-]"
+          - ActionTitle: FARMABLE WITH
+            Description: "[bcd3d4]  *Alien Worm plant [-]"
+          - ActionTitle: CRAFTABLE FROM
+            Description: "[bcd3d4]  *n/a[-]"
+          - ActionTitle: USED FOR
+            Description: "[bcd3d4]  *[ffff00]Removes DERMAL BURN when consumed[-]\n  *Sweetening Ingredient for meals and bakery products[-]"
+      - TaskTitle: PlantProtein
+        PictureFile: PlantProtein.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: "[bcd3d4]  *Corndogs & Corndogs Snow\n  *Ahax plant\n  *Seaweed & Hydrilla\n  *Big Alien Flower[-]"
+          - ActionTitle: FARMABLE WITH
+            Description: "[bcd3d4]  *Ahax plant[-]"
+          - ActionTitle: CRAFTABLE FROM
+            Description: "[bcd3d4]  *Vegetables[-]"
+          - ActionTitle: USED FOR
+            Description: "[bcd3d4]  *Ingredient for all Ointment medications\n  *Ingredient for Parasite medications\n  *Ingredient for Bandages\n  *Meals[-]"
+      - TaskTitle: Spice
+        PictureFile: Spice.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: "[bcd3d4]  *Cobra Leaves[-]"
+          - ActionTitle: FARMABLE WITH
+            Description: "[bcd3d4]  *Cobra Leaves[-]"
+          - ActionTitle: CRAFTABLE FROM
+            Description: "[bcd3d4]  *n/a[-]"
+          - ActionTitle: USED FOR
+            Description: "[bcd3d4]  *[ffff00]Increases Body Temperature when consumed[-]\n  *Can remove INDIGESTION but also has a chance to cause INDIGESTION again when consumed[-]\n  *Meals\n  *Stomach Pills\n  *Energy Pills"
+      - TaskTitle: Vegetables
+        PictureFile: Vegetables.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: "[bcd3d4]  *Egg Plant\n  *Large Eggplant\n  *Tomato plant\n  *Pumpkin plant\n  *Blue Pepper[-]"
+          - ActionTitle: FARMABLE WITH
+            Description: "[bcd3d4]  *Pumpkin plant\n  *Blue Pepper\n  *Tomato plant\n  *Large Eggplant[-]"
+          - ActionTitle: CRAFTABLE FROM
+            Description: "[bcd3d4]  *n/a[-]"
+          - ActionTitle: USED FOR
+            Description: "[bcd3d4]  *Healthy Juices\n  *Basic ingredient for a lot of meals[-]"
+
+
+# ENZYCLOPEDIA: EXPLORERS
+
+  - ChapterTitle: EXPLORERS JOURNAL  
+    Category: FAQ
+    Description: "[i]The Universe is full of dangers,\nand wonders,\nand wonderful dangers!\n\n[/i]Motto of 2nd Exploration Corps\nUCH\nFounded 2460 AD\n\n---\n[ff4444]To show all topics of this guide, click the DROPDOWN ARROW of this chapters HEADLINE in the list on the left!\nClick the SUB-task to reveal the info contained.\nMake sure the PDA INFO button on the TOP RIGHT of the screen is selected![-]"
+    PictureFile: LargeReptiles.jpg
+    PlayerLevel: 1
+    Visibility: Always    # or ByLevel, WhenRewarded
+    Tasks:
+      - TaskTitle: NPC Faction Origins
+       # PictureFile: PlanetaryDrones.jpg
+        Actions:
+          - ActionTitle: Important Notes
+            Description: "1. All the faction-assignments below apply to wandering NPCs and Patrols at all times (does NOT depend on the faction territory!)\n2. If an NPC is spawned in a POI, the origin of the NPC is defined by the faction of the POI, EXCEPT the creator of the POI has set a different origin for the to-be-spawned NPC (what is possible in the NPC Spawn setup dialogue!)\n3. Turret targeting info, regarding NPC factions:\n- All NPC factions members ( Zrx, Pol, Tal) apply to the 'NPC Factions' checkbox, either in a POI or when wandering around!\n- Turrets will not attack Zrx, Pol and Tal if you are on NEUTRAL standing or better, even WHEN the checkbox for NPC factions is ticked!\n- LEGACY (Global 'Alien' Faction) creatures will be attacked only when PREDATOR checkbox is ticked, as Aln is not a real NPC faction (you cannot change your standing; always HOSTILE)\n- Prey and Predator are no NPC factions. That's why they have their own targeting setting."
+          - ActionTitle: ZIRAX
+            Description: "Tag: Zrx\n- ArmoredGolem\n-DroneBomberAttackBase\n- DroneLargeAttackBase\n- DroneSmallFast01Minigun\n- DroneSmallFast01Rocket\n- DroneSmallSlow02Minigun\n- EnemyDroneV2Minigun\n- EnemyDroneV2Plasma\n- Mechanoid\n- RipperDog\n- SpaceDronePlasma\n- TraderZirax\n- TurretRobotV2\n- Zirax Commander\n- ZiraxLaser\n- ZiraxMinigun\n- ZiraxRocket\n- ZiraxShotgun\n- ZiraxSniper"
+          - ActionTitle: TALON
+            Description: "Tag: Tal\n- Crawler\n- TalonGuardian (all variations, static and moving)\n- TraderTalon (all variations)\n- TalonSentinel (all variations)"
+          - ActionTitle: POLARIS
+            Description: "Tag: Pol\n- AlienCivilians (any)\n- AssaultCyborg"
+          - ActionTitle: LEGACY
+            Description: "Tag: Aln (Alien)\n- AlienAssassinGrey\n- AlienAssassinRed\n- AlienBug02\n- GolemDesert\n- GolemIce\n- GolemSwamp\n- Hexapod\n- Overseer\n- PlantMonster (not used anymore)\n- TotalHorror\n- WoodWalker"
+          - ActionTitle: PREDATOR
+            Description: "- AlienBug03\n- AlienBug04\n- CaveWormGreen\n- CaveWormGrey\n- CaveWormWhite\n- Creepy\n- Otyugh\n- Raptor\n- RaptorNight\n- Spider01\n- Spider02\n- Spider03\n- Spinosaurus\n- Telluropod"
+          - ActionTitle: PREY
+            Description: "- AlienBug01 (but will attack if player is too close)\n- LizardMule\n- LizardMuleBaby\n- MegalonopsGrey\n- Oviraptor\n- Pangolin\n- Parasaur\n- Slime\n- SlimeWhite\n- Triceratops\n- WormDesert\n- WormDesertLarge"
+      - TaskTitle: Planetary Drones
+        PictureFile: PlanetaryDrones.jpg
+        Actions:
+          - ActionTitle: SMALL DRONES
+            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Minigun, Cannon, Rockets, Plasma\nHITPOINTS: Low\nMOVEMENT: Slow[-]"
+          - ActionTitle: LARGE DRONES
+            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Single & Double Minigun, Single & Double Cannon,  Plasma\nHITPOINTS: Medium\nMOVEMENT: Slow[-]"
+          - ActionTitle: HEAVY DRONES
+            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT:  Minigun, Plasma\nHITPOINTS: High\nMOVEMENT: Slow[-]"
+          - ActionTitle: BOMBER DRONES
+            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT:  Cluster Bombs\nHITPOINTS: High\nMOVEMENT: Fast[-]" 
+      - TaskTitle: Space Drones
+        PictureFile: SpaceDrones.jpg
+        Actions:
+          - ActionTitle: LASER DRONES
+            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Laser Pulse Cannon\nHITPOINTS: Medium\nMOVEMENT: Medium[-]"
+          - ActionTitle: PLASMA DRONES
+            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Plasma Cannon\nHITPOINTS: Medium\nMOVEMENT: Slow[-]" 
+      - TaskTitle: Vessels
+        PictureFile: Vessels.jpg
+        Actions:
+          - ActionTitle: TROOP TRANSPORTERS (Planet)
+            Description: "[bcd3d4]MODE: Drops Reinforcements to attacked positions\nARMAMENT: non\nHITPOINTS: High\nMOVEMENT: Medium[-]"
+          - ActionTitle: PATROL VESSELS (Planet)
+            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Light to Medium\nHITPOINTS: Medium to High\nMOVEMENT: Slow to Medium[-]"
+          - ActionTitle: PATROL VESSELS (Space)
+            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Heavy\nHITPOINTS: High to Very High\nMOVEMENT: Slow to Medium[-]"
+          - ActionTitle: FREIGHTERS (Space)
+            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Light to Medium\nHITPOINTS: Medium to High\nMOVEMENT: Slow[-]" 
+      - TaskTitle: Mechanoids
+        PictureFile: Mechanoids.jpg
+        Actions:
+          - ActionTitle: TURRET ROBOTS SMALL
+            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Fast-tracking Double-Miniguns\nHITPOINTS: Low\nATTACK SPEED: Very Slow"
+          - ActionTitle: TURRET ROBOTS LARGE
+            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Laser Weapons\nHITPOINTS: Medium\nATTACK SPEED: Slow"
+          - ActionTitle: ASSAULT CYBORGS
+            Description: "[bcd3d4]MODE: Attack when provoked\nARMAMENT: Laser Weapons\nHITPOINTS: Medium\nATTACK SPEED: Slow"
+      - TaskTitle: Zirax Empire Troops
+        PictureFile: ZiraxTroopers.jpg
+        Actions:
+          - ActionTitle: SHOTGUN TROOPERS
+            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Shotgun\nHITPOINTS: Low\nATTACK SPEED: Slow" 
+          - ActionTitle: MINIGUN TROOPERS
+            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Miniguns\nHITPOINTS: Low\nATTACK SPEED: Slow" 
+          - ActionTitle: LASER TROOPERS
+            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Laser Rifle\nHITPOINTS: Medium\nATTACK SPEED: Slow" 
+          - ActionTitle: SNIPERS 
+            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Sniper Rifle\nHITPOINTS: Medium\nATTACK SPEED: Slow"
+          - ActionTitle: ROCKET TROOPERS
+            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Rocket Launcher\nHITPOINTS: Medium\nATTACK SPEED: Slow"  
+      - TaskTitle: Golems
+        PictureFile: Golems.jpg
+        Actions:
+          - ActionTitle: SWAMP GOLEMS 
+            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Fists\nHITPOINTS: High\nATTACK SPEED: Medium"   
+          - ActionTitle: DESERT GOLEMS
+            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Fists\nHITPOINTS: High\nATTACK SPEED: Medium" 
+          - ActionTitle: ARMORED GOLEMS
+            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Fists\nHITPOINTS: Very High\nATTACK SPEED: Medium" 
+          - ActionTitle: SNOW GOLEMS
+            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Fists\nHITPOINTS: High\nATTACK SPEED: Medium" 
+      - TaskTitle: Native and other NPCs
+        PictureFile: Natives.jpg
+        Actions:
+          - ActionTitle: TALON GUARDIANS
+            Description: "[bcd3d4]MODE: Attack when provoked\nARMAMENT: Melee\nHITPOINTS: Medium\nATTACK SPEED: Medium" 
+          - ActionTitle: HEXAPODS
+            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Melee\nHITPOINTS: Medium\nATTACK SPEED: High" 
+          - ActionTitle: ALIEN ASSASSINS
+            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Melee\nHITPOINTS: Medium\nATTACK SPEED: High" 
+          - ActionTitle: CIVILIANS
+            Description: "[bcd3d4]MODE: Attack when provoked\nARMAMENT: Laser Pistol"  
+          - ActionTitle: TRADERS
+            Description: "[bcd3d4]MODE: Attack when provoked\nARMAMENT: Laser Pistol" 
+      - TaskTitle: Mutants
+        PictureFile: Mutants.jpg
+        Actions:
+          - ActionTitle: OVERSEERS
+            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Melee\nHITPOINTS: Medium\nATTACK SPEED: High"
+          - ActionTitle: PLANT MONSTERS
+            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Melee\nHITPOINTS: Low\nATTACK SPEED: Medium"
+          - ActionTitle: TOTAL HORRORS
+            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Melee\nHITPOINTS: Medium\nATTACK SPEED: Medium" 
+      - TaskTitle: Reptiles I
+        PictureFile: Reptiles.jpg
+        Actions:
+          - ActionTitle: RAPTOR HERDS  
+            Description: "[bcd3d4]MODE: Attack when provoked\nARMAMENT: Melee\nHITPOINTS: Low\nATTACK SPEED: Very High"
+          - ActionTitle: SINGLE RAPTORS    
+            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Melee\nHITPOINTS: Low\nATTACK SPEED: Very High"
+          - ActionTitle: SPINOSAURS    
+            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Melee\nHITPOINTS: Low\nATTACK SPEED: Very High"
+          - ActionTitle: OVIRAPTOR    
+            Description: "[bcd3d4]MODE: Attack when provoked\nARMAMENT: Melee\nHITPOINTS: Low\nATTACK SPEED: Very High"
+          - ActionTitle: PARASAURS GROUP   
+            Description: "States\n  *Calm - walk slowly around, grazing\n  *Low alert - stop walking, raise up (whole group)\n  *High alert - run away from danger together\nAlerting factors\n  *Noise - shooting a weapon / using items (drill) (max 50 meters)\n  *Damage\nVision\n  *If they can see you, and you are moving. (max 90 meters)\n  *not moving persons are not a threat, only if the person gets too close to the animals (20m)\n  *Death of group member\n>> THE CLOSER THE ALERTING FACTOR IS, THE MORE WILL THE ANIMAL REACT"
+      - TaskTitle: Reptiles II
+        PictureFile: LargeReptiles.jpg
+        Actions:
+          - ActionTitle: MEGALONOPSES  
+            Description: "[bcd3d4]MODE: Attack when provoked"			
+          - ActionTitle: LIZARD MULE  
+            Description: "[bcd3d4]MODE: Will run away"
+          - ActionTitle: TRICERATOPSES  
+            Description: "[bcd3d4]  *Has vision, alert, fear\nStates\n  *Calm, no player around - walks randomly\n  *Calm, player around - walks around player, makes small roar animation\n  *After small damage - goes to Rage\nModifiers for 'Rage':\n  *If far from player, will make big roar and charge the player\n  *After the start of the charge, he will not make any turns, so it is possible to avoid.\n  *If the charge is not avoided, the damage is deadly! As he is running he is giving damage periodically - so it is possible that he will damage the player multiple times\n  *If the player is close, he will make close range attacks with probability of roars\n  *If he is in rage and player goes to water, trice will stay out and mage angry roars"
+      - TaskTitle: Spiders
+        PictureFile: Spiders.jpg
+        Actions:
+          - ActionTitle: SPIDERS (01)  
+            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Melee\nHITPOINTS: Low\nATTACK SPEED: High"
+          - ActionTitle: SPIDERS (02)  
+            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Melee\nHITPOINTS: Medium\nATTACK SPEED: Medium"
+          - ActionTitle: SPIDERS (03)  
+            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Ranged Attack\nHITPOINTS: Medium\nATTACK SPEED: Very High"
+          - ActionTitle: SPIDERS GROUP BEHAVIOR  
+            Description: "Spiders will appear in a group, but they act more individually, they will share fear, and the more spiders is there together, the faster they will recover from fear\nStates:\n  *calm - walks around\n  *low alert - angry gestures, walks towards player\n  *hi alert - attacks player\n  *alerted, but target not accessible(in water)\n  *When player is in water > angry gestures, random walk\nVariants\n  *when they see the player, they will attack him\n  *they can get scared and run away, they will come back, once they 'shake off the fear'\n  *the more spiders there is together, the less they fear\nFear factors\n  *proximity to player\n  *noises (shooting, drilling)\n  *damage - damage to one spider will create fear in the whole group\n  *fear from death of a group member\nNOTE:\n - Spiders can be alerted, but without seeing the player, in this case it will run around 'searching' the source of the alert\n - The ability to scare the spider is to make the fight more dynamic, to give the player more breathing room and something interesting. The spider should not run away completely."
+      - TaskTitle: Bugs
+        PictureFile: Bugs.jpg
+        Actions:
+          - ActionTitle: ALIEN BUGS (01)  
+            Description: "Group\n  *Has vision and fear\n  *Acts as individual, shares fear in group\nStates\n  *Calm - walks around\n  *Low alert + player nearby - keeps distance from player, but rotates towards him and maked gestures\n..*Scared\nModifier for 'Scared':\n  *High probability of running away\n  *Low probability of attacking the player - one attempt to hit, then run away"
+          - ActionTitle: ALIEN BUGS (02)  
+            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Melee\nHITPOINTS: Medium\nATTACK SPEED: Medium"
+          - ActionTitle: ALIEN BUGS (03)  
+            Description: "Single\n  *Has vision and alert\nStates\n  *Calm - walks around\n  *Alerted - attacks the player with a projectile\nModifiers for 'Alerted':\n  *If the player is far, he will walk towards him\n  *If he is too far from spawn position, it will return back to it\n  *If the player is too close, it will keep distance\n  *During the attack he will fire 1 - 3 projectiles, then change position"
+      - TaskTitle: Worms and Wormlikes
+        PictureFile: Worms.jpg
+        Actions:
+          - ActionTitle: CAVEWORMS  
+            Description: "[bcd3d4]MODE: Attack on sight"
+          - ActionTitle: DESERT WORMS  
+            Description: "[bcd3d4]MODE: Attack when provoked"
+          - ActionTitle: LARGE DESERT WORMS  
+            Description: "[bcd3d4]MODE: Attack when provoked"
+      - TaskTitle: Creatures
+        PictureFile: Creatures.jpg
+        Actions:
+          - ActionTitle: CRAWLER  
+            Description: "[bcd3d4]MODE: Attack on sight"
+          - ActionTitle: OTYUGH  
+            Description: "[bcd3d4]MODE: Attack when provoked"
+          - ActionTitle: SLIMES  
+            Description: "[bcd3d4]MODE: Attack when provoked"
+
+# ENZYCLOPEDIA: ENGINEERS
+
+  # - ChapterTitle: ENGINEERS HANDBOOK
+    # Category: FAQ
+    # Description: "[i]If nothing works as expected,\nthe parts do not fit,\nand everything feels broken\n..it possibly is!\n[-]\n[/i]Marc Escher, Technical Lead\nInitiator of annual 'Jack-of-all-Trades' award\nNew Terran Engineering Academy\n2399 AD\n\n---\n[ff4444]To show all topics of this guide, click the DROPDOWN ARROW of this chapters HEADLINE in the list on the left!\nClick the SUB-task to reveal the info contained.\nMake sure the PDA INFO button on the TOP RIGHT of the screen is selected![-]"
+    # PictureFile: BP_DefaultBA.jpg
+    # PlayerLevel: 1
+    # Visibility: Always    # or ByLevel, WhenRewarded
+    # Tasks:
+      # - TaskTitle: Mining & Metallurgy
+        # PictureFile: Mining.jpg
+        # Actions:
+          # - ActionTitle: Surface Stones
+            # Description: "tba"
+          # - ActionTitle: SubSurface Ore deposits
+            # Description: "tba"
+          # - ActionTitle: SubSurface Ore Rocks
+            # Description: "tba"
+          # - ActionTitle: Mining Tips
+            # Description: "tba"
+      # - TaskTitle: Energy and Fuels
+        # PictureFile: Energy.jpg
+        # Actions:
+          # - ActionTitle: BioFuel
+            # Description: "tba"
+          # - ActionTitle: Solar
+            # Description: "tba"
+          # - ActionTitle: Promethium
+            # Description: "tba"
+          # - ActionTitle: Pentaxid
+            # Description: "tba"
+      # - TaskTitle: How To Start Building
+        # PictureFile: HowToStartBuilding.jpg
+        # Actions:
+          # - ActionTitle: Base
+            # Description: "tba"
+          # - ActionTitle: Hover Vessel
+            # Description: "tba"
+          # - ActionTitle: Small Vessel
+            # Description: "tba"
+          # - ActionTitle: Capital Vessel
+            # Description: "tba"
+      # - TaskTitle: Technology
+        # PictureFile: Technology.jpg
+        # Actions:
+          # - ActionTitle: Constructors
+            # Description: "tba" 
+          # - ActionTitle: Food Processors
+            # Description: "tba" 
+          # - ActionTitle: Furnace
+            # Description: "tba" 
+          # - ActionTitle: Repair Bays
+            # Description: "tba" 
+          # - ActionTitle: Repair Stations
+            # Description: "tba" 
+      # - TaskTitle: Oxygenization and Temperature
+        # PictureFile: Oxygenisation.jpg
+        # Actions:
+          # - ActionTitle: Requirements
+            # Description: "tba" 
+          # - ActionTitle: Handling
+            # Description: "tba" 
+          # - ActionTitle: Constraints
+            # Description: "tba" 
+      # - TaskTitle: Farming
+        # PictureFile: Farming.jpg
+        # Actions:
+          # - ActionTitle: Requirements
+            # Description: "tba" 
+          # - ActionTitle: Handling
+            # Description: "tba" 
+          # - ActionTitle: Constraints
+            # Description: "tba" 
+ 
+  - ChapterTitle: FACTION REPORT  
+    Category: FAQ
+    Description: "[i]If you do not pay attention\nto what happens around you,\nyour First Contact might\nalso be your last contact.\n\n[/i]Henry Robinson, General\nUCH First Contact Group\n2471 AD\n\n---\n[ff4444]To show all topics of this guide, click the DROPDOWN ARROW of this chapters HEADLINE in the list on the left!\nClick the SUB-task to reveal the info contained.\nMake sure the PDA INFO button on the TOP RIGHT of the screen is selected![-]"
+    PictureFile: UCH.jpg
+    PlayerLevel: 1
+    Visibility: Always    # or ByLevel, WhenRewarded
+    Tasks:
+      - TaskTitle: UNITED COUNCIL OF HUMANITY (UCH ) 
+        PictureFile: UCH.jpg
+        Actions:
+          - ActionTitle: SUMMARY
+            Description: "[bcd3d4]The UCH was founded as a NGO back in the early 23rd century to research the predicted collapse of the Terran ecosystem. By end of the 24th century, after an accelerated rate of riots and catastrophic events, power was granted to the UCH authority to take care of the survival of the Terran civilization.[-]"
+          - ActionTitle: INTEL REPORT
+            Description: "[bcd3d4]Founded: 2217 AD\nGovernment: Military\nReligion: None\nHome Planet: Terra (Milky Way)\nMain Planet: N/A\nTerritory Size: N/A[-]"
+          - ActionTitle: ADDITIONAL INTEL
+            Description: "[bcd3d4]A decade has passed since the Terran’s arrival to the Andromeda Galaxy, which was plagued with heartache and disaster.\nThe UCH Supreme Command still leads the Terran faction, despite the personnel fatalities on their initial jump from reactor explosions as a result of the unstable hyper drives constructed on Earth, as well as the loss of intelligence and the unfortunate demise of the MS Titan.\n\nThe UCH has successfully recruited Alien inhabitants to fill up the ranks, but the constant quarrels with the Zirax Empire have reduced Expedition fleet and resources to critical levels across the territories. Concurrently, the UCH has managed to set up self-sustaining operation bases in secret locations which are constantly tracked by the Zirax to eliminate the 'Intruders'.[-]"
+          - ActionTitle: HISTORY
+            Description: "[bcd3d4]With the discovery of the alien ship in 2402 AD, the UCH developed a plan to establish contact with the mysterious race that had deserted the ship in Antartica. Operation Phoenix, which was Earth’s last ditch effort to save itself from an impending apocalypse, was spearheaded by it’s flagship, the MS Titan.\n\nThe voyage was cut short on it’s first jump when the UCH vessels made first contact with a predatory species known as the Zirax. Outgunned and caught off guard by the enemy, losses were abundant in the initial contact with this new species. Ships, crew members and materials were lost in an instant and Earth’s flagship the MS Titan was destroyed and along with nearly all of the UCH’s leading officers. The remaining ships managed to retreat from the battle and hide in deep space, out of range of the Zirax Empire. Survivors of the battle were left to fend for themselves, of which only a few found their way back to the UCH.\n\nScientists are still gathering data and examining whether the term 'Empyrion' used loosely throughout history is a physical location or a spiritual/philosophical belief. Some members of the UCH command, believe someone positioned the Alien Ship to lure us into a trap, knowing the warp drives were dysfunctional. This is still being debated and the UCH has yet to find concrete evidence on the Zirax involvement behind the attack.[-]"
+      - TaskTitle: ZIRAX EMPIRE 
+        PictureFile: ZiraxEmpire.jpg
+        Actions:
+          - ActionTitle: SUMMARY
+            Description: "[bcd3d4]The Ziraxian Empire is a militarist oligarchy and the largest power in the galaxy Andromeda. It is ruled by a series of houses, each with a specific function or functions that relates to a sphere of influence. These houses each produce a representative at an, as yet, undiscovered time, and they form a council of elders. This production is facilitated by the Emperor who publicly holds supreme power, but is realistically, more a figure head.[-]"
+          - ActionTitle: INTEL REPORT
+            Description: "[bcd3d4]The Empire seems to overstretch itself at an increasing rate, due to the extremely fast expansion rate. As a result, the Zirax government seems to fall short on capacities for building proper stations. This leaves them incapable of recruiting the correct amount of specialized troops to fill these structures. This leads to a power vacuum in newly acquired systems, leaving them under strength and without order due to a lack of governance.[-]"
+          - ActionTitle: RELATIONSHIP WITH UCH
+            Description: "Negotiations seem to be impossible / Haven’t succeeded yet; Hostile for now"
+          - ActionTitle: ADDITIONAL INTEL
+            Description: "The rapid expansion directly affects how most of the Zirax bases are structured, which is clearly visible when entering the facilities. We have compared the Zirax structures and have determined that all types and houses within the Zirax military are merely prefabs or standard templates. They are streamlined buildings with standardized functions, which enables the troops to get familiar with the base layouts before exiting a teleporter in a combat situation.\n\nMaterials and specimens that UCH scientists have examined and brought back from those locations, have given us the impression that the facilities are “teleported” to the destinations as a whole. We have yet to see this happen and we don’t have proof yet to say this is the case, so this is just a theory.\n\nZirax troops are often not stationed in the bases, and to maintain control of distant worlds within the territory of influence, troops will be teleported into central garrisons from an undisclosed location if a base is attacked.\n\nAI drones are mainly the first line of defense and surveillance, patrolling the area and guarding important POIs. These are controlled from a central server or by remote at a Drone base.\n\nAttack vessels in the outer rim territories operate similar to the AI drones. From what we have gathered from UCH troops on the ground who have captured a few of these vessels, these attack vessels are remote or AI controlled. Reports have shown that they remain unmanned, and did not carry any Zirax on board, although the vessels are fully capable of transporting several hundred Zirax personnel. These vessels are equipped with a self-destruct feature, which is triggered when the vessel is boarded by a non-Zirax crew.\n\nThere are rumors floating around that most of the Zirax enlisted foot soldiers are clones. This theory was brought up by a UCH science team while closely examining reports and video footage of an attack at a Zirax Bio-lab. During an interrogation of a lead scientist at the facility, the Zirax claimed that any further information could not be retrieved from the system. This may just be diversion from the truth, since all the armored Zirax soldiers look identical to human eyes."
+          - ActionTitle: HISTORY
+            Description: "There isn’t very much information available on the origin(s) of the Zirax Empire at this time, however Intel reports that the ancient Zirax  were in touch with the 'Elder Talon', and were given a technological boost from the advanced civilization. The Talon and Zirax were joined together in a technological and cultural Union, called the 'Zirax-Talon Assembly', which persisted for hundreds of years.\n\nWe do not know why it collapsed, why they separated, or if it was a conspiracy. Files retrieved by the 2nd UCH recon unit indicated, that the abominations found on the planets they occupied, seemed to have something to do with this or at least are related to a big incident in the past. These files were encrypted, classified and could not be deciphered until today.\n\nTheir brutality and behavior towards the Talon Guardians or anyone not from a Zirax controlled faction, indicates that there is a lot more to uncover, than official reports tell us at the moment. "
+      - TaskTitle: TALON GUARDIANS 
+        PictureFile: TalonGuardians.jpg
+        Actions:
+          - ActionTitle: SUMMARY
+            Description: "[bcd3d4]Primitive culture (Technology is forbidden; Zirax drones control their settlements). Seem to be the descendants of the so called 'Elder Talon.'[-]"
+          - ActionTitle: INTEL REPORT
+            Description: "[bcd3d4]The Talon, also known as Talon Guardians, are an astonishingly primitive society with little variation. The name, 'Talon Guardian' stems from a largely mysterious past with the Zirax. The Zirax impose a heavy toll upon the Talon guardians – zealously sheltering them with drones and other restraints. This may indicate either the Talon pose a threat to them… or are kept hostages for some unknown reason.[-]"
+          - ActionTitle: RELATIONSHIP WITH UCH
+            Description: "Neutral"
+          - ActionTitle: ADDITIONAL INTEL
+            Description: "no data yet"
+          - ActionTitle: HISTORY
+            Description: "no data yet"
+      - TaskTitle: POLARIS Megacorp 
+        PictureFile: TradersGuild.jpg
+        Actions:
+          - ActionTitle: SUMMARY
+            Description: "[bcd3d4]Polaris Corporation is a large multisystem corporation with reach that extends well beyond surveyed space. Most personnel is bipedal humanoid (metabolism seems to differ slightly from Terrans) [-]"
+          - ActionTitle: INTEL REPORT
+            Description: "[bcd3d4]Primary provider of materials, tech and devices for different 3rd party companies (Bertram, InterWeap, Servant.)\n– Controls the majority of mining and refinery operations in surveyed space (UCH intel indicates a possible monopoly.)\n– Relationship with Zirax unclear. Zirax installation infiltration suggests deep involvement with the empire, but this fact has yet to be confirmed.[-]"
+          - ActionTitle: RELATIONSHIP WITH UCH
+            Description: "Neutral"
+          - ActionTitle: ADDITIONAL INTEL
+            Description: "Polaris Corporation has two subsidiaries – Polaris Space Industries (PSI) and Polaris Mining Company (PMC)."
+          - ActionTitle: HISTORY
+            Description: "no data yet"
+
+
+# ENZYCLOPEDIA
+
+  - ChapterTitle: chptitleKnowledgebase      # ToDO: check if actions can be fulfilled   
+    Category: FAQ
+    Description: "\n\n---\n[ff4444]To show all topics of this guide, click the DROPDOWN ARROW of this chapters HEADLINE in the list on the left!\nClick the SUB-task to reveal the info contained.\nMake sure the PDA INFO button on the TOP RIGHT of the screen is selected![-]"
+    PictureFile: dangerspace.jpg
+    PlayerLevel: 1
+    Visibility: Always    # or ByLevel, WhenRewarded
+    Tasks:
+      - TaskTitle: tasktitleGGM
+        PictureFile: GGM.jpg
+        Actions:
+          - ActionTitle: acttitleBasics
+            Description: actdescBasics
+
+          - ActionTitle: acttitleTechtree
+            Description: actdescTechtree
+
+          - ActionTitle: acttitleOP
+            Description: actdescOP
+
+          - ActionTitle: acttitleLook
+            Description: actdescLook
+
+          - ActionTitle: acttitlePvPvE
+            Description: actdescPvPvE
+
+      - TaskTitle: tasktitleGGM2
+       # PictureFile: GGM.jpg
+        Actions:
+          - ActionTitle: acttitleRegistry
+            Description: actdescRegistry
+
+          - ActionTitle: acttitleMarketplace
+            Description: actdescMarketplace
+
+          - ActionTitle: acttitleMapmarkers
+            Description: actdescMapmarkers
+
+      - TaskTitle: tasktitleTemperatur
+        # PictureFile: GGM.jpg
+        Actions:
+          - ActionTitle: acttitleTInfo
+            Description: actdescTInfo
+
+          - ActionTitle: acttitleRadInfo
+            Description: actdescRadInfo
+
+          - ActionTitle: acttitleTempRadDevices
+            Description: actdescTempRadDevices
+
+          - ActionTitle: acttitleWeather
+            Description: actdescWeather
+
+      - TaskTitle: tasktitleOxygenRooms
+        # PictureFile: GGM.jpg
+        Actions:
+          - ActionTitle: acttitlelORglobal
+            Description: actdescORglobal
+
+          - ActionTitle: acttitleOquest
+            Description: actdescOquest
+
+      - TaskTitle: tasktitlePlayerArmor
+        # PictureFile: GGM.jpg
+        Actions:
+          - ActionTitle: acttitlePlayerA
+            Description: actdescPlayerA
+
+          - ActionTitle: acttitleBooster
+            Description: actdescBooster
+
+          - ActionTitle: acttitleDandR
+            Description: actdescDandR
+
+      - TaskTitle: tasktitleTeleport
+        # PictureFile: GGM.jpg
+        Actions:
+          - ActionTitle: acttitlePortal
+            Description: actdescPortal
+
+          - ActionTitle: acttitleInstances
+            Description: actdescInstances
+
+      - TaskTitle: tasktitleSI
+        PictureFile: SI.jpg 
+        Actions:
+          - ActionTitle: acttitleSIwork
+            Description: actdescSIwork
+
+          - ActionTitle: acttitleBAcollaps
+            Description: actdescBAcollaps
+
+          - ActionTitle: acttitleSIoff
+            Description: actdescSIoff
+
+      # - TaskTitle: tasktitleHuR
+        # PictureFile: HuR.jpg 
+        # Actions:
+          # - ActionTitle: acttitlePickup
+            # Description: actdescPickup
+
+          # - ActionTitle: acttitlePentaxid
+            # Description: actdescPentaxid
+
+          # - ActionTitle: acttitleOre
+            # Description: actdescOre
+
+          # - ActionTitle: acttitleHarvester
+            # Description: actdescHarvester
+
+          # - ActionTitle: acttitleChainsaw
+            # Description: actdescChainsaw
+
+      - TaskTitle: tasktitleBuilding
+        PictureFile: Building.jpg 
+        Actions:
+          - ActionTitle: acttitleMatz
+            Description: actdescMatz
+
+          - ActionTitle: acttitleBlocks
+            Description: actdescBlocks
+
+          - ActionTitle: acttitleBrotate
+            Description: actdescBrotate
+
+          - ActionTitle: acttitlePlane
+            Description: actdescPlane
+
+          - ActionTitle: acttitleMisc
+            Description: actdescMisc
+
+      - TaskTitle: tasktitleBuilding2
+        PictureFile: Building2.jpg 
+        Actions:
+          - ActionTitle: acttitleMirror
+            Description: actdescMirror
+
+          - ActionTitle: acttitlePaint
+            Description: actdescPaint
+
+          - ActionTitle: acttitleWopac
+            Description: actdescWopac
+
+          - ActionTitle: acttitleSettings
+            Description: actdescSettings
+
+          - ActionTitle: acttitleRename
+            Description: actdescRename
+
+      - TaskTitle: tasktitleVessel
+        PictureFile: Vessel.jpg 
+        Actions:
+          - ActionTitle: acttitleDieO2
+            Description: actdescDieO2
+
+          - ActionTitle: acttitleFlipped
+            Description: actdescFlipped
+
+          - ActionTitle: acttitleHorizon
+            Description: actdescHorizon
+
+          - ActionTitle: acttitleCVtip
+            Description: actdescCVtip
+
+          - ActionTitle: acttitleMCockpit
+            Description: actdescMCockpit
+
+      - TaskTitle: tasktitleVessel2
+        PictureFile: Vessel2.jpg 
+        Actions:
+          - ActionTitle: acttitleDocking
+            Description: actdescDocking
+
+          - ActionTitle: acttitleAccessD
+            Description: actdescAccessD
+
+          - ActionTitle: acttitleWarp
+            Description: actdescWarp
+
+      - TaskTitle: tasktitleWeapon
+        PictureFile: Weapon.jpg 
+        Actions:
+          - ActionTitle: acttitleRange
+            Description: actdescRange
+
+          - ActionTitle: acttitleDamageW
+            Description: actdescDamageW
+
+          - ActionTitle: acttitleEpicW
+            Description: actdescEpicW
+
+          - ActionTitle: acttitleAmmo
+            Description: actdescAmmo
+
+          - ActionTitle: acttitleTaccess
+            Description: actdescTaccess
+
+      - TaskTitle: tasktitlePOI
+        PictureFile: POI.jpg 
+        Actions:
+          - ActionTitle: acttitlePdoor
+            Description: actdescPdoor
+
+          - ActionTitle: acttitlePblocks
+            Description: actdescPblocks
+
+          - ActionTitle: acttitleTeleporter
+            Description: actdescTeleporter
+
+          - ActionTitle: acttitlePbase
+            Description: actdescPbase
+
+          - ActionTitle: acttitleAIvessels
+            Description: actdescAIvessels
+
+      - TaskTitle: tasktitlePdrone
+        PictureFile: Pdrone.jpg 
+        Actions:
+          - ActionTitle: acttitlePlayerD
+            Description: actdescPlayerD
+
+      - TaskTitle: tasktitleFaction
+        PictureFile: Faction.jpg 
+        Actions:
+          - ActionTitle: acttitleJoin
+            Description: actdescJoin
+
+          - ActionTitle: acttitleFvessel
+            Description: actdescFvessel
+
+          - ActionTitle: acttitleFoprot
+            Description: actdescFoprot
+
+          - ActionTitle: acttitleFsetting
+            Description: actdescFsetting
+
+          - ActionTitle: acttitleFally
+            Description: actdescFally
+
+      - TaskTitle: tasktitleCP
+        PictureFile: CP.jpg 
+        Actions:
+          - ActionTitle: acttitleRemote
+            Description: actdescRemote
+
+          - ActionTitle: acttitleRenameD
+            Description: actdescRenameD
+
+          - ActionTitle: acttitleGroup
+            Description: actdescGroup
+
+          - ActionTitle: acttitleSetFaction
+            Description: actdescSetFaction
+
+          - ActionTitle: acttitleHome
+            Description: actdescHome
+
+      - TaskTitle: tasktitleTSigLog
+        PictureFile: CP.jpg 
+        Actions:
+          - ActionTitle: acttitleTriggers
+            Description: actdescTriggers
+
+          - ActionTitle: acttitleHowto
+            Description: actdescHowto
+
+          - ActionTitle: acttitleTtips
+            Description: actdescTtips
+
+          - ActionTitle: acttitleSignal
+            Description: actdescSignal
+
+      - TaskTitle: tasktitleBP
+        PictureFile: BP.jpg 
+        Actions:
+          - ActionTitle: acttitleCreate
+            Description: actdescCreate
+
+          - ActionTitle: acttitleSpawn
+            Description: actdescSpawn
+
+          - ActionTitle: acttitleShortcut
+            Description: actdescShortcut
+
+          - ActionTitle: acttitlePublish
+            Description: actdescPublish
+
+          - ActionTitle: acttitleBPmisc
+            Description: actdescBPmisc
+
+      - TaskTitle: tasktitleCreative
+        PictureFile: Creative.jpg 
+        Actions:
+          - ActionTitle: acttitleRemove
+            Description: actdescRemove
+
+          - ActionTitle: acttitleCmirror
+            Description: actdescCmirror
+
+          - ActionTitle: acttitleCmatz
+            Description: actdescCmatz
+
+          - ActionTitle: acttitleCpoi
+            Description: actdescCpoi
+
+      - TaskTitle: tasktitleConsole
+        PictureFile: Console.jpg 
+        Actions:
+          - ActionTitle: acttitleUse
+            Description: actdescUse
+
+          - ActionTitle: acttitleDestr
+            Description: actdescDestr
+
+          - ActionTitle: acttitleAdmin
+            Description: actdescAdmin
+
+          - ActionTitle: acttitlePgroup
+            Description: actdescPgroup
+
+      - TaskTitle: tasktitlePDAInfo
+        PictureFile: PDAInfo.jpg 
+        Actions:
+          - ActionTitle: acttitleDeactivate
+            Description: actdescDeactivate
+
+          - ActionTitle: acttitleTsks
+            Description: actdescTsks
+
+          - ActionTitle: acttitleFuture
+            Description: actdescFuture
+
+      - TaskTitle: tasktitleGlobMisc
+        PictureFile: GlobMisc.jpg 
+        Actions:
+          - ActionTitle: acttitlePlayer
+            Description: actdescPlayer
+
+          - ActionTitle: acttitleReport
+            Description: actdescReport
+
+          - ActionTitle: acttitleSaveGame
+            Description: actdescSaveGame
+
+          - ActionTitle: acttitleEAC
+            Description: actdescEAC

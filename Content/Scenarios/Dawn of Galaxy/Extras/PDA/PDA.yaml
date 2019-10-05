@@ -1,0 +1,3029 @@
+Creator: "Eleon Game Studio (RexXxuS)"
+Chapters:
+  - ChapterTitle: 10_Tips_for_GETTING_STARTED
+    Category: FAQ
+    Preamble: ""
+    Description: 10_Tips_for_GETTING_STARTED_Description
+    PictureFile: "readfirst.jpg"
+    PlayerLevel: 1
+    Visibility: Always
+    Tasks:
+      - TaskTitle: Click_HEADLINE_and_PDA_INFO
+        Actions:
+          - ActionTitle: Rules_to_follow
+            Description: Rules_to_follow_Description
+            CompletedMessage: Rules_to_follow_cplMsg
+    CompletedMessage: 10_Tips_for_GETTING_STARTED_cplMsg
+  - ChapterTitle: DOCTORS_JOURNAL
+    Category: FAQ
+    Preamble: ""
+    Description: DOCTORS_JOURNAL_Description
+    PictureFile: "pfbmedical.jpg"
+    PlayerLevel: 1
+    Visibility: Always
+    Tasks:
+      - TaskTitle: DOCTORS_101
+        Actions:
+          - ActionTitle: Rules_to_follow
+            Description: Rules_to_follow_Description
+            CompletedMessage: Rules_to_follow_cplMsg
+      - TaskTitle: STAGES_OF_DISEASES
+        Actions:
+          - ActionTitle: TEMPERATURE_BRANCH
+            Description: TEMPERATURE_BRANCH_Description
+            CompletedMessage: TEMPERATURE_BRANCH_cplMsg
+          - ActionTitle: ANTIBIOTICS_BRANCH
+            Description: ANTIBIOTICS_BRANCH_Description
+            CompletedMessage: ANTIBIOTICS_BRANCH_cplMsg
+          - ActionTitle: ANTITOXIC_BRANCH
+            Description: ANTITOXIC_BRANCH_Description
+            CompletedMessage: ANTITOXIC_BRANCH_cplMsg
+          - ActionTitle: BONES_BRANCH
+            Description: BONES_BRANCH_Description
+            CompletedMessage: BONES_BRANCH_cplMsg
+          - ActionTitle: PARASITES_BRANCH
+            Description: PARASITES_BRANCH_Description
+            CompletedMessage: PARASITES_BRANCH_cplMsg
+          - ActionTitle: RADIATION_BRANCH
+            Description: RADIATION_BRANCH_Description
+            CompletedMessage: RADIATION_BRANCH_cplMsg
+          - ActionTitle: HANGOVER_BRANCH
+            Description: HANGOVER_BRANCH_Description
+            CompletedMessage: HANGOVER_BRANCH_cplMsg
+      - TaskTitle: Alien_Parasite
+        PictureFile: "AlienParasite.jpg"
+        Actions:
+          - ActionTitle: MEDICAL_ITEMS
+            Description: MEDICAL_ITEMS_Description
+            CompletedMessage: MEDICAL_ITEMS_cplMsg
+          - ActionTitle: MEDICAL_STATIONS
+            Description: MEDICAL_STATIONS_Description
+            CompletedMessage: MEDICAL_STATIONS_cplMsg
+          - ActionTitle: OTHER_CURES
+            Description: OTHER_CURES_Description
+            CompletedMessage: OTHER_CURES_cplMsg
+          - ActionTitle: OTHER_CONSUMABLES
+            Description: OTHER_CONSUMABLES_Description
+            CompletedMessage: OTHER_CONSUMABLES_cplMsg
+          - ActionTitle: "SIDE_EFFECTS.."
+            Description: "SIDE_EFFECTS.._Description"
+            CompletedMessage: "SIDE_EFFECTS.._cplMsg"
+      - TaskTitle: Bad_Trip
+        PictureFile: "BadTrip.jpg"
+        Actions:
+          - ActionTitle: MEDICAL_ITEMS
+            Description: MEDICAL_ITEMS_Description
+            CompletedMessage: MEDICAL_ITEMS_cplMsg
+          - ActionTitle: MEDICAL_STATIONS
+            Description: MEDICAL_STATIONS_Description
+            CompletedMessage: MEDICAL_STATIONS_cplMsg
+          - ActionTitle: OTHER_CURES
+            Description: OTHER_CURES_Description
+            CompletedMessage: OTHER_CURES_cplMsg
+          - ActionTitle: OTHER_CONSUMABLES
+            Description: OTHER_CONSUMABLES_Description
+            CompletedMessage: OTHER_CONSUMABLES_cplMsg
+          - ActionTitle: "SIDE_EFFECTS.."
+            Description: "SIDE_EFFECTS.._Description"
+            CompletedMessage: "SIDE_EFFECTS.._cplMsg"
+          - ActionTitle: Bad_Trip_Action_CONDITIONS
+            Description: Bad_Trip_Action_CONDITIONS_Description
+            CompletedMessage: Bad_Trip_Action_CONDITIONS_cplMsg
+      - TaskTitle: Broken_Leg
+        PictureFile: "BrokenLeg.jpg"
+        Actions:
+          - ActionTitle: MEDICAL_ITEMS
+            Description: MEDICAL_ITEMS_Description
+            CompletedMessage: MEDICAL_ITEMS_cplMsg
+          - ActionTitle: MEDICAL_STATIONS
+            Description: MEDICAL_STATIONS_Description
+            CompletedMessage: MEDICAL_STATIONS_cplMsg
+          - ActionTitle: OTHER_CURES
+            Description: OTHER_CURES_Description
+            CompletedMessage: OTHER_CURES_cplMsg
+          - ActionTitle: OTHER_CONSUMABLES
+            Description: OTHER_CONSUMABLES_Description
+            CompletedMessage: OTHER_CONSUMABLES_cplMsg
+          - ActionTitle: "SIDE_EFFECTS.."
+            Description: "SIDE_EFFECTS.._Description"
+            CompletedMessage: "SIDE_EFFECTS.._cplMsg"
+      - TaskTitle: Closed_Fracture
+        PictureFile: "FractureClosed.jpg"
+        Actions:
+          - ActionTitle: MEDICAL_ITEMS
+            Description: MEDICAL_ITEMS_Description
+            CompletedMessage: MEDICAL_ITEMS_cplMsg
+          - ActionTitle: MEDICAL_STATIONS
+            Description: MEDICAL_STATIONS_Description
+            CompletedMessage: MEDICAL_STATIONS_cplMsg
+          - ActionTitle: OTHER_CURES
+            Description: OTHER_CURES_Description
+            CompletedMessage: OTHER_CURES_cplMsg
+          - ActionTitle: OTHER_CONSUMABLES
+            Description: OTHER_CONSUMABLES_Description
+            CompletedMessage: OTHER_CONSUMABLES_cplMsg
+          - ActionTitle: "SIDE_EFFECTS.."
+            Description: "SIDE_EFFECTS.._Description"
+            CompletedMessage: "SIDE_EFFECTS.._cplMsg"
+      - TaskTitle: Dermal_Burn
+        PictureFile: "DermalBurn.jpg"
+        Actions:
+          - ActionTitle: MEDICAL_ITEMS
+            Description: MEDICAL_ITEMS_Description
+            CompletedMessage: MEDICAL_ITEMS_cplMsg
+          - ActionTitle: MEDICAL_STATIONS
+            Description: MEDICAL_STATIONS_Description
+            CompletedMessage: MEDICAL_STATIONS_cplMsg
+          - ActionTitle: OTHER_CURES
+            Description: OTHER_CURES_Description
+            CompletedMessage: OTHER_CURES_cplMsg
+          - ActionTitle: OTHER_CONSUMABLES
+            Description: OTHER_CONSUMABLES_Description
+            CompletedMessage: OTHER_CONSUMABLES_cplMsg
+          - ActionTitle: "SIDE_EFFECTS.."
+            Description: "SIDE_EFFECTS.._Description"
+            CompletedMessage: "SIDE_EFFECTS.._cplMsg"
+      - TaskTitle: Dermal_Parasite
+        PictureFile: "DermalParasite.jpg"
+        Actions:
+          - ActionTitle: MEDICAL_ITEMS
+            Description: MEDICAL_ITEMS_Description
+            CompletedMessage: MEDICAL_ITEMS_cplMsg
+          - ActionTitle: MEDICAL_STATIONS
+            Description: MEDICAL_STATIONS_Description
+            CompletedMessage: MEDICAL_STATIONS_cplMsg
+          - ActionTitle: OTHER_CURES
+            Description: OTHER_CURES_Description
+            CompletedMessage: OTHER_CURES_cplMsg
+          - ActionTitle: OTHER_CONSUMABLES
+            Description: OTHER_CONSUMABLES_Description
+            CompletedMessage: OTHER_CONSUMABLES_cplMsg
+          - ActionTitle: "SIDE_EFFECTS.."
+            Description: "SIDE_EFFECTS.._Description"
+            CompletedMessage: "SIDE_EFFECTS.._cplMsg"
+      - TaskTitle: Endo_Parasite
+        PictureFile: "EndoParasite.jpg"
+        Actions:
+          - ActionTitle: MEDICAL_ITEMS
+            Description: MEDICAL_ITEMS_Description
+            CompletedMessage: MEDICAL_ITEMS_cplMsg
+          - ActionTitle: MEDICAL_STATIONS
+            Description: MEDICAL_STATIONS_Description
+            CompletedMessage: MEDICAL_STATIONS_cplMsg
+          - ActionTitle: OTHER_CURES
+            Description: OTHER_CURES_Description
+            CompletedMessage: OTHER_CURES_cplMsg
+          - ActionTitle: OTHER_CONSUMABLES
+            Description: OTHER_CONSUMABLES_Description
+            CompletedMessage: OTHER_CONSUMABLES_cplMsg
+          - ActionTitle: "SIDE_EFFECTS.."
+            Description: "SIDE_EFFECTS.._Description"
+            CompletedMessage: "SIDE_EFFECTS.._cplMsg"
+      - TaskTitle: Fever_Attack
+        PictureFile: "FeverAttack.jpg"
+        Actions:
+          - ActionTitle: MEDICAL_ITEMS
+            Description: MEDICAL_ITEMS_Description
+            CompletedMessage: MEDICAL_ITEMS_cplMsg
+          - ActionTitle: MEDICAL_STATIONS
+            Description: MEDICAL_STATIONS_Description
+            CompletedMessage: MEDICAL_STATIONS_cplMsg
+          - ActionTitle: OTHER_CURES
+            Description: OTHER_CURES_Description
+            CompletedMessage: OTHER_CURES_cplMsg
+          - ActionTitle: OTHER_CONSUMABLES
+            Description: OTHER_CONSUMABLES_Description
+            CompletedMessage: OTHER_CONSUMABLES_cplMsg
+          - ActionTitle: "SIDE_EFFECTS.."
+            Description: "SIDE_EFFECTS.._Description"
+            CompletedMessage: "SIDE_EFFECTS.._cplMsg"
+      - TaskTitle: Food_Poisoning
+        PictureFile: "PoisonFood.jpg"
+        Actions:
+          - ActionTitle: MEDICAL_ITEMS
+            Description: MEDICAL_ITEMS_Description
+            CompletedMessage: MEDICAL_ITEMS_cplMsg
+          - ActionTitle: MEDICAL_STATIONS
+            Description: MEDICAL_STATIONS_Description
+            CompletedMessage: MEDICAL_STATIONS_cplMsg
+          - ActionTitle: OTHER_CURES
+            Description: OTHER_CURES_Description
+            CompletedMessage: OTHER_CURES_cplMsg
+          - ActionTitle: OTHER_CONSUMABLES
+            Description: OTHER_CONSUMABLES_Description
+            CompletedMessage: OTHER_CONSUMABLES_cplMsg
+          - ActionTitle: "SIDE_EFFECTS.."
+            Description: "SIDE_EFFECTS.._Description"
+            CompletedMessage: "SIDE_EFFECTS.._cplMsg"
+      - TaskTitle: "Freezing_\x28to_death\x29"
+        PictureFile: "BlackoutCold.jpg"
+        Actions:
+          - ActionTitle: MEDICAL_ITEMS
+            Description: MEDICAL_ITEMS_Description
+            CompletedMessage: MEDICAL_ITEMS_cplMsg
+          - ActionTitle: MEDICAL_STATIONS
+            Description: MEDICAL_STATIONS_Description
+            CompletedMessage: MEDICAL_STATIONS_cplMsg
+          - ActionTitle: OTHER_CURES
+            Description: OTHER_CURES_Description
+            CompletedMessage: OTHER_CURES_cplMsg
+          - ActionTitle: OTHER_CONSUMABLES
+            Description: OTHER_CONSUMABLES_Description
+            CompletedMessage: OTHER_CONSUMABLES_cplMsg
+          - ActionTitle: "SIDE_EFFECTS.."
+            Description: "SIDE_EFFECTS.._Description"
+            CompletedMessage: "SIDE_EFFECTS.._cplMsg"
+          - ActionTitle: "Freezing_\x28to_death\x29_Action_CONDITIONS"
+            Description: "Freezing_\x28to_death\x29_Action_CONDITIONS_Description"
+            CompletedMessage: "Freezing_\x28to_death\x29_Action_CONDITIONS_cplMsg"
+      - TaskTitle: DOCTORS_JOURNAL_Task_Frostbite
+        PictureFile: "Frostbite.jpg"
+        Actions:
+          - ActionTitle: MEDICAL_ITEMS
+            Description: MEDICAL_ITEMS_Description
+            CompletedMessage: MEDICAL_ITEMS_cplMsg
+          - ActionTitle: MEDICAL_STATIONS
+            Description: MEDICAL_STATIONS_Description
+            CompletedMessage: MEDICAL_STATIONS_cplMsg
+          - ActionTitle: OTHER_CURES
+            Description: OTHER_CURES_Description
+            CompletedMessage: OTHER_CURES_cplMsg
+          - ActionTitle: OTHER_CONSUMABLES
+            Description: OTHER_CONSUMABLES_Description
+            CompletedMessage: OTHER_CONSUMABLES_cplMsg
+          - ActionTitle: "SIDE_EFFECTS.."
+            Description: "SIDE_EFFECTS.._Description"
+            CompletedMessage: "SIDE_EFFECTS.._cplMsg"
+      - TaskTitle: DOCTORS_JOURNAL_Task_Hangover
+        PictureFile: "Hangover.jpg"
+        Actions:
+          - ActionTitle: MEDICAL_ITEMS
+            Description: MEDICAL_ITEMS_Description
+            CompletedMessage: MEDICAL_ITEMS_cplMsg
+          - ActionTitle: MEDICAL_STATIONS
+            Description: MEDICAL_STATIONS_Description
+            CompletedMessage: MEDICAL_STATIONS_cplMsg
+          - ActionTitle: OTHER_CURES
+            Description: OTHER_CURES_Description
+            CompletedMessage: OTHER_CURES_cplMsg
+          - ActionTitle: OTHER_CONSUMABLES
+            Description: OTHER_CONSUMABLES_Description
+            CompletedMessage: OTHER_CONSUMABLES_cplMsg
+          - ActionTitle: "SIDE_EFFECTS.."
+            Description: "SIDE_EFFECTS.._Description"
+            CompletedMessage: "SIDE_EFFECTS.._cplMsg"
+          - ActionTitle: DOCTORS_JOURNAL_Task_Hangover_Action_CONDITIONS
+            Description: DOCTORS_JOURNAL_Task_Hangover_Action_CONDITIONS_Description
+            CompletedMessage: DOCTORS_JOURNAL_Task_Hangover_Action_CONDITIONS_cplMsg
+      - TaskTitle: Heat_Collapse
+        PictureFile: "BlackoutHot.jpg"
+        Actions:
+          - ActionTitle: MEDICAL_ITEMS
+            Description: MEDICAL_ITEMS_Description
+            CompletedMessage: MEDICAL_ITEMS_cplMsg
+          - ActionTitle: MEDICAL_STATIONS
+            Description: MEDICAL_STATIONS_Description
+            CompletedMessage: MEDICAL_STATIONS_cplMsg
+          - ActionTitle: OTHER_CURES
+            Description: OTHER_CURES_Description
+            CompletedMessage: OTHER_CURES_cplMsg
+          - ActionTitle: OTHER_CONSUMABLES
+            Description: OTHER_CONSUMABLES_Description
+            CompletedMessage: OTHER_CONSUMABLES_cplMsg
+          - ActionTitle: "SIDE_EFFECTS.."
+            Description: "SIDE_EFFECTS.._Description"
+            CompletedMessage: "SIDE_EFFECTS.._cplMsg"
+          - ActionTitle: Heat_Collapse_Action_CONDITIONS
+            Description: Heat_Collapse_Action_CONDITIONS_Description
+            CompletedMessage: Heat_Collapse_Action_CONDITIONS_cplMsg
+      - TaskTitle: Heat_Stroke
+        PictureFile: "HeatStroke.jpg"
+        Actions:
+          - ActionTitle: MEDICAL_ITEMS
+            Description: MEDICAL_ITEMS_Description
+            CompletedMessage: MEDICAL_ITEMS_cplMsg
+          - ActionTitle: MEDICAL_STATIONS
+            Description: MEDICAL_STATIONS_Description
+            CompletedMessage: MEDICAL_STATIONS_cplMsg
+          - ActionTitle: OTHER_CURES
+            Description: OTHER_CURES_Description
+            CompletedMessage: OTHER_CURES_cplMsg
+          - ActionTitle: OTHER_CONSUMABLES
+            Description: OTHER_CONSUMABLES_Description
+            CompletedMessage: OTHER_CONSUMABLES_cplMsg
+          - ActionTitle: "SIDE_EFFECTS.."
+            Description: "SIDE_EFFECTS.._Description"
+            CompletedMessage: "SIDE_EFFECTS.._cplMsg"
+          - ActionTitle: Heat_Stroke_Action_CONDITIONS
+            Description: Heat_Stroke_Action_CONDITIONS_Description
+            CompletedMessage: Heat_Stroke_Action_CONDITIONS_cplMsg
+      - TaskTitle: DOCTORS_JOURNAL_Task_Hypothermia
+        PictureFile: "Freezing.jpg"
+        Actions:
+          - ActionTitle: MEDICAL_ITEMS
+            Description: MEDICAL_ITEMS_Description
+            CompletedMessage: MEDICAL_ITEMS_cplMsg
+          - ActionTitle: MEDICAL_STATIONS
+            Description: MEDICAL_STATIONS_Description
+            CompletedMessage: MEDICAL_STATIONS_cplMsg
+          - ActionTitle: OTHER_CURES
+            Description: OTHER_CURES_Description
+            CompletedMessage: OTHER_CURES_cplMsg
+          - ActionTitle: OTHER_CONSUMABLES
+            Description: OTHER_CONSUMABLES_Description
+            CompletedMessage: OTHER_CONSUMABLES_cplMsg
+          - ActionTitle: "SIDE_EFFECTS.."
+            Description: "SIDE_EFFECTS.._Description"
+            CompletedMessage: "SIDE_EFFECTS.._cplMsg"
+          - ActionTitle: DOCTORS_JOURNAL_Task_Hypothermia_Action_CONDITIONS
+            Description: DOCTORS_JOURNAL_Task_Hypothermia_Action_CONDITIONS_Description
+            CompletedMessage: DOCTORS_JOURNAL_Task_Hypothermia_Action_CONDITIONS_cplMsg
+      - TaskTitle: DOCTORS_JOURNAL_Task_Indigestion
+        PictureFile: "Indigestion.jpg"
+        Actions:
+          - ActionTitle: MEDICAL_ITEMS
+            Description: MEDICAL_ITEMS_Description
+            CompletedMessage: MEDICAL_ITEMS_cplMsg
+          - ActionTitle: MEDICAL_STATIONS
+            Description: MEDICAL_STATIONS_Description
+            CompletedMessage: MEDICAL_STATIONS_cplMsg
+          - ActionTitle: OTHER_CURES
+            Description: OTHER_CURES_Description
+            CompletedMessage: OTHER_CURES_cplMsg
+          - ActionTitle: OTHER_CONSUMABLES
+            Description: OTHER_CONSUMABLES_Description
+            CompletedMessage: OTHER_CONSUMABLES_cplMsg
+          - ActionTitle: "SIDE_EFFECTS.."
+            Description: "SIDE_EFFECTS.._Description"
+            CompletedMessage: "SIDE_EFFECTS.._cplMsg"
+          - ActionTitle: CAN_SOURCE_FROM
+            Description: CAN_SOURCE_FROM_Description
+            CompletedMessage: CAN_SOURCE_FROM_cplMsg
+      - TaskTitle: Infected_Wound
+        PictureFile: "InfectedWound.jpg"
+        Actions:
+          - ActionTitle: MEDICAL_ITEMS
+            Description: MEDICAL_ITEMS_Description
+            CompletedMessage: MEDICAL_ITEMS_cplMsg
+          - ActionTitle: MEDICAL_STATIONS
+            Description: MEDICAL_STATIONS_Description
+            CompletedMessage: MEDICAL_STATIONS_cplMsg
+          - ActionTitle: OTHER_CURES
+            Description: OTHER_CURES_Description
+            CompletedMessage: OTHER_CURES_cplMsg
+          - ActionTitle: OTHER_CONSUMABLES
+            Description: OTHER_CONSUMABLES_Description
+            CompletedMessage: OTHER_CONSUMABLES_cplMsg
+          - ActionTitle: "SIDE_EFFECTS.."
+            Description: "SIDE_EFFECTS.._Description"
+            CompletedMessage: "SIDE_EFFECTS.._cplMsg"
+      - TaskTitle: DOCTORS_JOURNAL_Task_Intoxication
+        PictureFile: "Intoxication.jpg"
+        Actions:
+          - ActionTitle: MEDICAL_ITEMS
+            Description: MEDICAL_ITEMS_Description
+            CompletedMessage: MEDICAL_ITEMS_cplMsg
+          - ActionTitle: MEDICAL_STATIONS
+            Description: MEDICAL_STATIONS_Description
+            CompletedMessage: MEDICAL_STATIONS_cplMsg
+          - ActionTitle: OTHER_CURES
+            Description: OTHER_CURES_Description
+            CompletedMessage: OTHER_CURES_cplMsg
+          - ActionTitle: OTHER_CONSUMABLES
+            Description: OTHER_CONSUMABLES_Description
+            CompletedMessage: OTHER_CONSUMABLES_cplMsg
+          - ActionTitle: "SIDE_EFFECTS.."
+            Description: "SIDE_EFFECTS.._Description"
+            CompletedMessage: "SIDE_EFFECTS.._cplMsg"
+      - TaskTitle: DOCTORS_JOURNAL_Task_Mutilation
+        PictureFile: "Mutilation.jpg"
+        Actions:
+          - ActionTitle: MEDICAL_ITEMS
+            Description: MEDICAL_ITEMS_Description
+            CompletedMessage: MEDICAL_ITEMS_cplMsg
+          - ActionTitle: MEDICAL_STATIONS
+            Description: MEDICAL_STATIONS_Description
+            CompletedMessage: MEDICAL_STATIONS_cplMsg
+          - ActionTitle: OTHER_CURES
+            Description: OTHER_CURES_Description
+            CompletedMessage: OTHER_CURES_cplMsg
+          - ActionTitle: OTHER_CONSUMABLES
+            Description: OTHER_CONSUMABLES_Description
+            CompletedMessage: OTHER_CONSUMABLES_cplMsg
+          - ActionTitle: "SIDE_EFFECTS.."
+            Description: "SIDE_EFFECTS.._Description"
+            CompletedMessage: "SIDE_EFFECTS.._cplMsg"
+      - TaskTitle: DOCTORS_JOURNAL_Task_Necrosis
+        PictureFile: "Necrosis.jpg"
+        Actions:
+          - ActionTitle: MEDICAL_ITEMS
+            Description: MEDICAL_ITEMS_Description
+            CompletedMessage: MEDICAL_ITEMS_cplMsg
+          - ActionTitle: MEDICAL_STATIONS
+            Description: MEDICAL_STATIONS_Description
+            CompletedMessage: MEDICAL_STATIONS_cplMsg
+          - ActionTitle: OTHER_CURES
+            Description: OTHER_CURES_Description
+            CompletedMessage: OTHER_CURES_cplMsg
+          - ActionTitle: OTHER_CONSUMABLES
+            Description: OTHER_CONSUMABLES_Description
+            CompletedMessage: OTHER_CONSUMABLES_cplMsg
+          - ActionTitle: "SIDE_EFFECTS.."
+            Description: "SIDE_EFFECTS.._Description"
+            CompletedMessage: "SIDE_EFFECTS.._cplMsg"
+      - TaskTitle: Open_Fracture
+        PictureFile: "FractureOpen.jpg"
+        Actions:
+          - ActionTitle: MEDICAL_ITEMS
+            Description: MEDICAL_ITEMS_Description
+            CompletedMessage: MEDICAL_ITEMS_cplMsg
+          - ActionTitle: MEDICAL_STATIONS
+            Description: MEDICAL_STATIONS_Description
+            CompletedMessage: MEDICAL_STATIONS_cplMsg
+          - ActionTitle: OTHER_CURES
+            Description: OTHER_CURES_Description
+            CompletedMessage: OTHER_CURES_cplMsg
+          - ActionTitle: OTHER_CONSUMABLES
+            Description: OTHER_CONSUMABLES_Description
+            CompletedMessage: OTHER_CONSUMABLES_cplMsg
+          - ActionTitle: "SIDE_EFFECTS.."
+            Description: "SIDE_EFFECTS.._Description"
+            CompletedMessage: "SIDE_EFFECTS.._cplMsg"
+      - TaskTitle: Open_Wound
+        PictureFile: "Wound.jpg"
+        Actions:
+          - ActionTitle: MEDICAL_ITEMS
+            Description: MEDICAL_ITEMS_Description
+            CompletedMessage: MEDICAL_ITEMS_cplMsg
+          - ActionTitle: MEDICAL_STATIONS
+            Description: MEDICAL_STATIONS_Description
+            CompletedMessage: MEDICAL_STATIONS_cplMsg
+          - ActionTitle: OTHER_CURES
+            Description: OTHER_CURES_Description
+            CompletedMessage: OTHER_CURES_cplMsg
+          - ActionTitle: OTHER_CONSUMABLES
+            Description: OTHER_CONSUMABLES_Description
+            CompletedMessage: OTHER_CONSUMABLES_cplMsg
+          - ActionTitle: "SIDE_EFFECTS.."
+            Description: "SIDE_EFFECTS.._Description"
+            CompletedMessage: "SIDE_EFFECTS.._cplMsg"
+      - TaskTitle: Organ_Failure
+        PictureFile: "OrganFailure.jpg"
+        Actions:
+          - ActionTitle: MEDICAL_ITEMS
+            Description: MEDICAL_ITEMS_Description
+            CompletedMessage: MEDICAL_ITEMS_cplMsg
+          - ActionTitle: MEDICAL_STATIONS
+            Description: MEDICAL_STATIONS_Description
+            CompletedMessage: MEDICAL_STATIONS_cplMsg
+          - ActionTitle: OTHER_CURES
+            Description: OTHER_CURES_Description
+            CompletedMessage: OTHER_CURES_cplMsg
+          - ActionTitle: OTHER_CONSUMABLES
+            Description: OTHER_CONSUMABLES_Description
+            CompletedMessage: OTHER_CONSUMABLES_cplMsg
+          - ActionTitle: "SIDE_EFFECTS.."
+            Description: "SIDE_EFFECTS.._Description"
+            CompletedMessage: "SIDE_EFFECTS.._cplMsg"
+      - TaskTitle: Poison_Bit
+        PictureFile: "PoisonBite.jpg"
+        Actions:
+          - ActionTitle: MEDICAL_ITEMS
+            Description: MEDICAL_ITEMS_Description
+            CompletedMessage: MEDICAL_ITEMS_cplMsg
+          - ActionTitle: MEDICAL_STATIONS
+            Description: MEDICAL_STATIONS_Description
+            CompletedMessage: MEDICAL_STATIONS_cplMsg
+          - ActionTitle: OTHER_CURES
+            Description: OTHER_CURES_Description
+            CompletedMessage: OTHER_CURES_cplMsg
+          - ActionTitle: OTHER_CONSUMABLES
+            Description: OTHER_CONSUMABLES_Description
+            CompletedMessage: OTHER_CONSUMABLES_cplMsg
+          - ActionTitle: "SIDE_EFFECTS.."
+            Description: "SIDE_EFFECTS.._Description"
+            CompletedMessage: "SIDE_EFFECTS.._cplMsg"
+      - TaskTitle: Radiation_Burn
+        PictureFile: "RadiationBurn.jpg"
+        Actions:
+          - ActionTitle: MEDICAL_ITEMS
+            Description: MEDICAL_ITEMS_Description
+            CompletedMessage: MEDICAL_ITEMS_cplMsg
+          - ActionTitle: MEDICAL_STATIONS
+            Description: MEDICAL_STATIONS_Description
+            CompletedMessage: MEDICAL_STATIONS_cplMsg
+          - ActionTitle: REQUIRED_ADDITIONAL_CURES
+            Description: REQUIRED_ADDITIONAL_CURES_Description
+            CompletedMessage: REQUIRED_ADDITIONAL_CURES_cplMsg
+          - ActionTitle: OTHER_CONSUMABLES
+            Description: OTHER_CONSUMABLES_Description
+            CompletedMessage: OTHER_CONSUMABLES_cplMsg
+          - ActionTitle: "SIDE_EFFECTS.."
+            Description: "SIDE_EFFECTS.._Description"
+            CompletedMessage: "SIDE_EFFECTS.._cplMsg"
+          - ActionTitle: Radiation_Burn_Action_CONDITIONS
+            Description: Radiation_Burn_Action_CONDITIONS_Description
+            CompletedMessage: Radiation_Burn_Action_CONDITIONS_cplMsg
+      - TaskTitle: Radiation_Poisoning
+        PictureFile: "RadiationPoisoning.jpg"
+        Actions:
+          - ActionTitle: MEDICAL_ITEMS
+            Description: MEDICAL_ITEMS_Description
+            CompletedMessage: MEDICAL_ITEMS_cplMsg
+          - ActionTitle: MEDICAL_STATIONS
+            Description: MEDICAL_STATIONS_Description
+            CompletedMessage: MEDICAL_STATIONS_cplMsg
+          - ActionTitle: OTHER_CURES
+            Description: OTHER_CURES_Description
+            CompletedMessage: OTHER_CURES_cplMsg
+          - ActionTitle: OTHER_CONSUMABLES
+            Description: OTHER_CONSUMABLES_Description
+            CompletedMessage: OTHER_CONSUMABLES_cplMsg
+          - ActionTitle: "SIDE_EFFECTS.."
+            Description: "SIDE_EFFECTS.._Description"
+            CompletedMessage: "SIDE_EFFECTS.._cplMsg"
+      - TaskTitle: Radiation_Sickness
+        PictureFile: "RadiationSick1.jpg"
+        Actions:
+          - ActionTitle: MEDICAL_ITEMS
+            Description: MEDICAL_ITEMS_Description
+            CompletedMessage: MEDICAL_ITEMS_cplMsg
+          - ActionTitle: MEDICAL_STATIONS
+            Description: MEDICAL_STATIONS_Description
+            CompletedMessage: MEDICAL_STATIONS_cplMsg
+          - ActionTitle: REQUIRED_ADDITIONAL_CURES
+            Description: REQUIRED_ADDITIONAL_CURES_Description
+            CompletedMessage: REQUIRED_ADDITIONAL_CURES_cplMsg
+          - ActionTitle: OTHER_CONSUMABLES
+            Description: OTHER_CONSUMABLES_Description
+            CompletedMessage: OTHER_CONSUMABLES_cplMsg
+          - ActionTitle: "SIDE_EFFECTS.."
+            Description: "SIDE_EFFECTS.._Description"
+            CompletedMessage: "SIDE_EFFECTS.._cplMsg"
+          - ActionTitle: Radiation_Sickness_Action_CONDITIONS
+            Description: Radiation_Sickness_Action_CONDITIONS_Description
+            CompletedMessage: Radiation_Sickness_Action_CONDITIONS_cplMsg
+      - TaskTitle: DOCTORS_JOURNAL_Task_Sepsis
+        PictureFile: "Sepsis.jpg"
+        Actions:
+          - ActionTitle: MEDICAL_ITEMS
+            Description: MEDICAL_ITEMS_Description
+            CompletedMessage: MEDICAL_ITEMS_cplMsg
+          - ActionTitle: MEDICAL_STATIONS
+            Description: MEDICAL_STATIONS_Description
+            CompletedMessage: MEDICAL_STATIONS_cplMsg
+          - ActionTitle: OTHER_CURES
+            Description: OTHER_CURES_Description
+            CompletedMessage: OTHER_CURES_cplMsg
+          - ActionTitle: OTHER_CONSUMABLES
+            Description: OTHER_CONSUMABLES_Description
+            CompletedMessage: OTHER_CONSUMABLES_cplMsg
+          - ActionTitle: "SIDE_EFFECTS.."
+            Description: "SIDE_EFFECTS.._Description"
+            CompletedMessage: "SIDE_EFFECTS.._cplMsg"
+      - TaskTitle: DOCTORS_JOURNAL_Task_Stunned
+        PictureFile: "Stunned.jpg"
+        Actions:
+          - ActionTitle: MEDICAL_ITEMS
+            Description: MEDICAL_ITEMS_Description
+            CompletedMessage: MEDICAL_ITEMS_cplMsg
+          - ActionTitle: MEDICAL_STATIONS
+            Description: MEDICAL_STATIONS_Description
+            CompletedMessage: MEDICAL_STATIONS_cplMsg
+          - ActionTitle: OTHER_CURES
+            Description: OTHER_CURES_Description
+            CompletedMessage: OTHER_CURES_cplMsg
+          - ActionTitle: OTHER_CONSUMABLES
+            Description: OTHER_CONSUMABLES_Description
+            CompletedMessage: OTHER_CONSUMABLES_cplMsg
+          - ActionTitle: "SIDE_EFFECTS.."
+            Description: "SIDE_EFFECTS.._Description"
+            CompletedMessage: "SIDE_EFFECTS.._cplMsg"
+      - TaskTitle: Too_Cold
+        PictureFile: "Cold.jpg"
+        Actions:
+          - ActionTitle: MEDICAL_ITEMS
+            Description: MEDICAL_ITEMS_Description
+            CompletedMessage: MEDICAL_ITEMS_cplMsg
+          - ActionTitle: MEDICAL_STATIONS
+            Description: MEDICAL_STATIONS_Description
+            CompletedMessage: MEDICAL_STATIONS_cplMsg
+          - ActionTitle: OTHER_CURES
+            Description: OTHER_CURES_Description
+            CompletedMessage: OTHER_CURES_cplMsg
+          - ActionTitle: OTHER_CONSUMABLES
+            Description: OTHER_CONSUMABLES_Description
+            CompletedMessage: OTHER_CONSUMABLES_cplMsg
+          - ActionTitle: "SIDE_EFFECTS.."
+            Description: "SIDE_EFFECTS.._Description"
+            CompletedMessage: "SIDE_EFFECTS.._cplMsg"
+          - ActionTitle: Too_Cold_Action_CONDITIONS
+            Description: Too_Cold_Action_CONDITIONS_Description
+            CompletedMessage: Too_Cold_Action_CONDITIONS_cplMsg
+      - TaskTitle: Too_Hot
+        PictureFile: "Hot.jpg"
+        Actions:
+          - ActionTitle: MEDICAL_ITEMS
+            Description: MEDICAL_ITEMS_Description
+            CompletedMessage: MEDICAL_ITEMS_cplMsg
+          - ActionTitle: MEDICAL_STATIONS
+            Description: MEDICAL_STATIONS_Description
+            CompletedMessage: MEDICAL_STATIONS_cplMsg
+          - ActionTitle: OTHER_CURES
+            Description: OTHER_CURES_Description
+            CompletedMessage: OTHER_CURES_cplMsg
+          - ActionTitle: OTHER_CONSUMABLES
+            Description: OTHER_CONSUMABLES_Description
+            CompletedMessage: OTHER_CONSUMABLES_cplMsg
+          - ActionTitle: "SIDE_EFFECTS.."
+            Description: "SIDE_EFFECTS.._Description"
+            CompletedMessage: "SIDE_EFFECTS.._cplMsg"
+          - ActionTitle: Too_Hot_Action_CONDITIONS
+            Description: Too_Hot_Action_CONDITIONS_Description
+            CompletedMessage: Too_Hot_Action_CONDITIONS_cplMsg
+    CompletedMessage: DOCTORS_JOURNAL_cplMsg
+  - ChapterTitle: BIOLOGISTS_GUIDE
+    Category: FAQ
+    Description: BIOLOGISTS_GUIDE_Description
+    PictureFile: "Farmers101.jpg"
+    PlayerLevel: 1
+    Visibility: Always
+    Tasks:
+      - TaskTitle: FARMERS_101
+        PictureFile: "Farmers101.jpg"
+        Actions:
+          - ActionTitle: INGREDIENT_GROUPS
+            Description: INGREDIENT_GROUPS_Description
+            CompletedMessage: INGREDIENT_GROUPS_cplMsg
+          - ActionTitle: FARMERS_101_Action_SPROUTS
+            Description: FARMERS_101_Action_SPROUTS_Description
+            CompletedMessage: FARMERS_101_Action_SPROUTS_cplMsg
+          - ActionTitle: GROWING_CONDITIONS
+            Description: GROWING_CONDITIONS_Description
+            CompletedMessage: GROWING_CONDITIONS_cplMsg
+          - ActionTitle: REQUIRED_TECH
+            Description: REQUIRED_TECH_Description
+            CompletedMessage: REQUIRED_TECH_cplMsg
+          - ActionTitle: ALTERNATIVE_CRAFTING
+            Description: ALTERNATIVE_CRAFTING_Description
+            CompletedMessage: ALTERNATIVE_CRAFTING_cplMsg
+      - TaskTitle: BIOLOGISTS_GUIDE_Task_AlienParts01
+        PictureFile: "AlienParts01.jpg"
+        Actions:
+          - ActionTitle: COLLECTABLE_FROM
+            Description: COLLECTABLE_FROM_Description
+            CompletedMessage: COLLECTABLE_FROM_cplMsg
+          - ActionTitle: FARMABLE_WITH
+            Description: FARMABLE_WITH_Description
+            CompletedMessage: FARMABLE_WITH_cplMsg
+          - ActionTitle: CRAFTABLE_FROM
+            Description: CRAFTABLE_FROM_Description
+            CompletedMessage: CRAFTABLE_FROM_cplMsg
+          - ActionTitle: USED_FOR
+            Description: USED_FOR_Description
+            CompletedMessage: USED_FOR_cplMsg
+      - TaskTitle: BIOLOGISTS_GUIDE_Task_AlienParts02
+        PictureFile: "AlienParts02.jpg"
+        Actions:
+          - ActionTitle: COLLECTABLE_FROM
+            Description: COLLECTABLE_FROM_Description
+            CompletedMessage: COLLECTABLE_FROM_cplMsg
+          - ActionTitle: FARMABLE_WITH
+            Description: FARMABLE_WITH_Description
+            CompletedMessage: FARMABLE_WITH_cplMsg
+          - ActionTitle: CRAFTABLE_FROM
+            Description: CRAFTABLE_FROM_Description
+            CompletedMessage: CRAFTABLE_FROM_cplMsg
+          - ActionTitle: USED_FOR
+            Description: USED_FOR_Description
+            CompletedMessage: USED_FOR_cplMsg
+      - TaskTitle: BIOLOGISTS_GUIDE_Task_AlienParts03
+        PictureFile: "AlienParts03.jpg"
+        Actions:
+          - ActionTitle: COLLECTABLE_FROM
+            Description: COLLECTABLE_FROM_Description
+            CompletedMessage: COLLECTABLE_FROM_cplMsg
+          - ActionTitle: FARMABLE_WITH
+            Description: FARMABLE_WITH_Description
+            CompletedMessage: FARMABLE_WITH_cplMsg
+          - ActionTitle: CRAFTABLE_FROM
+            Description: CRAFTABLE_FROM_Description
+            CompletedMessage: CRAFTABLE_FROM_cplMsg
+          - ActionTitle: USED_FOR
+            Description: USED_FOR_Description
+            CompletedMessage: USED_FOR_cplMsg
+      - TaskTitle: BIOLOGISTS_GUIDE_Task_AlienThorn
+        PictureFile: "AlienThorn.jpg"
+        Actions:
+          - ActionTitle: COLLECTABLE_FROM
+            Description: COLLECTABLE_FROM_Description
+            CompletedMessage: COLLECTABLE_FROM_cplMsg
+          - ActionTitle: FARMABLE_WITH
+            Description: FARMABLE_WITH_Description
+            CompletedMessage: FARMABLE_WITH_cplMsg
+          - ActionTitle: CRAFTABLE_FROM
+            Description: CRAFTABLE_FROM_Description
+            CompletedMessage: CRAFTABLE_FROM_cplMsg
+          - ActionTitle: USED_FOR
+            Description: USED_FOR_Description
+            CompletedMessage: USED_FOR_cplMsg
+      - TaskTitle: BIOLOGISTS_GUIDE_Task_AlienTooth
+        PictureFile: "AlienTooth.jpg"
+        Actions:
+          - ActionTitle: COLLECTABLE_FROM
+            Description: COLLECTABLE_FROM_Description
+            CompletedMessage: COLLECTABLE_FROM_cplMsg
+          - ActionTitle: FARMABLE_WITH
+            Description: FARMABLE_WITH_Description
+            CompletedMessage: FARMABLE_WITH_cplMsg
+          - ActionTitle: CRAFTABLE_FROM
+            Description: CRAFTABLE_FROM_Description
+            CompletedMessage: CRAFTABLE_FROM_cplMsg
+          - ActionTitle: USED_FOR
+            Description: USED_FOR_Description
+            CompletedMessage: USED_FOR_cplMsg
+      - TaskTitle: BIOLOGISTS_GUIDE_Task_Berries
+        PictureFile: "Berries.jpg"
+        Actions:
+          - ActionTitle: COLLECTABLE_FROM
+            Description: COLLECTABLE_FROM_Description
+            CompletedMessage: COLLECTABLE_FROM_cplMsg
+          - ActionTitle: FARMABLE_WITH
+            Description: FARMABLE_WITH_Description
+            CompletedMessage: FARMABLE_WITH_cplMsg
+          - ActionTitle: CRAFTABLE_FROM
+            Description: CRAFTABLE_FROM_Description
+            CompletedMessage: CRAFTABLE_FROM_cplMsg
+          - ActionTitle: USED_FOR
+            Description: USED_FOR_Description
+            CompletedMessage: USED_FOR_cplMsg
+      - TaskTitle: BIOLOGISTS_GUIDE_Task_Buds
+        PictureFile: "Buds.jpg"
+        Actions:
+          - ActionTitle: COLLECTABLE_FROM
+            Description: COLLECTABLE_FROM_Description
+            CompletedMessage: COLLECTABLE_FROM_cplMsg
+          - ActionTitle: FARMABLE_WITH
+            Description: FARMABLE_WITH_Description
+            CompletedMessage: FARMABLE_WITH_cplMsg
+          - ActionTitle: CRAFTABLE_FROM
+            Description: CRAFTABLE_FROM_Description
+            CompletedMessage: CRAFTABLE_FROM_cplMsg
+          - ActionTitle: USED_FOR
+            Description: USED_FOR_Description
+            CompletedMessage: USED_FOR_cplMsg
+      - TaskTitle: BIOLOGISTS_GUIDE_Task_ConfettiMossScrapings
+        PictureFile: "ConfettiMossScrapings.jpg"
+        Actions:
+          - ActionTitle: COLLECTABLE_FROM
+            Description: COLLECTABLE_FROM_Description
+            CompletedMessage: COLLECTABLE_FROM_cplMsg
+          - ActionTitle: FARMABLE_WITH
+            Description: FARMABLE_WITH_Description
+            CompletedMessage: FARMABLE_WITH_cplMsg
+          - ActionTitle: CRAFTABLE_FROM
+            Description: CRAFTABLE_FROM_Description
+            CompletedMessage: CRAFTABLE_FROM_cplMsg
+          - ActionTitle: USED_FOR
+            Description: USED_FOR_Description
+            CompletedMessage: USED_FOR_cplMsg
+      - TaskTitle: BIOLOGISTS_GUIDE_Task_Egg
+        PictureFile: "Egg.jpg"
+        Actions:
+          - ActionTitle: COLLECTABLE_FROM
+            Description: COLLECTABLE_FROM_Description
+            CompletedMessage: COLLECTABLE_FROM_cplMsg
+          - ActionTitle: FARMABLE_WITH
+            Description: FARMABLE_WITH_Description
+            CompletedMessage: FARMABLE_WITH_cplMsg
+          - ActionTitle: CRAFTABLE_FROM
+            Description: CRAFTABLE_FROM_Description
+            CompletedMessage: CRAFTABLE_FROM_cplMsg
+          - ActionTitle: USED_FOR
+            Description: USED_FOR_Description
+            CompletedMessage: USED_FOR_cplMsg
+      - TaskTitle: BIOLOGISTS_GUIDE_Task_Fibers
+        PictureFile: "Fiber.jpg"
+        Actions:
+          - ActionTitle: COLLECTABLE_FROM
+            Description: COLLECTABLE_FROM_Description
+            CompletedMessage: COLLECTABLE_FROM_cplMsg
+          - ActionTitle: FARMABLE_WITH
+            Description: FARMABLE_WITH_Description
+            CompletedMessage: FARMABLE_WITH_cplMsg
+          - ActionTitle: CRAFTABLE_FROM
+            Description: CRAFTABLE_FROM_Description
+            CompletedMessage: CRAFTABLE_FROM_cplMsg
+          - ActionTitle: USED_FOR
+            Description: USED_FOR_Description
+            CompletedMessage: USED_FOR_cplMsg
+      - TaskTitle: BIOLOGISTS_GUIDE_Task_FireMossScrapings
+        PictureFile: "FireMossScrapings.jpg"
+        Actions:
+          - ActionTitle: COLLECTABLE_FROM
+            Description: COLLECTABLE_FROM_Description
+            CompletedMessage: COLLECTABLE_FROM_cplMsg
+          - ActionTitle: FARMABLE_WITH
+            Description: FARMABLE_WITH_Description
+            CompletedMessage: FARMABLE_WITH_cplMsg
+          - ActionTitle: CRAFTABLE_FROM
+            Description: CRAFTABLE_FROM_Description
+            CompletedMessage: CRAFTABLE_FROM_cplMsg
+          - ActionTitle: USED_FOR
+            Description: USED_FOR_Description
+            CompletedMessage: USED_FOR_cplMsg
+      - TaskTitle: BIOLOGISTS_GUIDE_Task_Fruit
+        PictureFile: "Fruit.jpg"
+        Actions:
+          - ActionTitle: COLLECTABLE_FROM
+            Description: COLLECTABLE_FROM_Description
+            CompletedMessage: COLLECTABLE_FROM_cplMsg
+          - ActionTitle: FARMABLE_WITH
+            Description: FARMABLE_WITH_Description
+            CompletedMessage: FARMABLE_WITH_cplMsg
+          - ActionTitle: CRAFTABLE_FROM
+            Description: CRAFTABLE_FROM_Description
+            CompletedMessage: CRAFTABLE_FROM_cplMsg
+          - ActionTitle: USED_FOR
+            Description: USED_FOR_Description
+            CompletedMessage: USED_FOR_cplMsg
+      - TaskTitle: BIOLOGISTS_GUIDE_Task_Grain
+        PictureFile: "Grain.jpg"
+        Actions:
+          - ActionTitle: COLLECTABLE_FROM
+            Description: COLLECTABLE_FROM_Description
+            CompletedMessage: COLLECTABLE_FROM_cplMsg
+          - ActionTitle: FARMABLE_WITH
+            Description: FARMABLE_WITH_Description
+            CompletedMessage: FARMABLE_WITH_cplMsg
+          - ActionTitle: CRAFTABLE_FROM
+            Description: CRAFTABLE_FROM_Description
+            CompletedMessage: CRAFTABLE_FROM_cplMsg
+          - ActionTitle: USED_FOR
+            Description: USED_FOR_Description
+            CompletedMessage: USED_FOR_cplMsg
+      - TaskTitle: BIOLOGISTS_GUIDE_Task_HerbalLeaves
+        PictureFile: "HerbalLeaves.jpg"
+        Actions:
+          - ActionTitle: COLLECTABLE_FROM
+            Description: COLLECTABLE_FROM_Description
+            CompletedMessage: COLLECTABLE_FROM_cplMsg
+          - ActionTitle: FARMABLE_WITH
+            Description: FARMABLE_WITH_Description
+            CompletedMessage: FARMABLE_WITH_cplMsg
+          - ActionTitle: CRAFTABLE_FROM
+            Description: CRAFTABLE_FROM_Description
+            CompletedMessage: CRAFTABLE_FROM_cplMsg
+          - ActionTitle: USED_FOR
+            Description: USED_FOR_Description
+            CompletedMessage: USED_FOR_cplMsg
+      - TaskTitle: BIOLOGISTS_GUIDE_Task_Meat
+        PictureFile: "Meat.jpg"
+        Actions:
+          - ActionTitle: COLLECTABLE_FROM
+            Description: COLLECTABLE_FROM_Description
+            CompletedMessage: COLLECTABLE_FROM_cplMsg
+          - ActionTitle: FARMABLE_WITH
+            Description: FARMABLE_WITH_Description
+            CompletedMessage: FARMABLE_WITH_cplMsg
+          - ActionTitle: CRAFTABLE_FROM
+            Description: CRAFTABLE_FROM_Description
+            CompletedMessage: CRAFTABLE_FROM_cplMsg
+          - ActionTitle: USED_FOR
+            Description: USED_FOR_Description
+            CompletedMessage: USED_FOR_cplMsg
+      - TaskTitle: BIOLOGISTS_GUIDE_Task_Milk
+        PictureFile: "Milk.jpg"
+        Actions:
+          - ActionTitle: COLLECTABLE_FROM
+            Description: COLLECTABLE_FROM_Description
+            CompletedMessage: COLLECTABLE_FROM_cplMsg
+          - ActionTitle: FARMABLE_WITH
+            Description: FARMABLE_WITH_Description
+            CompletedMessage: FARMABLE_WITH_cplMsg
+          - ActionTitle: CRAFTABLE_FROM
+            Description: CRAFTABLE_FROM_Description
+            CompletedMessage: CRAFTABLE_FROM_cplMsg
+          - ActionTitle: USED_FOR
+            Description: USED_FOR_Description
+            CompletedMessage: USED_FOR_cplMsg
+      - TaskTitle: BIOLOGISTS_GUIDE_Task_Mushrooms
+        PictureFile: "Mushrooms.jpg"
+        Actions:
+          - ActionTitle: COLLECTABLE_FROM
+            Description: COLLECTABLE_FROM_Description
+            CompletedMessage: COLLECTABLE_FROM_cplMsg
+          - ActionTitle: FARMABLE_WITH
+            Description: FARMABLE_WITH_Description
+            CompletedMessage: FARMABLE_WITH_cplMsg
+          - ActionTitle: CRAFTABLE_FROM
+            Description: CRAFTABLE_FROM_Description
+            CompletedMessage: CRAFTABLE_FROM_cplMsg
+          - ActionTitle: USED_FOR
+            Description: USED_FOR_Description
+            CompletedMessage: USED_FOR_cplMsg
+      - TaskTitle: BIOLOGISTS_GUIDE_Task_NaturalStimulant
+        PictureFile: "NaturalStimulant.jpg"
+        Actions:
+          - ActionTitle: COLLECTABLE_FROM
+            Description: COLLECTABLE_FROM_Description
+            CompletedMessage: COLLECTABLE_FROM_cplMsg
+          - ActionTitle: FARMABLE_WITH
+            Description: FARMABLE_WITH_Description
+            CompletedMessage: FARMABLE_WITH_cplMsg
+          - ActionTitle: CRAFTABLE_FROM
+            Description: CRAFTABLE_FROM_Description
+            CompletedMessage: CRAFTABLE_FROM_cplMsg
+          - ActionTitle: USED_FOR
+            Description: USED_FOR_Description
+            CompletedMessage: USED_FOR_cplMsg
+      - TaskTitle: BIOLOGISTS_GUIDE_Task_NaturalSweetener
+        PictureFile: "NaturalSweetener.jpg"
+        Actions:
+          - ActionTitle: COLLECTABLE_FROM
+            Description: COLLECTABLE_FROM_Description
+            CompletedMessage: COLLECTABLE_FROM_cplMsg
+          - ActionTitle: FARMABLE_WITH
+            Description: FARMABLE_WITH_Description
+            CompletedMessage: FARMABLE_WITH_cplMsg
+          - ActionTitle: CRAFTABLE_FROM
+            Description: CRAFTABLE_FROM_Description
+            CompletedMessage: CRAFTABLE_FROM_cplMsg
+          - ActionTitle: USED_FOR
+            Description: USED_FOR_Description
+            CompletedMessage: USED_FOR_cplMsg
+      - TaskTitle: BIOLOGISTS_GUIDE_Task_PlantProtein
+        PictureFile: "PlantProtein.jpg"
+        Actions:
+          - ActionTitle: COLLECTABLE_FROM
+            Description: COLLECTABLE_FROM_Description
+            CompletedMessage: COLLECTABLE_FROM_cplMsg
+          - ActionTitle: FARMABLE_WITH
+            Description: FARMABLE_WITH_Description
+            CompletedMessage: FARMABLE_WITH_cplMsg
+          - ActionTitle: CRAFTABLE_FROM
+            Description: CRAFTABLE_FROM_Description
+            CompletedMessage: CRAFTABLE_FROM_cplMsg
+          - ActionTitle: USED_FOR
+            Description: USED_FOR_Description
+            CompletedMessage: USED_FOR_cplMsg
+      - TaskTitle: BIOLOGISTS_GUIDE_Task_Spice
+        PictureFile: "Spice.jpg"
+        Actions:
+          - ActionTitle: COLLECTABLE_FROM
+            Description: COLLECTABLE_FROM_Description
+            CompletedMessage: COLLECTABLE_FROM_cplMsg
+          - ActionTitle: FARMABLE_WITH
+            Description: FARMABLE_WITH_Description
+            CompletedMessage: FARMABLE_WITH_cplMsg
+          - ActionTitle: CRAFTABLE_FROM
+            Description: CRAFTABLE_FROM_Description
+            CompletedMessage: CRAFTABLE_FROM_cplMsg
+          - ActionTitle: USED_FOR
+            Description: USED_FOR_Description
+            CompletedMessage: USED_FOR_cplMsg
+      - TaskTitle: BIOLOGISTS_GUIDE_Task_Vegetables
+        PictureFile: "Vegetables.jpg"
+        Actions:
+          - ActionTitle: COLLECTABLE_FROM
+            Description: COLLECTABLE_FROM_Description
+            CompletedMessage: COLLECTABLE_FROM_cplMsg
+          - ActionTitle: FARMABLE_WITH
+            Description: FARMABLE_WITH_Description
+            CompletedMessage: FARMABLE_WITH_cplMsg
+          - ActionTitle: CRAFTABLE_FROM
+            Description: CRAFTABLE_FROM_Description
+            CompletedMessage: CRAFTABLE_FROM_cplMsg
+          - ActionTitle: USED_FOR
+            Description: USED_FOR_Description
+            CompletedMessage: USED_FOR_cplMsg
+    CompletedMessage: BIOLOGISTS_GUIDE_cplMsg
+  - ChapterTitle: EXPLORERS_JOURNAL
+    Category: FAQ
+    Description: EXPLORERS_JOURNAL_Description
+    PictureFile: "LargeReptiles.jpg"
+    PlayerLevel: 1
+    Visibility: Always
+    Tasks:
+      - TaskTitle: Planetary_Drones
+        PictureFile: "PlanetaryDrones.jpg"
+        Actions:
+          - ActionTitle: SMALL_DRONES
+            Description: SMALL_DRONES_Description
+            CompletedMessage: SMALL_DRONES_cplMsg
+          - ActionTitle: LARGE_DRONES
+            Description: LARGE_DRONES_Description
+            CompletedMessage: LARGE_DRONES_cplMsg
+          - ActionTitle: HEAVY_DRONES
+            Description: HEAVY_DRONES_Description
+            CompletedMessage: HEAVY_DRONES_cplMsg
+          - ActionTitle: BOMBER_DRONES
+            Description: BOMBER_DRONES_Description
+            CompletedMessage: BOMBER_DRONES_cplMsg
+      - TaskTitle: Space_Drones
+        PictureFile: "SpaceDrones.jpg"
+        Actions:
+          - ActionTitle: LASER_DRONES
+            Description: LASER_DRONES_Description
+            CompletedMessage: LASER_DRONES_cplMsg
+          - ActionTitle: PLASMA_DRONES
+            Description: PLASMA_DRONES_Description
+            CompletedMessage: PLASMA_DRONES_cplMsg
+      - TaskTitle: EXPLORERS_JOURNAL_Task_Vessels
+        PictureFile: "Vessels.jpg"
+        Actions:
+          - ActionTitle: "TROOP_TRANSPORTERS_\x28Planet\x29"
+            Description: "TROOP_TRANSPORTERS_\x28Planet\x29_Description"
+            CompletedMessage: "TROOP_TRANSPORTERS_\x28Planet\x29_cplMsg"
+          - ActionTitle: "PATROL_VESSELS_\x28Planet\x29"
+            Description: "PATROL_VESSELS_\x28Planet\x29_Description"
+            CompletedMessage: "PATROL_VESSELS_\x28Planet\x29_cplMsg"
+          - ActionTitle: "PATROL_VESSELS_\x28Space\x29"
+            Description: "PATROL_VESSELS_\x28Space\x29_Description"
+            CompletedMessage: "PATROL_VESSELS_\x28Space\x29_cplMsg"
+          - ActionTitle: "FREIGHTERS_\x28Space\x29"
+            Description: "FREIGHTERS_\x28Space\x29_Description"
+            CompletedMessage: "FREIGHTERS_\x28Space\x29_cplMsg"
+      - TaskTitle: EXPLORERS_JOURNAL_Task_Mechanoids
+        PictureFile: "Mechanoids.jpg"
+        Actions:
+          - ActionTitle: TURRET_ROBOTS_SMALL
+            Description: TURRET_ROBOTS_SMALL_Description
+            CompletedMessage: TURRET_ROBOTS_SMALL_cplMsg
+          - ActionTitle: TURRET_ROBOTS_LARGE
+            Description: TURRET_ROBOTS_LARGE_Description
+            CompletedMessage: TURRET_ROBOTS_LARGE_cplMsg
+          - ActionTitle: ASSAULT_CYBORGS
+            Description: ASSAULT_CYBORGS_Description
+            CompletedMessage: ASSAULT_CYBORGS_cplMsg
+      - TaskTitle: Zirax_Empire_Troops
+        PictureFile: "ZiraxTroopers.jpg"
+        Actions:
+          - ActionTitle: SHOTGUN_TROOPERS
+            Description: SHOTGUN_TROOPERS_Description
+            CompletedMessage: SHOTGUN_TROOPERS_cplMsg
+          - ActionTitle: MINIGUN_TROOPERS
+            Description: MINIGUN_TROOPERS_Description
+            CompletedMessage: MINIGUN_TROOPERS_cplMsg
+          - ActionTitle: LASER_TROOPERS
+            Description: LASER_TROOPERS_Description
+            CompletedMessage: LASER_TROOPERS_cplMsg
+          - ActionTitle: Zirax_Empire_Troops_Action_SNIPERS
+            Description: Zirax_Empire_Troops_Action_SNIPERS_Description
+            CompletedMessage: Zirax_Empire_Troops_Action_SNIPERS_cplMsg
+          - ActionTitle: ROCKET_TROOPERS
+            Description: ROCKET_TROOPERS_Description
+            CompletedMessage: ROCKET_TROOPERS_cplMsg
+      - TaskTitle: EXPLORERS_JOURNAL_Task_Golems
+        PictureFile: "Golems.jpg"
+        Actions:
+          - ActionTitle: SWAMP_GOLEMS
+            Description: SWAMP_GOLEMS_Description
+            CompletedMessage: SWAMP_GOLEMS_cplMsg
+          - ActionTitle: DESERT_GOLEMS
+            Description: DESERT_GOLEMS_Description
+            CompletedMessage: DESERT_GOLEMS_cplMsg
+          - ActionTitle: ARMORED_GOLEMS
+            Description: ARMORED_GOLEMS_Description
+            CompletedMessage: ARMORED_GOLEMS_cplMsg
+          - ActionTitle: SNOW_GOLEMS
+            Description: SNOW_GOLEMS_Description
+            CompletedMessage: SNOW_GOLEMS_cplMsg
+      - TaskTitle: Native_and_other_NPCs
+        PictureFile: "Natives.jpg"
+        Actions:
+          - ActionTitle: TALON_GUARDIANS
+            Description: TALON_GUARDIANS_Description
+            CompletedMessage: TALON_GUARDIANS_cplMsg
+          - ActionTitle: Native_and_other_NPCs_Action_HEXAPODS
+            Description: Native_and_other_NPCs_Action_HEXAPODS_Description
+            CompletedMessage: Native_and_other_NPCs_Action_HEXAPODS_cplMsg
+          - ActionTitle: ALIEN_ASSASSINS
+            Description: ALIEN_ASSASSINS_Description
+            CompletedMessage: ALIEN_ASSASSINS_cplMsg
+          - ActionTitle: Native_and_other_NPCs_Action_CIVILIANS
+            Description: Native_and_other_NPCs_Action_CIVILIANS_Description
+            CompletedMessage: Native_and_other_NPCs_Action_CIVILIANS_cplMsg
+          - ActionTitle: Native_and_other_NPCs_Action_TRADERS
+            Description: Native_and_other_NPCs_Action_TRADERS_Description
+            CompletedMessage: Native_and_other_NPCs_Action_TRADERS_cplMsg
+      - TaskTitle: EXPLORERS_JOURNAL_Task_Mutants
+        PictureFile: "Mutants.jpg"
+        Actions:
+          - ActionTitle: EXPLORERS_JOURNAL_Task_Mutants_Action_OVERSEERS
+            Description: EXPLORERS_JOURNAL_Task_Mutants_Action_OVERSEERS_Description
+            CompletedMessage: EXPLORERS_JOURNAL_Task_Mutants_Action_OVERSEERS_cplMsg
+          - ActionTitle: PLANT_MONSTERS
+            Description: PLANT_MONSTERS_Description
+            CompletedMessage: PLANT_MONSTERS_cplMsg
+          - ActionTitle: TOTAL_HORRORS
+            Description: TOTAL_HORRORS_Description
+            CompletedMessage: TOTAL_HORRORS_cplMsg
+      - TaskTitle: Reptiles_I
+        PictureFile: "Reptiles.jpg"
+        Actions:
+          - ActionTitle: RAPTOR_HERDS
+            Description: RAPTOR_HERDS_Description
+            CompletedMessage: RAPTOR_HERDS_cplMsg
+          - ActionTitle: SINGLE_RAPTORS
+            Description: SINGLE_RAPTORS_Description
+            CompletedMessage: SINGLE_RAPTORS_cplMsg
+          - ActionTitle: Reptiles_I_Action_SPINOSAURS
+            Description: Reptiles_I_Action_SPINOSAURS_Description
+            CompletedMessage: Reptiles_I_Action_SPINOSAURS_cplMsg
+          - ActionTitle: Reptiles_I_Action_OVIRAPTOR
+            Description: Reptiles_I_Action_OVIRAPTOR_Description
+            CompletedMessage: Reptiles_I_Action_OVIRAPTOR_cplMsg
+          - ActionTitle: PARASAURS_GROUP
+            Description: PARASAURS_GROUP_Description
+            CompletedMessage: PARASAURS_GROUP_cplMsg
+      - TaskTitle: Reptiles_II
+        PictureFile: "LargeReptiles.jpg"
+        Actions:
+          - ActionTitle: Reptiles_II_Action_MEGALONOPSES
+            Description: Reptiles_II_Action_MEGALONOPSES_Description
+            CompletedMessage: Reptiles_II_Action_MEGALONOPSES_cplMsg
+          - ActionTitle: LIZARD_MULE
+            Description: LIZARD_MULE_Description
+            CompletedMessage: LIZARD_MULE_cplMsg
+          - ActionTitle: Reptiles_II_Action_TRICERATOPSES
+            Description: Reptiles_II_Action_TRICERATOPSES_Description
+            CompletedMessage: Reptiles_II_Action_TRICERATOPSES_cplMsg
+      - TaskTitle: EXPLORERS_JOURNAL_Task_Spiders
+        PictureFile: "Spiders.jpg"
+        Actions:
+          - ActionTitle: "SPIDERS_\x2801\x29"
+            Description: "SPIDERS_\x2801\x29_Description"
+            CompletedMessage: "SPIDERS_\x2801\x29_cplMsg"
+          - ActionTitle: "SPIDERS_\x2802\x29"
+            Description: "SPIDERS_\x2802\x29_Description"
+            CompletedMessage: "SPIDERS_\x2802\x29_cplMsg"
+          - ActionTitle: "SPIDERS_\x2803\x29"
+            Description: "SPIDERS_\x2803\x29_Description"
+            CompletedMessage: "SPIDERS_\x2803\x29_cplMsg"
+          - ActionTitle: SPIDERS_GROUP_BEHAVIOR
+            Description: SPIDERS_GROUP_BEHAVIOR_Description
+            CompletedMessage: SPIDERS_GROUP_BEHAVIOR_cplMsg
+      - TaskTitle: EXPLORERS_JOURNAL_Task_Bugs
+        PictureFile: "Bugs.jpg"
+        Actions:
+          - ActionTitle: "ALIEN_BUGS_\x2801\x29"
+            Description: "ALIEN_BUGS_\x2801\x29_Description"
+            CompletedMessage: "ALIEN_BUGS_\x2801\x29_cplMsg"
+          - ActionTitle: "ALIEN_BUGS_\x2802\x29"
+            Description: "ALIEN_BUGS_\x2802\x29_Description"
+            CompletedMessage: "ALIEN_BUGS_\x2802\x29_cplMsg"
+          - ActionTitle: "ALIEN_BUGS_\x2803\x29"
+            Description: "ALIEN_BUGS_\x2803\x29_Description"
+            CompletedMessage: "ALIEN_BUGS_\x2803\x29_cplMsg"
+      - TaskTitle: Worms_and_Wormlikes
+        PictureFile: "Worms.jpg"
+        Actions:
+          - ActionTitle: Worms_and_Wormlikes_Action_CAVEWORMS
+            Description: Worms_and_Wormlikes_Action_CAVEWORMS_Description
+            CompletedMessage: Worms_and_Wormlikes_Action_CAVEWORMS_cplMsg
+          - ActionTitle: DESERT_WORMS
+            Description: DESERT_WORMS_Description
+            CompletedMessage: DESERT_WORMS_cplMsg
+          - ActionTitle: LARGE_DESERT_WORMS
+            Description: LARGE_DESERT_WORMS_Description
+            CompletedMessage: LARGE_DESERT_WORMS_cplMsg
+      - TaskTitle: EXPLORERS_JOURNAL_Task_Creatures
+        PictureFile: "Creatures.jpg"
+        Actions:
+          - ActionTitle: EXPLORERS_JOURNAL_Task_Creatures_Action_CRAWLER
+            Description: EXPLORERS_JOURNAL_Task_Creatures_Action_CRAWLER_Description
+            CompletedMessage: EXPLORERS_JOURNAL_Task_Creatures_Action_CRAWLER_cplMsg
+          - ActionTitle: EXPLORERS_JOURNAL_Task_Creatures_Action_OTYUGH
+            Description: EXPLORERS_JOURNAL_Task_Creatures_Action_OTYUGH_Description
+            CompletedMessage: EXPLORERS_JOURNAL_Task_Creatures_Action_OTYUGH_cplMsg
+          - ActionTitle: EXPLORERS_JOURNAL_Task_Creatures_Action_SLIMES
+            Description: EXPLORERS_JOURNAL_Task_Creatures_Action_SLIMES_Description
+            CompletedMessage: EXPLORERS_JOURNAL_Task_Creatures_Action_SLIMES_cplMsg
+    CompletedMessage: EXPLORERS_JOURNAL_cplMsg
+  - ChapterTitle: FACTION_REPORT
+    Category: FAQ
+    Description: FACTION_REPORT_Description
+    PictureFile: "UCH.jpg"
+    PlayerLevel: 1
+    Visibility: Always
+    Tasks:
+      - TaskTitle: "UNITED_COUNCIL_OF_HUMANITY_\x28UCH_\x29"
+        PictureFile: "UCH.jpg"
+        Actions:
+          - ActionTitle: "UNITED_COUNCIL_OF_HUMANITY_\x28UCH_\x29_Action_SUMMARY"
+            Description: "UNITED_COUNCIL_OF_HUMANITY_\x28UCH_\x29_Action_SUMMARY_Description"
+            CompletedMessage: "UNITED_COUNCIL_OF_HUMANITY_\x28UCH_\x29_Action_SUMMARY_cplMsg"
+          - ActionTitle: INTEL_REPORT
+            Description: INTEL_REPORT_Description
+            CompletedMessage: INTEL_REPORT_cplMsg
+          - ActionTitle: ADDITIONAL_INTEL
+            Description: ADDITIONAL_INTEL_Description
+            CompletedMessage: ADDITIONAL_INTEL_cplMsg
+          - ActionTitle: "UNITED_COUNCIL_OF_HUMANITY_\x28UCH_\x29_Action_HISTORY"
+            Description: "UNITED_COUNCIL_OF_HUMANITY_\x28UCH_\x29_Action_HISTORY_Description"
+            CompletedMessage: "UNITED_COUNCIL_OF_HUMANITY_\x28UCH_\x29_Action_HISTORY_cplMsg"
+      - TaskTitle: ZIRAX_EMPIRE
+        PictureFile: "ZiraxEmpire.jpg"
+        Actions:
+          - ActionTitle: ZIRAX_EMPIRE_Action_SUMMARY
+            Description: ZIRAX_EMPIRE_Action_SUMMARY_Description
+            CompletedMessage: ZIRAX_EMPIRE_Action_SUMMARY_cplMsg
+          - ActionTitle: INTEL_REPORT
+            Description: INTEL_REPORT_Description
+            CompletedMessage: INTEL_REPORT_cplMsg
+          - ActionTitle: RELATIONSHIP_WITH_UCH
+            Description: RELATIONSHIP_WITH_UCH_Description
+            CompletedMessage: RELATIONSHIP_WITH_UCH_cplMsg
+          - ActionTitle: ADDITIONAL_INTEL
+            Description: ADDITIONAL_INTEL_Description
+            CompletedMessage: ADDITIONAL_INTEL_cplMsg
+          - ActionTitle: ZIRAX_EMPIRE_Action_HISTORY
+            Description: ZIRAX_EMPIRE_Action_HISTORY_Description
+            CompletedMessage: ZIRAX_EMPIRE_Action_HISTORY_cplMsg
+      - TaskTitle: TALON_GUARDIANS
+        PictureFile: "TalonGuardians.jpg"
+        Actions:
+          - ActionTitle: TALON_GUARDIANS_Action_SUMMARY
+            Description: TALON_GUARDIANS_Action_SUMMARY_Description
+            CompletedMessage: TALON_GUARDIANS_Action_SUMMARY_cplMsg
+          - ActionTitle: INTEL_REPORT
+            Description: INTEL_REPORT_Description
+            CompletedMessage: INTEL_REPORT_cplMsg
+          - ActionTitle: RELATIONSHIP_WITH_UCH
+            Description: RELATIONSHIP_WITH_UCH_Description
+            CompletedMessage: RELATIONSHIP_WITH_UCH_cplMsg
+          - ActionTitle: ADDITIONAL_INTEL
+            Description: ADDITIONAL_INTEL_Description
+            CompletedMessage: ADDITIONAL_INTEL_cplMsg
+          - ActionTitle: TALON_GUARDIANS_Action_HISTORY
+            Description: TALON_GUARDIANS_Action_HISTORY_Description
+            CompletedMessage: TALON_GUARDIANS_Action_HISTORY_cplMsg
+      - TaskTitle: TRADERS_GUILD
+        PictureFile: "TradersGuild.jpg"
+        Actions:
+          - ActionTitle: TRADERS_GUILD_Action_SUMMARY
+            Description: TRADERS_GUILD_Action_SUMMARY_Description
+            CompletedMessage: TRADERS_GUILD_Action_SUMMARY_cplMsg
+          - ActionTitle: INTEL_REPORT
+            Description: INTEL_REPORT_Description
+            CompletedMessage: INTEL_REPORT_cplMsg
+          - ActionTitle: RELATIONSHIP_WITH_UCH
+            Description: RELATIONSHIP_WITH_UCH_Description
+            CompletedMessage: RELATIONSHIP_WITH_UCH_cplMsg
+          - ActionTitle: ADDITIONAL_INTEL
+            Description: ADDITIONAL_INTEL_Description
+            CompletedMessage: ADDITIONAL_INTEL_cplMsg
+          - ActionTitle: TRADERS_GUILD_Action_HISTORY
+            Description: TRADERS_GUILD_Action_HISTORY_Description
+            CompletedMessage: TRADERS_GUILD_Action_HISTORY_cplMsg
+    CompletedMessage: FACTION_REPORT_cplMsg
+  - ChapterTitle: chptitleKnowledgebase
+    Category: FAQ
+    Description: chptitleKnowledgebase_Description
+    PictureFile: "dangerspace.jpg"
+    PlayerLevel: 1
+    Visibility: Always
+    Tasks:
+      - TaskTitle: tasktitleGGM
+        PictureFile: "GGM.jpg"
+        Actions:
+          - ActionTitle: acttitleBasics
+            Description: actdescBasics
+            CompletedMessage: acttitleBasics_cplMsg
+          - ActionTitle: acttitleTechtree
+            Description: actdescTechtree
+            CompletedMessage: acttitleTechtree_cplMsg
+          - ActionTitle: acttitleOP
+            Description: actdescOP
+            CompletedMessage: acttitleOP_cplMsg
+          - ActionTitle: acttitleLook
+            Description: actdescLook
+            CompletedMessage: acttitleLook_cplMsg
+          - ActionTitle: acttitlePvPvE
+            Description: actdescPvPvE
+            CompletedMessage: acttitlePvPvE_cplMsg
+      - TaskTitle: chptitleKnowledgebase_Task_tasktitleGGM2
+        Actions:
+          - ActionTitle: chptitleKnowledgebase_Task_tasktitleGGM2_Action_acttitleRegistry
+            Description: chptitleKnowledgebase_Task_tasktitleGGM2_Action_acttitleRegistry_Description
+            CompletedMessage: chptitleKnowledgebase_Task_tasktitleGGM2_Action_acttitleRegistry_cplMsg
+          - ActionTitle: chptitleKnowledgebase_Task_tasktitleGGM2_Action_acttitleMarketplace
+            Description: chptitleKnowledgebase_Task_tasktitleGGM2_Action_acttitleMarketplace_Description
+            CompletedMessage: chptitleKnowledgebase_Task_tasktitleGGM2_Action_acttitleMarketplace_cplMsg
+          - ActionTitle: chptitleKnowledgebase_Task_tasktitleGGM2_Action_acttitleMapmarkers
+            Description: chptitleKnowledgebase_Task_tasktitleGGM2_Action_acttitleMapmarkers_Description
+            CompletedMessage: chptitleKnowledgebase_Task_tasktitleGGM2_Action_acttitleMapmarkers_cplMsg
+      - TaskTitle: chptitleKnowledgebase_Task_tasktitleTemperatur
+        Actions:
+          - ActionTitle: chptitleKnowledgebase_Task_tasktitleTemperatur_Action_acttitleTInfo
+            Description: chptitleKnowledgebase_Task_tasktitleTemperatur_Action_acttitleTInfo_Description
+            CompletedMessage: chptitleKnowledgebase_Task_tasktitleTemperatur_Action_acttitleTInfo_cplMsg
+          - ActionTitle: chptitleKnowledgebase_Task_tasktitleTemperatur_Action_acttitleRadInfo
+            Description: chptitleKnowledgebase_Task_tasktitleTemperatur_Action_acttitleRadInfo_Description
+            CompletedMessage: chptitleKnowledgebase_Task_tasktitleTemperatur_Action_acttitleRadInfo_cplMsg
+          - ActionTitle: chptitleKnowledgebase_Task_tasktitleTemperatur_Action_acttitleTempRadDevices
+            Description: chptitleKnowledgebase_Task_tasktitleTemperatur_Action_acttitleTempRadDevices_Description
+            CompletedMessage: chptitleKnowledgebase_Task_tasktitleTemperatur_Action_acttitleTempRadDevices_cplMsg
+          - ActionTitle: chptitleKnowledgebase_Task_tasktitleTemperatur_Action_acttitleWeather
+            Description: chptitleKnowledgebase_Task_tasktitleTemperatur_Action_acttitleWeather_Description
+            CompletedMessage: chptitleKnowledgebase_Task_tasktitleTemperatur_Action_acttitleWeather_cplMsg
+      - TaskTitle: chptitleKnowledgebase_Task_tasktitleOxygenRooms
+        Actions:
+          - ActionTitle: chptitleKnowledgebase_Task_tasktitleOxygenRooms_Action_acttitlelORglobal
+            Description: chptitleKnowledgebase_Task_tasktitleOxygenRooms_Action_acttitlelORglobal_Description
+            CompletedMessage: chptitleKnowledgebase_Task_tasktitleOxygenRooms_Action_acttitlelORglobal_cplMsg
+          - ActionTitle: chptitleKnowledgebase_Task_tasktitleOxygenRooms_Action_acttitleOquest
+            Description: chptitleKnowledgebase_Task_tasktitleOxygenRooms_Action_acttitleOquest_Description
+            CompletedMessage: chptitleKnowledgebase_Task_tasktitleOxygenRooms_Action_acttitleOquest_cplMsg
+      - TaskTitle: chptitleKnowledgebase_Task_tasktitlePlayerArmor
+        Actions:
+          - ActionTitle: chptitleKnowledgebase_Task_tasktitlePlayerArmor_Action_acttitlePlayerA
+            Description: chptitleKnowledgebase_Task_tasktitlePlayerArmor_Action_acttitlePlayerA_Description
+            CompletedMessage: chptitleKnowledgebase_Task_tasktitlePlayerArmor_Action_acttitlePlayerA_cplMsg
+          - ActionTitle: chptitleKnowledgebase_Task_tasktitlePlayerArmor_Action_acttitleBooster
+            Description: chptitleKnowledgebase_Task_tasktitlePlayerArmor_Action_acttitleBooster_Description
+            CompletedMessage: chptitleKnowledgebase_Task_tasktitlePlayerArmor_Action_acttitleBooster_cplMsg
+          - ActionTitle: chptitleKnowledgebase_Task_tasktitlePlayerArmor_Action_acttitleDandR
+            Description: chptitleKnowledgebase_Task_tasktitlePlayerArmor_Action_acttitleDandR_Description
+            CompletedMessage: chptitleKnowledgebase_Task_tasktitlePlayerArmor_Action_acttitleDandR_cplMsg
+      - TaskTitle: chptitleKnowledgebase_Task_tasktitleTeleport
+        Actions:
+          - ActionTitle: chptitleKnowledgebase_Task_tasktitleTeleport_Action_acttitlePortal
+            Description: chptitleKnowledgebase_Task_tasktitleTeleport_Action_acttitlePortal_Description
+            CompletedMessage: chptitleKnowledgebase_Task_tasktitleTeleport_Action_acttitlePortal_cplMsg
+          - ActionTitle: chptitleKnowledgebase_Task_tasktitleTeleport_Action_acttitleInstances
+            Description: chptitleKnowledgebase_Task_tasktitleTeleport_Action_acttitleInstances_Description
+            CompletedMessage: chptitleKnowledgebase_Task_tasktitleTeleport_Action_acttitleInstances_cplMsg
+      - TaskTitle: tasktitleSI
+        PictureFile: "SI.jpg"
+        Actions:
+          - ActionTitle: acttitleSIwork
+            Description: actdescSIwork
+            CompletedMessage: acttitleSIwork_cplMsg
+          - ActionTitle: acttitleBAcollaps
+            Description: actdescBAcollaps
+            CompletedMessage: acttitleBAcollaps_cplMsg
+          - ActionTitle: acttitleSIoff
+            Description: actdescSIoff
+            CompletedMessage: acttitleSIoff_cplMsg
+      - TaskTitle: tasktitleBuilding
+        PictureFile: "Building.jpg"
+        Actions:
+          - ActionTitle: acttitleMatz
+            Description: actdescMatz
+            CompletedMessage: acttitleMatz_cplMsg
+          - ActionTitle: acttitleBlocks
+            Description: actdescBlocks
+            CompletedMessage: acttitleBlocks_cplMsg
+          - ActionTitle: acttitleBrotate
+            Description: actdescBrotate
+            CompletedMessage: acttitleBrotate_cplMsg
+          - ActionTitle: acttitlePlane
+            Description: actdescPlane
+            CompletedMessage: acttitlePlane_cplMsg
+          - ActionTitle: acttitleMisc
+            Description: actdescMisc
+            CompletedMessage: acttitleMisc_cplMsg
+      - TaskTitle: tasktitleBuilding2
+        PictureFile: "Building2.jpg"
+        Actions:
+          - ActionTitle: acttitleMirror
+            Description: actdescMirror
+            CompletedMessage: acttitleMirror_cplMsg
+          - ActionTitle: acttitlePaint
+            Description: actdescPaint
+            CompletedMessage: acttitlePaint_cplMsg
+          - ActionTitle: acttitleWopac
+            Description: actdescWopac
+            CompletedMessage: acttitleWopac_cplMsg
+          - ActionTitle: acttitleSettings
+            Description: actdescSettings
+            CompletedMessage: acttitleSettings_cplMsg
+          - ActionTitle: acttitleRename
+            Description: actdescRename
+            CompletedMessage: acttitleRename_cplMsg
+      - TaskTitle: tasktitleVessel
+        PictureFile: "Vessel.jpg"
+        Actions:
+          - ActionTitle: acttitleDieO2
+            Description: actdescDieO2
+            CompletedMessage: acttitleDieO2_cplMsg
+          - ActionTitle: acttitleFlipped
+            Description: actdescFlipped
+            CompletedMessage: acttitleFlipped_cplMsg
+          - ActionTitle: acttitleHorizon
+            Description: actdescHorizon
+            CompletedMessage: acttitleHorizon_cplMsg
+          - ActionTitle: acttitleCVtip
+            Description: actdescCVtip
+            CompletedMessage: acttitleCVtip_cplMsg
+          - ActionTitle: acttitleMCockpit
+            Description: actdescMCockpit
+            CompletedMessage: acttitleMCockpit_cplMsg
+      - TaskTitle: tasktitleVessel2
+        PictureFile: "Vessel2.jpg"
+        Actions:
+          - ActionTitle: acttitleDocking
+            Description: actdescDocking
+            CompletedMessage: acttitleDocking_cplMsg
+          - ActionTitle: acttitleAccessD
+            Description: actdescAccessD
+            CompletedMessage: acttitleAccessD_cplMsg
+          - ActionTitle: acttitleWarp
+            Description: actdescWarp
+            CompletedMessage: acttitleWarp_cplMsg
+      - TaskTitle: tasktitleWeapon
+        PictureFile: "Weapon.jpg"
+        Actions:
+          - ActionTitle: acttitleRange
+            Description: actdescRange
+            CompletedMessage: acttitleRange_cplMsg
+          - ActionTitle: acttitleDamageW
+            Description: actdescDamageW
+            CompletedMessage: acttitleDamageW_cplMsg
+          - ActionTitle: acttitleEpicW
+            Description: actdescEpicW
+            CompletedMessage: acttitleEpicW_cplMsg
+          - ActionTitle: acttitleAmmo
+            Description: actdescAmmo
+            CompletedMessage: acttitleAmmo_cplMsg
+          - ActionTitle: acttitleTaccess
+            Description: actdescTaccess
+            CompletedMessage: acttitleTaccess_cplMsg
+      - TaskTitle: tasktitlePOI
+        PictureFile: "POI.jpg"
+        Actions:
+          - ActionTitle: acttitlePdoor
+            Description: actdescPdoor
+            CompletedMessage: acttitlePdoor_cplMsg
+          - ActionTitle: acttitlePblocks
+            Description: actdescPblocks
+            CompletedMessage: acttitlePblocks_cplMsg
+          - ActionTitle: acttitleTeleporter
+            Description: actdescTeleporter
+            CompletedMessage: acttitleTeleporter_cplMsg
+          - ActionTitle: acttitlePbase
+            Description: actdescPbase
+            CompletedMessage: acttitlePbase_cplMsg
+          - ActionTitle: tasktitlePOI_Action_acttitleAIvessels
+            Description: tasktitlePOI_Action_acttitleAIvessels_Description
+            CompletedMessage: tasktitlePOI_Action_acttitleAIvessels_cplMsg
+      - TaskTitle: tasktitlePdrone
+        PictureFile: "Pdrone.jpg"
+        Actions:
+          - ActionTitle: acttitlePlayerD
+            Description: actdescPlayerD
+            CompletedMessage: acttitlePlayerD_cplMsg
+      - TaskTitle: tasktitleFaction
+        PictureFile: "Faction.jpg"
+        Actions:
+          - ActionTitle: acttitleJoin
+            Description: actdescJoin
+            CompletedMessage: acttitleJoin_cplMsg
+          - ActionTitle: acttitleFvessel
+            Description: actdescFvessel
+            CompletedMessage: acttitleFvessel_cplMsg
+          - ActionTitle: acttitleFoprot
+            Description: actdescFoprot
+            CompletedMessage: acttitleFoprot_cplMsg
+          - ActionTitle: acttitleFsetting
+            Description: actdescFsetting
+            CompletedMessage: acttitleFsetting_cplMsg
+          - ActionTitle: acttitleFally
+            Description: actdescFally
+            CompletedMessage: acttitleFally_cplMsg
+      - TaskTitle: tasktitleCP
+        PictureFile: "CP.jpg"
+        Actions:
+          - ActionTitle: acttitleRemote
+            Description: actdescRemote
+            CompletedMessage: acttitleRemote_cplMsg
+          - ActionTitle: acttitleRenameD
+            Description: actdescRenameD
+            CompletedMessage: acttitleRenameD_cplMsg
+          - ActionTitle: acttitleGroup
+            Description: actdescGroup
+            CompletedMessage: acttitleGroup_cplMsg
+          - ActionTitle: acttitleSetFaction
+            Description: actdescSetFaction
+            CompletedMessage: acttitleSetFaction_cplMsg
+          - ActionTitle: acttitleHome
+            Description: actdescHome
+            CompletedMessage: acttitleHome_cplMsg
+      - TaskTitle: chptitleKnowledgebase_Task_tasktitleTSigLog
+        PictureFile: "CP.jpg"
+        Actions:
+          - ActionTitle: chptitleKnowledgebase_Task_tasktitleTSigLog_Action_acttitleTriggers
+            Description: chptitleKnowledgebase_Task_tasktitleTSigLog_Action_acttitleTriggers_Description
+            CompletedMessage: chptitleKnowledgebase_Task_tasktitleTSigLog_Action_acttitleTriggers_cplMsg
+          - ActionTitle: chptitleKnowledgebase_Task_tasktitleTSigLog_Action_acttitleHowto
+            Description: chptitleKnowledgebase_Task_tasktitleTSigLog_Action_acttitleHowto_Description
+            CompletedMessage: chptitleKnowledgebase_Task_tasktitleTSigLog_Action_acttitleHowto_cplMsg
+          - ActionTitle: chptitleKnowledgebase_Task_tasktitleTSigLog_Action_acttitleTtips
+            Description: chptitleKnowledgebase_Task_tasktitleTSigLog_Action_acttitleTtips_Description
+            CompletedMessage: chptitleKnowledgebase_Task_tasktitleTSigLog_Action_acttitleTtips_cplMsg
+          - ActionTitle: chptitleKnowledgebase_Task_tasktitleTSigLog_Action_acttitleSignal
+            Description: chptitleKnowledgebase_Task_tasktitleTSigLog_Action_acttitleSignal_Description
+            CompletedMessage: chptitleKnowledgebase_Task_tasktitleTSigLog_Action_acttitleSignal_cplMsg
+      - TaskTitle: tasktitleBP
+        PictureFile: "BP.jpg"
+        Actions:
+          - ActionTitle: acttitleCreate
+            Description: actdescCreate
+            CompletedMessage: acttitleCreate_cplMsg
+          - ActionTitle: acttitleSpawn
+            Description: actdescSpawn
+            CompletedMessage: acttitleSpawn_cplMsg
+          - ActionTitle: acttitleShortcut
+            Description: actdescShortcut
+            CompletedMessage: acttitleShortcut_cplMsg
+          - ActionTitle: acttitlePublish
+            Description: actdescPublish
+            CompletedMessage: acttitlePublish_cplMsg
+          - ActionTitle: acttitleBPmisc
+            Description: actdescBPmisc
+            CompletedMessage: acttitleBPmisc_cplMsg
+      - TaskTitle: tasktitleCreative
+        PictureFile: "Creative.jpg"
+        Actions:
+          - ActionTitle: acttitleRemove
+            Description: actdescRemove
+            CompletedMessage: acttitleRemove_cplMsg
+          - ActionTitle: acttitleCmirror
+            Description: actdescCmirror
+            CompletedMessage: acttitleCmirror_cplMsg
+          - ActionTitle: acttitleCmatz
+            Description: actdescCmatz
+            CompletedMessage: acttitleCmatz_cplMsg
+          - ActionTitle: acttitleCpoi
+            Description: actdescCpoi
+            CompletedMessage: acttitleCpoi_cplMsg
+      - TaskTitle: tasktitleConsole
+        PictureFile: "Console.jpg"
+        Actions:
+          - ActionTitle: acttitleUse
+            Description: actdescUse
+            CompletedMessage: acttitleUse_cplMsg
+          - ActionTitle: acttitleDestr
+            Description: actdescDestr
+            CompletedMessage: acttitleDestr_cplMsg
+          - ActionTitle: acttitleAdmin
+            Description: actdescAdmin
+            CompletedMessage: acttitleAdmin_cplMsg
+          - ActionTitle: acttitlePgroup
+            Description: actdescPgroup
+            CompletedMessage: acttitlePgroup_cplMsg
+      - TaskTitle: tasktitlePDAInfo
+        PictureFile: "PDAInfo.jpg"
+        Actions:
+          - ActionTitle: acttitleDeactivate
+            Description: actdescDeactivate
+            CompletedMessage: acttitleDeactivate_cplMsg
+          - ActionTitle: acttitleTsks
+            Description: actdescTsks
+            CompletedMessage: acttitleTsks_cplMsg
+          - ActionTitle: acttitleFuture
+            Description: actdescFuture
+            CompletedMessage: acttitleFuture_cplMsg
+      - TaskTitle: tasktitleGlobMisc
+        PictureFile: "GlobMisc.jpg"
+        Actions:
+          - ActionTitle: acttitlePlayer
+            Description: actdescPlayer
+            CompletedMessage: acttitlePlayer_cplMsg
+          - ActionTitle: acttitleReport
+            Description: actdescReport
+            CompletedMessage: acttitleReport_cplMsg
+          - ActionTitle: acttitleSaveGame
+            Description: actdescSaveGame
+            CompletedMessage: acttitleSaveGame_cplMsg
+          - ActionTitle: acttitleEAC
+            Description: actdescEAC
+            CompletedMessage: acttitleEAC_cplMsg
+    CompletedMessage: chptitleKnowledgebase_cplMsg
+  - ChapterTitle: chptitleEliaStart
+    Category: SoloMission
+    Preamble: preambleEliaStart
+    Description: chpdescEliaStart
+    PictureFile: "elia-1.jpg"
+    AutoActivateOnGameStart: true
+    PlayerLevel: 1
+    Visibility: Always
+    RewardedChapters:
+      - chptitleEliaStartII
+    ActivateChapterOnCompletion: chptitleEliaStartII
+    CompletedMessage: completeEliaMissionI
+    Rewards:
+      - Item: AssaultRifleT2
+        Count: 1
+      - Item: "5.8mmBullet"
+        Count: 150
+      - Item: RepairStation
+        Count: 1
+      - Item: PlayerBikeKit
+        Count: 1
+      - Item: DrillT2
+        Count: 1
+      - Item: DrillCharge
+        Count: 5
+    Tasks:
+      - TaskTitle: tasktitleEliaStart
+        PictureFile: "elia-11.jpg"
+        Actions:
+          - ActionTitle: acttitleEliaStartPersoCargo
+            Description: actdescEliaStartPersoCargo
+            Check: InventoryEmptied
+            CompletedMessage: "norm\x3B6\x7CacttitleEliaStartPersoCargo_CompletedMessage"
+            AllowManualCompletion: true
+          - ActionTitle: acttitleEliaStartRunningBase
+            Description: actdescEliaStartRunningBase
+            Check: WindowOpened
+            CompletedMessage: "norm\x3B6\x7CacttitleEliaStartRunningBase_CompletedMessage"
+            Names:
+              - ControlPanel
+            AllowManualCompletion: true
+        StartMessage: "norm\x3B7\x7Cpda_Chapters0_Tasks0_StartMessage_text"
+      - TaskTitle: tasktitleEliaArtifact
+        PictureFile: "elia-12.jpg"
+        Actions:
+          - ActionTitle: acttitleEliaArtifactScan
+            Description: actdescEliaArtifactScan
+            Check: Signal
+            Names:
+              - Artifact
+            CompletedMessage: "norm\x3B6\x7CacttitleEliaArtifactScan_CompletedMessage"
+          - ActionTitle: acttitleEliaArtifactLoot
+            Description: actdescEliaArtifactLoot
+            Check: InventoryEmptied
+            Names:
+              - AlienContainer
+              - AlienContainerRare
+              - AlienContainerVeryRare
+            CompletedMessage: "norm\x3B6\x7CacttitleEliaArtifactLoot_CompletedMessage"
+        StartMessage: "norm\x3B6\x7Cpda_Chapters0_Tasks1_StartMessage_text"
+    VisibleOnStartPlayfields:
+      - Elia
+  - ChapterTitle: chptitleEliaStartII
+    Category: SoloMission
+    Description: chpdescEliaStartII
+    PictureFile: "elia-13.jpg"
+    PlayerLevel: 1
+    Visibility: WhenRewarded
+    RewardedChapters:
+      - chptitleEliaStartIII
+    ActivateChapterOnCompletion: chptitleEliaStartIII
+    CompletedMessage: completeEliaMissionII
+    Rewards:
+      - Item: MoneyCard
+        Count: 3000
+    Tasks:
+      - TaskTitle: tasktitleEliaStartIIConst
+        Actions:
+          - ActionTitle: acttitleEliaStartIIConst
+            Description: actdescEliaStartIIConst
+            Check: NearUnit
+            Names:
+              - "Last\x20Survivor\x20Suite"
+              - "Home\x20Constructor"
+            Guiding: TempIndoor
+            CompletedMessage: "norm\x3B6\x7CacttitleEliaStartIIConst_CompletedMessage"
+      - TaskTitle: tasktitleEliaStartII
+        Actions:
+          - ActionTitle: acttitleEliaStartIICraft
+            Description: actdescEliaStartIICraft
+            Check: ItemsCrafted
+            Types:
+              - PlayerBike
+            Amount: 1
+            CompletedMessage: "norm\x3B6\x7CacttitleEliaStartIICraft_CompletedMessage"
+      - TaskTitle: tasktitleEliaStartII1
+        Rewards:
+          - Item: SpawnNewSV
+            Count: 1
+        Actions:
+          - ActionTitle: acttitleEliaStartII1
+            Description: actdescEliaStartII1
+            Check: ItemsUnlocked
+            Types:
+              - ThrusterSVDirectional
+            CompletedMessage: "norm\x3B6\x7CacttitleEliaStartII1_CompletedMessage"
+      - TaskTitle: tasktitlePlaceVesselStart
+        PictureFile: "VesselStarter.jpg"
+        Actions:
+          - ActionTitle: acttitlePlaceAStarterBlock1
+            Description: actdescPlaceAStarterBlock1
+            Check: StructureSpawned
+            Names:
+              - CV
+              - HV
+              - SV
+            NamesRequired: NeedOne
+            CompletedMessage: "norm\x3B6\x7CacttitlePlaceAStarterBlock1_CompletedMessage"
+        Rewards:
+          - Item: CockpitSV07New
+            Count: 1
+          - Item: RCSBlockSV
+            Count: 1
+          - Item: GeneratorSV
+            Count: 1
+          - Item: FuelTankSV
+            Count: 1
+        CompletedMessage: ""
+        StartMessage: ""
+      - TaskTitle: tasktitleEssentialVBlocks
+        PictureFile: "VesselEssentials.jpg"
+        Actions:
+          - ActionTitle: acttitleAddVCockpit
+            Description: actdescAddVCockpit
+            Check: BlocksPlaced
+            Required: NeedOne
+            CompletedMessage: "norm\x3B6\x7CacttitleAddVCockpit_CompletedMessage"
+            Types:
+              - CockpitOpenSV
+              - CockpitSV
+              - CockpitSV01
+              - CockpitSV02
+              - CockpitSV03
+              - CockpitSV04
+              - CockpitSV05
+              - CockpitSV07
+              - CockpitSV_fighter
+              - CockpitSV_ShortRange
+              - CockpitSV_fighter_Noscale
+              - CockpitMS01
+              - CockpitMS02
+              - CockpitMS03
+              - CockpitSV07New
+              - CockpitBlocksSV
+            AllowManualCompletion: true
+          - ActionTitle: acttitleAddVRCS
+            Description: actdescAddVRCS
+            Check: BlocksPlaced
+            Types:
+              - RCSBlockGV
+              - RCSBlockSV
+              - RCSBlockMS
+            Required: NeedOne
+            CompletedMessage: acttitleAddVRCS_CompletedMessage
+          - ActionTitle: acttitleAddVGenerator
+            Description: actdescAddVGenerator
+            Check: BlocksPlaced
+            Types:
+              - GeneratorSV
+              - GeneratorMS
+              - GeneratorMST2
+              - GeneratorBA
+            Required: NeedOne
+            CompletedMessage: acttitleAddVGenerator_CompletedMessage
+          - ActionTitle: acttitleAddVFuelTank
+            Description: actdescAddVFuelTank
+            Check: BlocksPlaced
+            Types:
+              - FuelTankSV
+              - FuelTankMSSmall
+              - FuelTankMSLarge
+              - FuelTankMSLargeT2
+            Required: NeedOne
+            CompletedMessage: acttitleAddVFuelTank_CompletedMessage
+      - TaskTitle: tasktitleThrusters
+        PictureFile: "VesselThrusters.jpg"
+        Actions:
+          - ActionTitle: acttitleAddVThrusters
+            Description: actdescAddVThrusters
+            Check: BlocksPlaced
+            Types:
+              - ThrusterGVRoundNormal
+              - ThrusterGVRoundSlant
+              - ThrusterGVRoundArmored
+              - ThrusterGVDirectional
+              - ThrusterSVRoundArmored
+              - ThrusterSVRoundNormal
+              - ThrusterMSRoundSlant
+              - ThrusterSVRoundSlant
+              - ThrusterSVRoundAtmo
+              - ThrusterMSRoundArmored
+              - ThrusterMSRoundNormal
+              - ThrusterMSDirectional
+              - ThrusterMSRoundNormal2x2
+              - ThrusterMSRoundSlant2x2
+              - ThrusterMSRoundArmored2x2
+              - ThrusterMSRoundNormal3x3
+              - ThrusterMSRoundSlant3x3
+              - ThrusterMSRoundArmored3x3
+              - ThrusterSVDirectional
+              - ThrusterJetRound1x3x1
+              - ThrusterJetRound2x5x2
+              - ThrusterJetRound3x7x3
+              - ThrusterJetRound3x10x3
+              - ThrusterJetRound3x13x3
+            Required: NeedOne
+            CompletedMessage: acttitleAddVThrusters_CompletedMessage
+        Rewards:
+          - Item: OxygenTankSV
+            Count: 1
+      - TaskTitle: tasktitleAddVOxSupply
+        PictureFile: "VesselOxygen.jpg"
+        Actions:
+          - ActionTitle: acttitleAddVOxTank
+            Description: actdescAddVOxTank
+            Check: BlocksPlaced
+            Types:
+              - OxygenTankSV
+              - OxygenTankMS
+              - OxygenTankSmallMS
+            Required: NeedOne
+            CompletedMessage: "norm\x3B6\x7CacttitleAddVOxTank_CompletedMessage"
+        Rewards:
+          - Item: WeaponSV02
+            Count: 1
+          - Item: ContainerAmmoSmall
+            Count: 1
+        CompletedMessage: ""
+      - TaskTitle: tasktitleWeapons
+        PictureFile: "VesselWeapons.jpg"
+        Actions:
+          - ActionTitle: acttitleAddVWeapons
+            Description: actdescAddVWeapon
+            Check: BlocksPlaced
+            Types:
+              - WeaponSV01
+              - WeaponSV02
+              - WeaponSV03
+              - WeaponSV04
+              - WeaponSV05
+              - WeaponMS01
+              - WeaponMS02
+              - TurretGVMinigun
+              - TurretGVRocket
+              - TurretGVPlasma
+              - TurretGVArtillery
+              - TurretMSMinigun
+              - TurretMSRocket
+              - TurretMSPlasma
+              - TurretMSArtillery
+              - TurretMSPulseLaser
+              - TurretMSCannon
+              - TurretMSFlak
+            Required: NeedOne
+            CompletedMessage: "norm\x3B6\x7CacttitleAddVWeapons_CompletedMessage"
+          - ActionTitle: acttitleAddVAmmoB
+            Description: actdescAddVAmmoB
+            Check: BlocksPlaced
+            Types:
+              - ContainerAmmoSmall
+              - ContainerAmmoLarge
+            Required: NeedOne
+            CompletedMessage: "norm\x3B6\x7CacttitleAddVAmmoB_CompletedMessage"
+        Rewards:
+          - Item: LandinggearShort
+            Count: 4
+      - TaskTitle: tasktitleDockingPads
+        PictureFile: "VesselDocking.jpg"
+        Actions:
+          - ActionTitle: acttitleAddVDockingPads
+            Description: actdescAddVDockingPads
+            Check: BlocksPlaced
+            Types:
+              - DockingPad
+              - LandinggearShort
+              - LandinggearDouble
+              - LandinggearSingle
+              - LandinggearMSShort
+              - LandinggearSV
+              - LandinggearMSHeavy
+              - LandinggearMSLight
+            Required: NeedOne
+            CompletedMessage: "norm\x3B6\x7CacttitleAddVDockingPads_CompletedMessage"
+        Rewards:
+          - Item: PentaxidTankSV
+            Count: 1
+          - Item: WarpDriveSV
+            Count: 1
+        CompletedMessage: ""
+        StartMessage: ""
+      - TaskTitle: tasktitleAdditionalBlocks
+        PictureFile: "VesselAdditional.jpg"
+        Actions:
+          - ActionTitle: acttitleAdditionalVBlocks
+            Description: actdescAdditionalVBlocks
+            Check: BlocksPlaced
+            Required: NeedOne
+            CompletedMessage: "norm\x3B6\x7CacttitleAdditionalVBlocks_CompletedMessage"
+            AllowManualCompletion: true
+            Types:
+              - FridgeSV
+              - FridgeMS
+              - FridgeMS02
+              - ContainerMS01
+              - OxygenStation
+              - OxygenStationSV
+              - ConstructorSmallV2
+              - ConstructorT1V2
+              - ConstructorT2
+              - WarpDrive
+              - GravityGeneratorMS
+              - PentaxidTankSV
+              - WarpDriveSV
+    VisibleOnStartPlayfields:
+      - Elia
+    AutoActivateOnGameStart: false
+  - ChapterTitle: chptitleEliaStartIII
+    Category: SoloMission
+    Description: chpdescEliaStartIII
+    PictureFile: "elia-2.jpg"
+    PlayerLevel: 7
+    Visibility: WhenRewarded
+    Activatable: ByLevel
+    RewardedChapters:
+      - chptitleEliaStartIV
+    ActivateChapterOnCompletion: chptitleEliaStartIV
+    CompletedMessage: completeEliaMissionIII
+    Rewards:
+      - Item: PentaxidCrystal
+        Count: 25
+    Tasks:
+      - TaskTitle: tasktitleEliaStartIII
+        Actions:
+          - ActionTitle: acttitleEliaStartIIIFindAlienCv
+            Description: actdescEliaStartIIIFindAlienCv
+            Check: NearPoi
+            Names:
+              - "Alien-Invader"
+            CompletedMessage: acttitleEliaStartIIIFindAlienCv_CompletedMessage
+    VisibleOnStartPlayfields:
+      - Elia
+  - ChapterTitle: chptitleEliaStartIV
+    Category: SoloMission
+    Description: chpdescEliaStartIV
+    PictureFile: "maiy-orbit-1.jpg"
+    PlayerLevel: 15
+    Visibility: WhenRewarded
+    Activatable: WhenRewarded
+    CompletedMessage: completeEliaMissionIV
+    Rewards:
+      - Item: PentaxidCrystal
+        Count: 5
+      - Item: ArmorHeavy
+        Count: 1
+    Tasks:
+      - TaskTitle: tasktitleEliaStartIV
+        Actions:
+          - ActionTitle: acttitleEliaStartIVRevenge
+            Description: actdescEliaStartIVRevenge
+            Check: NearPoi
+            Names:
+              - Ex7Station
+              - "Ex-7-Explorer"
+            CompletedMessage: acttitleEliaStartIVRevenge_CompletedMessage
+      - TaskTitle: tasktitleEliaStartIVBoss
+        Actions:
+          - ActionTitle: acttitleEliaStartIVStartBoss
+            Description: actdescEliaStartIVStartBoss
+            Check: SubjectKilled
+            Names:
+              - ArmoredGolem
+              - TurretRobot
+            CompletedMessage: acttitleEliaStartIVStartBoss_CompletedMessage
+    VisibleOnStartPlayfields:
+      - Elia
+  - ChapterTitle: chptitleSurvivalBasecamp
+    Description: chpdescSurvivalBasecamp
+    Preamble: preambleMaiyStart
+    PictureFile: "Chapter1.jpg"
+    Category: SoloMission
+    AutoActivateOnGameStart: true
+    PlayerLevel: 1
+    Visibility: Always
+    RewardedChapters:
+      - chptitleBuildBase
+    ActivateChapterOnCompletion: chptitleBuildBase
+    CompletedMessage: completeMaiyMissionI
+    Tasks:
+      - TaskTitle: tasktitleCheckStartEquipment
+        Headline: taskheadCheckStartEquipment
+        PictureFile: "StartEquipment.jpg"
+        Actions:
+          - ActionTitle: acttitleOpenEscPod
+            Description: actdescOpenEscPod
+            Check: InventoryOpened
+            Names:
+              - EscapePod
+            AllowManualCompletion: true
+            CompletedMessage: "norm\x3B6\x7CacttitleOpenEscPod_CompletedMessage"
+          - ActionTitle: acttitleGrabEquipment
+            Description: actdescGrabEquipment
+            Check: InventoryEmptied
+            Names:
+              - EscapePod
+            AllowManualCompletion: true
+            CompletedMessage: "norm\x3B6\x7CacttitleGrabEquipment_CompletedMessage"
+      - TaskTitle: tasktitlePlSurvConstr
+        PictureFile: "PlaceSurvivalConstructor.jpg"
+        Actions:
+          - ActionTitle: acttitlePlSurvConstr
+            Description: actdescPlSurvConstr
+            Check: BlocksPlaced
+            Types:
+              - ConstructorSurvival
+            AllowManualCompletion: true
+            CompletedMessage: "norm\x3B6\x7CacttitlePlSurvConstr_CompletedMessage"
+    VisibleOnStartPlayfields:
+      - Maiy
+  - ChapterTitle: chptitleBuildBase
+    Category: SoloMission
+    Description: chpdescBuildBase
+    PictureFile: "Chapter2.jpg"
+    PlayerLevel: 1
+    Visibility: WhenRewarded
+    Activatable: ByLevel
+    RewardedChapters:
+      - Chapter26
+    CompletedMessage: completeMaiyMissionIII
+    Tasks:
+      - TaskTitle: tasktitleBaseStarter
+        PictureFile: "BaseStarter.jpg"
+        Actions:
+          - ActionTitle: acttitlePlaceBAStarter
+            Description: actdescPlaceBAStarter
+            Check: StructureSpawned
+            Names:
+              - Base
+            AllowManualCompletion: true
+            CompletedMessage: acttitlePlaceBAStarter_CompletedMessage
+      - TaskTitle: tasktitleEquipBase
+        PictureFile: "BaseStage1.jpg"
+        Actions:
+          - ActionTitle: acttitleSmallBAGen
+            Description: actdescSmallBAGen
+            Check: BlocksPlaced
+            Types:
+              - GeneratorBA
+            CompletedMessage: acttitleSmallBAGen_CompletedMessage
+          - ActionTitle: acttitleSmallBAFuelTank
+            Description: actdescSmallBAFuelTank
+            Check: BlocksPlaced
+            Types:
+              - FuelTankMSSmall
+            CompletedMessage: acttitleSmallBAFuelTank_CompletedMessage
+          - ActionTitle: acttitleBALargeConstr
+            Description: actdescBALargeConstr
+            Check: BlocksPlaced
+            Types:
+              - ConstructorT1V2
+            CompletedMessage: acttitleBALargeConstr_CompletedMessage
+          - ActionTitle: acttitleActivateBA
+            Description: actdescActivateBA
+            Check: MainPowerSwitched
+            Names:
+              - Base
+            CompletedMessage: acttitleActivateBA_CompletedMessage
+      - TaskTitle: tasktitleEquipBase2
+        PictureFile: "BaseStage2.jpg"
+        Actions:
+          - ActionTitle: acttitleBATurrAmBox
+            Description: actdescBATurrAmBox
+            Check: BlocksPlaced
+            Types:
+              - TurretBaseCannon
+              - ContainerAmmoSmall
+            Required: NeedAll
+            AllowManualCompletion: true
+            CompletedMessage: "norm\x3B6\x7CacttitleBATurrAmBox_CompletedMessage"
+          - ActionTitle: acttitleBABasicDevices
+            Description: actdescBABasicDevices
+            Check: BlocksPlaced
+            Types:
+              - FridgeMS
+              - OxygenStation
+              - OxygenTankSmallMS
+              - FoodProcessorV2
+            Required: NeedOne
+            AllowManualCompletion: true
+            CompletedMessage: acttitleBABasicDevices_CompletedMessage
+      - TaskTitle: tasktitleGardening
+        PictureFile: "Gardening.jpg"
+        Actions:
+          - ActionTitle: acttitleGrowingPlots
+            Description: actdescGrowingPlots
+            Check: BlocksPlaced
+            Types:
+              - GrowingPot
+            CompletedMessage: acttitleGrowingPlots_CompletedMessage
+          - ActionTitle: acttitleSprouts
+            Description: actdescSprouts
+            Check: BlocksPlaced
+            Types:
+              - DurianRoot
+              - PumpkinStage1
+              - TomatoStage1
+              - WheatStage1
+              - CornStage1
+              - PearthingStage1
+              - InsanityPepperStage1
+              - AlienPlantTube2Stage1
+              - DesertPlant20Stage1
+            Required: NeedOne
+            CompletedMessage: acttitleSprouts_CompletedMessage
+          - ActionTitle: acttitleGrowingLight
+            Description: actdescGrowingLight
+            Check: BlocksPlaced
+            Types:
+              - LightPlant01
+            CompletedMessage: acttitleGrowingLight_CompletedMessage
+          - ActionTitle: acttitleHarvest
+            Description: actdescHarvest
+            Check: ItemsPickedUp
+            Types:
+              - SpaceDurian
+              - Pumpkin
+              - Tomato
+              - Wheat
+              - Corn
+              - Pearthing
+              - KavaeBeans
+              - AkuaFruit
+              - AloeVera
+              - AkuaBerry
+              - SpaceOrange
+              - AlienHoney
+              - Fiber
+              - TexturedPlantProtein
+            Required: NeedOne
+            CompletedMessage: acttitleHarvest_CompletedMessage
+    VisibleOnStartPlayfields:
+      - Maiy
+    AutoActivateOnGameStart: false
+    ActivateChapterOnCompletion: Chapter26
+  - ChapterTitle: Chapter26
+    Category: SoloMission
+    Description: Chapter26_chpdescEliaStartII
+    PictureFile: "elia-13.jpg"
+    PlayerLevel: 7
+    Visibility: WhenRewarded
+    RewardedChapters:
+      - chptitleEliaStartIII
+      - chptitleMaiyStartIV
+    ActivateChapterOnCompletion: chptitleMaiyStartIV
+    CompletedMessage: Chapter26_completeEliaMissionII
+    Rewards:
+      - Item: MoneyCard
+        Count: 3000
+    Tasks:
+      - TaskTitle: Chapter26_tasktitleEliaStartII1
+        Rewards:
+          - Item: SpawnNewSV
+            Count: 1
+        Actions:
+          - ActionTitle: Chapter26_acttitleEliaStartII1
+            Description: Chapter26_actdescEliaStartII1
+            Check: ItemsUnlocked
+            Types:
+              - ThrusterSVDirectional
+            CompletedMessage: "norm\x3B6\x7CChapter26_acttitleEliaStartII1_CompletedMessage"
+      - TaskTitle: Chapter26_tasktitlePlaceVesselStart
+        PictureFile: "VesselStarter.jpg"
+        Actions:
+          - ActionTitle: Chapter26_acttitlePlaceAStarterBlock1
+            Description: Chapter26_actdescPlaceAStarterBlock1
+            Check: StructureSpawned
+            Names:
+              - CV
+              - HV
+              - SV
+            NamesRequired: NeedOne
+            CompletedMessage: "norm\x3B6\x7CChapter26_acttitlePlaceAStarterBlock1_CompletedMessage"
+        Rewards:
+          - Item: CockpitSV07New
+            Count: 1
+          - Item: RCSBlockSV
+            Count: 1
+          - Item: GeneratorSV
+            Count: 1
+          - Item: FuelTankSV
+            Count: 1
+        CompletedMessage: ""
+        StartMessage: ""
+      - TaskTitle: Chapter26_tasktitleEssentialVBlocks
+        PictureFile: "VesselEssentials.jpg"
+        Actions:
+          - ActionTitle: Chapter26_acttitleAddVCockpit
+            Description: Chapter26_actdescAddVCockpit
+            Check: BlocksPlaced
+            Required: NeedOne
+            CompletedMessage: "norm\x3B6\x7CChapter26_acttitleAddVCockpit_CompletedMessage"
+            Types:
+              - CockpitOpenSV
+              - CockpitSV
+              - CockpitSV01
+              - CockpitSV02
+              - CockpitSV03
+              - CockpitSV04
+              - CockpitSV05
+              - CockpitSV07
+              - CockpitSV_fighter
+              - CockpitSV_ShortRange
+              - CockpitSV_fighter_Noscale
+              - CockpitMS01
+              - CockpitMS02
+              - CockpitMS03
+              - CockpitSV07New
+              - CockpitBlocksSV
+            AllowManualCompletion: true
+          - ActionTitle: Chapter26_acttitleAddVRCS
+            Description: Chapter26_actdescAddVRCS
+            Check: BlocksPlaced
+            Types:
+              - RCSBlockGV
+              - RCSBlockSV
+              - RCSBlockMS
+            Required: NeedOne
+            CompletedMessage: Chapter26_acttitleAddVRCS_CompletedMessage
+          - ActionTitle: Chapter26_acttitleAddVGenerator
+            Description: Chapter26_actdescAddVGenerator
+            Check: BlocksPlaced
+            Types:
+              - GeneratorSV
+              - GeneratorMS
+              - GeneratorMST2
+              - GeneratorBA
+            Required: NeedOne
+            CompletedMessage: Chapter26_acttitleAddVGenerator_CompletedMessage
+          - ActionTitle: Chapter26_acttitleAddVFuelTank
+            Description: Chapter26_actdescAddVFuelTank
+            Check: BlocksPlaced
+            Types:
+              - FuelTankSV
+              - FuelTankMSSmall
+              - FuelTankMSLarge
+              - FuelTankMSLargeT2
+            Required: NeedOne
+            CompletedMessage: Chapter26_acttitleAddVFuelTank_CompletedMessage
+      - TaskTitle: Chapter26_tasktitleThrusters
+        PictureFile: "VesselThrusters.jpg"
+        Actions:
+          - ActionTitle: Chapter26_acttitleAddVThrusters
+            Description: Chapter26_actdescAddVThrusters
+            Check: BlocksPlaced
+            Types:
+              - ThrusterGVRoundNormal
+              - ThrusterGVRoundSlant
+              - ThrusterGVRoundArmored
+              - ThrusterGVDirectional
+              - ThrusterSVRoundArmored
+              - ThrusterSVRoundNormal
+              - ThrusterMSRoundSlant
+              - ThrusterSVRoundSlant
+              - ThrusterSVRoundAtmo
+              - ThrusterMSRoundArmored
+              - ThrusterMSRoundNormal
+              - ThrusterMSDirectional
+              - ThrusterMSRoundNormal2x2
+              - ThrusterMSRoundSlant2x2
+              - ThrusterMSRoundArmored2x2
+              - ThrusterMSRoundNormal3x3
+              - ThrusterMSRoundSlant3x3
+              - ThrusterMSRoundArmored3x3
+              - ThrusterSVDirectional
+              - ThrusterJetRound1x3x1
+              - ThrusterJetRound2x5x2
+              - ThrusterJetRound3x7x3
+              - ThrusterJetRound3x10x3
+              - ThrusterJetRound3x13x3
+            Required: NeedOne
+            CompletedMessage: Chapter26_acttitleAddVThrusters_CompletedMessage
+        Rewards:
+          - Item: OxygenTankSV
+            Count: 1
+      - TaskTitle: Chapter26_tasktitleAddVOxSupply
+        PictureFile: "VesselOxygen.jpg"
+        Actions:
+          - ActionTitle: Chapter26_acttitleAddVOxTank
+            Description: Chapter26_actdescAddVOxTank
+            Check: BlocksPlaced
+            Types:
+              - OxygenTankSV
+              - OxygenTankMS
+              - OxygenTankSmallMS
+            Required: NeedOne
+            CompletedMessage: "norm\x3B6\x7CChapter26_acttitleAddVOxTank_CompletedMessage"
+        Rewards:
+          - Item: WeaponSV02
+            Count: 1
+          - Item: ContainerAmmoSmall
+            Count: 1
+        CompletedMessage: ""
+      - TaskTitle: Chapter26_tasktitleWeapons
+        PictureFile: "VesselWeapons.jpg"
+        Actions:
+          - ActionTitle: Chapter26_acttitleAddVWeapons
+            Description: Chapter26_actdescAddVWeapon
+            Check: BlocksPlaced
+            Types:
+              - WeaponSV01
+              - WeaponSV02
+              - WeaponSV03
+              - WeaponSV04
+              - WeaponSV05
+              - WeaponMS01
+              - WeaponMS02
+              - TurretGVMinigun
+              - TurretGVRocket
+              - TurretGVPlasma
+              - TurretGVArtillery
+              - TurretMSMinigun
+              - TurretMSRocket
+              - TurretMSPlasma
+              - TurretMSArtillery
+              - TurretMSPulseLaser
+              - TurretMSCannon
+              - TurretMSFlak
+            Required: NeedOne
+            CompletedMessage: "norm\x3B6\x7CChapter26_acttitleAddVWeapons_CompletedMessage"
+          - ActionTitle: Chapter26_acttitleAddVAmmoB
+            Description: Chapter26_actdescAddVAmmoB
+            Check: BlocksPlaced
+            Types:
+              - ContainerAmmoSmall
+              - ContainerAmmoLarge
+            Required: NeedOne
+            CompletedMessage: "norm\x3B6\x7CChapter26_acttitleAddVAmmoB_CompletedMessage"
+        Rewards:
+          - Item: LandinggearShort
+            Count: 4
+      - TaskTitle: Chapter26_tasktitleDockingPads
+        PictureFile: "VesselDocking.jpg"
+        Actions:
+          - ActionTitle: Chapter26_acttitleAddVDockingPads
+            Description: Chapter26_actdescAddVDockingPads
+            Check: BlocksPlaced
+            Types:
+              - DockingPad
+              - LandinggearShort
+              - LandinggearDouble
+              - LandinggearSingle
+              - LandinggearMSShort
+              - LandinggearSV
+              - LandinggearMSHeavy
+              - LandinggearMSLight
+            Required: NeedOne
+            CompletedMessage: "norm\x3B6\x7CChapter26_acttitleAddVDockingPads_CompletedMessage"
+        Rewards:
+          - Item: PentaxidTankSV
+            Count: 1
+          - Item: WarpDriveSV
+            Count: 1
+        CompletedMessage: ""
+        StartMessage: ""
+      - TaskTitle: Chapter26_tasktitleAdditionalBlocks
+        PictureFile: "VesselAdditional.jpg"
+        Actions:
+          - ActionTitle: Chapter26_acttitleAdditionalVBlocks
+            Description: Chapter26_actdescAdditionalVBlocks
+            Check: BlocksPlaced
+            Required: NeedOne
+            CompletedMessage: "norm\x3B6\x7CChapter26_acttitleAdditionalVBlocks_CompletedMessage"
+            AllowManualCompletion: true
+            Types:
+              - FridgeSV
+              - FridgeMS
+              - FridgeMS02
+              - ContainerMS01
+              - OxygenStation
+              - OxygenStationSV
+              - ConstructorSmallV2
+              - ConstructorT1V2
+              - ConstructorT2
+              - WarpDrive
+              - GravityGeneratorMS
+              - PentaxidTankSV
+              - WarpDriveSV
+    VisibleOnStartPlayfields:
+      - Maiy
+    AutoActivateOnGameStart: false
+    Activatable: ByLevel
+  - ChapterTitle: chptitleMaiyStartIV
+    Category: SoloMission
+    Description: chpdescMaiyStartIV
+    PictureFile: "maiy-orbit-1.jpg"
+    PlayerLevel: 7
+    Visibility: ByLevel
+    CompletedMessage: completeMaiyMissionIV
+    Rewards:
+      - Item: PentaxidCrystal
+        Count: 5
+      - Item: ArmorHeavy
+        Count: 1
+    Tasks:
+      - TaskTitle: "tasktitleMaiyStartIVEx-7-StationI"
+        Actions:
+          - ActionTitle: acttitleMaiyStartIVRevenge
+            Description: actdescMaiyStartIVRevenge
+            Check: NearPoi
+            Names:
+              - Ex7Station
+              - "Ex-7-Explorer"
+            CompletedMessage: acttitleMaiyStartIVRevenge_CompletedMessage
+      - TaskTitle: "tasktitleMaiyStartIVEx-7-StationII"
+        Actions:
+          - ActionTitle: acttitleMaiyStartStartBoss
+            Description: actdescMaiyStartStartBoss
+            Check: SubjectKilled
+            Names:
+              - ArmoredGolem
+              - TurretRobot
+            CompletedMessage: acttitleMaiyStartStartBoss_CompletedMessage
+    VisibleOnStartPlayfields:
+      - Maiy
+    AutoActivateOnGameStart: false
+  - ChapterTitle: chptitleMaiyOrbitStart
+    Category: SoloMission
+    Preamble: preambleMaiyOrbitStart
+    Description: chpdescMaiyOrbitStart
+    PictureFile: "maiy-orbit-1.jpg"
+    PlayerLevel: 1
+    Visibility: Always
+    AutoActivateOnGameStart: true
+    CompletedMessage: completeMaiyOrbitStartI
+    RewardedChapters:
+      - chptitleMaiyOrbitStartII
+    ActivateChapterOnCompletion: chptitleMaiyOrbitStartII
+    VisibleOnStartPlayfields:
+      - "Maiy\x20Orbit"
+    Tasks:
+      - TaskTitle: tasktitleMaiyOrbitStartPersoCargo
+        PictureFile: "maiy-orbit-11.jpg"
+        Actions:
+          - ActionTitle: acttitleMaiyOrbitStartPersoCargo
+            Description: actdescMaiyOrbitStartPersoCargo
+            Check: InventoryEmptied
+            CompletedMessage: "norm\x3B6\x7CacttitleMaiyOrbitStartPersoCargo_CompletedMessage"
+            Names:
+              - ContainerPersonal
+            AllowManualCompletion: true
+          - ActionTitle: acttitleMaiyOrbitStartMoveOn
+            Description: actdescMaiyOrbitStartMoveOn
+            Check: Signal
+            Names:
+              - StartM
+            CompletedMessage: "norm\x3B6\x7CacttitleMaiyOrbitStartMoveOn_CompletedMessage\x7Cpda_Chapters8_Tasks0_Actions1_CompletedMessage_log"
+            AllowManualCompletion: true
+      - TaskTitle: tasktitleMaiyOrbitStartPrepare
+        PictureFile: "maiy-orbit-14.jpg"
+        StartMessage: "norm\x3B6\x7Cpda_Chapters8_Tasks1_StartMessage_text"
+        Actions:
+          - ActionTitle: acttitleMaiyOrbitStartPrepareIII
+            Description: actdescMaiyOrbitStartPrepareIII
+            Check: WindowOpened
+            CompletedMessage: "norm\x3B15\x7CacttitleMaiyOrbitStartPrepareIII_CompletedMessage"
+            Names:
+              - TechTree
+          - ActionTitle: Chp_chptitleMaiyOrbitStart_tskTit_1_actTit_4
+            AllowManualCompletion: false
+            CompletedMessage: "norm\x3B6\x7CChp_chptitleMaiyOrbitStart_tskTit_1_actTit_4_cplMsg"
+            Description: Chp_chptitleMaiyOrbitStart_tskTit_1_actTit_4_desc
+            Check: ItemsUnlocked
+            Types:
+              - MinigunSSWeapon
+              - WeaponSV02
+          - ActionTitle: Chp_chptitleMaiyOrbitStart_tskTit_1_actTit_5
+            AllowManualCompletion: false
+            CompletedMessage: "norm\x3B6\x7CChp_chptitleMaiyOrbitStart_tskTit_1_actTit_5_cplMsg"
+            Description: Chp_chptitleMaiyOrbitStart_tskTit_1_actTit_5_desc
+            Check: ItemsUnlocked
+            Types:
+              - RocketLauncherSSWeapon
+              - WeaponSV05
+          - ActionTitle: acttitleMaiyOrbitStartPrepare
+            Description: actdescMaiyOrbitStartPrepare
+            Check: ItemsCrafted
+            Types:
+              - FastRocket
+            Amount: 2
+            CompletedMessage: "norm\x3B6\x7CacttitleMaiyOrbitStartPrepare_CompletedMessage"
+          - ActionTitle: acttitleMaiyOrbitStartPrepareI
+            Description: actdescMaiyOrbitStartPrepareI
+            Check: ItemsCrafted
+            Types:
+              - 15mmBullet
+            Amount: 3
+            CompletedMessage: "norm\x3B6\x7CacttitleMaiyOrbitStartPrepareI_CompletedMessage"
+          - ActionTitle: acttitleMaiyOrbitStartPrepareII
+            Description: actdescMaiyOrbitStartPrepareII
+            Check: ItemsCrafted
+            Types:
+              - PlayerBike
+            Amount: 1
+            CompletedMessage: ""
+  - ChapterTitle: chptitleMaiyOrbitStartII
+    Category: SoloMission
+    Description: chpdescMaiyOrbitStartII
+    PlayerLevel: 1
+    Visibility: WhenRewarded
+    PictureFile: "maiy-orbit-12.jpg"
+    RewardedChapters:
+      - chptitleMaiyOrbitStartIII
+    ActivateChapterOnCompletion: chptitleMaiyOrbitStartIII
+    CompletedMessage: completeMaiyOrbitStartII
+    VisibleOnStartPlayfields:
+      - "Maiy\x20Orbit"
+    AutoActivateOnGameStart: false
+    Tasks:
+      - TaskTitle: tasktitleMaiyOrbitStartBoss
+        PictureFile: "maiy-orbit-12.jpg"
+        Rewards:
+          - Item: ArmorHeavy
+            Count: 1
+          - Item: SpawnNewCV
+            Count: 1
+        StartMessage: "norm\x3B6\x7Cpda_Chapters9_Tasks0_StartMessage_text"
+        Actions:
+          - ActionTitle: Chp_chptitleMaiyOrbitStartII_tskTit_0_actTit_2
+            AllowManualCompletion: false
+            CompletedMessage: "norm\x3B6\x7Cpda_Chapters9_Tasks0_Actions0_CompletedMessage_text\x7Cpda_Chapters9_Tasks0_Actions0_CompletedMessage_log"
+            Description: Chp_chptitleMaiyOrbitStartII_tskTit_0_actTit_2_desc
+            Check: WindowOpened
+            Names:
+              - Pda
+          - ActionTitle: acttitleMaiyOrbitStartBossI
+            Description: actdescMaiyOrbitStartBossI
+            Check: Signal
+            Names:
+              - BossSignal
+            AllowManualCompletion: true
+            CompletedMessage: "norm\x3B6\x7CacttitleMaiyOrbitStartBossI_CompletedMessage"
+          - ActionTitle: acttitleMaiyOrbitStartBoss
+            Description: actdescMaiyOrbitStartBoss
+            Check: SubjectKilled
+            Names:
+              - ArmoredGolem
+              - TurretRobot
+            AllowManualCompletion: true
+            CompletedMessage: "norm\x3B6\x7CacttitleMaiyOrbitStartBoss_CompletedMessage"
+  - ChapterTitle: chptitleMaiyOrbitStartIII
+    Category: SoloMission
+    Description: chpdescMaiyOrbitStartIII
+    PlayerLevel: 1
+    Visibility: WhenRewarded
+    PictureFile: "maiy-orbit-13.jpg"
+    RewardedChapters:
+      - chptitleMaiyOrbitStartIV
+    ActivateChapterOnCompletion: chptitleMaiyOrbitStartIV
+    CompletedMessage: completeMaiyOrbitStartIII
+    Tasks:
+      - TaskTitle: tasktitleMaiyOrbitStartEscape
+        PictureFile: "maiy-orbit-13.jpg"
+        Actions:
+          - ActionTitle: acttitleMaiyOrbitStartEscape
+            Description: actdescMaiyOrbitStartEscape
+            Check: NearPoi
+            Names:
+              - "Ex-7-Explorer"
+            CompletedMessage: "norm\x3B6\x7CacttitleMaiyOrbitStartEscape_CompletedMessage"
+        StartMessage: "norm\x3B6\x7Cpda_Chapters10_Tasks0_StartMessage_text"
+      - TaskTitle: tasktitleMaiyOrbitStartEscapeI
+        PictureFile: "maiy-orbit-13.jpg"
+        Actions:
+          - ActionTitle: acttitleMaiyOrbitStartEscapeI
+            Description: actdescMaiyOrbitStartEscapeI
+            Check: WindowOpened
+            CompletedMessage: "norm\x3B6\x7CacttitleMaiyOrbitStartEscapeI_CompletedMessage"
+            Names:
+              - ControlPanel
+    VisibleOnStartPlayfields:
+      - "Maiy\x20Orbit"
+    AutoActivateOnGameStart: false
+  - ChapterTitle: chptitleMaiyOrbitStartIV
+    Category: SoloMission
+    Description: chpdescMaiyOrbitStartIV
+    PlayerLevel: 1
+    Visibility: WhenRewarded
+    PictureFile: "maiy-orbit-2.jpg"
+    CompletedMessage: completeMaiyOrbitStartIV
+    Tasks:
+      - TaskTitle: tasktitleMaiyOrbitStartIVMission
+        PictureFile: "maiy-orbit-2.jpg"
+        Actions:
+          - ActionTitle: acttitleMaiyOrbitStartIVMission
+            Description: actdescMaiyOrbitStartIVMission
+            Check: NearPoi
+            Names:
+              - AlienRunner
+              - "Alien-Runner-Mission"
+            CompletedMessage: "norm\x3B6\x7CacttitleMaiyOrbitStartIVMission_CompletedMessage"
+        StartMessage: "mbox\x3B6\x7Cpda_Chapters11_Tasks0_StartMessage_text"
+      - TaskTitle: tasktitleMaiyOrbitStartIVMissionI
+        PictureFile: "maiy-orbit-21.jpg"
+        Actions:
+          - ActionTitle: acttitleMaiyOrbitStartIVMissionI
+            Description: actdescMaiyOrbitStartIVMissionI
+            Check: PlayfieldEntered
+            Names:
+              - "Danos\x20Mission\x20II"
+            CompletedMessage: acttitleMaiyOrbitStartIVMissionI_CompletedMessage
+          - ActionTitle: acttitleMaiyOrbitStartIVMissionII
+            Description: actdescMaiyOrbitStartIVMissionII
+            Check: SubjectKilled
+            Names:
+              - ArmoredGolem
+              - TurretRobot
+            CompletedMessage: acttitleMaiyOrbitStartIVMissionII_CompletedMessage
+    VisibleOnStartPlayfields:
+      - "Maiy\x20Orbit"
+    AutoActivateOnGameStart: false
+    RewardedChapters:
+      - chptitleDanosMissionI
+    ActivateChapterOnCompletion: chptitleDanosMissionI
+  - ChapterTitle: chptitleDanosMissionI
+    Category: SoloMission
+    Description: chpdescDanosMissionI
+    PictureFile: "danos.jpg"
+    PlayerLevel: 15
+    Visibility: Always
+    Activatable: ByLevel
+    RewardedChapters:
+      - chptitleDanosMissionII
+    ActivateChapterOnCompletion: chptitleDanosMissionII
+    CompletedMessage: completeDanosMissionI
+    Rewards:
+      - Item: MoneyCard
+        Count: 5000
+      - Item: PentaxidCrystal
+        Count: 50
+      - Item: FusionCell
+        Count: 500
+    Tasks:
+      - TaskTitle: tasktitleDanosMissionIRace
+        PictureFile: "danos.jpg"
+        Actions:
+          - ActionTitle: acttitleDanosMissionIRace
+            Description: actdescDanosMissionIRace
+            Check: NearPoi
+            Names:
+              - DanosMission1Instance
+              - "Danos-Mission-I-Instance"
+            CompletedMessage: acttitleDanosMissionIRace_CompletedMessage
+      - TaskTitle: tasktitleDanosMissionIRace1
+        PictureFile: "danos-0.jpg"
+        Actions:
+          - ActionTitle: acttitleDanosMissionIRace1
+            Description: actdescDanosMissionIRace1
+            Check: NearPoi
+            Names:
+              - "ESR-Ahax"
+            Guiding: Destination
+            CompletedMessage: acttitleDanosMissionIRace1_CompletedMessage
+      - TaskTitle: tasktitleDanosMissionIRace2
+        PictureFile: "danos-0.jpg"
+        Actions:
+          - ActionTitle: acttitleDanosMissionIRace2
+            Description: actdescDanosMissionIRace2
+            Check: NearPoi
+            Names:
+              - "ESR-Aloe"
+            Guiding: Destination
+            CompletedMessage: acttitleDanosMissionIRace2_CompletedMessage
+      - TaskTitle: tasktitleDanosMissionIRace3
+        PictureFile: "danos-0.jpg"
+        Actions:
+          - ActionTitle: acttitleDanosMissionIRace3
+            Description: actdescDanosMissionIRace3
+            Check: NearPoi
+            Names:
+              - "ESR-Corn"
+            Guiding: Destination
+            CompletedMessage: acttitleDanosMissionIRace3_CompletedMessage
+      - TaskTitle: tasktitleDanosMissionIRace4
+        PictureFile: "danos-0.jpg"
+        Actions:
+          - ActionTitle: acttitleDanosMissionIRace4
+            Description: actdescDanosMissionIRace4
+            Check: NearPoi
+            Names:
+              - "ESR-Durian"
+            Guiding: Destination
+            CompletedMessage: acttitleDanosMissionIRace4_CompletedMessage
+      - TaskTitle: tasktitleDanosMissionIRace5
+        PictureFile: "danos-0.jpg"
+        Actions:
+          - ActionTitle: acttitleDanosMissionIRace5
+            Description: actdescDanosMissionIRace5
+            Check: NearPoi
+            Names:
+              - "ESR-Kavae"
+            Guiding: Destination
+            CompletedMessage: acttitleDanosMissionIRace5_CompletedMessage
+      - TaskTitle: tasktitleDanosMissionIRace6
+        PictureFile: "danos-0.jpg"
+        Actions:
+          - ActionTitle: acttitleDanosMissionIRace6
+            Description: actdescDanosMissionIRace6
+            Check: NearPoi
+            Names:
+              - "ESR-Pearthing"
+            Guiding: Destination
+            CompletedMessage: acttitleDanosMissionIRace6_CompletedMessage
+      - TaskTitle: tasktitleDanosMissionIRace7
+        PictureFile: "danos-0.jpg"
+        Actions:
+          - ActionTitle: acttitleDanosMissionIRace7
+            Description: actdescDanosMissionIRace7
+            Check: NearPoi
+            Names:
+              - "ESR-Pumpkin"
+            Guiding: Destination
+            CompletedMessage: acttitleDanosMissionIRace7_CompletedMessage
+      - TaskTitle: tasktitleDanosMissionIRace8
+        PictureFile: "danos-0.jpg"
+        Actions:
+          - ActionTitle: acttitleDanosMissionIRace8
+            Description: actdescDanosMissionIRace8
+            Check: NearPoi
+            Names:
+              - "ESR-Tomato"
+            Guiding: Destination
+            CompletedMessage: acttitleDanosMissionIRace8_CompletedMessage
+      - TaskTitle: tasktitleDanosMissionIRace9
+        PictureFile: "danos-0.jpg"
+        Actions:
+          - ActionTitle: acttitleDanosMissionIRace9
+            Description: actdescDanosMissionIRace9
+            Check: NearPoi
+            Names:
+              - "ESR-Wheat"
+            Guiding: Destination
+            CompletedMessage: acttitleDanosMissionIRace9_CompletedMessage
+      - TaskTitle: tasktitleDanosMissionIRace10
+        PictureFile: "danos-0.jpg"
+        Actions:
+          - ActionTitle: acttitleDanosMissionIRace10
+            Description: actdescDanosMissionIRace10
+            Check: NearPoi
+            Names:
+              - "ESR-AkuaBerry"
+            Guiding: Destination
+            CompletedMessage: acttitleDanosMissionIRace10_CompletedMessage
+      - TaskTitle: tasktitleDanosMissionIRace11
+        PictureFile: "danos-0.jpg"
+        Actions:
+          - ActionTitle: acttitleDanosMissionIRace11
+            Description: actdescDanosMissionIRace11
+            Check: NearPoi
+            Names:
+              - "ESR-SpaceOrange"
+            Guiding: Destination
+            CompletedMessage: acttitleDanosMissionIRace11_CompletedMessage
+      - TaskTitle: tasktitleDanosMissionIRace12
+        PictureFile: "danos-0.jpg"
+        Actions:
+          - ActionTitle: acttitleDanosMissionIRace12
+            Description: actdescDanosMissionIRace12
+            Check: NearPoi
+            Names:
+              - "ESR-Alien-Honey"
+            Guiding: Destination
+            CompletedMessage: acttitleDanosMissionIRace12_CompletedMessage
+      - TaskTitle: tasktitleDanosMissionIRace13
+        PictureFile: "danos-0.jpg"
+        Actions:
+          - ActionTitle: acttitleDanosMissionIRace13
+            Description: actdescDanosMissionIRace13
+            Check: NearPoi
+            Names:
+              - "ESR-Protein-Plant"
+            Guiding: Destination
+            CompletedMessage: acttitleDanosMissionIRace13_CompletedMessage
+      - TaskTitle: tasktitleDanosMissionIRace14
+        PictureFile: "danos-0.jpg"
+        Actions:
+          - ActionTitle: acttitleDanosMissionIRace14
+            Description: actdescDanosMissionIRace14
+            Check: NearPoi
+            Names:
+              - "ESR-Fiber"
+            Guiding: Destination
+            CompletedMessage: acttitleDanosMissionIRace14_CompletedMessage
+      - TaskTitle: tasktitleDanosMissionIRaceEnd
+        PictureFile: "danos-01.jpg"
+        Actions:
+          - ActionTitle: acttitleDanosMissionIRaceEnd
+            Description: actdescDanosMissionIRaceEnd
+            Check: NearPoi
+            Names:
+              - "ESR-Start"
+            Guiding: Destination
+            CompletedMessage: acttitleDanosMissionIRaceEnd_CompletedMessage
+  - ChapterTitle: chptitleDanosMissionII
+    Category: SoloMission
+    Description: chpdescDanosMissionII
+    PictureFile: "danos-1.jpg"
+    PlayerLevel: 16
+    Visibility: WhenRewarded
+    RewardedChapters:
+      - chptitleDanosMissionIII
+    ActivateChapterOnCompletion: chptitleDanosMissionIII
+    CompletedMessage: completeDanosMissionII
+    Tasks:
+      - TaskTitle: tasktitleDanosMissionIIJump
+        PictureFile: "danos-11.jpg"
+        Actions:
+          - ActionTitle: acttitleDanosMissionIIJump
+            Description: actdescDanosMissionIIJump
+            Check: NearPoi
+            Names:
+              - DoGPI
+              - DawnOfGalaxyPartI
+            CompletedMessage: acttitleDanosMissionIIJump_CompletedMessage
+      - TaskTitle: tasktitleDanosMissionIIJumpI
+        PictureFile: "danos-12.jpg"
+        Actions:
+          - ActionTitle: acttitleDanosMissionIIJumpI
+            Description: actdescDanosMissionIIJumpI
+            Check: Signal
+            Names:
+              - dogp2
+            CompletedMessage: acttitleDanosMissionIIJumpI_CompletedMessage
+      - TaskTitle: tasktitleDanosMissionIIJumpII
+        PictureFile: "danos-12.jpg"
+        Actions:
+          - ActionTitle: acttitleDanosMissionIIJumpII
+            Description: actdescDanosMissionIIJumpII
+            Check: InventoryOpened
+            Names:
+              - ScifiContainerPower
+            CompletedMessage: acttitleDanosMissionIIJumpII_CompletedMessage
+  - ChapterTitle: chptitleDanosMissionIII
+    Category: SoloMission
+    Description: chpdescDanosMissionIII
+    PictureFile: "danos-2.jpg"
+    PlayerLevel: 17
+    Visibility: WhenRewarded
+    RewardedChapters:
+      - chptitleDanosMissionIV
+    ActivateChapterOnCompletion: chptitleDanosMissionIV
+    CompletedMessage: completeDanosMissionIII
+    Rewards:
+      - Item: EmergencyRations
+        Count: 5
+      - Item: PentaxidCrystal
+        Count: 50
+      - Item: MoneyCard
+        Count: 2000
+      - Item: FusionCell
+        Count: 100
+      - Item: ArmorHeavy
+        Count: 1
+      - Item: EVABoost
+        Count: 1
+    Tasks:
+      - TaskTitle: tasktitleDanosMissionIIIDS
+        PictureFile: "danos-2.jpg"
+        Actions:
+          - ActionTitle: acttitleDanosMissionIIIDS
+            Description: actdescDanosMissionIIIDS
+            Check: NearPoi
+            Names:
+              - DanosMission2Instance
+            CompletedMessage: acttitleDanosMissionIIIDS_CompletedMessage
+      - TaskTitle: tasktitleDanosMissionIII
+        PictureFile: "danos-21.jpg"
+        Actions:
+          - ActionTitle: acttitleDanosMissionIII
+            Description: actdescDanosMissionIII
+            Check: Signal
+            Names:
+              - DM2End
+            CompletedMessage: acttitleDanosMissionIII_CompletedMessage
+  - ChapterTitle: chptitleDanosMissionIV
+    Category: SoloMission
+    Description: chpdescDanosMissionIV
+    PictureFile: "danos-31.jpg"
+    PlayerLevel: 20
+    Visibility: WhenRewarded
+    RewardedChapters:
+      - chptitleDanosMissionV
+    ActivateChapterOnCompletion: chptitleDanosMissionV
+    CompletedMessage: completeDanosMissionIV
+    Rewards:
+      - Item: MoneyCard
+        Count: 7000
+    Tasks:
+      - TaskTitle: tasktitleDanosMissionIVStart
+        PictureFile: "danos-31.jpg"
+        Actions:
+          - ActionTitle: acttitleDanosMissionIVStart
+            Description: actdescDanosMissionIVStart
+            Check: PlayfieldEntered
+            Names:
+              - "Danos\x20Sector"
+            CompletedMessage: acttitleDanosMissionIVStart_CompletedMessage
+      - TaskTitle: tasktitleDanosMissionIVM0
+        Actions:
+          - ActionTitle: acttitleDanosMissionIVM0
+            Description: actdescDanosMissionIVM0
+            Check: NearPoi
+            Names:
+              - "Danos-Mission-3-Instance"
+            CompletedMessage: acttitleDanosMissionIVM0_CompletedMessage
+      - TaskTitle: tasktitleDanosMissionIVM1
+        Actions:
+          - ActionTitle: acttitleDanosMissionIVM1
+            Description: actdescDanosMissionIVM1
+            Check: Signal
+            Names:
+              - DM3E
+            CompletedMessage: acttitleDanosMissionIVM1_CompletedMessage
+  - ChapterTitle: chptitleDanosMissionV
+    Category: SoloMission
+    Description: chpdescDanosMissionV
+    PictureFile: "danos-31.jpg"
+    PlayerLevel: 25
+    Activatable: ByLevel
+    Visibility: WhenRewarded
+    RewardedChapters:
+      - chptitleDanosMissionVI
+    ActivateChapterOnCompletion: chptitleDanosMissionVI
+    CompletedMessage: completeDanosMissionV
+    Tasks:
+      - TaskTitle: tasktitleDanosMissionVM1
+        Actions:
+          - ActionTitle: acttitleDanosMissionVM1
+            Description: actdescDanosMissionVM1
+            Check: PlayfieldEntered
+            Names:
+              - "Danos\x20Mission\x20III"
+            CompletedMessage: acttitleDanosMissionVM1_CompletedMessage
+      - TaskTitle: tasktitleDanosMissionVM2
+        Actions:
+          - ActionTitle: acttitleDanosMissionVM2
+            Description: actdescDanosMissionVM2
+            Check: Signal
+            Names:
+              - "DM3-1"
+            CompletedMessage: acttitleDanosMissionVM2_CompletedMessage
+      - TaskTitle: tasktitleDanosMissionVM3
+        Actions:
+          - ActionTitle: acttitleDanosMissionVM3
+            Description: actdescDanosMissionVM3
+            Check: Signal
+            Names:
+              - "DM3-2"
+            CompletedMessage: acttitleDanosMissionVM3_CompletedMessage
+  - ChapterTitle: chptitleDanosMissionVI
+    Category: SoloMission
+    Description: chpdescDanosMissionVI
+    PictureFile: "danos-3.jpg"
+    PlayerLevel: 25
+    Activatable: ByLevel
+    Visibility: WhenRewarded
+    RewardedChapters:
+      - chptitleDanosMissionVII
+    ActivateChapterOnCompletion: chptitleDanosMissionVII
+    CompletedMessage: completeDanosMissionVI
+    Tasks:
+      - TaskTitle: tasktitleDanosMissionVIM1
+        Actions:
+          - ActionTitle: "acttitleDanosMissionVIM1-1"
+            Description: "actdescDanosMissionVIM1-1"
+            Check: Signal
+            Names:
+              - "DM3-3"
+              - "DM3-4"
+            Guiding: Destination
+            CompletedMessage: "acttitleDanosMissionVIM1-1_CompletedMessage"
+          - ActionTitle: "acttitleDanosMissionVIM1-2"
+            Description: "actdescDanosMissionVIM1-2"
+            Check: BlockDestroyed
+            Types:
+              - GeneratorMST2
+            Guiding: Destination
+            OnCompleteSignal:
+              Name: "DM3-5"
+              Type: On
+            CompletedMessage: "acttitleDanosMissionVIM1-2_CompletedMessage"
+  - ChapterTitle: chptitleDanosMissionVII
+    Category: SoloMission
+    Description: chpdescDanosMissionVII
+    PictureFile: "danos-7.jpg"
+    PlayerLevel: 25
+    Activatable: ByLevel
+    Visibility: WhenRewarded
+    CompletedMessage: completeDanosMissionVII
+    Tasks:
+      - TaskTitle: tasktitleDanosMissionVIIM1
+        Actions:
+          - ActionTitle: acttitleDanosMissionVIIM1
+            Description: actdescDanosMissionVIIM1
+            Check: PoiDiscovered
+            Names:
+              - DanosCVInstance
+              - "Danos-CV-Instance"
+            CompletedMessage: acttitleDanosMissionVIIM1_CompletedMessage
+      - TaskTitle: tasktitleDanosMissionVIIM2
+        Actions:
+          - ActionTitle: acttitleDanosMissionVIIM2
+            Description: actdescDanosMissionVIIM2
+            Check: PlayfieldEntered
+            Names:
+              - "Danos\x20Mission\x20End"
+            CompletedMessage: acttitleDanosMissionVIIM2_CompletedMessage

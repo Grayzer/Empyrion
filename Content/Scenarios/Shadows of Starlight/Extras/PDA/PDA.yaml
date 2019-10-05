@@ -1,0 +1,464 @@
+# PDA Shadow of Starlight v1.01  09.07.2017
+Creator: Taun Hawk and amurayiwestgate
+Chapters:
+  - ChapterTitle: chaptertitle1
+    Category: SoloMission
+    Preamble: preamble1
+    Description: chpdesc1
+    PictureFile: chapter1.jpg
+    # VisibleOnStartPlayfield: Brexxis
+    AutoActivateOnGameStart: True
+    PlayerLevel: 1
+    Visibility: Always    # or ByLevel, WhenRewarded
+    RewardedChapters: [ chaptertitle2 ]
+    ActivateChapterOnCompletion: chaptertitle2
+    CompletedMessage: complete1
+    CompletedSound: Sounds/Misc/DroneSignalBad
+    Rewards:
+      - Item: MoneyCard
+        Count: 10000
+    Tasks:
+      - TaskTitle: tasktitle11 #Setup the defenses of the Tactical Commando Module
+        PictureFile: task11.jpg
+        Actions:
+          - ActionTitle: acttitle111
+            Description: actdesc111
+            Check: InventoryOpened
+            Names: [ ContainerPersonal ]
+            AllowManualCompletion: true
+            CompletedMessage: complete111
+
+      - TaskTitle: tasktitle12 #Infiltrate the Zirax refinery
+        PictureFile: task12.jpg
+        Actions:
+          - ActionTitle: acttitle121
+            Description: actdesc121
+            Check: NearPoi
+            Names: [ Brexxis_Promethium-Refinery ]
+            Guiding: Destination
+            AllowManualCompletion: true
+            CompletedMessage: complete121
+
+          - ActionTitle: acttitle122
+            Description: actdesc122
+            Check: Signal
+            Names: [ PromRefDone ]
+            AllowManualCompletion: true
+            CompletedMessage: complete122
+            
+  - ChapterTitle: chaptertitle2 #Chapter 2 – To boldly go where others went before
+    Category: SoloMission
+    Description: chpdesc2
+    PictureFile: chapter2.jpg
+    # VisibleOnStartPlayfield: Brexxis
+    AutoActivateOnGameStart: False
+    PlayerLevel: 1
+    Visibility: WhenRewarded
+    RewardedChapters: [ chaptertitle3 ]
+    ActivateChapterOnCompletion: chaptertitle3
+    CompletedMessage: complete2
+    CompletedSound: Sounds/Misc/DroneSignalBad
+    Rewards:
+      - Item: MoneyCard
+        Count: 10000
+    Tasks:
+      - TaskTitle: tasktitle21 #Star traveller
+        PictureFile: task21.jpg
+        Actions:
+          - ActionTitle: acttitle211 #Open PDA
+            Description: actdesc211
+            Check: WindowOpened
+            Names: [ Pda ]
+            AllowManualCompletion: true
+            CompletedMessage: complete211
+
+          - ActionTitle: acttitle212 #Warp to the Veldis system
+            Description: actdesc212
+            Check: PlayfieldEntered
+            Names: [ Veldis Orbit ]
+            AllowManualCompletion: true
+            CompletedMessage: complete212
+
+      - TaskTitle: tasktitle22 #Contact the UFP
+        PictureFile: task22.jpg
+        Actions:
+          - ActionTitle: acttitle221 #Find the UFP spy satellite
+            Description: actdesc221
+            Check: NearPoi
+            Names: [ Bro1_Veldis_Satellite ] #filename
+            # Guiding: Destination
+            AllowManualCompletion: true
+            CompletedMessage: complete221
+
+          #- ActionTitle: acttitle222 #Activate the satellite
+          #  Description: actdesc222
+          #  Check: MainPowerSwitched
+          #  Names: [ Veldis_Satellite ] #groupname
+            # Names: [ Bro1_Veldis_Satellite ] #filename
+            # Names: [ UFP Spy Satellite ] #spawn name
+          #  AllowManualCompletion: true
+          #  CompletedMessage: complete222
+            
+          - ActionTitle: acttitle223 #Decrypt the database at a console
+            Description: actdesc223
+            Check: Signal
+            Names: [ Satellite_Access ]
+            AllowManualCompletion: true
+            CompletedMessage: complete223
+            
+            
+  - ChapterTitle: chaptertitle3 #Chapter 3 – The agent
+    Category: SoloMission
+    Description: chpdesc3
+    PictureFile: chapter3.jpg
+    # VisibleOnStartPlayfield: Brexxis
+    AutoActivateOnGameStart: false
+    PlayerLevel: 1
+    Visibility: WhenRewarded
+    RewardedChapters: [ chaptertitle3B ]
+    ActivateChapterOnCompletion: chaptertitle3B
+    CompletedMessage: complete3
+    CompletedSound: Sounds/Misc/DroneSignalBad
+    #Rewards:
+    #  - Item: MoneyCard
+     #   Count: 10000
+    Tasks:
+      - TaskTitle: tasktitle31 #Veldis
+        PictureFile: task31.jpg
+        Actions:
+          - ActionTitle: acttitle311 #Land on Veldis
+            Description: actdesc311
+            Check: PlayfieldEntered
+            Names: [ Veldis ]
+            AllowManualCompletion: true
+            CompletedMessage: complete311
+
+          - ActionTitle: acttitle312 #Contact the UFP agent
+            Description: actdesc312
+            Check: Signal
+            Names: [ Veldis_Agent1 ]
+            AllowManualCompletion: true
+            CompletedMessage: complete312
+  - ChapterTitle: chaptertitle3B #A favor for another agent
+    Category: SoloMission
+    Description: chpdesc3B
+    PictureFile: chapter3B.jpg
+    AutoActivateOnGameStart: false
+    PlayerLevel: 1
+    Visibility: WhenRewarded
+    RewardedChapters: [ chaptertitle4 ]
+    ActivateChapterOnCompletion: chaptertitle4
+    CompletedMessage: complete3B
+    CompletedSound: Sounds/Misc/DroneSignalBad
+    Rewards:
+      - Item: Meat
+        Count: 10
+    Tasks:
+      - TaskTitle: tasktitle3B2 #A small tribute
+        PictureFile: task3B2.jpg
+        Actions:
+          - ActionTitle: acttitle3B21 #Hunting season
+            Description: actdesc3B21
+            Check: SubjectKilled
+            Names: [ RaptorLeader, RaptorGroup, RaptorHerd, RaptorNight ]
+            NamesRequired: NeedOne
+            Amount: 10
+            AllowManualCompletion: true
+            CompletedMessage: complete3B21
+            
+      - TaskTitle: tasktitle3B3 #The hunt is over
+        PictureFile: task3B3.jpg
+        Actions:
+          - ActionTitle: acttitle3B31 #Hunting season
+            Description: actdesc3B31
+            Check: Signal
+            Names: [ Veldis_Agent1 ]
+            AllowManualCompletion: true
+            CompletedMessage: complete3B31
+  - ChapterTitle: chaptertitle4 #Chapter 4 – The Access Code
+    Category: SoloMission
+    Description: chpdesc4
+    PictureFile: chapter4.jpg
+    # VisibleOnStartPlayfield: Asteroid field
+    AutoActivateOnGameStart: false
+    PlayerLevel: 1
+    Visibility: WhenRewarded
+    RewardedChapters: [ chaptertitle5 ]
+    ActivateChapterOnCompletion: chaptertitle5
+    CompletedMessage: complete4
+    CompletedSound: Sounds/Misc/DroneSignalBad
+    Rewards:
+      - Item: MoneyCard
+        Count: 5000
+    Tasks:
+      - TaskTitle: tasktitle41 #The Wolf Fang
+        PictureFile: task41.jpg
+        Actions:
+          - ActionTitle: acttitle410 #open PDA
+            Description: actdesc410
+            Check: WindowOpened
+            Names: [ Pda ]
+            AllowManualCompletion: true
+            CompletedMessage: complete410
+            
+          - ActionTitle: acttitle411 #Travel to the freighter landing pad
+            Description: actdesc411
+            Check: NearPoi
+            Names: [ Veldis_FreighterPad ]
+            Guiding: Destination
+            AllowManualCompletion: true
+            CompletedMessage: complete411
+
+          - ActionTitle: acttitle412 #Signal the freighter (boarding signal 4049)
+            Description: actdesc412
+            Check: PlayfieldEntered
+            Names: [ Asteroid field ]
+            AllowManualCompletion: true
+            CompletedMessage: complete412
+            
+      - TaskTitle: tasktitle41B #Tactical Outpost Iota
+        PictureFile: task41B.jpg
+        Actions:        
+          - ActionTitle: acttitle413 #Enter Tactical Outpost Iota
+            Description: actdesc413
+            Check: Signal
+            Names: [ IotaIntruder ]
+            AllowManualCompletion: true
+            CompletedMessage: complete413
+            
+          - ActionTitle: acttitle414 #Kill the Zirax officer to get his access codes
+            Description: actdesc414
+            Check: SubjectKilled
+            Names: [ ZiraxLaser ]
+            AllowManualCompletion: true
+            CompletedMessage: complete414
+
+      - TaskTitle: tasktitle42 #Escape from the asteroid field
+        PictureFile: task42.jpg
+        Actions:
+          - ActionTitle: acttitle422 #Meet with the smugglers
+            Description: actdesc422
+            Check: NearPoi
+            Names: [ Bro1_Asteroid2110_Smuggl ] #since this is a fixed POI enviroment
+            AllowManualCompletion: true
+            CompletedMessage: complete422
+            
+          - ActionTitle: acttitle423 #Activate your cryo chamber
+            Description: actdesc423
+            Check: PlayfieldEntered
+            Names: [ Somewhere ]
+            AllowManualCompletion: true
+            CompletedMessage: complete423
+            
+  - ChapterTitle: chaptertitle5 #Chapter 5 - Under attack
+    Category: SoloMission
+    Description: chpdesc5
+    PictureFile: chapter5.jpg
+    # VisibleOnStartPlayfield: Somewhere
+    AutoActivateOnGameStart: False
+    PlayerLevel: 1
+    Visibility: WhenRewarded
+    RewardedChapters: [ chaptertitle6 ]
+    ActivateChapterOnCompletion: chaptertitle6
+    CompletedMessage: complete5
+    CompletedSound: Sounds/Misc/DroneSignalBad
+    # Rewards:
+    #  - Item: MoneyCard
+    #    Count: 1000
+    Tasks:
+      - TaskTitle: tasktitle51 #Escape!
+        PictureFile: task51.jpg
+        Actions:
+          # - ActionTitle: acttitle511 #Survive the attack
+          #   Description: actdesc511
+          #   Check: Signal
+          #   Names: [ ReachedShuttle ]
+          #   AllowManualCompletion: true
+          #  CompletedMessage: complete511
+          - ActionTitle: acttitle512 #Activate evacuation procedures
+            Description: actdesc512
+            Check: PlayfieldEntered
+            Names: [ Veldis Moon ]
+            AllowManualCompletion: true
+            CompletedMessage: complete512
+      - TaskTitle: tasktitle52 #Landing with the shuttle 
+        PictureFile: task52.jpg
+        Actions:      
+          - ActionTitle: acttitle523 #Gather the emergency gear
+            Description: actdesc523
+            Check: InventoryOpened
+            Names: [ ContainerPersonal ]
+            AllowManualCompletion: true
+            CompletedMessage: complete523
+            
+            
+  - ChapterTitle: chaptertitle6 #Chapter 6 - Dark Side of the Moon
+    Category: SoloMission
+    Description: chpdesc6
+    PictureFile: chapter6.jpg
+    AutoActivateOnGameStart: False
+    PlayerLevel: 1
+    Visibility: WhenRewarded
+    RewardedChapters: [ chaptertitle7 ]
+    ActivateChapterOnCompletion: chaptertitle7
+    CompletedMessage: complete6
+    CompletedSound: Sounds/Misc/DroneSignalBad
+    Rewards:
+      - Item: MoneyCard
+        Count: 5000
+    Tasks:
+      - TaskTitle: tasktitle61 #
+        PictureFile: task61.jpg
+        Actions:
+          - ActionTitle: acttitle611 #Find WRC
+            Description: actdesc611
+            Check: NearPoi
+            Names: [ Moon_WeapResCenter ]
+            Guiding: Destination
+            AllowManualCompletion: true
+            CompletedMessage: complete611
+
+          - ActionTitle: acttitle612 #Defeat the security system
+            Description: actdesc612
+            Check: SubjectKilled
+            Names: [ ArmoredGolem ]
+            AllowManualCompletion: true
+            CompletedMessage: complete612
+            
+          - ActionTitle: acttitle613 #Search Asteroid Buster related data
+            Description: actdesc613
+            Check: Signal
+            Names: [ CodeBeta ]
+            AllowManualCompletion: true
+            CompletedMessage: complete613
+            
+            
+  - ChapterTitle: chaptertitle7 #Chapter 7 – The phase emitter
+    Category: SoloMission
+    Description: chpdesc7
+    PictureFile: chapter7.jpg
+    AutoActivateOnGameStart: False
+    PlayerLevel: 1
+    Visibility: WhenRewarded
+    RewardedChapters: [ chaptertitle8 ]
+    ActivateChapterOnCompletion: chaptertitle8
+    CompletedMessage: complete7
+    CompletedSound: Sounds/Misc/DroneSignalBad
+    Rewards:
+      - Item: MoneyCard
+        Count: 5000
+    Tasks:
+      - TaskTitle: tasktitle71 #The Kayam sands
+        PictureFile: task71.jpg
+        Actions:
+          - ActionTitle: acttitle711 #Check your PDA
+            Description: actdesc711
+            Check: WindowOpened
+            Names: [ Pda ]
+            AllowManualCompletion: true
+            CompletedMessage: complete711
+
+          - ActionTitle: acttitle712 #Travel to Kayam
+            Description: actdesc712
+            Check: PlayfieldEntered
+            Names: [ Kayam Orbit ]
+            AllowManualCompletion: true
+            CompletedMessage: complete712
+            
+          - ActionTitle: acttitle713 #Land at the Jera colony
+            Description: actdesc713
+            Check: NearPoi
+            Names: [ Bro1_Kayam_JeraColony ]
+            Guiding: Destination
+            AllowManualCompletion: true
+            CompletedMessage: complete713
+
+          - ActionTitle: acttitle714 #Search for the Zirax pilot
+            Description: actdesc714
+            Check: SubjectKilled
+            Names: [ ZiraxLaser ]
+            AllowManualCompletion: true
+            CompletedMessage: complete714
+            
+      - TaskTitle: tasktitle72 #The lost ship
+        PictureFile: task72.jpg
+        Actions:    
+          - ActionTitle: acttitle715 #Find the Zirax ship
+            Description: actdesc715
+            Check: NearPoi
+            Names: [ Bro1_Kayam_Shipwreck ]
+            AllowManualCompletion: true
+            CompletedMessage: complete715   
+            
+          - ActionTitle: acttitle716 #Find the phase emitter
+            Description: actdesc716
+            Check: Signal
+            Names: [ SecretFound ]
+            AllowManualCompletion: true
+            CompletedMessage: complete716
+            
+  - ChapterTitle: chaptertitle8 #Chapter 8 – The Zirax Asteroid Buster Canon
+    Category: SoloMission
+    Description: chpdesc8
+    PictureFile: chapter8.jpg
+    AutoActivateOnGameStart: False
+    PlayerLevel: 1
+    Visibility: WhenRewarded
+    # Visibility: Always
+    CompletedMessage: complete8
+    CompletedSound: Sounds/Misc/DroneSignalBad
+    Rewards:
+      - Item: MoneyCard
+        Count: 20000
+    Tasks:
+      - TaskTitle: tasktitle81 #Endgame
+        PictureFile: task81.jpg
+        Actions:
+          - ActionTitle: acttitle811 #Fly to -5800, -5200, -7300 in Veldis Orbit
+            Description: actdesc811
+            Check: Signal
+            Names: [ HasArrived ]
+            AllowManualCompletion: true
+            CompletedMessage: complete811
+
+          - ActionTitle: acttitle812 #Breach the outer security (code 1112)
+            Description: actdesc812
+            Check: Signal
+            Names: [ Door1 ]
+            AllowManualCompletion: true
+            CompletedMessage: complete812
+            
+         # - ActionTitle: acttitle813 #Breach the inner security (code 2333)
+         #   Description: actdesc813
+          #  Check: Signal
+          #  Names: [ Door2 ]
+          #  Guiding: Destination
+          #  AllowManualCompletion: true
+          #  CompletedMessage: complete813
+
+          - ActionTitle: acttitle814 #Place the phase emitter in the core (code 3914)
+            Description: actdesc814
+            Check: Signal
+            Names: [ Door3 ]
+            AllowManualCompletion: true
+            CompletedMessage: complete814
+            
+      - TaskTitle: tasktitle82 #Boooom!
+        PictureFile: task82.jpg
+        Actions:    
+          - ActionTitle: acttitle821 #Blow it up!
+            Description: actdesc821
+            Check: Signal
+            Names: [ FlippedSwitch ]
+            AllowManualCompletion: true
+            CompletedMessage: complete821 
+            
+      - TaskTitle: complete822 #The end
+        PictureFile: chapter8.jpg
+        Actions:            
+          - ActionTitle: acttitle822 #A job well done
+            Description: actdesc822
+            Check: Signal
+            Names: [ FinalDestination ]
+            AllowManualCompletion: true
+            CompletedMessage: complete822

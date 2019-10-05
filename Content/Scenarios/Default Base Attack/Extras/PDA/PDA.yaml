@@ -1,0 +1,220 @@
+Creator: Eleon Game Studios
+Chapters:
+  - ChapterTitle: Zirax Base Attack
+    Category: UCHMission
+    Rewards: 
+     - Item: ArmorMedium
+       Count: 1
+     - Item: LaserRifle
+       Count: 1
+     - Item: PulseLaserChargeRifle
+       Count: 200
+
+    Description: "You must survive several waves. Good luck!" 
+    NoSkip: True
+    # PictureFile: "ZiraxEmpire.jpg"
+    PlayerLevel: 1 
+
+    Visibility: ChapterActivation
+    ChapterActivation:
+      - ActivationType: PlayfieldTypeEntered
+        Names: [ AridBaseAttack ]
+        ActivationMessageType: None # not needed for this scenario        
+        
+    # Visibility: ByPlayfieldType
+    # PlayfieldTypes: [ AridBaseAttack ]
+    HideTasks: true
+    # AutoActivateOnGameStart: True # ignored in this scenario with GameOptions.IsManagedScenario: True
+    CoreTimer: 600 # in seconds TEMPORARY - should be an option in the some other settings where can be scaled better
+    CompletedMessage: "Congratulations - you have successfully defended the base against all waves!"
+    
+    
+# ========================== WAVE I  =====================
+    
+    Tasks:
+    # PREPARATION
+      - TaskTitle: Preparation (Wave I)
+        StartDelay: 0 
+        # PictureFile: "PlanetaryDrones.jpg"
+        StartMessage: "We have reports that the Zirax are preparing an offensive against your base. Equip yourself and prepare your base."
+        Actions:
+          - ActionTitle: Equip and Prepare Base
+            Description: “Place defenses and prepare for incoming attack.”
+            SetTimer: 45  # new command - set timer in seconds, after timer is down to zero, execute WaveStart         
+            AllowManualCompletion: false
+            CompletedMessage: “Good job guys! This will have to do.”
+            Check: SetTimer  # this needs to be implemented via GameEvent         
+    
+    # DEFENCE
+      - TaskTitle: Defend Base (Wave I)
+        StartDelay: 10 
+        StartMessage: "NOT DISPLAYED MESSAGE!"     # Not displayed?
+        Rewards: 
+          - Type: DropBox  
+            DropRange: 100
+            AirDrop: True
+            DropBox: [ "30mmBullet:50", "5.8mmBullet:50", "EnergyCell:10", "HullLargeBlocks:50" ]   
+        Actions:
+          - ActionTitle: Wait for incoming attack
+            DisplayTitle: False
+            Description: “Enemy Zirax units and drones will be approaching your base from an undetermined position.”
+            CompletedMessage: "We have reports that the offensive has begun. Do not allow the Zirax to destroy our core and replace it with one of theirs."
+            WaveStart:
+              Name: Level1                      # from FactionWarfare.ecf
+              Faction: Zirax                    # faction of the attackers
+              Cost: 40                          # higher value = higher difficulty
+              Target: BaseAttackStarterBaseT7   # fixed player start from playfield_static.yaml              !!! TODO !!!
+            Check: AttackWave                   # this is needed to start the action
+            AllowManualCompletion: false
+          - ActionTitle: Defend your Base
+            Description: "Do not allow the Zirax to destroy our core and replace it with one of theirs."
+            AllowManualCompletion: false
+            CompletedMessage: "You successfully defended your base against Wave I. A supply container has been dropped - have a look around the base. "
+            Check: WaveDestroyed
+
+# ========================== WAVE II  =====================
+    # PREPARATION
+      - TaskTitle: Preparation (Wave II)
+        StartDelay: 10 
+        # PictureFile: "ZiraxTroopers.jpg"
+        StartMessage: "They’ve regrouped and are coming in for a second try. Prep the defences!"
+        Actions:
+          - ActionTitle: Prepare for second wave
+            Description: “Place defenses and prepare for incoming attack.”
+            SetTimer: 30                           # new command - set timer in seconds, after timer is down to zero, execute WaveStart (DEVLYN)             
+            AllowManualCompletion: false
+            CompletedMessage: “I have a bad feeling this is gonna get worse before it gets better...”
+            Check: SetTimer  # this needs to be implemented via GameEvent         
+    
+    # DEFENCE
+      - TaskTitle: Defend Base (Wave II)
+        StartDelay: 10 
+        StartMessage: "OK men, get ready for the second wave!"
+        Actions:
+          - ActionTitle: Stand your Ground
+            Description: “Destroy all units of the second wave without losing your base.”
+            WaveStart:
+              Name: Level2                      # from FactionWarfare.ecf
+              Faction: Zirax                    # faction of the attackers
+              Cost: 40                          # higher value = higher difficulty
+              Target: BaseAttackStarterBaseT7   # fixed player start from playfield_static.yaml              !!! TODO !!!
+            Check: AttackWave                   # this is needed to start the action
+            AllowManualCompletion: false
+            CompletedMessage: “I don't like the looks of this...”
+          - ActionTitle: Hold Your Base
+            Description: "Do not allow the Zirax to destroy our core and replace it with one of theirs."
+            AllowManualCompletion: false
+            CompletedMessage: “Good job gentlemen! Go ahead and give yourself a raise and a kiss on the lips!”
+            Check: WaveDestroyed            
+
+            
+ # =====================================================           
+# ========================== TALON =====================
+ # =====================================================  
+
+  - ChapterTitle: Talon Base Attack
+    Category: UCHMission
+    Rewards: 
+     - Item: ArmorMedium
+       Count: 1
+     - Item: LaserRifle
+       Count: 1
+     - Item: PulseLaserChargeRifle
+       Count: 200
+
+    Description: "You must survive several waves of Talon Warriors. Good luck!" 
+    NoSkip: True
+    # PictureFile: "ZiraxEmpire.jpg"
+    PlayerLevel: 1 
+
+    Visibility: ChapterActivation
+    ChapterActivation:
+      - ActivationType: PlayfieldTypeEntered
+        Names: [ TemperateBaseAttack ]
+        ActivationMessageType: None # not needed for this scenario        
+        
+    # Visibility: ByPlayfieldType
+    # PlayfieldTypes: [ AridBaseAttack ]
+    HideTasks: true
+    # AutoActivateOnGameStart: True # ignored in this scenario with GameOptions.IsManagedScenario: True
+    CoreTimer: 600 # in seconds TEMPORARY - should be an option in the some other settings where can be scaled better
+    CompletedMessage: "Congratulations - you have successfully defended the base against all waves!"
+    
+  
+# ========================== WAVE I  =====================  
+    
+    Tasks:
+    # PREPARATION
+      - TaskTitle: Preparation (Wave I)
+        StartDelay: 5 
+        # PictureFile: "PlanetaryDrones.jpg"
+        StartMessage: "We have reports that the Talon are preparing an offensive against your base. Equip yourself and prepare your base."
+        Actions:
+          - ActionTitle: Equip and Prepare Base
+            Description: “Place defences and prepare for incoming Talon attack.”
+            SetTimer: 30          # new command - set timer in seconds, after timer is down to zero, execute WaveStart      
+            AllowManualCompletion: false
+            CompletedMessage: “Good job guys! This will have to do.”
+            Check: SetTimer  # this needs to be implemented via GameEvent         
+    
+    # DEFENCE
+      - TaskTitle: Defend Base (Wave I)
+        StartDelay: 5 
+        StartMessage: "NOT DISPLAYED MESSAGE!"     # Not displayed?
+        Rewards: 
+          - Type: DropBox  
+            DropRange: 100
+            AirDrop: True
+            DropBox: [ "30mmBullet:50", "5.8mmBullet:50", "EnergyCell:10", "HullLargeBlocks:50" ]   
+        Actions:
+          - ActionTitle: Wait for incoming attack
+            DisplayTitle: False
+            Description: “Enemy Talon warriors will be approaching your base from an undetermined position.”
+            CompletedMessage: "The Talon have taken an offensive stance around the perimeter of the base and are preparing an attack. The Talon Shamans have used their special power to disable your base. You have to get out there and kill them to be able to switch the power back on but watch out for dangerous animals."
+            WaveStart:
+              Name: Talon1                      # from FactionWarfare.ecf
+              Faction: Talon                    # faction of the attackers
+              Cost: 40                          # higher value = higher difficulty
+              Target: BaseAttackStarterBaseT7   # fixed player start from playfield_static.yaml              !!! TODO !!!
+            Check: AttackWave                   # this is needed to start the action
+            AllowManualCompletion: false
+          - ActionTitle: Defend your Base
+            Description: "The Talon have taken an offensive stance around the perimeter of the base and are preparing an attack!"
+            AllowManualCompletion: false
+            CompletedMessage: "You successfully defended your base against Wave I. A supply container has been dropped - have a look around the base. "
+            Check: WaveDestroyed
+
+# ========================== WAVE II  =====================
+    # PREPARATION
+      - TaskTitle: Preparation (Wave II)
+        StartDelay: 60 
+        # PictureFile: "ZiraxTroopers.jpg"
+        StartMessage: "They’ve regrouped and are coming in for a second try. Prep the defences!"
+        Actions:
+          - ActionTitle: Prepare for second wave
+            Description: “Place defenses and prepare for incoming attack.”
+            SetTimer: 30                           # new command - set timer in seconds, after timer is down to zero, execute WaveStart (DEVLNY)             
+            AllowManualCompletion: false
+            CompletedMessage: “I have a bad feeling this is gonna get worse before it gets better...”
+            Check: SetTimer  # this needs to be implemented via GameEvent         
+    
+    # DEFENCE
+      - TaskTitle: Defend Base (Wave II)
+        StartDelay: 10 
+        StartMessage: "OK men, get ready for the second wave!"
+        Actions:
+          - ActionTitle: Stand your Ground
+            Description: “Destroy all units of the second wave without losing your base.”
+            WaveStart:
+              Name: Talon2                      # from FactionWarfare.ecf
+              Faction: Talon                    # faction of the attackers              
+              Cost: 40                          # higher value = higher difficulty
+              Target: BaseAttackStarterBaseT7   # fixed player start from playfield_static.yaml              !!! TODO !!!
+            Check: AttackWave                   # this is needed to start the action
+            AllowManualCompletion: false
+            CompletedMessage: “I don't like the looks of this...”
+          - ActionTitle: Hold Your Base
+            Description: "The Talon have taken an offensive stance around the perimeter of the base and are preparing an attack!"
+            AllowManualCompletion: false
+            CompletedMessage: “Good job gentlemen! Go ahead and give yourself a raise and a kiss on the lips!”
+            Check: WaveDestroyed    
