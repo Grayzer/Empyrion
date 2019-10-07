@@ -2194,7 +2194,7 @@ Chapters:
               - ScifiContainerPowerLarge
             Amount: 3
             AllowManualCompletion: true
-  - ChapterTitle: Taming the Mood
+  - ChapterTitle: txt_aGi0u
     Category: ZiraxMission
     PlayerLevel: 1
     Visibility: Always
@@ -2203,7 +2203,8 @@ Chapters:
     HideTasks: true
     RepeatConditions:
       Delay: 60
-    Description: "Praise the Emperor, stranger!\n\nSome of our lieutenants have told me you had helped them in various situations.\n\nNow you can proof your worth for the Zirax Empire\n\nGet out there and [fff000]kill some of those worthless creatures[-] crouching and running around and do not care for anything.\n\nI am sick of looking at them. Prey...pfff."
+      DelayAdd: 30
+    Description: txt_CqiIG
     Rewards:
       - Type: Reputation
         Count: 1000
@@ -2214,10 +2215,10 @@ Chapters:
       - Item: PentaxidOre
         Count: 25
     Tasks:
-      - TaskTitle: Decimate Creatures
+      - TaskTitle: txt_qE4au
         Actions:
-          - ActionTitle: Kill PREY
-            Description: "Targets that count towards the mission:\nMegalonops (any)\nPangolin\nParasaur\nSlime (any)\nTriceratops\nWormDesert (any)\nOtyugh\nOviraptor\nLizardMule"
+          - ActionTitle: txt_88iMa
+            Description: txt_eiWam
             Check: SubjectKilled
             Names:
               - Triceratops
@@ -2236,7 +2237,7 @@ Chapters:
               - ParasaurBaby
             Amount: 10
             AllowManualCompletion: true
-  - ChapterTitle: Untrusted Trading
+  - ChapterTitle: txt_qUKOu
     Category: ZiraxMission
     PlayerLevel: 1
     Visibility: Always
@@ -2245,7 +2246,8 @@ Chapters:
     HideTasks: true
     RepeatConditions:
       Delay: 60
-    Description: "These POLARIS tricksters think we let them do whatever they want.\n\nEven the local governor believes in their 'environmental first' campaign nonsense, while they ruthless exploit any deposit they can get their hands on.\n\nYou will help us to reveal their real interests!\n[fff000]Locate and investigate one of their Trading Stations.[-]\n\nI am quite sure they even work with those Talon scumbags..."
+      DelayAdd: 30
+    Description: txt_0Saai
     Rewards:
       - Type: Reputation
         Count: 1000
@@ -2256,16 +2258,16 @@ Chapters:
       - Item: PentaxidOre
         Count: 25
     Tasks:
-      - TaskTitle: POLARIS Trading Station
+      - TaskTitle: txt_CO4iC
         Actions:
-          - ActionTitle: Locate facility
+          - ActionTitle: txt_E48Km
             Description: ===
             Check: NearPoi
             Guiding: Destination
             Names:
               - TS_Planet
             AllowManualCompletion: true
-  - ChapterTitle: Radiated Trace
+  - ChapterTitle: txt_eaG44
     Category: ZiraxMission
     PlayerLevel: 1
     Visibility: Always
@@ -2274,7 +2276,8 @@ Chapters:
     HideTasks: true
     RepeatConditions:
       Delay: 60
-    Description: "A recently seized cargo transport lead us to the assumption that the POLARIS are harvesting rare materials in the radiated zones without permission.\nIf i would not know their obvious profit plans any better, I would have guessed they are searching for something particular.\n\nWe want you to follow this trace, closely investigate and explore such a zone and [fff000]bring back some of the Pentaxid Crystals[-]\nso we can get an idea, why these zones are of such an importance for POLARIS!"
+      DelayAdd: 30
+    Description: txt_CWq6E
     Rewards:
       - Type: Reputation
         Count: 3000
@@ -2285,16 +2288,16 @@ Chapters:
       - Item: PentaxidOre
         Count: 50
     Tasks:
-      - TaskTitle: Extract Pentaxid
+      - TaskTitle: txt_8CsW4
         Actions:
-          - ActionTitle: Collect Pentaxid
+          - ActionTitle: txt_uqKqK
             Description: ===
             Check: ItemsPickedUp
             Types:
               - PentaxidOre
             Amount: 5
             AllowManualCompletion: true
-  - ChapterTitle: Crime Scene Cleaner
+  - ChapterTitle: txt_CqCij
     Category: ZiraxMission
     PlayerLevel: 1
     Visibility: Always
@@ -2303,7 +2306,8 @@ Chapters:
     HideTasks: true
     RepeatConditions:
       Delay: 60
-    Description: "Every week the same troubles.\nOne of our patrols accidentally shot down a representative of one of the other Zirax houses.\nIs this MY fault if their worthless officers do not sign the trespassing formulas? Exactly!\n\nCan you please grab a weapon and silence this turmoil at the crashsite?"
+      DelayAdd: 30
+    Description: txt_SiW4C
     Rewards:
       - Type: Reputation
         Count: 3000
@@ -2314,7 +2318,7 @@ Chapters:
       - Item: PentaxidOre
         Count: 50
     Tasks:
-      - TaskTitle: Locate Crashsite
+      - TaskTitle: txt_KW0uO
         Actions:
           - ActionTitle: Locate
             Description: ===
@@ -2327,8 +2331,8 @@ Chapters:
               - CrashedTitanBack
             Guiding: Destination
             AllowManualCompletion: true
-            CompletedMessage: "norm;30|Hm. Nobody out here. This is a trap? Yes, of course..."
-      - TaskTitle: Survive Ambush
+            CompletedMessage: "norm;30|txt_iSKeu"
+      - TaskTitle: txt_uqeui
         StartDelay: 30
         OnActivatePlayfieldOps:
           - "SpawnEnemy: 4; Hexapod; 50"
@@ -2336,7 +2340,7 @@ Chapters:
           - "SpawnEnemy: 4; AlienAssassinRed; 20"
           - "SpawnEnemy: 2; GolemDesert; 50"
         Actions:
-          - ActionTitle: Kill Creatures
+          - ActionTitle: txt_aaSW8
             Description: ===
             Check: SubjectKilled
             Names:
@@ -2346,7 +2350,7 @@ Chapters:
               - GolemDesert
             Amount: 10
             AllowManualCompletion: true
-  - ChapterTitle: Supreme Court I
+  - ChapterTitle: txt_aq84q
     Category: ZiraxMission
     PlayerLevel: 1
     Visibility: Always
@@ -2355,7 +2359,8 @@ Chapters:
     HideTasks: true
     RepeatConditions:
       Delay: 60
-    Description: "These pesky Talon! Now they have gone too far. I do not know how, but they destroyed several of our base generators and fuel tanks!\n\nThe governor wants to set a warning example.\n\nSearch for their settlements and bazaars and kill their Chiefs, Guards, their Sentinels and Traders and destroy the statues they pray towards.\nNo mercy!"
+      DelayAdd: 30
+    Description: txt_eG4ma
     Rewards:
       - Type: Reputation
         Count: 4000
@@ -2366,7 +2371,7 @@ Chapters:
       - Item: PentaxidOre
         Count: 75
     Tasks:
-      - TaskTitle: Warning Example
+      - TaskTitle: txt_DW08W
         Actions:
           - ActionTitle: Kill a Talon Chief
             Description: ===
@@ -2417,7 +2422,7 @@ Chapters:
               - TigerStatueSmall
             Amount: 4
             AllowManualCompletion: true
-  - ChapterTitle: Supreme Court II
+  - ChapterTitle: txt_SWSSt
     Category: ZiraxMission
     PlayerLevel: 1
     Visibility: Always
@@ -2426,7 +2431,8 @@ Chapters:
     HideTasks: true
     RepeatConditions:
       Delay: 60
-    Description: "Ha! Now we got them with their dirty company hands deep into illegal transactions!\n\nA scout team has caught a POLARIS team selling medicals, building material and other commodities to the Talon.\nWe are sure, they also selling them weapons, so we NEED to act now!\n\nZirax High Court has ordered to clear the POLARIS Trading compound by weapon fire.\n\nGo there and proof you loyalty to the Empire. No survivors."
+      DelayAdd: 30
+    Description: txt_GR844
     Rewards:
       - Type: Reputation
         Count: 5000
@@ -2437,7 +2443,7 @@ Chapters:
       - Item: PentaxidOre
         Count: 100
     Tasks:
-      - TaskTitle: Out of Business
+      - TaskTitle: txt_SWqK6
         Actions:
           - ActionTitle: Find Trading Station
             Description: ===
@@ -2633,6 +2639,7 @@ Chapters:
               - CannedVegetables
             Amount: 5
             CompletedMessage: $
+    Activatable: Always
   - ChapterTitle: chptitleRaidApoi
     Category: FactionMission
     Description: chpdescRaidApoi
@@ -2705,6 +2712,7 @@ Chapters:
               - RadosBunker
               - RadosAuxT2
             CompletedMessage: $
+    Activatable: Always
   - ChapterTitle: txt_GiGOi
     Category: FAQ
     Description: txt_uugKw
