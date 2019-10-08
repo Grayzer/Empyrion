@@ -1572,15 +1572,15 @@ Chapters:
               - FuelTankPOI
             Amount: 3
             AllowManualCompletion: true
-  - ChapterTitle: Polaris Story Chapter I - Totally Overpowered
+  - ChapterTitle: txt_SQaii
     Category: PolarisMission
     Rewards:
       - Item: Beer
         Count: 5
       - Item: DrillEpic
         Count: 1
-    Preamble: "[b]This is a message from the TOP management![/b]\n\nYou have been chosen to take part in an Early Access program for our new BEST SELLING Totally Overpowered Root Beer.\n\nCheck with manager Yilk in the Sky Guys bar on the ORBITAL Trading Station for more info!"
-    Description: "IDA...did I just receive a faulty message or what was that? We have seen few others outside of the Zirax and some villagers on the planet or in orbit\n\n[ffff00]Unknown. The message seemed to be transmitted to the whole planet.\n\nThe signature of the message looks intact. Perhaps a short sojourn is in order.[-]\n\nOk, I am up for some leisure and distraction anyhow. Lets go to theeee... erhm... trading station...?"
+    Preamble: txt_uWSg0
+    Description: txt_mu8qm
     PlayerLevel: 1
     Visibility: Always
     HideTasks: true
@@ -1589,93 +1589,93 @@ Chapters:
     Tasks:
       - TaskTitle: Orbit
         Actions:
-          - ActionTitle: Approach Station
+          - ActionTitle: txt_a2C40
             Description: ===
             Check: NearPoi
             Guiding: Destination
             Names:
               - TSO_AkuaOrbit
             AllowManualCompletion: true
-            CompletedMessage: "norm;60|[ffff00][IDA][-] The station just sent the floor plan. The Sky Guys bar is on the top level."
-      - TaskTitle: Going To The Mall
+            CompletedMessage: "norm;60|txt_maCq4"
+      - TaskTitle: txt_O4K0K
         Actions:
-          - ActionTitle: Find The Bar
+          - ActionTitle: txt_e0i4i
             Description: ===
             Check: Signal
             Names:
               - Mall
             AllowManualCompletion: true
-            CompletedMessage: "norm;60|Ooooooh! So many shopping opportunities!\n\nI should check for a new oscillator while I am here..."
-      - TaskTitle: SkyGuy Bar
+            CompletedMessage: "norm;60|txt_mGKqG"
+      - TaskTitle: txt_SSmCi
         Actions:
-          - ActionTitle: Find Manager Yilk
+          - ActionTitle: txt_C8SeC
             Description: ===
             Check: NearUnit
             Guiding: TempIndoor
             GuidingDistance: 20
             AllowManualCompletion: true
-            CompletedMessage: "mbox;60|[ffff00]This appears to the be the lifeform indicated in the message.\nWe should proceed with caution and assault rifles.[-]\n\n[00ced1][b]Welcome! I am TOP Manager Yilk.[/b]\nHow may I serve you?\n\nAh, I see you received our once-in-a-lifetime offer to participate in our\nEarly Access Program: the BEST SELLING root beer in Andromeda!\n\n[i]Each new version is promised to be bug free, thoroughly tested, and\n3 our of 4 in our latest focus group survived the tasting![-][/i]\n\n[00ced1]Sadly I must inform you the TOP brewery freighter did not arrive on time.\nGiven all the minefields and the Zirax patrols here, we fear the worst.\n[i]*pauses*[/i]\nMay I ask you for a favor, kind Terran?[-]\n\n[i](whispers)IDA, how does he know I am a Terran...?\n[ffff00]Could be the smel...[-][/i]\n\n[00ced1]How about this: You solve this little... annoyance... for us\nand we grant you free root beer in all our TOP pubs and clubs!\n\nIt is just a simple delivery mission.[-]\n\nIDA, this will not delay us to long will it?\n[ffff00]I do not recommen..[-]\n\n[00ced1]Excellent! Our brewery is located on a lava planet in this very sector.\nTravel there. Pick up a few bottles of our new anniversary\nBEST SELLING root beer from our brewmaster extraordinary and bring it back.\nSimple as that.[-]\n\n[ffff00]Sir, this is not a...[-]\n\n[00ced1]Have a safe flight![-]"
+            CompletedMessage: "mbox;60|txt_24Sie"
             Names:
               - Trading Station
               - TOP Manager
-      - TaskTitle: Lava Planet
+      - TaskTitle: txt_iKOea
         Actions:
-          - ActionTitle: Land On Planet
+          - ActionTitle: txt_m8auS
             Description: ===
             Check: PlayfieldTypeEntered
             Names:
               - Lava
             AllowManualCompletion: true
-            CompletedMessage: "norm;60|[ffff00]I still recommend to proceed with maximum caution! There is an unknown factor I cannot...[-]\n\nIDA, we have discussed this to death several times now. If we want to make progress, this means taking some risks. And beyond that...Brewery tour here I come!"
-      - TaskTitle: Find Brewery
+            CompletedMessage: "norm;60|txt_0a8qq"
+      - TaskTitle: txt_AqSqK
         Actions:
-          - ActionTitle: Approach Station
+          - ActionTitle: txt_haeqK
             Description: ===
             Check: NearPoi
             Guiding: Destination
             Names:
               - TOP
             AllowManualCompletion: true
-            CompletedMessage: "norm;60|Temperature levels on the exterior hull are reaching critical.\nStrange location for a Brewery... or Distillery... or anything.\n\n[ffff00]Let's get inside as quickly as possible.[-]"
-      - TaskTitle: Masters Of Taste
+            CompletedMessage: "norm;60|txt_O4aWO"
+      - TaskTitle: txt_EKW0c
         Actions:
-          - ActionTitle: Brewmaster Lark
+          - ActionTitle: txt_emiei
             Description: ===
             Check: NearUnit
             Guiding: TempIndoor
             GuidingDistance: 150
             AllowManualCompletion: true
-            CompletedMessage: "mbox;60|[00ced1]Hello! [b]I am Brewmaster Lark[/b].\nHow may I serve you?[-]\n\n[ffff00]Sir, we..[-]\n\n[00ced1]Ah! Yilk sent a message saying you would come, but I carry grave news.\n\nHow should I put it?\nWe lost our delivery shuttle and with that we lost all the precious\nVaron Root that we need to brew the Anniversary BEST SELLING TOP root beer.\n\nI am very sorry your travel might have been to no avail - and we are ruined!\n\n*pauses*\n\n...but...could you possibly assist us with this little... inconvenience?[-]\n\n[ffff00]Again sir, I must remi...[-]\n\n[00ced1]Wooonderful! As I can see, your are not really prepared for this planet.[-]\n\n[ff4444]You can find a hazard suit in the armor locker below. Codelock: 1234[-]\n\n[00ced1]The data system is updated with the last known position of the shuttle.\nIt was spotted in a nearby lava lake.[-]\n\n[ffff00]Scans indicate the suit may be as safe as he says.[-]\n\n[00ced1]There are a few containers in the shuttle.\nOne of those should hold the roots, but please hurry![-]\n\nWe'll be back in no time.\n\n[00ced1]Awesome! Good Luck![-]"
+            CompletedMessage: "mbox;60|txt_i0Wm0"
             Names:
               - TOP Brewery
               - Brewmaster Lark
-      - TaskTitle: Hazard Suit
+      - TaskTitle: txt_m40q0
         Actions:
-          - ActionTitle: Equip Suit
+          - ActionTitle: txt_aSmGO
             Description: ===
             Check: NearUnit
             Guiding: TempIndoor
             GuidingDistance: 40
             AllowManualCompletion: true
-            CompletedMessage: "norm;60|This should keep us warm ... ehm .. cold .. ehm.. whatever."
+            CompletedMessage: "norm;60|txt_i4K0M"
             Names:
               - TOP Brewery
               - ArmorLocker
       - TaskTitle: Lavapool
         Actions:
-          - ActionTitle: Find The Shuttle
+          - ActionTitle: txt_SmCK8
             Description: ===
             Check: NearPoi
             Guiding: Destination
             Names:
               - TOPSV
             AllowManualCompletion: true
-            CompletedMessage: "norm;60|This appears to be the shuttle.\n\nSeems like someone survived the crash\nFor a time at least."
-      - TaskTitle: Root Problem
+            CompletedMessage: "norm;60|txt_wiOeK"
+      - TaskTitle: txt_COaRS
         OnCompletePlayfieldOps:
           - "SpawnDrone: 2; DroneSmallFast01Minigun; NearPlayer"
         Actions:
-          - ActionTitle: Retrieve Roots
+          - ActionTitle: txt_SIUQO
             Description: ===
             Check: InventoryContainsCountOfItem
             Names:
@@ -1685,26 +1685,26 @@ Chapters:
             Amount: 4
             Required: NeedAll
             AllowManualCompletion: true
-            CompletedMessage: "high;60|[ffff00]Attention! Enemy contacts incoming![-]"
-      - TaskTitle: Hot Pond Fight
+            CompletedMessage: "high;60|txt_aimi4"
+      - TaskTitle: txt_emq4m
         Actions:
-          - ActionTitle: Defend The Ship
+          - ActionTitle: txt_eWGEm
             Description: ===
             Check: SubjectKilled
             Names:
               - DroneSmallFast01Minigun
             Amount: 2
             AllowManualCompletion: true
-            CompletedMessage: "norm;60|IDA... I have a bad feeling about this. Lets get out of here."
-      - TaskTitle: Delivery Guy
+            CompletedMessage: "norm;60|txt_sea40"
+      - TaskTitle: txt_m0e0i
         Actions:
-          - ActionTitle: Bring Back Roots
+          - ActionTitle: txt_KuCSq
             Description: ===
             Check: NearUnit
             Guiding: TempIndoor
             GuidingDistance: 150
             AllowManualCompletion: true
-            CompletedMessage: "mbox;60|[00ced1]Welcome back, Sir\nDid you have any success?[-]\n\nWe have found...\n\n[00ced1]Awesome!\n\nPlease go over to the brewery main building and check with my colleague Urfk.\nHe will then initiate the final brewing process.[-]"
+            CompletedMessage: "mbox;60|txt_Wau86"
             Names:
               - TOP Brewery
               - Brewmaster Lark
@@ -1716,13 +1716,13 @@ Chapters:
             Guiding: TempIndoor
             GuidingDistance: 140
             AllowManualCompletion: true
-            CompletedMessage: "mbox;60|[00ced1]Lark said you would come! You are late.[-]\n\nYes...wait,what?... Ehm... we bring you th...\n\n[00ced1]Now please do not stand in my way.\nA whole universe of taste is in peril.[-]\n\n[ffff00]Scans seem to indicate this lifeform is 60% root beer.[-]\n\n[00ced1]Hurry! Hurry! If I do not start, we will miss the Anniversary party!\nSo please, silence your squawking comm system.\n\n[ffff00]Did that lifeform ju...[-]\n\n[00ced1]This process will take a few minutes...\nthank you for your understanding.\n\nThere is a recreation area in the office on the other side,\nplease proceed there now. I will join you in a moment."
+            CompletedMessage: "mbox;60|txt_aQGqi"
             Names:
               - TOP Brewery
               - Brewmaster Urfk
       - TaskTitle: Wait..
         Actions:
-          - ActionTitle: Go To Office
+          - ActionTitle: txt_0MqOO
             Description: ===
             Check: NearUnit
             Guiding: TempIndoor
@@ -1732,27 +1732,27 @@ Chapters:
             Names:
               - TOP Brewery
               - Office
-      - TaskTitle: ..and Fight
+      - TaskTitle: txt_cO80i
         StartDelay: 60
-        StartMessage: "high;60|This is Brewmaster Lark speaking. Battlestations!\nWe have been sabotaged! sabotaged I tell you!\nStation and turrets are shut down and we are tracking signals coming from all sides!\n\nDefend the station until we are back online! Protect the employees!"
+        StartMessage: "high;60|txt_mSAou"
         Actions:
-          - ActionTitle: Defend The Station
+          - ActionTitle: txt_fqLqu
             Description: ===
             Check: NearUnit
             Guiding: TempIndoor
             GuidingDistance: 120
             AllowManualCompletion: true
-            CompletedMessage: "norm;60|Brewing root beer in Andromeda is a very involved process.\n\n[ffff00]IDA[-] Threats incoming, weapons free engagement recommened."
+            CompletedMessage: "norm;60|txt_qmeWS"
             Names:
               - TOP Brewery
               - Office
-      - TaskTitle: First Wave
+      - TaskTitle: txt_EmWii
         OnCompletePlayfieldOps:
           - "SpawnDrone: 2; DroneLargeSlow01Minigun; NearPlayer"
           - "SpawnDrone: 2; DroneLargeSlow01Plasma; NearPlayer"
           - "SpawnDrone: 2; DroneSmallFast01Minigun; NearPlayer"
         Actions:
-          - ActionTitle: Defeat Troops
+          - ActionTitle: txt_i0q04
             Description: ===
             Check: SubjectKilled
             Names:
@@ -1763,10 +1763,10 @@ Chapters:
               - ZiraxShotgun
             Amount: 10
             AllowManualCompletion: true
-            CompletedMessage: "high;60| [ffff00]IDA[-] More enemies incoming. Try using the homing rocket launcher to fend off the drones!"
-      - TaskTitle: Second Wave
+            CompletedMessage: "high;60|txt_Om0uu"
+      - TaskTitle: txt_nKmqW
         Actions:
-          - ActionTitle: Destroy Drones
+          - ActionTitle: txt_miK8e
             Description: ===
             Check: SubjectKilled
             Names:
@@ -1775,10 +1775,10 @@ Chapters:
               - DroneLargeSlow01Minigun
             Amount: 4
             AllowManualCompletion: true
-            CompletedMessage: "high;60|[ffff00]IDA[-] Energy spikes detected! Large masses teleporting in!"
-      - TaskTitle: Third Wave
+            CompletedMessage: "high;60|txt_aaGeO"
+      - TaskTitle: txt_ONmOW
         Actions:
-          - ActionTitle: Defeat Troops
+          - ActionTitle: txt_a4GiO
             Description: ===
             Check: SubjectKilled
             Names:
@@ -1797,54 +1797,54 @@ Chapters:
             AllowManualCompletion: true
             CompletedMessage: " "
       - TaskTitle: Victory
-        StartMessage: "norm;60|That's it.\nI win. You loose.\n\nMy beer should be ready in the meantime."
+        StartMessage: "norm;60|txt_SSKG4"
         Actions:
-          - ActionTitle: Get Gratification
+          - ActionTitle: txt_qC4Gq
             Description: ===
             Check: NearUnit
             Guiding: TempIndoor
             GuidingDistance: 140
             AllowManualCompletion: true
-            CompletedMessage: "mbox;60|[00ced1]Formidable! How can we ever repay for this extraordinary service![-]\n\nRoot beer...?\n\n[00ced1]Ah - I know... a ticket for the anniversary party!\nThese have been sold out for months already![-]\n\nUh... thanks... I think?\n\n[00ced1]Go to the Alien planet in this system and find the INFERNO CLUB.\nCheck with the CLUB MANAGER.\n\nThe delivery has already been dispatched with another shuttle.\nSo nothing remains for you here\nYou will get the promised gratification of course![-]\n\n[ff4444]Thanks again for helping in our ambitious Early Access development![-]\n\nHas been a pleasure.\n[ffff00] Sir, I have compiled a list of reasons we should not...[-]\n\n[00ced1]Wooonderful![-]"
+            CompletedMessage: "mbox;60|txt_YCygO"
             Names:
               - TOP Brewery
               - Brewmaster Lark
-      - TaskTitle: Alien Planet
+      - TaskTitle: txt_rSaCi
         Actions:
-          - ActionTitle: Go To Planet
+          - ActionTitle: txt_aSWOu
             Description: ===
             Check: PlayfieldTypeEntered
             Names:
               - Alien
             AllowManualCompletion: true
-            CompletedMessage: "norm;60|[ffff00]IDA[-] Check the map (M) for the club position and set a course."
-      - TaskTitle: Inferno Club
+            CompletedMessage: "norm;60|txt_im38u"
+      - TaskTitle: txt_Cqa80
         Actions:
-          - ActionTitle: Approach Club
+          - ActionTitle: txt_4W888
             Description: ===
             Check: NearPoi
             Guiding: Destination
             Names:
               - SpaceClub
             AllowManualCompletion: true
-            CompletedMessage: "norm;60|[ffff00]IDA[-] Adding internal note. Dialect must be more primitive in Andromeda... Cataloging: Wooonderfuuul. Cataloging: Awwwesooom...\n\nThe manager is the contact indicated in the directions.\nObjective: locate club manager"
-      - TaskTitle: Welcome to the Club
+            CompletedMessage: "norm;60|txt_WmacG"
+      - TaskTitle: txt_4SAwS
         Actions:
-          - ActionTitle: Speak to Manager
+          - ActionTitle: txt_aKCCi
             Description: ===
             Check: NearUnit
             Guiding: TempIndoor
             GuidingDistance: 140
             AllowManualCompletion: true
-            CompletedMessage: "mbox;60|[00ced1][b]The Inferno Club welcomes all desires...[/b]\n\nI am Club Manager Slick\nPlease make yourself comfortable.\n\nYour suit has just been upgraded to VIP status\nand you have been added to our lifetime VIP list.\n\nCheck with the bartender for a taste of our BEST SELLING Totally Overpowered Root Beer!\n\nAllow me one question: Is your venerable crew coming over as well?[-]\n\nI beg your pardon?\n\n[00ced1]Ah... never mind. Do enjoy your stay![-]\n\n... ?"
+            CompletedMessage: "mbox;60|txt_8miW8"
             Names:
               - INFERNO CLUB
               - Club Manager
-      - TaskTitle: The root cause
+      - TaskTitle: txt_uoCWe
         StartDelay: 30
-        StartMessage: "norm;60|[ffff00]IDA[-] That lifeform just said 'your crew'?"
+        StartMessage: "norm;60|txt_CSCcW"
         Actions:
-          - ActionTitle: Speak to Bartender
+          - ActionTitle: txt_8C0qC
             Description: ===
             Check: NearUnit
             Guiding: TempIndoor
@@ -1854,7 +1854,7 @@ Chapters:
             Names:
               - INFERNO CLUB
               - Bartender
-  - ChapterTitle: Privacy Matters
+  - ChapterTitle: txt_GumOa
     Category: PolarisMission
     PlayerLevel: 1
     Visibility: Always
@@ -1863,7 +1863,8 @@ Chapters:
     HideTasks: true
     RepeatConditions:
       Delay: 60
-    Description: "Greetings from the Polaris Megacorp, my dear friend!\n\nYou look like someone that has grown to like some...privacy.\n\nWe, as a company, are the biggest advocates of privacy - but we are afraid,\nthe Zirax Empire does not really value this like you and we do\n\n. Do you think you can [fff000]shut down some of their drones[-]...\njust in favor of the wildlife and its unimpaired living, of course?"
+      DelayAdd: 30
+    Description: txt_iWSqO
     Rewards:
       - Type: Reputation
         Count: 1000
@@ -1872,7 +1873,7 @@ Chapters:
       - Item: MoneyCard
         Count: 500
     Tasks:
-      - TaskTitle: Find Location
+      - TaskTitle: txt_0CA8S
         Actions:
           - ActionTitle: Locate
             Description: ===
@@ -1882,15 +1883,15 @@ Chapters:
               - JunkT2
             Guiding: Destination
             AllowManualCompletion: true
-            CompletedMessage: Last time i noticed some of the drones floating around here...
-      - TaskTitle: Destroy Drones
+            CompletedMessage: txt_Ome8K
+      - TaskTitle: txt_C4ieC
         StartDelay: 10
         OnActivatePlayfieldOps:
           - "SpawnDrone: 2; DroneSmallFast01Rocket; NearPlayer"
           - "SpawnDrone: 2; DroneSmallFast01Minigun; NearPlayer"
         Actions:
-          - ActionTitle: Destroy Drones
-            Description: "Targets that count towards the mission: Any drone"
+          - ActionTitle: txt_aGOa0
+            Description: txt_i8aua
             Check: SubjectKilled
             Names:
               - DroneSmallFast01Rocket
@@ -1917,7 +1918,7 @@ Chapters:
               - SpaceDroneLaser
             Amount: 3
             AllowManualCompletion: true
-  - ChapterTitle: Wildlife Cam
+  - ChapterTitle: txt_aVmq8
     Category: PolarisMission
     PlayerLevel: 1
     Visibility: Always
@@ -1926,7 +1927,8 @@ Chapters:
     HideTasks: true
     RepeatConditions:
       Delay: 60
-    Description: "Wonderful performance in your last mission!\nBut we are afraid we need to invest more time in the well-being of the creatures of this planet - especially around ore deposits.\n\nSome minerals seem to affect the wildlife and we do not have a prospector...I mean, skilled explorers, at hand.\n\nYour bearing shows you are a skilled Explorer.\nSo may we ask you for this favor again and [fff000]scout a few ore deposits[-] - only for checking the living conditions of the native animals, of course."
+      DelayAdd: 30
+    Description: txt_u8qGC
     Rewards:
       - Type: Reputation
         Count: 1000
@@ -1935,9 +1937,9 @@ Chapters:
       - Item: MoneyCard
         Count: 500
     Tasks:
-      - TaskTitle: Scout Ore Deposits
+      - TaskTitle: txt_S040u
         Actions:
-          - ActionTitle: Find Deposit 1
+          - ActionTitle: txt_CiWee
             Description: ===
             Check: NearResource
             Guiding: Destination
@@ -1955,7 +1957,7 @@ Chapters:
               - PromethiumResource
               - GoldResource
             AllowManualCompletion: true
-          - ActionTitle: Find Deposit 2
+          - ActionTitle: txt_8eSaG
             Description: ===
             Check: NearResource
             Guiding: Destination
@@ -1973,7 +1975,7 @@ Chapters:
               - PromethiumResource
               - GoldResource
             AllowManualCompletion: true
-          - ActionTitle: Find Deposit 3
+          - ActionTitle: txt_uGSei
             Description: ===
             Check: NearResource
             Guiding: Destination
@@ -1991,7 +1993,7 @@ Chapters:
               - PromethiumResource
               - GoldResource
             AllowManualCompletion: true
-  - ChapterTitle: Power down the Zone
+  - ChapterTitle: txt_Orqu8
     Category: PolarisMission
     PlayerLevel: 1
     Visibility: Always
@@ -2000,7 +2002,8 @@ Chapters:
     HideTasks: true
     RepeatConditions:
       Delay: 60
-    Description: "Currently, our biggest concern are the radiated zones on this planet.\n\nThe promethium stones and deposits in that area seem to fuel the radiated zones ecosystem and harm our worke...the precious lifeforms there.\n\nWe would like to ask you to venture in such a zone,\ncheck what is happening there and [fff000]bring back a few samples of promethium[-] so we can make profit...examine it!"
+      DelayAdd: 30
+    Description: txt_qSOGC
     Rewards:
       - Type: Reputation
         Count: 3000
@@ -2009,16 +2012,16 @@ Chapters:
       - Item: MoneyCard
         Count: 1000
     Tasks:
-      - TaskTitle: Extract Promethium Ore
+      - TaskTitle: txt_nqheW
         Actions:
-          - ActionTitle: Collect Promethium Ore
+          - ActionTitle: txt_8I4q4
             Description: ===
             Check: ItemsPickedUp
             Types:
               - PromethiumOre
             Amount: 15
             AllowManualCompletion: true
-  - ChapterTitle: Weaponized Negotiations
+  - ChapterTitle: txt_qOi40
     Category: PolarisMission
     PlayerLevel: 1
     Visibility: Always
@@ -2027,7 +2030,8 @@ Chapters:
     HideTasks: true
     RepeatConditions:
       Delay: 60
-    Description: "What a shame!\n\nIt seems the Zirax do not value our combined efforts to improve our companies\n..the planets..situation and have sent in an attack force to one of our facilities.\n\nOn behalf of the POLARIS board of directors, we ask you to head there and help with the defences!"
+      DelayAdd: 30
+    Description: txt_SaOme
     Rewards:
       - Type: Reputation
         Count: 3000
@@ -2036,9 +2040,9 @@ Chapters:
       - Item: MoneyCard
         Count: 1000
     Tasks:
-      - TaskTitle: Fire Brigade
+      - TaskTitle: txt_GKauS
         Actions:
-          - ActionTitle: Find Facility
+          - ActionTitle: txt_euGK4
             Description: ===
             Check: NearPoi
             Names:
@@ -2050,15 +2054,15 @@ Chapters:
               - PolarisMiningAux
             Guiding: Destination
             AllowManualCompletion: true
-            CompletedMessage: "norm;20|Are these POLARIS guys trying to fool me with their 'caring about the environment' drivel...?"
-      - TaskTitle: Defend Facility
+            CompletedMessage: "norm;20|txt_4W4AK"
+      - TaskTitle: txt_WGOig
         StartDelay: 12
         OnActivatePlayfieldOps:
           - "SpawnDrone: 2; DroneSmallFast01Rocket; NearPlayer"
           - "SpawnDrone: 2; DroneSmallFast01Minigun; NearPlayer"
           - "SpawnDrone: 1; EnemyDroneV2Plasma; NearPlayer"
         Actions:
-          - ActionTitle: Destroy Drones
+          - ActionTitle: txt_aquaG
             Description: ===
             Check: SubjectKilled
             Names:
@@ -2067,7 +2071,7 @@ Chapters:
               - EnemyDroneV2Plasma
             Amount: 4
             AllowManualCompletion: true
-  - ChapterTitle: Counter Strike I
+  - ChapterTitle: txt_SS8rC
     Category: PolarisMission
     PlayerLevel: 1
     Visibility: Always
@@ -2076,7 +2080,8 @@ Chapters:
     HideTasks: true
     RepeatConditions:
       Delay: 60
-    Description: "The Zirax have gone too far once again and are posing a risk to our company operations .. i mean, primarily to the natives, of course!\n\nWe need to help them getting back on the right track, don't you think?\n\nFirst, we should 'inform' some of their personnel and deliver a loud and clear warning.\n\nDo you mind delivering that little notice to the recipients, will you? "
+      DelayAdd: 30
+    Description: txt_OYmaC
     Rewards:
       - Type: Reputation
         Count: 4000
@@ -2085,10 +2090,10 @@ Chapters:
       - Item: MoneyCard
         Count: 1500
     Tasks:
-      - TaskTitle: Decimate Zirax Personnel
+      - TaskTitle: txt_8muS0
         Actions:
-          - ActionTitle: Kill Zirax
-            Description: "Targets that count towards the mission goal:\nAny drone\nAny Zirax trooper (Patrol and in POIs)\nZirax Ripper Dogs\nZirax Traders\nMechanoids and Turret Robots\nArmored Golem"
+          - ActionTitle: txt_mOSaa
+            Description: txt_GC0Ce
             Check: SubjectKilled
             Names:
               - Mechanoid
@@ -2132,7 +2137,7 @@ Chapters:
               - SpaceDroneLaser
             Amount: 15
             AllowManualCompletion: true
-  - ChapterTitle: Counter Strike II
+  - ChapterTitle: txt_aEqcu
     Category: PolarisMission
     PlayerLevel: 1
     Activatable: ByReputation
@@ -2140,7 +2145,8 @@ Chapters:
     HideTasks: true
     RepeatConditions:
       Delay: 60
-    Description: "Do you believe that! The Zirax actually not only seem to not agree on our company operations, but also store dangerous substances in 3rd party non-licensed containers?\n\nThat's something we cannot accept, correct?\n\nCan you possibly step by a Zirax facility and check if the storage areas are up to our high company standards?\n\nYou are entitled to seize any goods and advice the personnel to assist, retreat or resign their facility."
+      DelayAdd: 30
+    Description: txt_sSiam
     Rewards:
       - Type: Reputation
         Count: 5000
@@ -2149,9 +2155,9 @@ Chapters:
       - Item: MoneyCard
         Count: 2000
     Tasks:
-      - TaskTitle: Destroy Containers
+      - TaskTitle: txt_awOi4
         Actions:
-          - ActionTitle: Destroy Containers
+          - ActionTitle: txt_0SCaq
             Description: ===
             Check: BlockDestroyed
             Names:
@@ -2194,6 +2200,7 @@ Chapters:
               - ScifiContainerPowerLarge
             Amount: 3
             AllowManualCompletion: true
+    Visibility: Always
   - ChapterTitle: txt_aGi0u
     Category: ZiraxMission
     PlayerLevel: 1
