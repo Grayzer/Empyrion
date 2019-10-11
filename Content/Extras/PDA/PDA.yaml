@@ -978,9 +978,9 @@ Chapters:
             Names:
               - Derelict Ship
               - Exit
-  - ChapterTitle: Talon Story Chapter I - Tales of the Past
+  - ChapterTitle: txt_qK4ui
     Category: TalonMission
-    Description: "Did you notice that unholy whispering in some old places on this planet?\nFind that ancient skyscraper where one of the native communities settles nearby"
+    Description: txt_a44iG
     PictureFile: DeliciousA.jpg
     PlayerLevel: 1
     Visibility: Always
@@ -993,17 +993,17 @@ Chapters:
         Faction:
           - Talon
     Tasks:
-      - TaskTitle: Unholy Whispering
+      - TaskTitle: txt_eOOmW
         Actions:
-          - ActionTitle: Find the Monument
+          - ActionTitle: txt_CKimK
             Description: ===
             Check: NearPoi
             Names:
               - RuinsTribalTower
             Guiding: Destination
             AllowManualCompletion: true
-            CompletedMessage: "norm;60|That looks...old. And not fitting to the settlements architecture at all.\n\nLet's find someone with answers."
-      - TaskTitle: Hail to the Chief
+            CompletedMessage: "norm;60|txt_iSu8u"
+      - TaskTitle: txt_mSWg8
         Rewards:
           - Item: MoneyCard
             Count: 100
@@ -1012,19 +1012,19 @@ Chapters:
             Faction:
               - Talon
         Actions:
-          - ActionTitle: Find answers
+          - ActionTitle: txt_mmSue
             Description: ===
             Check: NearUnit
             GuidingDistance: 600
             Guiding: TempIndoor
             AllowManualCompletion: true
-            CompletedMessage: "mbox;10|[0b8e36][b]Hello stranger![/b]\nMay the voices of the past lead you to wisdom. How can we help you?[-]\n\nI came to search for this ancient tower over there.\nCan you tell me something about it?\nIt does not seem to fit in your..rural area.\n\n[0b8e36]Well spoken, stranger.\nBut the wisdom of the ancient will only unravel for the chosen.\nWhat is your tribe, stranger?[-]\n\nI..me..ehm..tribe?\nTerran tribe i would say..but I mean I crashed on this planet\n..in an escape pod and..\n\n[0b8e36]Very interesting. Terran tribe.\n\nListen, Terran tribe.\nWe will see what we can expect from you.\n\n[0b8e36][b]Go over to the trader with the credits i gave you. Buy one of the Sprouts.[/b][-]\n\nThis will tell us more about your destiny..[-]"
+            CompletedMessage: "mbox;10|txt_auCiG"
             Names:
               - Settlement
               - Chief
-      - TaskTitle: Seal Friendship
+      - TaskTitle: txt_iqWKm
         Actions:
-          - ActionTitle: Buy a Sprout
+          - ActionTitle: txt_OKS4O
             Description: ===
             Check: InventoryContains
             Names:
@@ -1049,7 +1049,7 @@ Chapters:
               - InsanityPepperStage1
               - BigFlowerStage1
             AllowManualCompletion: true
-      - TaskTitle: Noble Deeds
+      - TaskTitle: txt_CuSaM
         Rewards:
           - Item: AntibioticOintment
             Count: 1
@@ -1060,31 +1060,31 @@ Chapters:
           - Item: Medikit04
             Count: 1
         Actions:
-          - ActionTitle: Speak to the Chief
+          - ActionTitle: txt_r8Gam
             Description: ===
             Check: NearUnit
             GuidingDistance: 500
             Guiding: TempIndoor
             AllowManualCompletion: true
-            CompletedMessage: "mbox|[0b8e36]Interesting choice you made.[-]\n\nThere is a little favor, I would like to ask you for - ahead of further talks:\n\nOur crop fields are repeatedly getting attacked by spider like creatures.\nThey pop into existence around the tower as if they were ghosts and are threatening our settlements.\n\n[0b8e36] Please lend us a hand, patrol the tower and fend off some of these creatures. [-]\n\nHave a few medicals - your tribe seems to need those once and a while. "
+            CompletedMessage: "mbox;20|txt_MaSeS"
             Names:
               - Settlement
               - Chief
-      - TaskTitle: Creatures of the Night
+      - TaskTitle: txt_gWxKS
         Actions:
-          - ActionTitle: Go to Monument
+          - ActionTitle: txt_iKGYO
             Description: ===
             Check: NearPoi
             Names:
               - RuinsTribalTower
             Guiding: Destination
             AllowManualCompletion: true
-      - TaskTitle: Saving the Day...
+      - TaskTitle: txt_G48SO
         StartDelay: 10
         OnActivatePlayfieldOps:
           - "SpawnEnemy: 3; Spider01; 15"
         Actions:
-          - ActionTitle: Kill Small Spiders
+          - ActionTitle: txt_SsQ0q
             Description: ===
             Check: SubjectKilled
             Names:
@@ -1093,12 +1093,12 @@ Chapters:
               - Spider03
             Amount: 2
             AllowManualCompletion: true
-      - TaskTitle: ...Bullet by Bullet...
+      - TaskTitle: txt_4m8m4
         StartDelay: 15
         OnActivatePlayfieldOps:
           - "SpawnEnemy: 3; Spider02; 15"
         Actions:
-          - ActionTitle: Kill Red Spiders
+          - ActionTitle: txt_8smuO
             Description: ===
             Check: SubjectKilled
             Names:
@@ -1107,12 +1107,12 @@ Chapters:
               - Spider03
             Amount: 2
             AllowManualCompletion: true
-      - TaskTitle: ...by Bullet
+      - TaskTitle: txt_Om8oi
         StartDelay: 15
         OnActivatePlayfieldOps:
           - "SpawnEnemy: 2; Spider03; 25"
         Actions:
-          - ActionTitle: Kill Blue Spiders
+          - ActionTitle: txt_hWOPS
             Description: ===
             Check: SubjectKilled
             Names:
@@ -1121,7 +1121,7 @@ Chapters:
               - Spider03
             Amount: 2
             AllowManualCompletion: true
-      - TaskTitle: History Lesson
+      - TaskTitle: txt_iYqOG
         Rewards:
           - Item: MoneyCard
             Count: 100
@@ -1130,41 +1130,41 @@ Chapters:
             Faction:
               - Talon
         Actions:
-          - ActionTitle: Speak to the Chief
+          - ActionTitle: txt_8mmmI
             Description: ===
             Check: NearUnit
             GuidingDistance: 500
             Guiding: TempIndoor
             AllowManualCompletion: true
-            CompletedMessage: "mbox|These creatures are a constant threat.\n\nWe think, you have proven your worth - and you should learn more about the threat.\n\n[0b8e36]Go inside the older tower.\nGo to its very top.[-]\n\nThere you will find an inscription plate.\n\nOur Elder cannot read this anymore, but we heard the Terran tribe\nmight be able to translate the words."
+            CompletedMessage: "mbox;20|txt_qm0qU"
             Names:
               - Settlement
               - Chief
-      - TaskTitle: Ruins to the Sky
+      - TaskTitle: txt_04KOa
         Actions:
-          - ActionTitle: Find Inscription plate
+          - ActionTitle: txt_Y4aWG
             Description: ===
             Check: Signal
             Names:
               - ReadInscription
             Guiding: TempIndoor
             AllowManualCompletion: true
-            CompletedMessage: "norm;60|I am unable to recognize the letters, except one fragment: The Legacy.\n\nIf we can find more of these inscriptions, we might be able to translate the text."
+            CompletedMessage: "norm;60|txt_0u8eG"
       - TaskTitle: Suspicious Signal
         StartDelay: 30
-        StartMessage: "norm;60|IDA: Your presence close to this inscription plate seems to have triggered something.\n\nThe plates started to emit a low, but steady signal - like a positioning signal\n\n[fff000]I have set a marker on your map.[-]"
+        StartMessage: "norm;60|txt_WKSii"
         OnCompletePlayfieldOps:
           - "DevicePower: AlienTowerSmallStory; Reader; false"
         Actions:
-          - ActionTitle: Find the second Tower
+          - ActionTitle: txt_vGKei
             Description: ===
             Check: NearPoi
             Names:
               - AlienTowerSmallStory
             Guiding: Destination
             AllowManualCompletion: true
-      - TaskTitle: The Black Tower
-        StartMessage: "norm;20|The Tower is totally different than the first one.\n\nBut there signal source is strong and coming from the inside"
+      - TaskTitle: txt_CW04W
+        StartMessage: "norm;20|txt_qamea"
         OnCompletePlayfieldOps:
           - "DevicePower: AlienTowerSmallStory; GeneratorBA; false"
         Actions:
@@ -1178,7 +1178,7 @@ Chapters:
             Names:
               - AlienTowerSmallStory
               - Signal
-      - TaskTitle: Trapped Inside
+      - TaskTitle: txt_40KK0
         StartDelay: 5
         StartMessage: "norm;40|taskSMTrappedInside"
         OnCompletePlayfieldOps:
@@ -1191,14 +1191,14 @@ Chapters:
             Names:
               - Signal
             AllowManualCompletion: true
-          - ActionTitle: Check walls again
+          - ActionTitle: txt_WWsKi
             Description: ===
             Check: Signal
             Names:
               - ExplWall
             AllowManualCompletion: true
       - TaskTitle: A way out
-        StartMessage: "norm;60|Boom. There goes the indestructible rust!\n\nIDA, did you copy all the inscriptions?\n\nIDA: Of course. Translation might take a while, though. I propose to get back to the Talon Chief"
+        StartMessage: "norm;60|txt_WuuCW"
         OnActivateSignal:
           Name: Escape
           Type: "On"
@@ -1209,75 +1209,75 @@ Chapters:
             Names:
               - Exit
             AllowManualCompletion: true
-      - TaskTitle: Surprise Attack
+      - TaskTitle: txt_OvWaW
         StartMessage: "high;10|taskSMBeastsAttack"
         OnActivatePlayfieldOps:
           - "SpawnEnemy: 3; RaptorNight; 25"
         Actions:
-          - ActionTitle: Kill Creatures
+          - ActionTitle: txt_KaGea
             Description: ===
             Check: SubjectKilled
             Names:
               - RaptorNight
             Amount: 2
             AllowManualCompletion: true
-            CompletedMessage: "norm;60|Chief, I am tracking an increasing energy output at the Talon Village.\n\nWe should hurry back there. "
+            CompletedMessage: "norm;60|txt_WPOEi"
       - TaskTitle: Excavation
         OnActivatePlayfieldOps:
           - "DevicePower: Prison; ExplSensor; false"
         Actions:
-          - ActionTitle: Back to Tribal Tower
+          - ActionTitle: txt_u4040
             Description: ===
             Check: NearPoi
             Names:
               - RuinsTribalTower
             Guiding: Destination
             AllowManualCompletion: true
-            CompletedMessage: "The energy output seems to source from below the tower - and is still rising.\nWe should act quickly. \n\nLock and Load..and drill"
-          - ActionTitle: Excavate Signal
+            CompletedMessage: txt_iOC8u
+          - ActionTitle: txt_4Ksti
             Description: ===
             Check: NearUnit
             GuidingDistance: 500
             Guiding: TempIndoor
             AllowManualCompletion: true
-            CompletedMessage: "norm;20|A closed mineshaft?\n\nI am tracking a low power ComLink and rising energy levels from further below"
+            CompletedMessage: "norm;20|txt_0GGem"
             Names:
               - Prison
               - Signal
-      - TaskTitle: The Prisoner
+      - TaskTitle: txt_q4qoW
         Actions:
-          - ActionTitle: Com Signal
+          - ActionTitle: txt_8u0kK
             Description: ===
             Check: NearUnit
             GuidingDistance: 20
             Guiding: TempIndoor
             AllowManualCompletion: true
-            CompletedMessage: "norm;5|This looks like a part of an extremely old prison complex"
+            CompletedMessage: "norm;5|txt_eCeOU"
             Names:
               - Prison
               - ComLink
-      - TaskTitle: The Legacy
+      - TaskTitle: txt_mmiSe
         StartDelay: 5
         OnActivatePlayfieldOps:
           - "DevicePower: Prison; ExplSensor; True"
-        StartMessage: "norm;20|There should be a lever to activate the external communication fields"
+        StartMessage: "norm;20|txt_OCec0"
         Actions:
-          - ActionTitle: Speak to Prisoner
+          - ActionTitle: txt_48m0S
             Description: ===
             Check: Signal
             Names:
               - SpeakToPrisoner
             Guiding: TempIndoor
             AllowManualCompletion: true
-            CompletedMessage: "mbox|Bi'phuah! Who is this? The Zirax Scum again?\nIsn't this a high value target prison with some comfort to ex\n...oh..\nyou do not look like a Zirax\n\n[fff000]Not sure what you are trying to tell me,\nbut I were just digging out this building next to a Talon Ru...[-]\n\nMy people here? Bi'phuan! The Legacy is seizing this world.\nThe Infinite Life Program has failed.\nThe Zirax scum had nothing better to do as to arrest all the science officers.\nQuick - we need to get out of here!\n\n[fff000]Ehm..First: calm down please. Second: Legacy? Infinite Life..what?[-]\n\nNo time for chatter, i am feeling the Legacy already growing inside..oh.\nI remember. My brain seems to already get dysfunctional. I am infected. This is a cryo containment facility\n\nListen, stranger.\nWhoever you are. You need to get out of here.\nThe Legacy has infested this place..and me.\nThe Zirax will kill anyone who is getting in touch.\nIwonder why this arrest cell is still existing.\nI am sure the self-destruction is already activated..\n\n[fff000]IDA: I am afraid this explains the increasing energy..\nthis place has slept for a centuries and for some reason is now about to explode![-]\n\nStranger, no time for long discussions. Tell my people.\nI am specialist Kar'han, chief ..officer of ..the Talon-Zirax A..embly.....\n[e30613]WE SHOULD LEAVE ... NOW![-]"
-          - ActionTitle: Leave Prison
+            CompletedMessage: "mbox;20|txt_XKmGq"
+          - ActionTitle: txt_em0C8
             Description: ===
             Check: Signal
             Names:
               - ActivateDetonator
             AllowManualCompletion: true
-            CompletedMessage: "high;60|Power levels going critical. RUN!!"
-      - TaskTitle: Close Escape
+            CompletedMessage: "high;60|txt_SiSaa"
+      - TaskTitle: txt_m0ag8
         Actions:
           - ActionTitle: "RUN!"
             Description: ===
@@ -1285,10 +1285,10 @@ Chapters:
             Names:
               - ExplPrison
             AllowManualCompletion: true
-      - TaskTitle: Human Remains
-        StartMessage: "norm;60|That was close.\n\nWe need to speak to the Chief one more time i think."
+      - TaskTitle: txt_C0paG
+        StartMessage: "norm;60|txt_mui4G"
         Actions:
-          - ActionTitle: Speak to the Chief
+          - ActionTitle: txt_KOcem
             Description: ===
             Check: NearUnit
             GuidingDistance: 600
@@ -1297,7 +1297,7 @@ Chapters:
             Names:
               - Settlement
               - Chief
-  - ChapterTitle: Pest Control - Temperate
+  - ChapterTitle: txt_WOeq4
     Category: TalonMission
     PlayerLevel: 1
     Visibility: Always
@@ -1306,7 +1306,8 @@ Chapters:
     HideTasks: true
     RepeatConditions:
       Delay: 60
-    Description: "Predators are roaming our territory, frighten our children and attacking our workers.\n\nWill you take care of this threat and [fff000]fend of the predators[-]?"
+      DelayAdd: 30
+    Description: txt_q8WeG
     Rewards:
       - Type: Reputation
         Count: 1000
@@ -1315,10 +1316,10 @@ Chapters:
       - Item: GoldCoins
         Count: 10
     Tasks:
-      - TaskTitle: Hunt Predators
+      - TaskTitle: txt_mmG0O
         Actions:
-          - ActionTitle: Kill Predators
-            Description: "Targets that count towards the mission:\nAlienBug (any)\nCaveWorm (any)\n\n Creepy\nOtyugh\nOviraptor\nRaptor (any)\nSpider (any)\nSpinosaurus\nTelluropod"
+          - ActionTitle: txt_C88uK
+            Description: txt_WaSWK
             Check: SubjectKilled
             Names:
               - AlienBug01
@@ -1342,7 +1343,7 @@ Chapters:
               - Creepy
             Amount: 10
             AllowManualCompletion: true
-  - ChapterTitle: The Unholy - Temperate
+  - ChapterTitle: txt_Co8Sa
     Category: TalonMission
     PlayerLevel: 1
     Visibility: Always
@@ -1351,7 +1352,8 @@ Chapters:
     HideTasks: true
     RepeatConditions:
       Delay: 60
-    Description: "The world is filled with places where the unholy is hiding from our eyes.\n\nWe can feel it - will you help us to [fff000]find some of its hiding places?[-]"
+      DelayAdd: 30
+    Description: txt_0CSu0
     Rewards:
       - Type: Reputation
         Count: 1000
@@ -1360,9 +1362,9 @@ Chapters:
       - Item: GoldCoins
         Count: 10
     Tasks:
-      - TaskTitle: Scout Legacy POIs
+      - TaskTitle: txt_44O8a
         Actions:
-          - ActionTitle: Locate Spot 1
+          - ActionTitle: txt_0W0Ci
             Description: ===
             Check: NearPoi
             Guiding: Destination
@@ -1373,7 +1375,7 @@ Chapters:
               - AlienWatchtower
               - ArtifactsFloating
             AllowManualCompletion: true
-          - ActionTitle: Locate Spot 2
+          - ActionTitle: txt_8ueii
             Description: ===
             Check: NearPoi
             Guiding: Destination
@@ -1382,7 +1384,7 @@ Chapters:
               - AbandonedPOI
               - ArtifactsFloating
             AllowManualCompletion: true
-  - ChapterTitle: Torching the Weed - Temperate
+  - ChapterTitle: txt_KG8NW
     Category: TalonMission
     PlayerLevel: 1
     Visibility: Always
@@ -1391,7 +1393,8 @@ Chapters:
     HideTasks: true
     RepeatConditions:
       Delay: 60
-    Description: "The radiated zones are a source of power for the unholy.\n\nWill you help us stopping their spread by [fff000]harvesting the contaminated wood[-]\nfrom the unnatural plants that grow inside the zones?"
+      DelayAdd: 30
+    Description: txt_oaiKA
     Rewards:
       - Type: Reputation
         Count: 3000
@@ -1400,16 +1403,16 @@ Chapters:
       - Item: GoldCoins
         Count: 20
     Tasks:
-      - TaskTitle: Chop down plants
+      - TaskTitle: txt_qmKOW
         Actions:
-          - ActionTitle: Harvest Wood Logs
+          - ActionTitle: txt_OKG4u
             Description: ===
             Check: ItemsPickedUp
             Types:
               - WoodLogs
             Amount: 20
             AllowManualCompletion: true
-  - ChapterTitle: Action and Reaction - Temperate
+  - ChapterTitle: txt_OGewm
     Category: TalonMission
     PlayerLevel: 1
     Visibility: Always
@@ -1418,7 +1421,8 @@ Chapters:
     HideTasks: true
     RepeatConditions:
       Delay: 60
-    Description: "Our attempts to halt the spread of the unholy seems to have triggered a reaction.\n\nOur Elders feel that our villages will soon be under attack.\nWill you help us to [fff000]fend off The Legacy?[-] assault?"
+      DelayAdd: 30
+    Description: txt_KqCp4
     Rewards:
       - Type: Reputation
         Count: 3000
@@ -1427,9 +1431,9 @@ Chapters:
       - Item: GoldCoins
         Count: 20
     Tasks:
-      - TaskTitle: Fire Brigade
+      - TaskTitle: txt_umOui
         Actions:
-          - ActionTitle: Find Settlement
+          - ActionTitle: txt_GqSeS
             Description: ===
             Check: NearPoi
             Names:
@@ -1442,16 +1446,16 @@ Chapters:
               - TribalBazarStone
             Guiding: Destination
             AllowManualCompletion: true
-            CompletedMessage: "norm;30|I can already feel them coming..."
-      - TaskTitle: Defend Settlement
+            CompletedMessage: "norm;30|txt_4q4e4"
+      - TaskTitle: txt_SquSu
         StartDelay: 15
         OnActivatePlayfieldOps:
           - "SpawnEnemy: 2; Overseer; 25"
           - "SpawnEnemy: 2; TotalHorror; 25"
           - "SpawnEnemy: 2; GolemSwamp; 30"
         Actions:
-          - ActionTitle: Kill Creatures
-            Description: "The following creatures have been identified as The Legacy: GolemSwamp\nOverseer\nTotalHorror"
+          - ActionTitle: txt_W0G4u
+            Description: txt_C80Cq
             Check: SubjectKilled
             Names:
               - Overseer
@@ -1459,7 +1463,7 @@ Chapters:
               - GolemSwamp
             Amount: 5
             AllowManualCompletion: true
-  - ChapterTitle: Pinholes do Hurt I - Temperate
+  - ChapterTitle: txt_SKiSW
     Category: TalonMission
     PlayerLevel: 1
     Visibility: Always
@@ -1468,7 +1472,8 @@ Chapters:
     HideTasks: true
     RepeatConditions:
       Delay: 60
-    Description: "The Zirax have oppressed us long enough!\n\nBut we do not want to directly assault them. Instead, we would like to express...our arguments.\nWill you lend us a hand in our campaign and [fff000]deliver our message[-] to some of their troops?"
+      DelayAdd: 30
+    Description: txt_eiuim
     Rewards:
       - Type: Reputation
         Count: 4000
@@ -1477,10 +1482,10 @@ Chapters:
       - Item: GoldCoins
         Count: 30
     Tasks:
-      - TaskTitle: Assassinate Zirax Troops
+      - TaskTitle: txt_Ka4CK
         Actions:
-          - ActionTitle: Kill Zirax
-            Description: "Targets that count towards the mission goal:\nAny drone\nAny Zirax trooper (Patrol and in POIs)\nZirax Ripper Dogs\nZirax Traders\nMechanoids and Turret Robots\nArmored Golem"
+          - ActionTitle: txt_QOqCK
+            Description: txt_me0C4
             Check: SubjectKilled
             Names:
               - DronesDroneSmallFast01Rocket
@@ -1524,7 +1529,7 @@ Chapters:
               - ZiraxRipperDogPatrol
             Amount: 15
             AllowManualCompletion: true
-  - ChapterTitle: Pinholes do Hurt II - Temperate
+  - ChapterTitle: txt_Seem1
     Category: TalonMission
     PlayerLevel: 1
     Visibility: Always
@@ -1534,7 +1539,7 @@ Chapters:
     RepeatConditions:
       Delay: 60
       DelayAdd: 30
-    Description: "Killing only the troopers does not seem to make them listen a lot.\nWe need to shut down what fuels their bases.\n\nWould you mind to assist us in some sabot...ehm..in demonstrating our determination\nand [fff000]shut down some of their generators or fuel tanks[-]?"
+    Description: txt_0eqCK
     Rewards:
       - Type: Reputation
         Count: 5000
@@ -1543,9 +1548,9 @@ Chapters:
       - Item: GoldCoins
         Count: 40
     Tasks:
-      - TaskTitle: Blow Up Fuel Tanks and Generators
+      - TaskTitle: txt_eiabe
         Actions:
-          - ActionTitle: Destroy Devices
+          - ActionTitle: txt_2TCq4
             Description: ===
             Check: BlockDestroyed
             Names:
