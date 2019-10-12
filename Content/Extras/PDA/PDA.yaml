@@ -1,4 +1,4 @@
-Creator: Eleon Game Studio
+Creator: "Eleon Game Studio [перевод Mungus]"
 Chapters:
   - ChapterTitle: txt_0SKu0
     Category: Tutorial
@@ -1733,7 +1733,7 @@ Chapters:
             Guiding: TempIndoor
             GuidingDistance: 180
             AllowManualCompletion: true
-            CompletedMessage: "norm;60|Lets look around a bit.."
+            CompletedMessage: "norm;60|txt_G0eqm"
             Names:
               - TOP Brewery
               - Office
@@ -2385,19 +2385,19 @@ Chapters:
     Tasks:
       - TaskTitle: txt_DW08W
         Actions:
-          - ActionTitle: Kill a Talon Chief
+          - ActionTitle: txt_8iiuu
             Description: ===
             Check: SubjectKilled
             Names:
               - TalonChief
             AllowManualCompletion: true
-          - ActionTitle: Kill a Talon Sentinel
+          - ActionTitle: txt_qq8mi
             Description: ===
             Check: SubjectKilled
             Names:
               - TalonSentinel
             AllowManualCompletion: true
-          - ActionTitle: Kill a Talon Guardian
+          - ActionTitle: txt_GiSOO
             Description: ===
             Check: SubjectKilled
             Names:
@@ -2405,14 +2405,14 @@ Chapters:
               - TalonGuardianRed
               - TalonGuardianBlue
             AllowManualCompletion: true
-          - ActionTitle: Kill a Talon Trader
+          - ActionTitle: txt_0OCGe
             Description: ===
             Check: SubjectKilled
             Names:
               - TraderTalon
               - TraderTalon2
             AllowManualCompletion: true
-          - ActionTitle: Destroy Statues
+          - ActionTitle: txt_8OuGu
             Description: ===
             Check: BlockDestroyed
             Types:
@@ -2457,14 +2457,14 @@ Chapters:
     Tasks:
       - TaskTitle: txt_SWqK6
         Actions:
-          - ActionTitle: Find Trading Station
+          - ActionTitle: txt_jqiGu
             Description: ===
             Check: NearPoi
             Guiding: Destination
             Names:
               - TS_Planet
             AllowManualCompletion: true
-          - ActionTitle: Kill some Traders
+          - ActionTitle: txt_i0aeS
             Description: ===
             Check: SubjectKilled
             Names:
@@ -2732,460 +2732,460 @@ Chapters:
     PlayerLevel: 1
     Visibility: Always
     Tasks:
-      - TaskTitle: Click HEADLINE and PDA INFO
+      - TaskTitle: txt_Om08u
         Actions:
-          - ActionTitle: Rules to follow
-            Description: "[ffff00]Click on the header of this chapter (10 Tips for GETTING STARTED) in the list on the LEFT to reveal the content of this chapter[-]\n[ffff00]IF nothing is shown, make sure the button PDA INFO is highlighted in the TOP RIGHT![-]"
+          - ActionTitle: txt_mOeVS
+            Description: txt_qaaWi
     Activatable: Always
   - ChapterTitle: txt_04Wj4
     Category: FAQ
-    Description: "[i]When getting stranded in a remote place,\nit is always useful to know what diseases\nyou could probably be faced with\n...and how to cure them.\n\n[/i]Forel Mayne, MD\nUCH Medical Corps\n2470 AD\n\n---\n[ff4444]To show all topics of this guide, click the DROPDOWN ARROW of this chapters HEADLINE in the list on the left!\nClick the SUB-task to reveal the info contained.\nMake sure the PDA INFO button on the TOP RIGHT of the screen is selected![-]"
+    Description: txt_Ciq4v
     PictureFile: pfbmedical.jpg
     PlayerLevel: 1
     Visibility: Always
     Tasks:
-      - TaskTitle: DOCTORS 101
+      - TaskTitle: txt_80aC4
         Actions:
-          - ActionTitle: Rules to follow
-            Description: "1. Cure a disease in its early stage, as any following stage will make it worse.\n\n2. All diseases can be cured with one of this medication classes:\n *Antibotics\n *Antitoxin\n *Antiparasite\n *Antiradiation\n *Bones\n\n3. Exception: Effects that are related to outside temperature are cured f.ex. by going to a a warmer or cooler place\n\n4. The diseases progress in stages. Each stage has a defined class of medical items to use:\n *Stage 1: Ointments (f.ex Antibiotic Ointment)\n *Stage 2: Pills (f.ex. Antibiotic Pills)\n *Stage 3: Injections (f.ex. Antibiotic Injections; Will also cure Stage 2)\n\n5. While medical items are effective only agains a few diseases at the same time, [ff4444]Medikits and Medical Stations[-] offer a much broader range of available cures!\n\n6. Food, Beverages or using furniture for sleeping, taking a shower and more are helping to get rid of some of the diseases or at least stop their progress!\n\n[ff4444]Open the DROPDOWN of the DOCTORS JOURNAL on the left to learn more about the diseases and their remedies![-]"
-      - TaskTitle: STAGES OF DISEASES
+          - ActionTitle: txt_OEqm8
+            Description: txt_SBWeS
+      - TaskTitle: txt_O8u8O
         Actions:
-          - ActionTitle: TEMPERATURE BRANCH
-            Description: "[bcd3d4](In-Suit Temperature)\nToo Hot (>35°) >> Heat Stroke (>45°) >> Heat Collapse (>55°)\nToo Cold (<15°) >> Hypothermia (<10°) >> Freezing (<5°)[-]"
-          - ActionTitle: ANTIBIOTICS BRANCH
-            Description: "[bcd3d4]Open Wound >> Infected Wound >> Sepsis\nDermal Burn >> Infected Wound >> Sepsis\nFrostbite >> Necrosis >> (Intoxication)[-]"
-          - ActionTitle: ANTITOXIC BRANCH
-            Description: "[bcd3d4]Poison Bite >> Intoxication >> Organ Failure\nIndigestion >> Food Poisoning >> Fever Attack >> Organ Failure [-]"
-          - ActionTitle: BONES BRANCH
-            Description: "[bcd3d4]Broken Leg >>> Mutilation\nClosed Fracture >> Open Fracture >> Mutilation[-]"
-          - ActionTitle: PARASITES BRANCH
-            Description: "[bcd3d4]Dermal Parasite >> Endo Parasite >> Alien Parasite"
-          - ActionTitle: RADIATION BRANCH
-            Description: "[bcd3d4]Radiation Burn (>1 Rad) >> Radiation Poisoning >> Radiation Sickness (>4 Rad)[-]"
-          - ActionTitle: HANGOVER BRANCH
-            Description: "[bcd3d4]Hangover >> Bad Trip[-]\n\n[ff4444]Open the DROPDOWN of the DOCTORS JOURNAL on the left to learn more about the diseases and their remedies![-]"
-      - TaskTitle: Alien Parasite
+          - ActionTitle: txt_i6Wi8
+            Description: txt_0uSGf
+          - ActionTitle: txt_WC4eA
+            Description: txt_Jeu0S
+          - ActionTitle: txt_44KCO
+            Description: txt_SuieS
+          - ActionTitle: txt_iWGSK
+            Description: txt_4MCOO
+          - ActionTitle: txt_qG0C9
+            Description: txt_eAOGK
+          - ActionTitle: txt_0m0e4
+            Description: txt_auuWw
+          - ActionTitle: txt_Wq4bq
+            Description: txt_44ii4
+      - TaskTitle: txt_uKGOo
         PictureFile: AlienParasite.jpg
         Actions:
-          - ActionTitle: MEDICAL ITEMS
-            Description: "[ffff00]- Antiparasite Injection\n- Decontamination Kit[-]"
-          - ActionTitle: MEDICAL STATIONS
-            Description: "[ffff00]- Medical Station Type 4[-]"
-          - ActionTitle: OTHER CURES
+          - ActionTitle: txt_eCa46
+            Description: txt_8SKKW
+          - ActionTitle: txt_aWGei
+            Description: txt_GSOc0
+          - ActionTitle: txt_CieG4
             Description: n/a
-          - ActionTitle: OTHER CONSUMABLES
+          - ActionTitle: txt_CKSCW
             Description: n/a
-          - ActionTitle: SIDE EFFECTS..
-            Description: "  ..when received: [ff4444]Fever Attack[-]\n  ..when cured: -\n  ..when not cured: [ff4444]Death[-]"
-      - TaskTitle: Bad Trip
+          - ActionTitle: txt_KS0ao
+            Description: txt_O48uu
+      - TaskTitle: txt_CgeGe
         PictureFile: BadTrip.jpg
         Actions:
-          - ActionTitle: MEDICAL ITEMS
+          - ActionTitle: txt_eWOW8
             Description: n/a
-          - ActionTitle: MEDICAL STATIONS
+          - ActionTitle: txt_GGSie
             Description: n/a
-          - ActionTitle: OTHER CURES
-            Description: "- Sleeping\n- Use Toilet"
-          - ActionTitle: OTHER CONSUMABLES
-            Description: "- Milk\n- Hot Beverage"
-          - ActionTitle: SIDE EFFECTS..
-            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Hangover[-]"
+          - ActionTitle: txt_eG0iW
+            Description: txt_0q4GG
+          - ActionTitle: txt_SueqW
+            Description: txt_aKG0C
+          - ActionTitle: txt_8i0mO
+            Description: txt_iemeq
           - ActionTitle: CONDITIONS
-            Description: Over-consumption of Energy Pills and Natural Stimulant
-      - TaskTitle: Broken Leg
+            Description: txt_cF8f3
+      - TaskTitle: txt_3SWiu
         PictureFile: BrokenLeg.jpg
         Actions:
-          - ActionTitle: MEDICAL ITEMS
-            Description: "[ffff00]- Bandages\n- Trauma Kit[-]"
-          - ActionTitle: MEDICAL STATIONS
-            Description: "[ffff00]- Medical Station Type 3[-]"
-          - ActionTitle: OTHER CURES
+          - ActionTitle: txt_48Oic
+            Description: txt_GGe8i
+          - ActionTitle: txt_600Ku
+            Description: txt_uu8ea
+          - ActionTitle: txt_4mQmW
             Description: n/a
-          - ActionTitle: OTHER CONSUMABLES
+          - ActionTitle: txt_iCiOm
             Description: n/a
-          - ActionTitle: SIDE EFFECTS..
-            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Mutilation[-]"
-      - TaskTitle: Closed Fracture
+          - ActionTitle: txt_KSqcA
+            Description: txt_4Ku8O
+      - TaskTitle: txt_0iCsG
         PictureFile: FractureClosed.jpg
         Actions:
-          - ActionTitle: MEDICAL ITEMS
-            Description: "[ffff00]- Bandages\n- Trauma Kit[-]"
-          - ActionTitle: MEDICAL STATIONS
-            Description: "[ffff00]- Medical Station Type 3[-]"
-          - ActionTitle: OTHER CURES
+          - ActionTitle: txt_m2O4G
+            Description: txt_WGSi0
+          - ActionTitle: txt_q4iaG
+            Description: txt_e0u4Q
+          - ActionTitle: txt_e8GiO
             Description: n/a
-          - ActionTitle: OTHER CONSUMABLES
+          - ActionTitle: txt_1ia4m
             Description: n/a
-          - ActionTitle: SIDE EFFECTS..
-            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Mutilation[-]"
-      - TaskTitle: Dermal Burn
+          - ActionTitle: txt_quKCC
+            Description: txt_S0GiW
+      - TaskTitle: txt_OS6mi
         PictureFile: DermalBurn.jpg
         Actions:
-          - ActionTitle: MEDICAL ITEMS
-            Description: "[ffff00]- Antibiotic Ointment\n- Antibiotic Pills\n- Antibiotic Injection\n- Trauma Kit[-]"
-          - ActionTitle: MEDICAL STATIONS
-            Description: "[ffff00]- Medic Station\n- Medical Station Type 2[-]"
-          - ActionTitle: OTHER CURES
+          - ActionTitle: txt_K8SWe
+            Description: txt_eCquu
+          - ActionTitle: txt_44ei4
+            Description: txt_Odjau
+          - ActionTitle: txt_8eCWm
             Description: n/a
-          - ActionTitle: OTHER CONSUMABLES
-            Description: "- Natural Sweetener\n - Herbal Leaves"
-          - ActionTitle: SIDE EFFECTS..
-            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Infected Wound[-]"
-      - TaskTitle: Dermal Parasite
+          - ActionTitle: txt_ue8WC
+            Description: txt_CSCqU
+          - ActionTitle: txt_qSWu0
+            Description: txt_4uSWi
+      - TaskTitle: txt_uOAK4
         PictureFile: DermalParasite.jpg
         Actions:
-          - ActionTitle: MEDICAL ITEMS
-            Description: "[ffff00]- Antitoxic Ointment\n- Antiparasite Pills\n- Antiparasite Injection\n- Decontamination Kit[-]"
-          - ActionTitle: MEDICAL STATIONS
-            Description: "[ffff00]- Medical Station Type 1\n- Medical Station Type 4[-]"
-          - ActionTitle: OTHER CURES
+          - ActionTitle: txt_aaumo
+            Description: txt_iG08i
+          - ActionTitle: txt_WqiWG
+            Description: txt_C3Wi0
+          - ActionTitle: txt_EaGmX
             Description: n/a
-          - ActionTitle: OTHER CONSUMABLES
+          - ActionTitle: txt_08JSS
             Description: n/a
-          - ActionTitle: SIDE EFFECTS..
-            Description: "  ..when received: -\n  ..when cured: [ff4444]Open Wound[-]\n  ..when not cured: [ff4444]Endo Parasite[-]"
-      - TaskTitle: Endo Parasite
+          - ActionTitle: txt_WmSqW
+            Description: txt_q4oOg
+      - TaskTitle: txt_eu8S4
         PictureFile: EndoParasite.jpg
         Actions:
-          - ActionTitle: MEDICAL ITEMS
-            Description: "[ffff00]- Antiparasite Pills\n- Antiparasite Injection\n- Decontamination Kit[-]"
-          - ActionTitle: MEDICAL STATIONS
-            Description: "[ffff00]- Medical Station Type 4[-]"
-          - ActionTitle: OTHER CURES
+          - ActionTitle: txt_OKKuG
+            Description: txt_mCG40
+          - ActionTitle: txt_C8K0a
+            Description: txt_eKQiq
+          - ActionTitle: txt_mq88K
             Description: n/a
-          - ActionTitle: OTHER CONSUMABLES
+          - ActionTitle: txt_qC7iO
             Description: n/a
-          - ActionTitle: SIDE EFFECTS..
-            Description: "  ..when received: [ff4444]Infected Wound[-]\n  ..when cured: -\n  ..when not cured: [ff4444]Alien Parasite[-]"
-      - TaskTitle: Fever Attack
+          - ActionTitle: txt_SqeOq
+            Description: txt_Kqeqa
+      - TaskTitle: txt_K4SWC
         PictureFile: FeverAttack.jpg
         Actions:
-          - ActionTitle: MEDICAL ITEMS
-            Description: "[ffff00]- Anti Toxic Injection\n- Detox Kit[-]"
-          - ActionTitle: MEDICAL STATIONS
-            Description: "[ffff00]- Medical Station Type 1\n- Medical Station Type 4[-]"
-          - ActionTitle: OTHER CURES
+          - ActionTitle: txt_WWOqm
+            Description: txt_KoGqK
+          - ActionTitle: txt_qWC84
+            Description: txt_4C4Ma
+          - ActionTitle: txt_q8aGq
             Description: n/a
-          - ActionTitle: OTHER CONSUMABLES
+          - ActionTitle: txt_uuGqO
             Description: n/a
-          - ActionTitle: SIDE EFFECTS..
-            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Organ Failure[-]"
-      - TaskTitle: Food Poisoning
+          - ActionTitle: txt_aaemW
+            Description: txt_WWKem
+      - TaskTitle: txt_aGaOm
         PictureFile: PoisonFood.jpg
         Actions:
-          - ActionTitle: MEDICAL ITEMS
-            Description: "[ffff00]- Antitoxic Pills\n- Antitoxic Injection\n- Detox Kit[-]"
-          - ActionTitle: MEDICAL STATIONS
-            Description: "[ffff00]- Medic Station\n- Medical Station Type 1[-]"
-          - ActionTitle: OTHER CURES
+          - ActionTitle: txt_mWG80
+            Description: txt_Oi80E
+          - ActionTitle: txt_4OCWi
+            Description: txt_gqGGO
+          - ActionTitle: txt_84CeG
             Description: n/a
-          - ActionTitle: OTHER CONSUMABLES
+          - ActionTitle: txt_qKGmq
             Description: n/a
-          - ActionTitle: SIDE EFFECTS..
-            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Fever Attack[-]"
-      - TaskTitle: Freezing (to death)
+          - ActionTitle: txt_0kSnm
+            Description: txt_4Rm8q
+      - TaskTitle: txt_a8Gqu
         PictureFile: BlackoutCold.jpg
         Actions:
-          - ActionTitle: MEDICAL ITEMS
+          - ActionTitle: txt_iO8er
             Description: n/a
-          - ActionTitle: MEDICAL STATIONS
+          - ActionTitle: txt_4WWCe
             Description: n/a
-          - ActionTitle: OTHER CURES
-            Description: "- [ffff00]Increase In-Suit Temperature above 5°C by..[-]\n    ..Sleeping\n    ..taking a Shower\n    ..going inside a powered base or vessel\n    ..using the Mobile AirCon"
-          - ActionTitle: OTHER CONSUMABLES
-            Description: "- Hot Beverages and most meals will increase your temperature as well"
-          - ActionTitle: SIDE EFFECTS..
-            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Death[-]"
+          - ActionTitle: txt_eOeWW
+            Description: txt_aWOc8
+          - ActionTitle: txt_W0e8G
+            Description: txt_q8iqe
+          - ActionTitle: txt_SOSWm
+            Description: txt_C8W0X
           - ActionTitle: CONDITIONS
-            Description: In-Suit Temperature lower than 5°C
+            Description: txt_GmuAe
       - TaskTitle: Frostbite
         PictureFile: Frostbite.jpg
         Actions:
-          - ActionTitle: MEDICAL ITEMS
-            Description: "[ffff00]- Antibiotic Ointment\n-Antibiotic Pills\n- Antibiotic Injection\n- Trauma Kit[-]"
-          - ActionTitle: MEDICAL STATIONS
-            Description: "[ffff00]- Medic Station\n- Medical Station Type 2[-]"
-          - ActionTitle: OTHER CURES
+          - ActionTitle: txt_WueOW
+            Description: txt_wame0
+          - ActionTitle: txt_084wm
+            Description: txt_CiSem
+          - ActionTitle: txt_0mt8i
             Description: n/a
-          - ActionTitle: OTHER CONSUMABLES
-            Description: "- Spice"
-          - ActionTitle: SIDE EFFECTS..
-            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Necrosis[-]"
+          - ActionTitle: txt_KCm0u
+            Description: txt_Gk8OG
+          - ActionTitle: txt_aSOau
+            Description: txt_Ss0KG
       - TaskTitle: Hangover
         PictureFile: Hangover.jpg
         Actions:
-          - ActionTitle: MEDICAL ITEMS
+          - ActionTitle: txt_HKqiW
             Description: n/a
-          - ActionTitle: MEDICAL STATIONS
+          - ActionTitle: txt_GiOe8
             Description: n/a
-          - ActionTitle: OTHER CURES
-            Description: "- Sleeping\n- Use Toilet"
-          - ActionTitle: OTHER CONSUMABLES
-            Description: "- Purified Water\n- Hot Beverage\n- Fruit Juice"
-          - ActionTitle: SIDE EFFECTS..
-            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Bad Trip[-]"
+          - ActionTitle: txt_oqWus
+            Description: txt_e0ami
+          - ActionTitle: txt_iemeO
+            Description: txt_0CqCe
+          - ActionTitle: txt_ui4ui
+            Description: txt_eGeuO
           - ActionTitle: CONDITIONS
-            Description: Over-consumption of alcoholic beverages and energy drinks
-      - TaskTitle: Heat Collapse
+            Description: txt_qSKeG
+      - TaskTitle: txt_um0io
         PictureFile: BlackoutHot.jpg
         Actions:
-          - ActionTitle: MEDICAL ITEMS
+          - ActionTitle: txt_e4WGh
             Description: n/a
-          - ActionTitle: MEDICAL STATIONS
+          - ActionTitle: txt_WTSui
             Description: n/a
-          - ActionTitle: OTHER CURES
-            Description: "- [ffff00]Decrease In-Suit Temperature below 55°C by..[-]\n    ..Sleeping\n    ..taking a Shower\n    ..going inside a powered base or vessel\n    ..using the Mobile AirCon"
-          - ActionTitle: OTHER CONSUMABLES
-            Description: "- Purified Water, Juices, Milk, Fruits and a few meals will decrease your temperature"
-          - ActionTitle: SIDE EFFECTS..
-            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Death[-]"
+          - ActionTitle: txt_S801a
+            Description: txt_SmcK0
+          - ActionTitle: txt_u4geK
+            Description: txt_4auFQ
+          - ActionTitle: txt_WuI6a
+            Description: txt_SaSWu
           - ActionTitle: CONDITIONS
-            Description: In-Suit Temperature higher than 55°C
-      - TaskTitle: Heat Stroke
+            Description: txt_miCSa
+      - TaskTitle: txt_GEa4W
         PictureFile: HeatStroke.jpg
         Actions:
-          - ActionTitle: MEDICAL ITEMS
+          - ActionTitle: txt_sSGCW
             Description: n/a
-          - ActionTitle: MEDICAL STATIONS
+          - ActionTitle: txt_qmCoi
             Description: n/a
-          - ActionTitle: OTHER CURES
-            Description: "- [ffff00]Decrease In-Suit Temperature below 45°C by..[-]\n    ..Sleeping\n    ..taking a Shower\n    ..going inside a powered base or vessel\n    ..using the Mobile AirCon"
-          - ActionTitle: OTHER CONSUMABLES
-            Description: "- Purified Water, Juices, Milk, Fruits and a few meals will decrease your temperature"
-          - ActionTitle: SIDE EFFECTS..
-            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Death[-]"
+          - ActionTitle: txt_GWiKK
+            Description: txt_guSmq
+          - ActionTitle: txt_CO0KK
+            Description: txt_euKqW
+          - ActionTitle: txt_mO0ea
+            Description: txt_m9S8e
           - ActionTitle: CONDITIONS
-            Description: In-Suit Temperature higher than 45°C
+            Description: txt_miKSK
       - TaskTitle: Hypothermia
         PictureFile: Freezing.jpg
         Actions:
-          - ActionTitle: MEDICAL ITEMS
+          - ActionTitle: txt_icKOs
             Description: n/a
-          - ActionTitle: MEDICAL STATIONS
+          - ActionTitle: txt_WiSOC
             Description: n/a
-          - ActionTitle: OTHER CURES
+          - ActionTitle: txt_C88iW
             Description: "- [ffff00]Increase In-Suit Temperature above 10°C by..[-]\n    ..Sleeping\n    ..taking a Shower\n    ..going inside a powered base or vessel\n    ..using the Mobile AirCon"
-          - ActionTitle: OTHER CONSUMABLES
+          - ActionTitle: txt_uWS4K
             Description: "- Hot Beverages and most meals will increase your temperature as well"
-          - ActionTitle: SIDE EFFECTS..
+          - ActionTitle: txt_mOsoG
             Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Death[-]"
           - ActionTitle: CONDITIONS
             Description: In-Suit Temperature lower than 10°C
       - TaskTitle: Indigestion
         PictureFile: Indigestion.jpg
         Actions:
-          - ActionTitle: MEDICAL ITEMS
+          - ActionTitle: txt_iKmGa
             Description: "[ffff00]- Stomach Pills\n- Antitoxic Pills\n- Antitoxic Injection\n- Detox Kit[-]"
-          - ActionTitle: MEDICAL STATIONS
+          - ActionTitle: txt_ii0qC
             Description: "[ffff00]- Medical Station Type 1[-]"
-          - ActionTitle: OTHER CURES
+          - ActionTitle: txt_8quKr
             Description: "- Use Toilet"
-          - ActionTitle: OTHER CONSUMABLES
+          - ActionTitle: txt_KWGGW
             Description: "- Natural Sweetener\n- Herbal Leaves\n- Spice (small chance to cause Indigestion again!)"
-          - ActionTitle: SIDE EFFECTS..
+          - ActionTitle: txt_GCeiW
             Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Food Poisoning[-]"
-          - ActionTitle: CAN SOURCE FROM
+          - ActionTitle: txt_OSK4m
             Description: "- Eating raw ingredients, plants or crops\n- Overusing Pills and Injections"
-      - TaskTitle: Infected Wound
+      - TaskTitle: txt_e4Swe
         PictureFile: InfectedWound.jpg
         Actions:
-          - ActionTitle: MEDICAL ITEMS
+          - ActionTitle: txt_4a8q8
             Description: "[ffff00]- Antibiotic Pills\n- Antibiotic Injection\n- Trauma Kit[-]"
-          - ActionTitle: MEDICAL STATIONS
+          - ActionTitle: txt_0WU8u
             Description: "[ffff00]- Medical Station Type 2[-]"
-          - ActionTitle: OTHER CURES
+          - ActionTitle: txt_oW0uG
             Description: n/a
-          - ActionTitle: OTHER CONSUMABLES
+          - ActionTitle: txt_mmieW
             Description: n/a
-          - ActionTitle: SIDE EFFECTS..
+          - ActionTitle: txt_ZaauO
             Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Sepsis[-]"
       - TaskTitle: Intoxication
         PictureFile: Intoxication.jpg
         Actions:
-          - ActionTitle: MEDICAL ITEMS
+          - ActionTitle: txt_WYsS0
             Description: "[ffff00]- Antitoxic Pills\n- Antitoxic Injection\n- Detox Kit[-]"
-          - ActionTitle: MEDICAL STATIONS
+          - ActionTitle: txt_8sOCK
             Description: "[ffff00]- Medical Station Type 1[-]"
-          - ActionTitle: OTHER CURES
+          - ActionTitle: txt_eGSqG
             Description: n/a
-          - ActionTitle: OTHER CONSUMABLES
+          - ActionTitle: txt_t8Sii
             Description: n/a
-          - ActionTitle: SIDE EFFECTS..
+          - ActionTitle: txt_COSu8
             Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Organ Failure[-]"
       - TaskTitle: Mutilation
         PictureFile: Mutilation.jpg
         Actions:
-          - ActionTitle: MEDICAL ITEMS
+          - ActionTitle: txt_7m4KW
             Description: n/a
-          - ActionTitle: MEDICAL STATIONS
+          - ActionTitle: txt_G8Sei
             Description: "[ffff00]- Medical Station Type 3[-]"
-          - ActionTitle: OTHER CURES
+          - ActionTitle: txt_m00iK
             Description: n/a
-          - ActionTitle: OTHER CONSUMABLES
+          - ActionTitle: txt_WOCaW
             Description: n/a
-          - ActionTitle: SIDE EFFECTS..
+          - ActionTitle: txt_eOm8x
             Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Very slow movement / No stamina[-]"
       - TaskTitle: Necrosis
         PictureFile: Necrosis.jpg
         Actions:
-          - ActionTitle: MEDICAL ITEMS
+          - ActionTitle: txt_4OaaO
             Description: "[ffff00]- Antibiotic Ointment\n- Antibiotic Pills\n- Antibiotic Injection\n- Trauma Kit[-]"
-          - ActionTitle: MEDICAL STATIONS
+          - ActionTitle: txt_iqiiO
             Description: "[ffff00]- Medical Station Type 2[-]"
-          - ActionTitle: OTHER CURES
+          - ActionTitle: txt_OmMOK
             Description: n/a
-          - ActionTitle: OTHER CONSUMABLES
+          - ActionTitle: txt_aaiuK
             Description: n/a
-          - ActionTitle: SIDE EFFECTS..
+          - ActionTitle: txt_K0Saa
             Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Intoxication[-]"
-      - TaskTitle: Open Fracture
+      - TaskTitle: txt_q49qa
         PictureFile: FractureOpen.jpg
         Actions:
-          - ActionTitle: MEDICAL ITEMS
+          - ActionTitle: txt_umOoW
             Description: "[ffff00]- Bandages\n- Trauma Kit[-]"
-          - ActionTitle: MEDICAL STATIONS
+          - ActionTitle: txt_immU0
             Description: "[ffff00]- Medical Station Type 3[-]"
-          - ActionTitle: OTHER CURES
+          - ActionTitle: txt_WGmeS
             Description: n/a
-          - ActionTitle: OTHER CONSUMABLES
+          - ActionTitle: txt_aWqeu
             Description: n/a
-          - ActionTitle: SIDE EFFECTS..
+          - ActionTitle: txt_Wqoqq
             Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Mutilation[-]"
-      - TaskTitle: Open Wound
+      - TaskTitle: txt_kujWG
         PictureFile: Wound.jpg
         Actions:
-          - ActionTitle: MEDICAL ITEMS
+          - ActionTitle: txt_8KOCK
             Description: "[ffff00]- Bandages\n- Antibiotic Ointment\n- Antibiotic Pills\n- Antibiotic Injection\n- Health Pack\n- Trauma Kit[-]"
-          - ActionTitle: MEDICAL STATIONS
+          - ActionTitle: txt_OWKKS
             Description: "[ffff00]- Medical Station Type 2[-]"
-          - ActionTitle: OTHER CURES
+          - ActionTitle: txt_0Gaue
             Description: n/a
-          - ActionTitle: OTHER CONSUMABLES
+          - ActionTitle: txt_qGuu0
             Description: n/a
-          - ActionTitle: SIDE EFFECTS..
+          - ActionTitle: txt_a8SiJ
             Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Infected Wound[-]"
-      - TaskTitle: Organ Failure
+      - TaskTitle: txt_Wqaai
         PictureFile: OrganFailure.jpg
         Actions:
-          - ActionTitle: MEDICAL ITEMS
+          - ActionTitle: txt_0uKGj
             Description: "[ffff00]- Antitoxic Injection\n- Detox Kit[-]"
-          - ActionTitle: MEDICAL STATIONS
+          - ActionTitle: txt_6KZCi
             Description: "[ffff00]- Medical Station Type 1[-]"
-          - ActionTitle: OTHER CURES
+          - ActionTitle: txt_GWTmS
             Description: n/a
-          - ActionTitle: OTHER CONSUMABLES
+          - ActionTitle: txt_umOqG
             Description: n/a
-          - ActionTitle: SIDE EFFECTS..
+          - ActionTitle: txt_W8CeS
             Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Death[-]"
-      - TaskTitle: Poison Bit
+      - TaskTitle: txt_SCCe8
         PictureFile: PoisonBite.jpg
         Actions:
-          - ActionTitle: MEDICAL ITEMS
+          - ActionTitle: txt_GWAi8
             Description: "[ffff00]- Antitoxic Ointment\n- Antitoxic Pills\n-Antitoxic Injection\n- Detox Kit[-]"
-          - ActionTitle: MEDICAL STATIONS
+          - ActionTitle: txt_uwCW4
             Description: "[ffff00]- Medical Station Type 1 [-]"
-          - ActionTitle: OTHER CURES
+          - ActionTitle: txt_aSeWC
             Description: n/a
-          - ActionTitle: OTHER CONSUMABLES
+          - ActionTitle: txt_WKSqS
             Description: "-Natural Sweetener\n- Herbal Leaves\n- Mushrooms\n- Varon Root"
-          - ActionTitle: SIDE EFFECTS..
+          - ActionTitle: txt_q0Ci4
             Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Intoxication[-]"
-      - TaskTitle: Radiation Burn
+      - TaskTitle: txt_GOGqi
         PictureFile: RadiationBurn.jpg
         Actions:
-          - ActionTitle: MEDICAL ITEMS
+          - ActionTitle: txt_qq44L
             Description: "[ffff00]- Antiradiation Ointment\n- Radiation Pills\n- Antiradiation Injection\n- Decontamination Kit[-]"
-          - ActionTitle: MEDICAL STATIONS
+          - ActionTitle: txt_mKemS
             Description: "[ffff00]- Medical Station Type 4[-]"
-          - ActionTitle: REQUIRED ADDITIONAL CURES
+          - ActionTitle: txt_iie4e
             Description: "- You also [ffff00]NEED TO LOWER Body Radiation below 1[-] by..\n    ..taking a Shower\n    ..consuming Radiation Pills"
-          - ActionTitle: OTHER CONSUMABLES
+          - ActionTitle: txt_eqsT0
             Description: n/a
-          - ActionTitle: SIDE EFFECTS..
+          - ActionTitle: txt_ei0eq
             Description: "  ..when received: [ff4444]Open Wound[-]\n  ..when cured: -\n  ..when not cured: [ff4444]Radiation Poisoning[-]"
           - ActionTitle: CONDITIONS
             Description: "Body Radiation > 1"
-      - TaskTitle: Radiation Poisoning
+      - TaskTitle: txt_WGG84
         PictureFile: RadiationPoisoning.jpg
         Actions:
-          - ActionTitle: MEDICAL ITEMS
+          - ActionTitle: txt_eW8e4
             Description: "[ffff00]- Radiation Pills\n- Antiradiation Injection\n- Decontamination Kit[-]"
-          - ActionTitle: MEDICAL STATIONS
+          - ActionTitle: txt_LLq4S
             Description: "[ffff00]- Medical Station Type 4[-]"
-          - ActionTitle: OTHER CURES
+          - ActionTitle: txt_8SSa4
             Description: n/a
-          - ActionTitle: OTHER CONSUMABLES
+          - ActionTitle: txt_0Suae
             Description: n/a
-          - ActionTitle: SIDE EFFECTS..
+          - ActionTitle: txt_KqKSG
             Description: "  ..when received: [ff4444]Intoxication[-]\n  ..when cured: -\n  ..when not cured: [ff4444]Radiation Sickness[-]"
-      - TaskTitle: Radiation Sickness
+      - TaskTitle: txt_8SSuG
         PictureFile: RadiationSick1.jpg
         Actions:
-          - ActionTitle: MEDICAL ITEMS
+          - ActionTitle: txt_4GaWV
             Description: "[ffff00]- Antiradiation Injection\n- Decontamination Kit[-]"
-          - ActionTitle: MEDICAL STATIONS
+          - ActionTitle: txt_4qae0
             Description: "[ffff00]- Medical Station Type 4[-]"
-          - ActionTitle: REQUIRED ADDITIONAL CURES
+          - ActionTitle: txt_mWWI0
             Description: "- You also [ffff00]NEED TO LOWER Body Radiation below 1[-] by..\n    ..taking a Shower\n    ..consuming Radiation Pills"
-          - ActionTitle: OTHER CONSUMABLES
+          - ActionTitle: txt_WqSuS
             Description: n/a
-          - ActionTitle: SIDE EFFECTS..
+          - ActionTitle: txt_qASaC
             Description: "  ..when received: [ff4444]Intoxication[-]\n  ..when cured: -\n  ..when not cured: [ff4444]Death[-]"
           - ActionTitle: CONDITIONS
             Description: "Body Radiation > 4"
       - TaskTitle: Sepsis
         PictureFile: Sepsis.jpg
         Actions:
-          - ActionTitle: MEDICAL ITEMS
+          - ActionTitle: txt_iWG8U
             Description: "[ffff00]- Antibiotic Injection\n- Trauma Kit[-]"
-          - ActionTitle: MEDICAL STATIONS
+          - ActionTitle: txt_a6Geq
             Description: "[ffff00]- Medical Station Type 2[-]"
-          - ActionTitle: OTHER CURES
+          - ActionTitle: txt_CeqCq
             Description: n/a
-          - ActionTitle: OTHER CONSUMABLES
+          - ActionTitle: txt_iuCAu
             Description: n/a
-          - ActionTitle: SIDE EFFECTS..
+          - ActionTitle: txt_b0CaG
             Description: "  ..when received: [ff4444]Fever Attack[-]\n  ..when cured: -\n  ..when not cured: [ff4444]Death[-]"
       - TaskTitle: Stunned
         PictureFile: Stunned.jpg
         Actions:
-          - ActionTitle: MEDICAL ITEMS
+          - ActionTitle: txt_S0K8i
             Description: "- Energy Pills\n- Adrenaline Injection"
-          - ActionTitle: MEDICAL STATIONS
+          - ActionTitle: txt_L80S0
             Description: n/a
-          - ActionTitle: OTHER CURES
+          - ActionTitle: txt_HmuIa
             Description: "- [ffff00]Wait until effect is removed (5 seconds)[-]"
-          - ActionTitle: OTHER CONSUMABLES
+          - ActionTitle: txt_4WCWW
             Description: "- Natural Stimulant\n- Energy Drink"
-          - ActionTitle: SIDE EFFECTS..
+          - ActionTitle: txt_CqeCu
             Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: -"
-      - TaskTitle: Too Cold
+      - TaskTitle: txt_xOuW4
         PictureFile: Cold.jpg
         Actions:
-          - ActionTitle: MEDICAL ITEMS
+          - ActionTitle: txt_CuemS
             Description: n/a
-          - ActionTitle: MEDICAL STATIONS
+          - ActionTitle: txt_KCKKi
             Description: n/a
-          - ActionTitle: OTHER CURES
+          - ActionTitle: txt_mwaOO
             Description: "- [ffff00]Increase In-Suit Temperature above 15°C by..[-]\n    ..Sleeping\n    ..taking a Shower\n    ..going inside a powered base or vessel\n    ..using the Mobile AirCon"
-          - ActionTitle: OTHER CONSUMABLES
+          - ActionTitle: txt_SeeOG
             Description: "- Hot Beverages and most meals will increase your temperature as well"
-          - ActionTitle: SIDE EFFECTS..
+          - ActionTitle: txt_egG2i
             Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Starving[-]"
           - ActionTitle: CONDITIONS
             Description: In-Suit Temperature lower than 15°C
-      - TaskTitle: Too Hot
+      - TaskTitle: txt_m4s48
         PictureFile: Hot.jpg
         Actions:
-          - ActionTitle: MEDICAL ITEMS
+          - ActionTitle: txt_0GK24
             Description: n/a
-          - ActionTitle: MEDICAL STATIONS
+          - ActionTitle: txt_SWaM8
             Description: n/a
-          - ActionTitle: OTHER CURES
+          - ActionTitle: txt_i0auK
             Description: "- [ffff00]Decrease In-Suit Temperature below 35°C by..[-]\n    ..Sleeping\n    ..taking a Shower\n    ..going inside a powered base or vessel\n    ..using the Mobile AirCon"
-          - ActionTitle: OTHER CONSUMABLES
+          - ActionTitle: txt_C04SW
             Description: "- Purified Water, Juices, Milk, Fruits and a few meals will decrease your temperature"
-          - ActionTitle: SIDE EFFECTS..
+          - ActionTitle: txt_uiq0i
             Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Stamina Low[-]"
           - ActionTitle: CONDITIONS
             Description: In-Suit Temperature higher than 35°C
@@ -3197,7 +3197,7 @@ Chapters:
     PlayerLevel: 1
     Visibility: Always
     Tasks:
-      - TaskTitle: FARMERS 101
+      - TaskTitle: txt_m4qia
         PictureFile: Farmers101.jpg
         Actions:
           - ActionTitle: INGREDIENT GROUPS
