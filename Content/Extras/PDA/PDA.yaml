@@ -2964,201 +2964,201 @@ Chapters:
           - ActionTitle: txt_WiSOC
             Description: n/a
           - ActionTitle: txt_C88iW
-            Description: "- [ffff00]Increase In-Suit Temperature above 10°C by..[-]\n    ..Sleeping\n    ..taking a Shower\n    ..going inside a powered base or vessel\n    ..using the Mobile AirCon"
+            Description: txt_ei88m
           - ActionTitle: txt_uWS4K
-            Description: "- Hot Beverages and most meals will increase your temperature as well"
+            Description: txt_eimGW
           - ActionTitle: txt_mOsoG
-            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Death[-]"
+            Description: txt_LC4Ge
           - ActionTitle: CONDITIONS
-            Description: In-Suit Temperature lower than 10°C
+            Description: txt_eK4WW
       - TaskTitle: Indigestion
         PictureFile: Indigestion.jpg
         Actions:
           - ActionTitle: txt_iKmGa
-            Description: "[ffff00]- Stomach Pills\n- Antitoxic Pills\n- Antitoxic Injection\n- Detox Kit[-]"
+            Description: txt_G4G8S
           - ActionTitle: txt_ii0qC
-            Description: "[ffff00]- Medical Station Type 1[-]"
+            Description: txt_m4qgK
           - ActionTitle: txt_8quKr
-            Description: "- Use Toilet"
+            Description: txt_qCmWi
           - ActionTitle: txt_KWGGW
-            Description: "- Natural Sweetener\n- Herbal Leaves\n- Spice (small chance to cause Indigestion again!)"
+            Description: txt_GOKCa
           - ActionTitle: txt_GCeiW
-            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Food Poisoning[-]"
+            Description: txt_80mCG
           - ActionTitle: txt_OSK4m
-            Description: "- Eating raw ingredients, plants or crops\n- Overusing Pills and Injections"
+            Description: txt_quae6
       - TaskTitle: txt_e4Swe
         PictureFile: InfectedWound.jpg
         Actions:
           - ActionTitle: txt_4a8q8
-            Description: "[ffff00]- Antibiotic Pills\n- Antibiotic Injection\n- Trauma Kit[-]"
+            Description: txt_04meG
           - ActionTitle: txt_0WU8u
-            Description: "[ffff00]- Medical Station Type 2[-]"
+            Description: txt_GmCmq
           - ActionTitle: txt_oW0uG
             Description: n/a
           - ActionTitle: txt_mmieW
             Description: n/a
           - ActionTitle: txt_ZaauO
-            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Sepsis[-]"
+            Description: txt_mKaSa
       - TaskTitle: Intoxication
         PictureFile: Intoxication.jpg
         Actions:
           - ActionTitle: txt_WYsS0
-            Description: "[ffff00]- Antitoxic Pills\n- Antitoxic Injection\n- Detox Kit[-]"
+            Description: txt_4MOSi
           - ActionTitle: txt_8sOCK
-            Description: "[ffff00]- Medical Station Type 1[-]"
+            Description: txt_wKmOS
           - ActionTitle: txt_eGSqG
             Description: n/a
           - ActionTitle: txt_t8Sii
             Description: n/a
           - ActionTitle: txt_COSu8
-            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Organ Failure[-]"
+            Description: txt_SCqKm
       - TaskTitle: Mutilation
         PictureFile: Mutilation.jpg
         Actions:
           - ActionTitle: txt_7m4KW
             Description: n/a
           - ActionTitle: txt_G8Sei
-            Description: "[ffff00]- Medical Station Type 3[-]"
+            Description: txt_eCiCC
           - ActionTitle: txt_m00iK
             Description: n/a
           - ActionTitle: txt_WOCaW
             Description: n/a
           - ActionTitle: txt_eOm8x
-            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Very slow movement / No stamina[-]"
+            Description: txt_Gu4mY
       - TaskTitle: Necrosis
         PictureFile: Necrosis.jpg
         Actions:
           - ActionTitle: txt_4OaaO
-            Description: "[ffff00]- Antibiotic Ointment\n- Antibiotic Pills\n- Antibiotic Injection\n- Trauma Kit[-]"
+            Description: txt_SKOGO
           - ActionTitle: txt_iqiiO
-            Description: "[ffff00]- Medical Station Type 2[-]"
+            Description: txt_iA48q
           - ActionTitle: txt_OmMOK
             Description: n/a
           - ActionTitle: txt_aaiuK
             Description: n/a
           - ActionTitle: txt_K0Saa
-            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Intoxication[-]"
+            Description: txt_GYmCG
       - TaskTitle: txt_q49qa
         PictureFile: FractureOpen.jpg
         Actions:
           - ActionTitle: txt_umOoW
-            Description: "[ffff00]- Bandages\n- Trauma Kit[-]"
+            Description: txt_K0YaC
           - ActionTitle: txt_immU0
-            Description: "[ffff00]- Medical Station Type 3[-]"
+            Description: txt_iWeeK
           - ActionTitle: txt_WGmeS
             Description: n/a
           - ActionTitle: txt_aWqeu
             Description: n/a
           - ActionTitle: txt_Wqoqq
-            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Mutilation[-]"
+            Description: txt_C0oe4
       - TaskTitle: txt_kujWG
         PictureFile: Wound.jpg
         Actions:
           - ActionTitle: txt_8KOCK
-            Description: "[ffff00]- Bandages\n- Antibiotic Ointment\n- Antibiotic Pills\n- Antibiotic Injection\n- Health Pack\n- Trauma Kit[-]"
+            Description: txt_KqiSJ
           - ActionTitle: txt_OWKKS
-            Description: "[ffff00]- Medical Station Type 2[-]"
+            Description: txt_edwea
           - ActionTitle: txt_0Gaue
             Description: n/a
           - ActionTitle: txt_qGuu0
             Description: n/a
           - ActionTitle: txt_a8SiJ
-            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Infected Wound[-]"
+            Description: txt_04iau
       - TaskTitle: txt_Wqaai
         PictureFile: OrganFailure.jpg
         Actions:
           - ActionTitle: txt_0uKGj
-            Description: "[ffff00]- Antitoxic Injection\n- Detox Kit[-]"
+            Description: txt_e0MG4
           - ActionTitle: txt_6KZCi
-            Description: "[ffff00]- Medical Station Type 1[-]"
+            Description: txt_SK8ui
           - ActionTitle: txt_GWTmS
             Description: n/a
           - ActionTitle: txt_umOqG
             Description: n/a
           - ActionTitle: txt_W8CeS
-            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Death[-]"
+            Description: txt_0mqW8
       - TaskTitle: txt_SCCe8
         PictureFile: PoisonBite.jpg
         Actions:
           - ActionTitle: txt_GWAi8
-            Description: "[ffff00]- Antitoxic Ointment\n- Antitoxic Pills\n-Antitoxic Injection\n- Detox Kit[-]"
+            Description: txt_0aSOC
           - ActionTitle: txt_uwCW4
-            Description: "[ffff00]- Medical Station Type 1 [-]"
+            Description: txt_im0q8
           - ActionTitle: txt_aSeWC
             Description: n/a
           - ActionTitle: txt_WKSqS
-            Description: "-Natural Sweetener\n- Herbal Leaves\n- Mushrooms\n- Varon Root"
+            Description: txt_47uae
           - ActionTitle: txt_q0Ci4
-            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Intoxication[-]"
+            Description: txt_4OiSO
       - TaskTitle: txt_GOGqi
         PictureFile: RadiationBurn.jpg
         Actions:
           - ActionTitle: txt_qq44L
-            Description: "[ffff00]- Antiradiation Ointment\n- Radiation Pills\n- Antiradiation Injection\n- Decontamination Kit[-]"
+            Description: txt_CWCEe
           - ActionTitle: txt_mKemS
-            Description: "[ffff00]- Medical Station Type 4[-]"
+            Description: txt_a0OYm
           - ActionTitle: txt_iie4e
-            Description: "- You also [ffff00]NEED TO LOWER Body Radiation below 1[-] by..\n    ..taking a Shower\n    ..consuming Radiation Pills"
+            Description: txt_mOidM
           - ActionTitle: txt_eqsT0
             Description: n/a
           - ActionTitle: txt_ei0eq
-            Description: "  ..when received: [ff4444]Open Wound[-]\n  ..when cured: -\n  ..when not cured: [ff4444]Radiation Poisoning[-]"
+            Description: txt_uKc40
           - ActionTitle: CONDITIONS
-            Description: "Body Radiation > 1"
+            Description: txt_BUa48
       - TaskTitle: txt_WGG84
         PictureFile: RadiationPoisoning.jpg
         Actions:
           - ActionTitle: txt_eW8e4
-            Description: "[ffff00]- Radiation Pills\n- Antiradiation Injection\n- Decontamination Kit[-]"
+            Description: txt_HSiW8
           - ActionTitle: txt_LLq4S
-            Description: "[ffff00]- Medical Station Type 4[-]"
+            Description: txt_q8AGm
           - ActionTitle: txt_8SSa4
             Description: n/a
           - ActionTitle: txt_0Suae
             Description: n/a
           - ActionTitle: txt_KqKSG
-            Description: "  ..when received: [ff4444]Intoxication[-]\n  ..when cured: -\n  ..when not cured: [ff4444]Radiation Sickness[-]"
+            Description: txt_qW4G4
       - TaskTitle: txt_8SSuG
         PictureFile: RadiationSick1.jpg
         Actions:
           - ActionTitle: txt_4GaWV
-            Description: "[ffff00]- Antiradiation Injection\n- Decontamination Kit[-]"
+            Description: txt_8Ce4K
           - ActionTitle: txt_4qae0
-            Description: "[ffff00]- Medical Station Type 4[-]"
+            Description: txt_Co08W
           - ActionTitle: txt_mWWI0
-            Description: "- You also [ffff00]NEED TO LOWER Body Radiation below 1[-] by..\n    ..taking a Shower\n    ..consuming Radiation Pills"
+            Description: txt_eSOwq
           - ActionTitle: txt_WqSuS
             Description: n/a
           - ActionTitle: txt_qASaC
-            Description: "  ..when received: [ff4444]Intoxication[-]\n  ..when cured: -\n  ..when not cured: [ff4444]Death[-]"
+            Description: txt_Ciq88
           - ActionTitle: CONDITIONS
-            Description: "Body Radiation > 4"
+            Description: txt_e4aeX
       - TaskTitle: Sepsis
         PictureFile: Sepsis.jpg
         Actions:
           - ActionTitle: txt_iWG8U
-            Description: "[ffff00]- Antibiotic Injection\n- Trauma Kit[-]"
+            Description: txt_Dmqoq
           - ActionTitle: txt_a6Geq
-            Description: "[ffff00]- Medical Station Type 2[-]"
+            Description: txt_meGG7
           - ActionTitle: txt_CeqCq
             Description: n/a
           - ActionTitle: txt_iuCAu
             Description: n/a
           - ActionTitle: txt_b0CaG
-            Description: "  ..when received: [ff4444]Fever Attack[-]\n  ..when cured: -\n  ..when not cured: [ff4444]Death[-]"
+            Description: txt_0Seau
       - TaskTitle: Stunned
         PictureFile: Stunned.jpg
         Actions:
           - ActionTitle: txt_S0K8i
-            Description: "- Energy Pills\n- Adrenaline Injection"
+            Description: txt_iOmau
           - ActionTitle: txt_L80S0
             Description: n/a
           - ActionTitle: txt_HmuIa
-            Description: "- [ffff00]Wait until effect is removed (5 seconds)[-]"
+            Description: txt_8q04O
           - ActionTitle: txt_4WCWW
-            Description: "- Natural Stimulant\n- Energy Drink"
+            Description: txt_4mmKi
           - ActionTitle: txt_CqeCu
-            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: -"
+            Description: txt_SjOGO
       - TaskTitle: txt_xOuW4
         PictureFile: Cold.jpg
         Actions:
@@ -3167,13 +3167,13 @@ Chapters:
           - ActionTitle: txt_KCKKi
             Description: n/a
           - ActionTitle: txt_mwaOO
-            Description: "- [ffff00]Increase In-Suit Temperature above 15°C by..[-]\n    ..Sleeping\n    ..taking a Shower\n    ..going inside a powered base or vessel\n    ..using the Mobile AirCon"
+            Description: txt_i6ium
           - ActionTitle: txt_SeeOG
-            Description: "- Hot Beverages and most meals will increase your temperature as well"
+            Description: txt_CGqu0
           - ActionTitle: txt_egG2i
-            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Starving[-]"
+            Description: txt_m4uOO
           - ActionTitle: CONDITIONS
-            Description: In-Suit Temperature lower than 15°C
+            Description: txt_e4Aui
       - TaskTitle: txt_m4s48
         PictureFile: Hot.jpg
         Actions:
@@ -3182,13 +3182,13 @@ Chapters:
           - ActionTitle: txt_SWaM8
             Description: n/a
           - ActionTitle: txt_i0auK
-            Description: "- [ffff00]Decrease In-Suit Temperature below 35°C by..[-]\n    ..Sleeping\n    ..taking a Shower\n    ..going inside a powered base or vessel\n    ..using the Mobile AirCon"
+            Description: txt_4a4qm
           - ActionTitle: txt_C04SW
-            Description: "- Purified Water, Juices, Milk, Fruits and a few meals will decrease your temperature"
+            Description: txt_V6aAe
           - ActionTitle: txt_uiq0i
-            Description: "  ..when received: -\n  ..when cured: -\n  ..when not cured: [ff4444]Stamina Low[-]"
+            Description: txt_OGmet
           - ActionTitle: CONDITIONS
-            Description: In-Suit Temperature higher than 35°C
+            Description: txt_0WGeQ
     Activatable: Always
   - ChapterTitle: txt_0mKEq
     Category: FAQ
