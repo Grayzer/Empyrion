@@ -3192,7 +3192,7 @@ Chapters:
     Activatable: Always
   - ChapterTitle: txt_0mKEq
     Category: FAQ
-    Description: "[i]We always assume that evolution\nin the universe follows the same rules,\nso there is a high chance that we do not\nsee anything extraordinary when looking to the stars.\nOf course, the chances that we are wrong, are equally high.\n\n[/i]Ernest Jakkard, Sc.D\nUCH Xenobiological Research Facility\n2468 AD\n\n---\n[ff4444]To show all topics of this guide, click the DROPDOWN ARROW of this chapters HEADLINE in the list on the left!\nClick the SUB-task to reveal the info contained.\nMake sure the PDA INFO button on the TOP RIGHT of the screen is selected![-]"
+    Description: txt_4i2Oe
     PictureFile: Farmers101.jpg
     PlayerLevel: 1
     Visibility: Always
@@ -3200,300 +3200,300 @@ Chapters:
       - TaskTitle: txt_m4qia
         PictureFile: Farmers101.jpg
         Actions:
-          - ActionTitle: INGREDIENT GROUPS
-            Description: "[bcd3d4]Your suit will automatically test and categorize any biological and non-biological item according to similarities found with earth organisms with the build-in xenobiological testing procedure. This means: Even if an item might look different or drop from a plant that does not even remotely look earth-like, anything you can harvest from a plant will be categorized into [-][ffff00]Nutrition Groups[-][bcd3d4] and displayed as: PlantProtein, Natural Sweetener, Grain, Berries, Fruit, Mushroom, Natural Stimulant, Vegetables, Spice, Buds.[-]\n[ffff00]Medical ingredients[-][bcd3d4] are displayed as: Herbal Leaves, Confetti Moss Scrapings, Fire Moss Scrapings, Alien Tooth, Alien Parts, Alien Plasma T6, Alien Plasma ZR1, Alien Thorn[-]\n\nNote: Eating ingredients or raw food has a risk of getting you an Indigestion!"
+          - ActionTitle: txt_OGa40
+            Description: txt_4WiSG
           - ActionTitle: SPROUTS
-            Description: "[bcd3d4]Sprouts are created in the food processor from an item/crop of the plant and Nutrient Solution.\nExample: Plant Protein + Nutrient Solution will give you an Ahax Sprout.[-]"
-          - ActionTitle: GROWING CONDITIONS
-            Description: "[bcd3d4]Oxygen: Always required | No O2 = [-][ffff00]Plant will stop growing[-][bcd3d4]\nTemperature: 15-35°C | lower 0 or higher than 50 = [ff4444]Plant will die[-]\nRadiation: 0[-] | RAD higher than 3 = [ff4444]Plant will die[-][-]"
-          - ActionTitle: REQUIRED TECH
-            Description: "[bcd3d4] - Base / Vessel needs to be powered | No Power  = [ffff00]Plant will stop growing[-][-]\n - Inside a base or Vessel you need a GROWING LIGHT. Place it on the ceiling with exactly 2 blocks in between the top side of the growing plot and the ceiling where the Growing Light is placed\n- A growing light can support 3x3 growing plots at max when placed at the ceiling in the center spot of this array.\n - If the outside conditions meet the Growing Conditions, you can set up a farm without a growing light on the outside. In this case OUTSIDE = open to the sky with no roof (includes NO windows)[-]"
-          - ActionTitle: ALTERNATIVE CRAFTING
-            Description: "[bcd3d4]For most of the items, protocols allow to [ffff00]alternatively craft them from different ingredients[-] as well. For example: Milk, Meat, Plantprotein and most of the Medical ingredients like Scrapings, Alien Parts and Plasma can be converted from substitutes![-]"
+            Description: txt_Waiui
+          - ActionTitle: txt_qiG0u
+            Description: txt_juimK
+          - ActionTitle: txt_e8KOm
+            Description: txt_Gq40a
+          - ActionTitle: txt_b0Ke4
+            Description: txt_G08uW
       - TaskTitle: AlienParts01
         PictureFile: AlienParts01.jpg
         Actions:
-          - ActionTitle: COLLECTABLE FROM
-            Description: "[bcd3d4]  *Reef Plant\n  *Red Coral[-]"
-          - ActionTitle: FARMABLE WITH
-            Description: "[bcd3d4]  *n/a[-]"
-          - ActionTitle: CRAFTABLE FROM
-            Description: "[bcd3d4]  *Egg + Alien Parts + Nitrocellulose[-]"
-          - ActionTitle: USED FOR
-            Description: "[bcd3d4]  *Medikits[-]"
+          - ActionTitle: txt_uOG8C
+            Description: txt_Qmeqo
+          - ActionTitle: txt_WSGSC
+            Description: txt_WcOa4
+          - ActionTitle: txt_iaOa6
+            Description: txt_eOu4m
+          - ActionTitle: txt_GaS0e
+            Description: txt_4KWqw
       - TaskTitle: AlienParts02
         PictureFile: AlienParts02.jpg
         Actions:
-          - ActionTitle: COLLECTABLE FROM
-            Description: "[bcd3d4]  *Loot of NPC and creatures[-]"
-          - ActionTitle: FARMABLE WITH
-            Description: "[bcd3d4]  *n/a[-]"
-          - ActionTitle: CRAFTABLE FROM
-            Description: "[bcd3d4]  *Meat + Alien Tooth + Nutrient Solution[-]"
-          - ActionTitle: USED FOR
-            Description: "[bcd3d4]  *Antiparasite medication[-]"
+          - ActionTitle: txt_eOCe0
+            Description: txt_gGi8C
+          - ActionTitle: txt_ueKio
+            Description: txt_uwCeq
+          - ActionTitle: txt_sKme4
+            Description: txt_Gi4oK
+          - ActionTitle: txt_KW8GO
+            Description: txt_qK4uG
       - TaskTitle: AlienParts03
         PictureFile: AlienParts03.jpg
         Actions:
-          - ActionTitle: COLLECTABLE FROM
-            Description: "[bcd3d4]  *Pod Plant\n  *White Coral [-]"
-          - ActionTitle: FARMABLE WITH
-            Description: "[bcd3d4]  *n/a[-]"
-          - ActionTitle: CRAFTABLE FROM
-            Description: "[bcd3d4]  *Egg + Alien plasma ZR1 + Nitrocellulose"
-          - ActionTitle: USED FOR
-            Description: "[bcd3d4]  *Medikits[-]"
+          - ActionTitle: txt_um08C
+            Description: txt_ecqSm
+          - ActionTitle: txt_KCI4i
+            Description: txt_WuOeC
+          - ActionTitle: txt_eWKGe
+            Description: txt_e4G8u
+          - ActionTitle: txt_iomCu
+            Description: txt_QZ8CK
       - TaskTitle: AlienThorn
         PictureFile: AlienThorn.jpg
         Actions:
-          - ActionTitle: COLLECTABLE FROM
-            Description: "[bcd3d4]  *Opuntia Cactus\n  *Thorn Plant\n  *Beehive Cactus [-]"
-          - ActionTitle: FARMABLE WITH
-            Description: "[bcd3d4]  *n/a [-]"
-          - ActionTitle: CRAFTABLE FROM
-            Description: "[bcd3d4]  *Alien Tooth + Nitrocellulose + Pentaxid Ore"
-          - ActionTitle: USED FOR
-            Description: "[bcd3d4]  *Medikits[-]"
+          - ActionTitle: txt_S44Ke
+            Description: txt_uK2Eq
+          - ActionTitle: txt_aqea1
+            Description: txt_auiQL
+          - ActionTitle: txt_f4iwW
+            Description: txt_KSWee
+          - ActionTitle: txt_Cqxme
+            Description: txt_m8Mwi
       - TaskTitle: AlienTooth
         PictureFile: AlienTooth.jpg
         Actions:
-          - ActionTitle: COLLECTABLE FROM
-            Description: "[bcd3d4]  *Loot of NPC and creatures[-]"
-          - ActionTitle: FARMABLE WITH
-            Description: "[bcd3d4]  *n/a[-]"
-          - ActionTitle: CRAFTABLE FROM
-            Description: "[bcd3d4]  *n/a[-]"
-          - ActionTitle: USED FOR
-            Description: "[bcd3d4]  *Antitoxic medication\n  *Medikits[-]"
+          - ActionTitle: txt_mN8c4
+            Description: txt_Wq4SW
+          - ActionTitle: txt_WGWeu
+            Description: txt_GWiWW
+          - ActionTitle: txt_HK08S
+            Description: txt_uCGqq
+          - ActionTitle: txt_q400q
+            Description: txt_KRW0e
       - TaskTitle: Berries
         PictureFile: Berries.jpg
         Actions:
-          - ActionTitle: COLLECTABLE FROM
-            Description: "[bcd3d4]  *Akua Berries bush[-]"
-          - ActionTitle: FARMABLE WITH
-            Description: "[bcd3d4]  *Akua Berries bush[-]"
-          - ActionTitle: CRAFTABLE FROM
-            Description: "[bcd3d4]  *n/a[-]"
-          - ActionTitle: USED FOR
-            Description: "[bcd3d4]  *[ffff00]Reducing Body Temperature[-]\n  *Healthy Juices\n  *Meals[-]"
+          - ActionTitle: txt_m4caK
+            Description: txt_uiGiw
+          - ActionTitle: txt_qG04u
+            Description: txt_mSmq0
+          - ActionTitle: txt_qKKCm
+            Description: txt_tqiM4
+          - ActionTitle: txt_u4a4G
+            Description: txt_CmCm4
       - TaskTitle: Buds
         PictureFile: Buds.jpg
         Actions:
-          - ActionTitle: COLLECTABLE FROM
-            Description: "[bcd3d4]  *Blue Alien Flower[-]"
-          - ActionTitle: FARMABLE WITH
-            Description: "[bcd3d4]  *n/a[-]"
-          - ActionTitle: CRAFTABLE FROM
-            Description: "[bcd3d4]  *n/a[-]"
-          - ActionTitle: USED FOR
-            Description: "[bcd3d4]  *Creating Hot Beverages ([ffff00]Increasing Body Temperature[-])[-]"
+          - ActionTitle: txt_WS4qq
+            Description: txt_mcvmE
+          - ActionTitle: txt_iK94q
+            Description: txt_CYSWG
+          - ActionTitle: txt_8GaSe
+            Description: txt_m8mn0
+          - ActionTitle: txt_OGCmK
+            Description: txt_Jim6E
       - TaskTitle: ConfettiMossScrapings
         PictureFile: ConfettiMossScrapings.jpg
         Actions:
-          - ActionTitle: COLLECTABLE FROM
-            Description: "[bcd3d4]  *Confetti Moss\n  *Dimple Dome\n  *Dimple Dome Snow[-]"
-          - ActionTitle: FARMABLE WITH
-            Description: "[bcd3d4]  *n/a[-]"
-          - ActionTitle: CRAFTABLE FROM
-            Description: "[bcd3d4]  *Crushed Stones + Mushrooms + Promethium Pellets[-]"
-          - ActionTitle: USED FOR
-            Description: "[bcd3d4]  *Required ingredient for all PILL medications\n  *Medikits\n  *Stamina Boosters[-]"
+          - ActionTitle: txt_qmYKa
+            Description: txt_Se84u
+          - ActionTitle: txt_86Oqs
+            Description: txt_0tWYm
+          - ActionTitle: txt_qeGaK
+            Description: txt_mqCW0
+          - ActionTitle: txt_eeqqe
+            Description: txt_6CGuX
       - TaskTitle: Egg
         PictureFile: Egg.jpg
         Actions:
-          - ActionTitle: COLLECTABLE FROM
-            Description: "[bcd3d4]  *Loot of NPC and creatures[-]"
-          - ActionTitle: FARMABLE WITH
-            Description: "[bcd3d4]  *n/a[-]"
-          - ActionTitle: CRAFTABLE FROM
-            Description: "[bcd3d4]  *n/a[-]"
-          - ActionTitle: USED FOR
-            Description: "[bcd3d4]  *Ingredient for meals[-]"
+          - ActionTitle: txt_OaCuq
+            Description: txt_2qiu8
+          - ActionTitle: txt_6AmOG
+            Description: txt_OKWTG
+          - ActionTitle: txt_WmU6i
+            Description: txt_8S8KS
+          - ActionTitle: txt_bO0q0
+            Description: txt_Kimqi
       - TaskTitle: Fibers
         PictureFile: Fiber.jpg
         Actions:
-          - ActionTitle: COLLECTABLE FROM
-            Description: "[bcd3d4]  *Fiber Plant[-]"
-          - ActionTitle: FARMABLE WITH
-            Description: "[bcd3d4]  *Fiber Plant[-]"
-          - ActionTitle: CRAFTABLE FROM
-            Description: "[bcd3d4]  *Wood Logs[-]"
-          - ActionTitle: USED FOR
-            Description: "[bcd3d4]  *Crafting BioFuel and Survival Tent\n  *Crafting ingredient for Farming tech and devices\n  *Ingredient for Bandages and Medikits[-]"
+          - ActionTitle: txt_24m8O
+            Description: txt_meeKG
+          - ActionTitle: txt_uuCWG
+            Description: txt_W8G0Y
+          - ActionTitle: txt_quuGm
+            Description: txt_4Vase
+          - ActionTitle: txt_m0CaK
+            Description: txt_qBiWs
       - TaskTitle: FireMossScrapings
         PictureFile: FireMossScrapings.jpg
         Actions:
-          - ActionTitle: COLLECTABLE FROM
-            Description: "[bcd3d4]  *Fire Moss[-]"
-          - ActionTitle: FARMABLE WITH
-            Description: "[bcd3d4]  *n/a [-]"
-          - ActionTitle: CRAFTABLE FROM
-            Description: "[bcd3d4]  *Crushed Stones + Mushrooms + Promethium Pellets[-]"
-          - ActionTitle: USED FOR
-            Description: "[bcd3d4]  *Required ingredient for all INJECTION medications\n  *Medikits\n..*Stamina Boosters[-]"
+          - ActionTitle: txt_aO0u8
+            Description: txt_wW8Sa
+          - ActionTitle: txt_adkOU
+            Description: txt_8eCO0
+          - ActionTitle: txt_G8Kqe
+            Description: txt_Wa0m4
+          - ActionTitle: txt_a4Gqu
+            Description: txt_q8a4e
       - TaskTitle: Fruit
         PictureFile: Fruit.jpg
         Actions:
-          - ActionTitle: COLLECTABLE FROM
-            Description: "[bcd3d4]  *Pearthing Plant\n  *Space Orange Tree[-]"
-          - ActionTitle: FARMABLE WITH
-            Description: "[bcd3d4]  *Pearthing Plant\n  *Space Orange Tree[-][-]"
-          - ActionTitle: CRAFTABLE FROM
-            Description: "[bcd3d4]  *n/a[-]"
-          - ActionTitle: USED FOR
-            Description: "[bcd3d4]  *[ffff00]Reducing Body Temperature[-]\n  *Healthy Juices\n  *Meals[-]"
+          - ActionTitle: txt_KynCZ
+            Description: txt_SKQqO
+          - ActionTitle: txt_eeu4a
+            Description: txt_KOeWa
+          - ActionTitle: txt_i0SKw
+            Description: txt_8OKem
+          - ActionTitle: txt_SKQOu
+            Description: txt_KCW4e
       - TaskTitle: Grain
         PictureFile: Grain.jpg
         Actions:
-          - ActionTitle: COLLECTABLE FROM
-            Description: "[bcd3d4]  *Wild Grain[-]"
-          - ActionTitle: FARMABLE WITH
-            Description: "[bcd3d4]  *Corn plant\n  *Wheat plant[-]"
-          - ActionTitle: CRAFTABLE FROM
-            Description: "[bcd3d4]  *n/a[-]"
-          - ActionTitle: USED FOR
-            Description: "[bcd3d4]  *Meals[-]"
+          - ActionTitle: txt_GYuYS
+            Description: txt_iiem6
+          - ActionTitle: txt_G004e
+            Description: txt_qHqua
+          - ActionTitle: txt_CoaWK
+            Description: txt_iOkmm
+          - ActionTitle: txt_uWuIO
+            Description: txt_SOOu8
       - TaskTitle: HerbalLeaves
         PictureFile: HerbalLeaves.jpg
         Actions:
-          - ActionTitle: COLLECTABLE FROM
-            Description: "[bcd3d4]  *Pixie Stalks & Pixie Stalks Snow\nAloe Vera[-]"
-          - ActionTitle: FARMABLE WITH
-            Description: "[bcd3d4]  *Aloe Vera[-]"
-          - ActionTitle: CRAFTABLE FROM
-            Description: "[bcd3d4]  *n/a[-]"
-          - ActionTitle: USED FOR
-            Description: "[bcd3d4]  *[ffff00]Removes INDIGESTION when consumed[-]\n  *Basic ingredient for nearly all medications and Medikits[-]"
+          - ActionTitle: txt_eiiOC
+            Description: txt_eq044
+          - ActionTitle: txt_0SKW0
+            Description: txt_iW4OS
+          - ActionTitle: txt_qaq8O
+            Description: txt_0KOOW
+          - ActionTitle: txt_WC4qu
+            Description: txt_uWaWu
       - TaskTitle: Meat
         PictureFile: Meat.jpg
         Actions:
-          - ActionTitle: COLLECTABLE FROM
-            Description: "[bcd3d4]    *Loot of NPC and creatures[-]"
-          - ActionTitle: FARMABLE WITH
-            Description: "[bcd3d4]  *n/a[-]"
-          - ActionTitle: CRAFTABLE FROM
-            Description: "[bcd3d4]  *Plant Protein + Vegetables[-]"
-          - ActionTitle: USED FOR
-            Description: "[bcd3d4]  *Growing Alien Parts\n  *Ingredient for meals[-]"
+          - ActionTitle: txt_me8Y8
+            Description: txt_84qOS
+          - ActionTitle: txt_tKKO4
+            Description: txt_GS8CG
+          - ActionTitle: txt_GSiqq
+            Description: txt_8mKuA
+          - ActionTitle: txt_i6YK4
+            Description: txt_GCS8u
       - TaskTitle: Milk
         PictureFile: Milk.jpg
         Actions:
-          - ActionTitle: COLLECTABLE FROM
-            Description: "[bcd3d4]    *Loot of NPC and creatures[-]"
-          - ActionTitle: FARMABLE WITH
-            Description: "[bcd3d4]  *n/a[-]"
-          - ActionTitle: CRAFTABLE FROM
-            Description: "[bcd3d4]  *Plant Protein + Purified Water[-]"
-          - ActionTitle: USED FOR
-            Description: "[bcd3d4]  *Ingredient for meals[-]"
+          - ActionTitle: txt_4G2S8
+            Description: txt_gOGGu
+          - ActionTitle: txt_CIOKC
+            Description: txt_SOu0G
+          - ActionTitle: txt_AqqWG
+            Description: txt_04qoO
+          - ActionTitle: txt_Pi4OG
+            Description: txt_meiSU
       - TaskTitle: Mushrooms
         PictureFile: Mushrooms.jpg
         Actions:
-          - ActionTitle: COLLECTABLE FROM
-            Description: "[bcd3d4]  *Green Spiky Mushroom\n  *Brown Mushroom\n  *Tall Green Mushroom[-]"
-          - ActionTitle: FARMABLE WITH
-            Description: "[bcd3d4]  *Brown Mushroom[-]"
-          - ActionTitle: CRAFTABLE FROM
-            Description: "[bcd3d4]  *n/a[-]"
-          - ActionTitle: USED FOR
-            Description: "[bcd3d4]  *[ffff00]Removes POISON BITE when consumed[-]\n  *Ingredient for all Radiation medications\n  *Medikits[-]"
+          - ActionTitle: txt_mUqiq
+            Description: txt_WIuKu
+          - ActionTitle: txt_i6GaS
+            Description: txt_KB000
+          - ActionTitle: txt_O44KV
+            Description: txt_0u4eq
+          - ActionTitle: txt_OKufW
+            Description: txt_GOWuO
       - TaskTitle: NaturalStimulant
         PictureFile: NaturalStimulant.jpg
         Actions:
-          - ActionTitle: COLLECTABLE FROM
-            Description: "[bcd3d4]  *Kavae Plant\n  *Brain Fungus & Brain Fungus Snow\n  *Pulpit Fungus[-]"
-          - ActionTitle: FARMABLE WITH
-            Description: "[bcd3d4]  *Kavae Plant[-]"
-          - ActionTitle: CRAFTABLE FROM
-            Description: "[bcd3d4]  *n/a[-]"
-          - ActionTitle: USED FOR
-            Description: "[bcd3d4]  *[ffff00]Removes STUNNED when consumed[-]\n [-]  *Ingredient for all stamina-boosting Drinks and Drugs[-]"
+          - ActionTitle: txt_qGiuG
+            Description: txt_GmMSC
+          - ActionTitle: txt_4WKmU
+            Description: txt_qOmiS
+          - ActionTitle: txt_W4GK8
+            Description: txt_iGCmE
+          - ActionTitle: txt_G8a4m
+            Description: txt_muieq
       - TaskTitle: NaturalSweetener
         PictureFile: NaturalSweetener.jpg
         Actions:
-          - ActionTitle: COLLECTABLE FROM
-            Description: "[bcd3d4]  *Alien Worm plant[-]"
-          - ActionTitle: FARMABLE WITH
-            Description: "[bcd3d4]  *Alien Worm plant [-]"
-          - ActionTitle: CRAFTABLE FROM
-            Description: "[bcd3d4]  *n/a[-]"
-          - ActionTitle: USED FOR
-            Description: "[bcd3d4]  *[ffff00]Removes DERMAL BURN when consumed[-]\n  *Sweetening Ingredient for meals and bakery products[-]"
+          - ActionTitle: txt_8iqeo
+            Description: txt_e8S28
+          - ActionTitle: txt_eO4Gi
+            Description: txt_SSWGa
+          - ActionTitle: txt_i0Ami
+            Description: txt_qemmu
+          - ActionTitle: txt_qg8qm
+            Description: txt_uiC80
       - TaskTitle: PlantProtein
         PictureFile: PlantProtein.jpg
         Actions:
-          - ActionTitle: COLLECTABLE FROM
-            Description: "[bcd3d4]  *Corndogs & Corndogs Snow\n  *Ahax plant\n  *Seaweed & Hydrilla\n  *Big Alien Flower[-]"
-          - ActionTitle: FARMABLE WITH
-            Description: "[bcd3d4]  *Ahax plant[-]"
-          - ActionTitle: CRAFTABLE FROM
-            Description: "[bcd3d4]  *Vegetables[-]"
-          - ActionTitle: USED FOR
-            Description: "[bcd3d4]  *Ingredient for all Ointment medications\n  *Ingredient for Parasite medications\n  *Ingredient for Bandages\n  *Meals[-]"
+          - ActionTitle: txt_JKmmK
+            Description: txt_mqG0W
+          - ActionTitle: txt_eqGSo
+            Description: txt_ie0Cu
+          - ActionTitle: txt_Ag4Ci
+            Description: txt_iSSCm
+          - ActionTitle: txt_uaEua
+            Description: txt_iKOGS
       - TaskTitle: Spice
         PictureFile: Spice.jpg
         Actions:
-          - ActionTitle: COLLECTABLE FROM
-            Description: "[bcd3d4]  *Cobra Leaves[-]"
-          - ActionTitle: FARMABLE WITH
-            Description: "[bcd3d4]  *Cobra Leaves[-]"
-          - ActionTitle: CRAFTABLE FROM
-            Description: "[bcd3d4]  *n/a[-]"
-          - ActionTitle: USED FOR
-            Description: "[bcd3d4]  *[ffff00]Increases Body Temperature when consumed[-]\n  *Can remove INDIGESTION but also has a chance to cause INDIGESTION again when consumed[-]\n  *Meals\n  *Stomach Pills\n  *Energy Pills"
+          - ActionTitle: txt_ZkQGe
+            Description: txt_qiGsC
+          - ActionTitle: txt_u8OCS
+            Description: txt_G8SmW
+          - ActionTitle: txt_OieAm
+            Description: txt_WWiWi
+          - ActionTitle: txt_8aOYe
+            Description: txt_4m8KS
       - TaskTitle: Vegetables
         PictureFile: Vegetables.jpg
         Actions:
-          - ActionTitle: COLLECTABLE FROM
-            Description: "[bcd3d4]  *Egg Plant\n  *Large Eggplant\n  *Tomato plant\n  *Pumpkin plant\n  *Blue Pepper[-]"
-          - ActionTitle: FARMABLE WITH
-            Description: "[bcd3d4]  *Pumpkin plant\n  *Blue Pepper\n  *Tomato plant\n  *Large Eggplant[-]"
-          - ActionTitle: CRAFTABLE FROM
-            Description: "[bcd3d4]  *n/a[-]"
-          - ActionTitle: USED FOR
-            Description: "[bcd3d4]  *Healthy Juices\n  *Basic ingredient for a lot of meals[-]"
+          - ActionTitle: txt_4uSu8
+            Description: txt_qqKPq
+          - ActionTitle: txt_qeWl0
+            Description: txt_aCmSC
+          - ActionTitle: txt_aKquO
+            Description: txt_GiGGu
+          - ActionTitle: txt_G4mmi
+            Description: txt_W0euK
     Activatable: Always
   - ChapterTitle: txt_4CiW8
     Category: FAQ
-    Description: "[i]The Universe is full of dangers,\nand wonders,\nand wonderful dangers!\n\n[/i]Motto of 2nd Exploration Corps\nUCH\nFounded 2460 AD\n\n---\n[ff4444]To show all topics of this guide, click the DROPDOWN ARROW of this chapters HEADLINE in the list on the left!\nClick the SUB-task to reveal the info contained.\nMake sure the PDA INFO button on the TOP RIGHT of the screen is selected![-]"
+    Description: txt_mSuGK
     PictureFile: LargeReptiles.jpg
     PlayerLevel: 1
     Visibility: Always
     Tasks:
-      - TaskTitle: NPC Faction Origins
+      - TaskTitle: txt_aeuW8
         Actions:
-          - ActionTitle: Important Notes
-            Description: "1. All the faction-assignments below apply to wandering NPCs and Patrols at all times (does NOT depend on the faction territory!)\n2. If an NPC is spawned in a POI, the origin of the NPC is defined by the faction of the POI, EXCEPT the creator of the POI has set a different origin for the to-be-spawned NPC (what is possible in the NPC Spawn setup dialogue!)\n3. Turret targeting info, regarding NPC factions:\n- All NPC factions members ( Zrx, Pol, Tal) apply to the 'NPC Factions' checkbox, either in a POI or when wandering around!\n- Turrets will not attack Zrx, Pol and Tal if you are on NEUTRAL standing or better, even WHEN the checkbox for NPC factions is ticked!\n- LEGACY (Global 'Alien' Faction) creatures will be attacked only when PREDATOR checkbox is ticked, as Aln is not a real NPC faction (you cannot change your standing; always HOSTILE)\n- Prey and Predator are no NPC factions. That's why they have their own targeting setting."
+          - ActionTitle: txt_aSeWs
+            Description: txt_GG484
           - ActionTitle: ZIRAX
-            Description: "Tag: Zrx\n- ArmoredGolem\n-DroneBomberAttackBase\n- DroneLargeAttackBase\n- DroneSmallFast01Minigun\n- DroneSmallFast01Rocket\n- DroneSmallSlow02Minigun\n- EnemyDroneV2Minigun\n- EnemyDroneV2Plasma\n- Mechanoid\n- RipperDog\n- SpaceDronePlasma\n- TraderZirax\n- TurretRobotV2\n- Zirax Commander\n- ZiraxLaser\n- ZiraxMinigun\n- ZiraxRocket\n- ZiraxShotgun\n- ZiraxSniper"
+            Description: txt_qe080
           - ActionTitle: TALON
-            Description: "Tag: Tal\n- Crawler\n- TalonGuardian (all variations, static and moving)\n- TraderTalon (all variations)\n- TalonSentinel (all variations)"
+            Description: txt_S4AGC
           - ActionTitle: POLARIS
-            Description: "Tag: Pol\n- AlienCivilians (any)\n- AssaultCyborg"
+            Description: txt_iSKm4
           - ActionTitle: LEGACY
-            Description: "Tag: Aln (Alien)\n- AlienAssassinGrey\n- AlienAssassinRed\n- AlienBug02\n- GolemDesert\n- GolemIce\n- GolemSwamp\n- Hexapod\n- Overseer\n- PlantMonster (not used anymore)\n- TotalHorror\n- WoodWalker"
+            Description: txt_uuO0i
           - ActionTitle: PREDATOR
-            Description: "- AlienBug03\n- AlienBug04\n- CaveWormGreen\n- CaveWormGrey\n- CaveWormWhite\n- Creepy\n- Otyugh\n- Raptor\n- RaptorNight\n- Spider01\n- Spider02\n- Spider03\n- Spinosaurus\n- Telluropod"
+            Description: txt_0K440
           - ActionTitle: PREY
-            Description: "- AlienBug01 (but will attack if player is too close)\n- LizardMule\n- LizardMuleBaby\n- MegalonopsGrey\n- Oviraptor\n- Pangolin\n- Parasaur\n- Slime\n- SlimeWhite\n- Triceratops\n- WormDesert\n- WormDesertLarge"
-      - TaskTitle: Planetary Drones
+            Description: txt_iaaqC
+      - TaskTitle: txt_a8aC4
         PictureFile: PlanetaryDrones.jpg
         Actions:
-          - ActionTitle: SMALL DRONES
-            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Minigun, Cannon, Rockets, Plasma\nHITPOINTS: Low\nMOVEMENT: Slow[-]"
-          - ActionTitle: LARGE DRONES
-            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Single & Double Minigun, Single & Double Cannon,  Plasma\nHITPOINTS: Medium\nMOVEMENT: Slow[-]"
-          - ActionTitle: HEAVY DRONES
-            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT:  Minigun, Plasma\nHITPOINTS: High\nMOVEMENT: Slow[-]"
-          - ActionTitle: BOMBER DRONES
-            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT:  Cluster Bombs\nHITPOINTS: High\nMOVEMENT: Fast[-]"
-      - TaskTitle: Space Drones
+          - ActionTitle: txt_Ouqqq
+            Description: txt_8Gmum
+          - ActionTitle: txt_8OMKa
+            Description: txt_4uaqC
+          - ActionTitle: txt_aCC04
+            Description: txt_68G4O
+          - ActionTitle: txt_uOWua
+            Description: txt_2m8a8
+      - TaskTitle: txt_60CCq
         PictureFile: SpaceDrones.jpg
         Actions:
-          - ActionTitle: LASER DRONES
-            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Laser Pulse Cannon\nHITPOINTS: Medium\nMOVEMENT: Medium[-]"
-          - ActionTitle: PLASMA DRONES
-            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Plasma Cannon\nHITPOINTS: Medium\nMOVEMENT: Slow[-]"
+          - ActionTitle: txt_aqeWe
+            Description: txt_quaCW
+          - ActionTitle: txt_WOqwc
+            Description: txt_40m0C
       - TaskTitle: Vessels
         PictureFile: Vessels.jpg
         Actions:
@@ -3623,7 +3623,7 @@ Chapters:
     Activatable: Always
   - ChapterTitle: txt_mmSS8
     Category: FAQ
-    Description: "[i]If you do not pay attention\nto what happens around you,\nyour First Contact might\nalso be your last contact.\n\n[/i]Henry Robinson, General\nUCH First Contact Group\n2471 AD\n\n---\n[ff4444]To show all topics of this guide, click the DROPDOWN ARROW of this chapters HEADLINE in the list on the left!\nClick the SUB-task to reveal the info contained.\nMake sure the PDA INFO button on the TOP RIGHT of the screen is selected![-]"
+    Description: txt_WaGc4
     PictureFile: UCH.jpg
     PlayerLevel: 1
     Visibility: Always
@@ -3681,7 +3681,7 @@ Chapters:
     Activatable: Always
   - ChapterTitle: chptitleKnowledgebase
     Category: FAQ
-    Description: "\n\n---\n[ff4444]To show all topics of this guide, click the DROPDOWN ARROW of this chapters HEADLINE in the list on the left!\nClick the SUB-task to reveal the info contained.\nMake sure the PDA INFO button on the TOP RIGHT of the screen is selected![-]"
+    Description: txt_ZqC0e
     PictureFile: dangerspace.jpg
     PlayerLevel: 1
     Visibility: Always
