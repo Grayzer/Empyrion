@@ -684,7 +684,7 @@ Chapters:
             AllowManualCompletion: true
             CompletedMessage: "norm;10|txt_KuCSu"
     Activatable: Always
-  - ChapterTitle: UCH Story Chapter I - Human Remains
+  - ChapterTitle: txt_SC9ui
     Category: UCHMission
     Rewards:
       - Item: ArmorMedium
@@ -705,7 +705,7 @@ Chapters:
         StartDelay: 10
         StartMessage: "norm;60|taskSMPersonalLogfile"
         Actions:
-          - ActionTitle: "Open PDA ({keybind(PDA)})"
+          - ActionTitle: txt_2ivKu
             Description: ===
             Check: WindowOpened
             Names:
@@ -795,34 +795,35 @@ Chapters:
             Names:
               - CrashedTitanBack
               - Logs
-  - ChapterTitle: UCH Story Chapter II - Ancient Revelations
+    Activatable: Always
+  - ChapterTitle: txt_S0iK8
     Category: UCHMission
-    Preamble: "Begin log entry. IDA would you care to fill in our audience?\n\n[ffff00][i]1. We are in the right spatial coordinates and the correct galaxy, Andromeda, but years after the primary Terran fleet arrived.\n2. Presumably because the faulty warpdrive of our escape vessel created a wormhole in space AND time\n3. We recently discovered and explored the MS TITAN. Logs found therein indicated the fleet arrived and was ambushed, was then defeated, and fled elsewhere.\n4. For all we know, they could still be alive\n5. We have encountered the Zirax Empire and heard the names 'Talon' and 'Ancients'. Insufficient information has been acquired on those entities[-][/i]\n\nAlright, log entry completed. IDA, situational analysis on what to do next?"
-    Description: "[ffff00]When we entered orbit, scans briefly indicated a debris field. I am currently scanning the logs of the stations for any signal or information.\n\nOur next objective should be to construct or acquire a warp-capable vessel.\n\nI would suggest venturing to orbit as some of the scans indicate faint warp signatures which would save us time and resources.[-]\n\nAwesome Plan IDA!\n\n[ffff00]I know.[-]"
+    Preamble: txt_Su4Cm
+    Description: txt_JqOiO
     PlayerLevel: 1
     Visibility: Always
     HideTasks: true
     Tasks:
-      - TaskTitle: Space Bound
+      - TaskTitle: txt_mWGSC
         Actions:
-          - ActionTitle: Go to space
+          - ActionTitle: txt_a7aii
             Description: ===
             Check: PlayfieldTypeEntered
             Names:
               - Space
             AllowManualCompletion: true
-            CompletedMessage: "norm;60|[ffff00][IDA][-] I am tracking a weak warp echo. Could be from a Small Vessel. The echo suggests the warpdrive could be intact.\n\n[ffff00]Head for the SHIP SYMBOL on the RADAR.[-]"
+            CompletedMessage: "norm;60|txt_DCmOi"
       - TaskTitle: Minefield
         Actions:
-          - ActionTitle: Find Small Vessel
+          - ActionTitle: txt_4CSCe
             Description: ===
             Check: NearPoi
             Guiding: Destination
             Names:
               - SV_Destroyed_withWarp
             AllowManualCompletion: true
-            CompletedMessage: "norm;60|[ff4444]Reduce speed! Several energy signatures detected. Active signatures. A minefield![-]\n\nThe signal from the SV is strange as well - there are charges set to detonate if get closer.\nWe need to [ffff00]find the control station[-] for the minefield and charges first."
-      - TaskTitle: Control Station
+            CompletedMessage: "norm;60|txt_qaeGq"
+      - TaskTitle: txt_miCiW
         Actions:
           - ActionTitle: Investigate
             Description: ===
@@ -830,13 +831,13 @@ Chapters:
             Guiding: TempIndoor
             GuidingDistance: 600
             AllowManualCompletion: true
-            CompletedMessage: "norm;60|IDA...Something is... wrong... more growth like the abandoned structures on the planet.\nAnyhow. Where is the kill switch for the Minefield?\n\n[ffff00][IDA][-] Inside. On the other side of the wall, of course."
+            CompletedMessage: "norm;60|txt_Ka4hc"
             Names:
               - Control Station
               - Investigate
-      - TaskTitle: Switch Puzzle
+      - TaskTitle: txt_qOaWq
         Actions:
-          - ActionTitle: Switch One
+          - ActionTitle: txt_qiSKc
             Description: ===
             Check: NearUnit
             Guiding: TempIndoor
@@ -846,18 +847,18 @@ Chapters:
             Names:
               - Control Station
               - Lever 1
-      - TaskTitle: Pull the Lever
+      - TaskTitle: txt_mCCCe
         Actions:
-          - ActionTitle: Check what happens
+          - ActionTitle: txt_WKZOC
             Description: ===
             Check: Signal
             Names:
               - StatusSwitch
             AllowManualCompletion: true
-            CompletedMessage: "norm;60|IDA, that did not do anything and if this message that just lit up next to me is any indicator, we could be in real trouble.\n\n[ffff00][IDA][-] Scans show [ffff00]another switch next to the entrance door[-] just came online."
-      - TaskTitle: Switch 2
+            CompletedMessage: "norm;60|txt_SaCu0"
+      - TaskTitle: txt_KuCei
         Actions:
-          - ActionTitle: Go to Lever
+          - ActionTitle: txt_BQiGG
             Description: ===
             Check: NearUnit
             Guiding: TempIndoor
@@ -867,90 +868,90 @@ Chapters:
             Names:
               - Control Station
               - Lever 2
-      - TaskTitle: Pull another Lever
+      - TaskTitle: txt_SGKOm
         Actions:
-          - ActionTitle: Check what happens
+          - ActionTitle: txt_CCiG4
             Description: ===
             Check: Signal
             Names:
               - PurgeMinefield
             AllowManualCompletion: true
-            CompletedMessage: "norm;60|An error message. But I think I noticed something open, did you hear that?"
-      - TaskTitle: Hidden Room
+            CompletedMessage: "norm;60|txt_We84W"
+      - TaskTitle: txt_4WemG
         Actions:
-          - ActionTitle: Go to hidden room
+          - ActionTitle: txt_WwuK0
             Description: ===
             Check: NearUnit
             Guiding: TempIndoor
             GuidingDistance: 5
             AllowManualCompletion: true
-            CompletedMessage: "norm;60|Ha. Another Lever. Its like someone is doing this on purpose...\n\nOk... calm down... we can still get out of this, pull the lever.\n\nIf this does nothing I can always blast this place with some rockets..."
+            CompletedMessage: "norm;60|txt_eNmqm"
             Names:
               - Control Station
               - Lever 3
-      - TaskTitle: Little Mouse
+      - TaskTitle: txt_0mEqQ
         Actions:
-          - ActionTitle: Activate Lever
+          - ActionTitle: txt_S8m2i
             Description: ===
             Check: Signal
             Names:
               - TeleportActivate
             AllowManualCompletion: true
-            CompletedMessage: "norm;60|[ffff00][IDA][-] Sir, a teleporter connection just came online in the center of the room!"
+            CompletedMessage: "norm;60|txt_qmeOW"
       - TaskTitle: Teleporter
         Actions:
-          - ActionTitle: Go to Teleporter
+          - ActionTitle: txt_4mSC0
             Description: ===
             Check: NearUnit
             Guiding: TempIndoor
             GuidingDistance: 5
             AllowManualCompletion: true
-            CompletedMessage: "norm;60|That other LCD seemed to suggest that this teleporter was sealed for a reason...\nBut our primary objective is to re-establish contact with the UCH fleet, we need more information what is going on.\n\nThe warpdrive will not run away... I hope..."
+            CompletedMessage: "norm;60|txt_mCu4G"
             Names:
               - Control Station
               - Door to Teleporter
-      - TaskTitle: Abandoned Ship
+      - TaskTitle: txt_i84eO
         Actions:
-          - ActionTitle: Use Teleporter
+          - ActionTitle: txt_id8C0
             Description: ===
             Check: NearUnit
             Guiding: TempIndoor
             GuidingDistance: 5
             AllowManualCompletion: true
-            CompletedMessage: "norm;60|[ffff00][IDA][-] Scans indicate that was a short-range teleport. Consult your map to see if our vessel is within short-range travel distance.\n\n[ffff00]Bringing the ship here[-] will allow for a mobile base in the event of unexpected consequences."
+            CompletedMessage: "norm;60|txt_eSBwk"
             Names:
               - Derelict Ship
               - Hangar
-      - TaskTitle: Into The Dark
+      - TaskTitle: txt_64GCW
         Actions:
-          - ActionTitle: Open Door
+          - ActionTitle: txt_a4WeO
             Description: ===
             Check: Signal
             Names:
               - Entrance
             AllowManualCompletion: true
-            CompletedMessage: "norm;60|[ffff00][IDA][-] That was the correct lever. Again."
+            CompletedMessage: "norm;60|txt_aiOZ4"
       - TaskTitle: Galery
         Actions:
-          - ActionTitle: Go Inside
+          - ActionTitle: txt_i84e4
             Description: ===
             Check: NearUnit
             Guiding: TempIndoor
             GuidingDistance: 10
             AllowManualCompletion: true
-            CompletedMessage: "norm;60|That's starting to become spooky."
+            CompletedMessage: "norm;60|txt_0m0mW"
             Names:
               - Derelict Ship
               - Galery
       - TaskTitle: Floor
         Actions:
-          - ActionTitle: Go Inside
+          - ActionTitle: txt_4KCKK
             Description: ===
             Check: NearUnit
             Guiding: TempIndoor
             GuidingDistance: 15
             AllowManualCompletion: true
-            CompletedMessage: "norm;60|Reads like we shouldn't be here...Ok, screw it. Lets find that core and whatever information are hidden here. What do you think, IDA?\n\n[ffff00][IDA][-] Lock and Load."
+            CompletedMessage: "norm;60|txt_iGOam"
             Names:
               - Derelict Ship
               - Bulletin Board
@@ -958,18 +959,18 @@ Chapters:
         OnActivatePlayfieldOps:
           - "DevicePower: local; Exit; false"
         Actions:
-          - ActionTitle: Find Answers
+          - ActionTitle: txt_mema0
             Description: ===
             Check: Signal
             Names:
               - Showdown
             AllowManualCompletion: true
-            CompletedMessage: "mbox;60|(whispering)[i]This is the one calling us...\n\nMighty warrior from the future...\n\n..calling us...?\n..is this the chosen one..?\nCome up to us...have no fear, Chosen one[/i]"
+            CompletedMessage: "mbox;60|txt_eq4uO"
       - TaskTitle: Endgame
         OnCompletePlayfieldOps:
           - "DevicePower: local; Exit; true"
         Actions:
-          - ActionTitle: Find Answers
+          - ActionTitle: txt_iCOWO
             Description: ===
             Check: NearUnit
             Guiding: TempIndoor
@@ -978,6 +979,7 @@ Chapters:
             Names:
               - Derelict Ship
               - Exit
+    Activatable: Always
   - ChapterTitle: txt_qK4ui
     Category: TalonMission
     Description: txt_a44iG
@@ -3497,129 +3499,129 @@ Chapters:
       - TaskTitle: Vessels
         PictureFile: Vessels.jpg
         Actions:
-          - ActionTitle: TROOP TRANSPORTERS (Planet)
-            Description: "[bcd3d4]MODE: Drops Reinforcements to attacked positions\nARMAMENT: non\nHITPOINTS: High\nMOVEMENT: Medium[-]"
-          - ActionTitle: PATROL VESSELS (Planet)
-            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Light to Medium\nHITPOINTS: Medium to High\nMOVEMENT: Slow to Medium[-]"
-          - ActionTitle: PATROL VESSELS (Space)
-            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Heavy\nHITPOINTS: High to Very High\nMOVEMENT: Slow to Medium[-]"
-          - ActionTitle: FREIGHTERS (Space)
-            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Light to Medium\nHITPOINTS: Medium to High\nMOVEMENT: Slow[-]"
+          - ActionTitle: txt_mmeuu
+            Description: txt_aa0aO
+          - ActionTitle: txt_iGGSG
+            Description: txt_SmKqG
+          - ActionTitle: txt_iOWm0
+            Description: txt_EWWaa
+          - ActionTitle: txt_Slaa4
+            Description: txt_SqmO0
       - TaskTitle: Mechanoids
         PictureFile: Mechanoids.jpg
         Actions:
-          - ActionTitle: TURRET ROBOTS SMALL
-            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Fast-tracking Double-Miniguns\nHITPOINTS: Low\nATTACK SPEED: Very Slow"
-          - ActionTitle: TURRET ROBOTS LARGE
-            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Laser Weapons\nHITPOINTS: Medium\nATTACK SPEED: Slow"
-          - ActionTitle: ASSAULT CYBORGS
-            Description: "[bcd3d4]MODE: Attack when provoked\nARMAMENT: Laser Weapons\nHITPOINTS: Medium\nATTACK SPEED: Slow"
-      - TaskTitle: Zirax Empire Troops
+          - ActionTitle: txt_m0GGK
+            Description: txt_t4km8
+          - ActionTitle: txt_G4hKm
+            Description: txt_u8q70
+          - ActionTitle: txt_sG8Gu
+            Description: txt_umi8W
+      - TaskTitle: txt_mOma6
         PictureFile: ZiraxTroopers.jpg
         Actions:
-          - ActionTitle: SHOTGUN TROOPERS
-            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Shotgun\nHITPOINTS: Low\nATTACK SPEED: Slow"
-          - ActionTitle: MINIGUN TROOPERS
-            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Miniguns\nHITPOINTS: Low\nATTACK SPEED: Slow"
-          - ActionTitle: LASER TROOPERS
-            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Laser Rifle\nHITPOINTS: Medium\nATTACK SPEED: Slow"
+          - ActionTitle: txt_qaW0m
+            Description: txt_4G0SK
+          - ActionTitle: txt_J80mG
+            Description: txt_u1KWO
+          - ActionTitle: txt_W4mWN
+            Description: txt_quOm0
           - ActionTitle: SNIPERS
-            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Sniper Rifle\nHITPOINTS: Medium\nATTACK SPEED: Slow"
-          - ActionTitle: ROCKET TROOPERS
-            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Rocket Launcher\nHITPOINTS: Medium\nATTACK SPEED: Slow"
+            Description: txt_GA0Ce
+          - ActionTitle: txt_CS0sS
+            Description: txt_KWuqK
       - TaskTitle: Golems
         PictureFile: Golems.jpg
         Actions:
-          - ActionTitle: SWAMP GOLEMS
-            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Fists\nHITPOINTS: High\nATTACK SPEED: Medium"
-          - ActionTitle: DESERT GOLEMS
-            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Fists\nHITPOINTS: High\nATTACK SPEED: Medium"
-          - ActionTitle: ARMORED GOLEMS
-            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Fists\nHITPOINTS: Very High\nATTACK SPEED: Medium"
-          - ActionTitle: SNOW GOLEMS
-            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Fists\nHITPOINTS: High\nATTACK SPEED: Medium"
-      - TaskTitle: Native and other NPCs
+          - ActionTitle: txt_iS0wG
+            Description: txt_0Om0A
+          - ActionTitle: txt_UOeep
+            Description: txt_O0q4i
+          - ActionTitle: txt_0CWOv
+            Description: txt_qO8qS
+          - ActionTitle: txt_KiW8S
+            Description: txt_tiui4
+      - TaskTitle: txt_88Oam
         PictureFile: Natives.jpg
         Actions:
-          - ActionTitle: TALON GUARDIANS
-            Description: "[bcd3d4]MODE: Attack when provoked\nARMAMENT: Melee\nHITPOINTS: Medium\nATTACK SPEED: Medium"
+          - ActionTitle: txt_0ESqm
+            Description: txt_4sau0
           - ActionTitle: HEXAPODS
-            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Melee\nHITPOINTS: Medium\nATTACK SPEED: High"
-          - ActionTitle: ALIEN ASSASSINS
-            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Melee\nHITPOINTS: Medium\nATTACK SPEED: High"
+            Description: txt_0ai48
+          - ActionTitle: txt_K8mCG
+            Description: txt_eG88i
           - ActionTitle: CIVILIANS
-            Description: "[bcd3d4]MODE: Attack when provoked\nARMAMENT: Laser Pistol"
+            Description: txt_eaWGK
           - ActionTitle: TRADERS
-            Description: "[bcd3d4]MODE: Attack when provoked\nARMAMENT: Laser Pistol"
+            Description: txt_Iqi0I
       - TaskTitle: Mutants
         PictureFile: Mutants.jpg
         Actions:
           - ActionTitle: OVERSEERS
-            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Melee\nHITPOINTS: Medium\nATTACK SPEED: High"
-          - ActionTitle: PLANT MONSTERS
-            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Melee\nHITPOINTS: Low\nATTACK SPEED: Medium"
-          - ActionTitle: TOTAL HORRORS
-            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Melee\nHITPOINTS: Medium\nATTACK SPEED: Medium"
-      - TaskTitle: Reptiles I
+            Description: txt_qiuX4
+          - ActionTitle: txt_SiClg
+            Description: txt_WHqhc
+          - ActionTitle: txt_u0WmK
+            Description: txt_KSKmK
+      - TaskTitle: txt_OsW0G
         PictureFile: Reptiles.jpg
         Actions:
-          - ActionTitle: RAPTOR HERDS
-            Description: "[bcd3d4]MODE: Attack when provoked\nARMAMENT: Melee\nHITPOINTS: Low\nATTACK SPEED: Very High"
-          - ActionTitle: SINGLE RAPTORS
-            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Melee\nHITPOINTS: Low\nATTACK SPEED: Very High"
+          - ActionTitle: txt_8im0V
+            Description: txt_4Siq8
+          - ActionTitle: txt_v8qmu
+            Description: txt_emmCe
           - ActionTitle: SPINOSAURS
-            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Melee\nHITPOINTS: Low\nATTACK SPEED: Very High"
+            Description: txt_Wm42i
           - ActionTitle: OVIRAPTOR
-            Description: "[bcd3d4]MODE: Attack when provoked\nARMAMENT: Melee\nHITPOINTS: Low\nATTACK SPEED: Very High"
-          - ActionTitle: PARASAURS GROUP
-            Description: "States\n  *Calm - walk slowly around, grazing\n  *Low alert - stop walking, raise up (whole group)\n  *High alert - run away from danger together\nAlerting factors\n  *Noise - shooting a weapon / using items (drill) (max 50 meters)\n  *Damage\nVision\n  *If they can see you, and you are moving. (max 90 meters)\n  *not moving persons are not a threat, only if the person gets too close to the animals (20m)\n  *Death of group member\n>> THE CLOSER THE ALERTING FACTOR IS, THE MORE WILL THE ANIMAL REACT"
-      - TaskTitle: Reptiles II
+            Description: txt_aqquS
+          - ActionTitle: txt_0i4Ca
+            Description: txt_S0eOK
+      - TaskTitle: txt_iWG48
         PictureFile: LargeReptiles.jpg
         Actions:
           - ActionTitle: MEGALONOPSES
-            Description: "[bcd3d4]MODE: Attack when provoked"
-          - ActionTitle: LIZARD MULE
-            Description: "[bcd3d4]MODE: Will run away"
+            Description: txt_SSGWu
+          - ActionTitle: txt_Q2aqm
+            Description: txt_eu6ia
           - ActionTitle: TRICERATOPSES
-            Description: "[bcd3d4]  *Has vision, alert, fear\nStates\n  *Calm, no player around - walks randomly\n  *Calm, player around - walks around player, makes small roar animation\n  *After small damage - goes to Rage\nModifiers for 'Rage':\n  *If far from player, will make big roar and charge the player\n  *After the start of the charge, he will not make any turns, so it is possible to avoid.\n  *If the charge is not avoided, the damage is deadly! As he is running he is giving damage periodically - so it is possible that he will damage the player multiple times\n  *If the player is close, he will make close range attacks with probability of roars\n  *If he is in rage and player goes to water, trice will stay out and mage angry roars"
+            Description: txt_u00Wa
       - TaskTitle: Spiders
         PictureFile: Spiders.jpg
         Actions:
-          - ActionTitle: SPIDERS (01)
-            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Melee\nHITPOINTS: Low\nATTACK SPEED: High"
-          - ActionTitle: SPIDERS (02)
-            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Melee\nHITPOINTS: Medium\nATTACK SPEED: Medium"
-          - ActionTitle: SPIDERS (03)
-            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Ranged Attack\nHITPOINTS: Medium\nATTACK SPEED: Very High"
-          - ActionTitle: SPIDERS GROUP BEHAVIOR
-            Description: "Spiders will appear in a group, but they act more individually, they will share fear, and the more spiders is there together, the faster they will recover from fear\nStates:\n  *calm - walks around\n  *low alert - angry gestures, walks towards player\n  *hi alert - attacks player\n  *alerted, but target not accessible(in water)\n  *When player is in water > angry gestures, random walk\nVariants\n  *when they see the player, they will attack him\n  *they can get scared and run away, they will come back, once they 'shake off the fear'\n  *the more spiders there is together, the less they fear\nFear factors\n  *proximity to player\n  *noises (shooting, drilling)\n  *damage - damage to one spider will create fear in the whole group\n  *fear from death of a group member\nNOTE:\n - Spiders can be alerted, but without seeing the player, in this case it will run around 'searching' the source of the alert\n - The ability to scare the spider is to make the fight more dynamic, to give the player more breathing room and something interesting. The spider should not run away completely."
+          - ActionTitle: txt_mK0Cq
+            Description: txt_GeiqC
+          - ActionTitle: txt_S4Kmq
+            Description: txt_GmSWC
+          - ActionTitle: txt_OiUGq
+            Description: txt_qKUMK
+          - ActionTitle: txt_GqaEC
+            Description: txt_Ue884
       - TaskTitle: Bugs
         PictureFile: Bugs.jpg
         Actions:
-          - ActionTitle: ALIEN BUGS (01)
-            Description: "Group\n  *Has vision and fear\n  *Acts as individual, shares fear in group\nStates\n  *Calm - walks around\n  *Low alert + player nearby - keeps distance from player, but rotates towards him and maked gestures\n..*Scared\nModifier for 'Scared':\n  *High probability of running away\n  *Low probability of attacking the player - one attempt to hit, then run away"
-          - ActionTitle: ALIEN BUGS (02)
-            Description: "[bcd3d4]MODE: Attack on sight\nARMAMENT: Melee\nHITPOINTS: Medium\nATTACK SPEED: Medium"
-          - ActionTitle: ALIEN BUGS (03)
-            Description: "Single\n  *Has vision and alert\nStates\n  *Calm - walks around\n  *Alerted - attacks the player with a projectile\nModifiers for 'Alerted':\n  *If the player is far, he will walk towards him\n  *If he is too far from spawn position, it will return back to it\n  *If the player is too close, it will keep distance\n  *During the attack he will fire 1 - 3 projectiles, then change position"
-      - TaskTitle: Worms and Wormlikes
+          - ActionTitle: txt_Oa8uG
+            Description: txt_vuGuG
+          - ActionTitle: txt_GiuCa
+            Description: txt_KesSq
+          - ActionTitle: txt_EeGOm
+            Description: txt_Kr8mu
+      - TaskTitle: txt_4C04o
         PictureFile: Worms.jpg
         Actions:
           - ActionTitle: CAVEWORMS
-            Description: "[bcd3d4]MODE: Attack on sight"
-          - ActionTitle: DESERT WORMS
-            Description: "[bcd3d4]MODE: Attack when provoked"
-          - ActionTitle: LARGE DESERT WORMS
-            Description: "[bcd3d4]MODE: Attack when provoked"
+            Description: txt_8QW8G
+          - ActionTitle: txt_uiKaO
+            Description: txt_SuK8u
+          - ActionTitle: txt_uFmKG
+            Description: txt_a8SCC
       - TaskTitle: Creatures
         PictureFile: Creatures.jpg
         Actions:
           - ActionTitle: CRAWLER
-            Description: "[bcd3d4]MODE: Attack on sight"
+            Description: txt_caCG0
           - ActionTitle: OTYUGH
-            Description: "[bcd3d4]MODE: Attack when provoked"
+            Description: txt_KSOWi
           - ActionTitle: SLIMES
-            Description: "[bcd3d4]MODE: Attack when provoked"
+            Description: txt_quSue
     Activatable: Always
   - ChapterTitle: txt_mmSS8
     Category: FAQ
@@ -3632,52 +3634,52 @@ Chapters:
         PictureFile: UCH.jpg
         Actions:
           - ActionTitle: SUMMARY
-            Description: "[bcd3d4]The UCH was founded as a NGO back in the early 23rd century to research the predicted collapse of the Terran ecosystem. By end of the 24th century, after an accelerated rate of riots and catastrophic events, power was granted to the UCH authority to take care of the survival of the Terran civilization.[-]"
-          - ActionTitle: INTEL REPORT
-            Description: "[bcd3d4]Founded: 2217 AD\nGovernment: Military\nReligion: None\nHome Planet: Terra (Milky Way)\nMain Planet: N/A\nTerritory Size: N/A[-]"
-          - ActionTitle: ADDITIONAL INTEL
-            Description: "[bcd3d4]A decade has passed since the Terran’s arrival to the Andromeda Galaxy, which was plagued with heartache and disaster.\nThe UCH Supreme Command still leads the Terran faction, despite the personnel fatalities on their initial jump from reactor explosions as a result of the unstable hyper drives constructed on Earth, as well as the loss of intelligence and the unfortunate demise of the MS Titan.\n\nThe UCH has successfully recruited Alien inhabitants to fill up the ranks, but the constant quarrels with the Zirax Empire have reduced Expedition fleet and resources to critical levels across the territories. Concurrently, the UCH has managed to set up self-sustaining operation bases in secret locations which are constantly tracked by the Zirax to eliminate the 'Intruders'.[-]"
+            Description: txt_a8qKq
+          - ActionTitle: txt_Gav8O
+            Description: txt_OS8aS
+          - ActionTitle: txt_eWaOm
+            Description: txt_OCoai
           - ActionTitle: HISTORY
-            Description: "[bcd3d4]With the discovery of the alien ship in 2402 AD, the UCH developed a plan to establish contact with the mysterious race that had deserted the ship in Antartica. Operation Phoenix, which was Earth’s last ditch effort to save itself from an impending apocalypse, was spearheaded by it’s flagship, the MS Titan.\n\nThe voyage was cut short on it’s first jump when the UCH vessels made first contact with a predatory species known as the Zirax. Outgunned and caught off guard by the enemy, losses were abundant in the initial contact with this new species. Ships, crew members and materials were lost in an instant and Earth’s flagship the MS Titan was destroyed and along with nearly all of the UCH’s leading officers. The remaining ships managed to retreat from the battle and hide in deep space, out of range of the Zirax Empire. Survivors of the battle were left to fend for themselves, of which only a few found their way back to the UCH.\n\nScientists are still gathering data and examining whether the term 'Empyrion' used loosely throughout history is a physical location or a spiritual/philosophical belief. Some members of the UCH command, believe someone positioned the Alien Ship to lure us into a trap, knowing the warp drives were dysfunctional. This is still being debated and the UCH has yet to find concrete evidence on the Zirax involvement behind the attack.[-]"
+            Description: txt_WiqOa
       - TaskTitle: txt_SW8KC
         PictureFile: ZiraxEmpire.jpg
         Actions:
           - ActionTitle: SUMMARY
-            Description: "[bcd3d4]The Ziraxian Empire is a militarist oligarchy and the largest power in the galaxy Andromeda. It is ruled by a series of houses, each with a specific function or functions that relates to a sphere of influence. These houses each produce a representative at an, as yet, undiscovered time, and they form a council of elders. This production is facilitated by the Emperor who publicly holds supreme power, but is realistically, more a figure head.[-]"
-          - ActionTitle: INTEL REPORT
-            Description: "[bcd3d4]The Empire seems to overstretch itself at an increasing rate, due to the extremely fast expansion rate. As a result, the Zirax government seems to fall short on capacities for building proper stations. This leaves them incapable of recruiting the correct amount of specialized troops to fill these structures. This leads to a power vacuum in newly acquired systems, leaving them under strength and without order due to a lack of governance.[-]"
-          - ActionTitle: RELATIONSHIP WITH UCH
-            Description: Negotiations seem to be impossible / Haven’t succeeded yet; Hostile for now
-          - ActionTitle: ADDITIONAL INTEL
-            Description: "The rapid expansion directly affects how most of the Zirax bases are structured, which is clearly visible when entering the facilities. We have compared the Zirax structures and have determined that all types and houses within the Zirax military are merely prefabs or standard templates. They are streamlined buildings with standardized functions, which enables the troops to get familiar with the base layouts before exiting a teleporter in a combat situation.\n\nMaterials and specimens that UCH scientists have examined and brought back from those locations, have given us the impression that the facilities are “teleported” to the destinations as a whole. We have yet to see this happen and we don’t have proof yet to say this is the case, so this is just a theory.\n\nZirax troops are often not stationed in the bases, and to maintain control of distant worlds within the territory of influence, troops will be teleported into central garrisons from an undisclosed location if a base is attacked.\n\nAI drones are mainly the first line of defense and surveillance, patrolling the area and guarding important POIs. These are controlled from a central server or by remote at a Drone base.\n\nAttack vessels in the outer rim territories operate similar to the AI drones. From what we have gathered from UCH troops on the ground who have captured a few of these vessels, these attack vessels are remote or AI controlled. Reports have shown that they remain unmanned, and did not carry any Zirax on board, although the vessels are fully capable of transporting several hundred Zirax personnel. These vessels are equipped with a self-destruct feature, which is triggered when the vessel is boarded by a non-Zirax crew.\n\nThere are rumors floating around that most of the Zirax enlisted foot soldiers are clones. This theory was brought up by a UCH science team while closely examining reports and video footage of an attack at a Zirax Bio-lab. During an interrogation of a lead scientist at the facility, the Zirax claimed that any further information could not be retrieved from the system. This may just be diversion from the truth, since all the armored Zirax soldiers look identical to human eyes."
+            Description: txt_Oma8K
+          - ActionTitle: txt_eiKeq
+            Description: txt_88G0e
+          - ActionTitle: txt_Weiqe
+            Description: txt_4eeqS
+          - ActionTitle: txt_ehKv4
+            Description: txt_04Gi8
           - ActionTitle: HISTORY
-            Description: "There isn’t very much information available on the origin(s) of the Zirax Empire at this time, however Intel reports that the ancient Zirax  were in touch with the 'Elder Talon', and were given a technological boost from the advanced civilization. The Talon and Zirax were joined together in a technological and cultural Union, called the 'Zirax-Talon Assembly', which persisted for hundreds of years.\n\nWe do not know why it collapsed, why they separated, or if it was a conspiracy. Files retrieved by the 2nd UCH recon unit indicated, that the abominations found on the planets they occupied, seemed to have something to do with this or at least are related to a big incident in the past. These files were encrypted, classified and could not be deciphered until today.\n\nTheir brutality and behavior towards the Talon Guardians or anyone not from a Zirax controlled faction, indicates that there is a lot more to uncover, than official reports tell us at the moment. "
+            Description: txt_8iu8W
       - TaskTitle: txt_C84mG
         PictureFile: TalonGuardians.jpg
         Actions:
           - ActionTitle: SUMMARY
-            Description: "[bcd3d4]Primitive culture (Technology is forbidden; Zirax drones control their settlements). Seem to be the descendants of the so called 'Elder Talon.'[-]"
-          - ActionTitle: INTEL REPORT
-            Description: "[bcd3d4]The Talon, also known as Talon Guardians, are an astonishingly primitive society with little variation. The name, 'Talon Guardian' stems from a largely mysterious past with the Zirax. The Zirax impose a heavy toll upon the Talon guardians – zealously sheltering them with drones and other restraints. This may indicate either the Talon pose a threat to them… or are kept hostages for some unknown reason.[-]"
-          - ActionTitle: RELATIONSHIP WITH UCH
+            Description: txt_Kmem4
+          - ActionTitle: txt_uecoC
+            Description: txt_KW4KO
+          - ActionTitle: txt_G4CuC
             Description: Neutral
-          - ActionTitle: ADDITIONAL INTEL
-            Description: no data yet
+          - ActionTitle: txt_l3C4i
+            Description: txt_WOaSq
           - ActionTitle: HISTORY
-            Description: no data yet
+            Description: txt_0uvqG
       - TaskTitle: txt_4KqWS
         PictureFile: TradersGuild.jpg
         Actions:
           - ActionTitle: SUMMARY
-            Description: "[bcd3d4]Polaris Corporation is a large multisystem corporation with reach that extends well beyond surveyed space. Most personnel is bipedal humanoid (metabolism seems to differ slightly from Terrans) [-]"
-          - ActionTitle: INTEL REPORT
-            Description: "[bcd3d4]Primary provider of materials, tech and devices for different 3rd party companies (Bertram, InterWeap, Servant.)\n– Controls the majority of mining and refinery operations in surveyed space (UCH intel indicates a possible monopoly.)\n– Relationship with Zirax unclear. Zirax installation infiltration suggests deep involvement with the empire, but this fact has yet to be confirmed.[-]"
-          - ActionTitle: RELATIONSHIP WITH UCH
+            Description: txt_8GKCm
+          - ActionTitle: txt_ShK8C
+            Description: txt_gaOm8
+          - ActionTitle: txt_qKWiO
             Description: Neutral
-          - ActionTitle: ADDITIONAL INTEL
-            Description: Polaris Corporation has two subsidiaries – Polaris Space Industries (PSI) and Polaris Mining Company (PMC).
+          - ActionTitle: txt_WG86q
+            Description: txt_OK0OS
           - ActionTitle: HISTORY
-            Description: no data yet
+            Description: txt_Sumaq
     Activatable: Always
   - ChapterTitle: chptitleKnowledgebase
     Category: FAQ
