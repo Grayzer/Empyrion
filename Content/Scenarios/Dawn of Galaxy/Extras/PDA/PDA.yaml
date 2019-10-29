@@ -1415,3 +1415,1197 @@ Chapters:
             Names:
               - Danos Mission End
             CompletedMessage: acttitleDanosMissionVIIM2_CompletedMessage
+
+  - ChapterTitle: txt_4uiD0
+    Category: FAQ
+    Description: txt_iiKfq
+    PictureFile: readfirst.jpg
+    PlayerLevel: 1
+    Visibility: Always
+    Tasks:
+      - TaskTitle: txt_C4SSu
+        Actions:
+          - ActionTitle: txt_CGiOG
+            Description: txt_MaSeS
+    Activatable: Always
+  - ChapterTitle: txt_Km80u
+    Category: FAQ
+    Description: txt_6WW0m
+    PictureFile: pfbmedical.jpg
+    PlayerLevel: 1
+    Visibility: Always
+    Tasks:
+      - TaskTitle: txt_mkSYO
+        Actions:
+          - ActionTitle: txt_eOOmi
+            Description: txt_4Wa0e
+      - TaskTitle: txt_C0qaO
+        Actions:
+          - ActionTitle: txt_tWWKC
+            Description: txt_SCqEW
+          - ActionTitle: txt_KKGq0
+            Description: txt_0iFeO
+          - ActionTitle: txt_eeOSK
+            Description: txt_eqWeW
+          - ActionTitle: txt_Kb0uq
+            Description: txt_mqYri
+          - ActionTitle: txt_0iRSu
+            Description: txt_mSeO6
+          - ActionTitle: txt_iiR8m
+            Description: txt_aCeAB
+          - ActionTitle: txt_5EhWu
+            Description: txt_YOueK
+      - TaskTitle: txt_W808u
+        PictureFile: AlienParasite.jpg
+        Actions:
+          - ActionTitle: txt_KuO4i
+            Description: txt_4KYWG
+          - ActionTitle: txt_4oGOC
+            Description: txt_8WuSe
+          - ActionTitle: txt_Wtqmj
+            Description: n/a
+          - ActionTitle: txt_a8Waq
+            Description: n/a
+          - ActionTitle: txt_0uu2W
+            Description: txt_Oi88K
+      - TaskTitle: txt_q0OCO
+        PictureFile: BadTrip.jpg
+        Actions:
+          - ActionTitle: txt_iS4KG
+            Description: n/a
+          - ActionTitle: txt_uSSuo
+            Description: n/a
+          - ActionTitle: txt_FK8aF
+            Description: txt_S8GWu
+          - ActionTitle: txt_aCCCC
+            Description: txt_mCi40
+          - ActionTitle: txt_SKVKW
+            Description: txt_KiehO
+          - ActionTitle: CONDITIONS
+            Description: txt_WOCSq
+      - TaskTitle: txt_t6MKO
+        PictureFile: BrokenLeg.jpg
+        Actions:
+          - ActionTitle: txt_qWKGK
+            Description: txt_iK4mB
+          - ActionTitle: txt_qiWK8
+            Description: txt_aAUiC
+          - ActionTitle: txt_i0B4v
+            Description: n/a
+          - ActionTitle: txt_OCiWO
+            Description: n/a
+          - ActionTitle: txt_qqe8u
+            Description: txt_qism4
+      - TaskTitle: txt_eiiaC
+        PictureFile: FractureClosed.jpg
+        Actions:
+          - ActionTitle: txt_8K8ue
+            Description: txt_mOmEq
+          - ActionTitle: txt_0meCe
+            Description: txt_G0qce
+          - ActionTitle: txt_iITGe
+            Description: n/a
+          - ActionTitle: txt_Wqe0S
+            Description: n/a
+          - ActionTitle: txt_SmKqW
+            Description: txt_qe884
+      - TaskTitle: txt_Ya0Gm
+        PictureFile: DermalBurn.jpg
+        Actions:
+          - ActionTitle: txt_q0UeW
+            Description: txt_SMWKW
+          - ActionTitle: txt_4MqWe
+            Description: txt_eC88m
+          - ActionTitle: txt_o80mH
+            Description: n/a
+          - ActionTitle: txt_ieOce
+            Description: txt_Oeuoi
+          - ActionTitle: txt_0uS4I
+            Description: txt_GiqSm
+      - TaskTitle: txt_uSiKa
+        PictureFile: DermalParasite.jpg
+        Actions:
+          - ActionTitle: txt_uGV0q
+            Description: txt_44Wm4
+          - ActionTitle: txt_aSGu8
+            Description: txt_Ci08u
+          - ActionTitle: txt_maqWO
+            Description: n/a
+          - ActionTitle: txt_aOeS0
+            Description: n/a
+          - ActionTitle: txt_iuaWe
+            Description: txt_0S4iG
+      - TaskTitle: txt_SeOG7
+        PictureFile: EndoParasite.jpg
+        Actions:
+          - ActionTitle: txt_iiuKq
+            Description: txt_CKi8O
+          - ActionTitle: txt_Kw0CO
+            Description: txt_qEmOK
+          - ActionTitle: txt_uSe84
+            Description: n/a
+          - ActionTitle: txt_aSeXU
+            Description: n/a
+          - ActionTitle: txt_aSaKm
+            Description: txt_GuIiG
+      - TaskTitle: txt_AeQ3S
+        PictureFile: FeverAttack.jpg
+        Actions:
+          - ActionTitle: txt_CaeeO
+            Description: txt_O8Oeu
+          - ActionTitle: txt_0WeOq
+            Description: txt_WGuKW
+          - ActionTitle: txt_WCAmq
+            Description: n/a
+          - ActionTitle: txt_0eqOG
+            Description: n/a
+          - ActionTitle: txt_84im8
+            Description: txt_68OOi
+      - TaskTitle: txt_qWGII
+        PictureFile: PoisonFood.jpg
+        Actions:
+          - ActionTitle: txt_uKGKq
+            Description: txt_eCwq4
+          - ActionTitle: txt_CC8Ka
+            Description: txt_6iku4
+          - ActionTitle: txt_4K0qm
+            Description: n/a
+          - ActionTitle: txt_WCekO
+            Description: n/a
+          - ActionTitle: txt_quuCk
+            Description: txt_iK48O
+      - TaskTitle: txt_G5W8G
+        PictureFile: BlackoutCold.jpg
+        Actions:
+          - ActionTitle: txt_SiWaq
+            Description: n/a
+          - ActionTitle: txt_KeQEm
+            Description: n/a
+          - ActionTitle: txt_uxWS8
+            Description: txt_8SuYK
+          - ActionTitle: txt_h8ueS
+            Description: txt_CGImu
+          - ActionTitle: txt_CKWG8
+            Description: txt_uaOC0
+          - ActionTitle: CONDITIONS
+            Description: txt_8S4WO
+      - TaskTitle: Frostbite
+        PictureFile: Frostbite.jpg
+        Actions:
+          - ActionTitle: txt_Wq8OK
+            Description: txt_Iisua
+          - ActionTitle: txt_aCi0q
+            Description: txt_mO440
+          - ActionTitle: txt_0aiKg
+            Description: n/a
+          - ActionTitle: txt_i8BWO
+            Description: txt_mu0Ca
+          - ActionTitle: txt_K8iia
+            Description: txt_aO1iG
+      - TaskTitle: Hangover
+        PictureFile: Hangover.jpg
+        Actions:
+          - ActionTitle: txt_eaKa4
+            Description: n/a
+          - ActionTitle: txt_W8CGW
+            Description: n/a
+          - ActionTitle: txt_8aeuq
+            Description: txt_4eaqu
+          - ActionTitle: txt_9O8mC
+            Description: txt_aexai
+          - ActionTitle: txt_SSW4E
+            Description: txt_0OCaS
+          - ActionTitle: CONDITIONS
+            Description: txt_aqumq
+      - TaskTitle: txt_8SW0G
+        PictureFile: BlackoutHot.jpg
+        Actions:
+          - ActionTitle: txt_mmuQq
+            Description: n/a
+          - ActionTitle: txt_ISKKY
+            Description: n/a
+          - ActionTitle: txt_GiKpK
+            Description: txt_SKKtq
+          - ActionTitle: txt_8qGeK
+            Description: txt_m4aea
+          - ActionTitle: txt_Kq4OS
+            Description: txt_K8qWW
+          - ActionTitle: CONDITIONS
+            Description: txt_0e0G4
+      - TaskTitle: txt_8Oe8O
+        PictureFile: HeatStroke.jpg
+        Actions:
+          - ActionTitle: txt_WuqSq
+            Description: n/a
+          - ActionTitle: txt_eeqma
+            Description: n/a
+          - ActionTitle: txt_mSib0
+            Description: txt_0O4uS
+          - ActionTitle: txt_4aG8K
+            Description: txt_iKSnI
+          - ActionTitle: txt_aaOWe
+            Description: txt_SKiiC
+          - ActionTitle: CONDITIONS
+            Description: txt_iWSxS
+      - TaskTitle: Hypothermia
+        PictureFile: Freezing.jpg
+        Actions:
+          - ActionTitle: txt_W6C0O
+            Description: n/a
+          - ActionTitle: txt_iQSqi
+            Description: n/a
+          - ActionTitle: txt_S4a4q
+            Description: txt_Cqqui
+          - ActionTitle: txt_OCuCO
+            Description: txt_aqSqg
+          - ActionTitle: txt_MqWcK
+            Description: txt_CO844
+          - ActionTitle: CONDITIONS
+            Description: txt_0jK0i
+      - TaskTitle: Indigestion
+        PictureFile: Indigestion.jpg
+        Actions:
+          - ActionTitle: txt_8W4uK
+            Description: txt_WRx0e
+          - ActionTitle: txt_94q4h
+            Description: txt_HaWCC
+          - ActionTitle: txt_WmuWK
+            Description: txt_OWtMC
+          - ActionTitle: txt_WiCCY
+            Description: txt_i8msU
+          - ActionTitle: txt_im44e
+            Description: txt_0KeOw
+          - ActionTitle: txt_004mS
+            Description: txt_r4Kuq
+      - TaskTitle: txt_WpK4V
+        PictureFile: InfectedWound.jpg
+        Actions:
+          - ActionTitle: txt_6a884
+            Description: txt_4WxKq
+          - ActionTitle: txt_C2e0a
+            Description: txt_Civ0i
+          - ActionTitle: txt_GWaGu
+            Description: n/a
+          - ActionTitle: txt_WGdeI
+            Description: n/a
+          - ActionTitle: txt_WOeme
+            Description: txt_iOEmq
+      - TaskTitle: Intoxication
+        PictureFile: Intoxication.jpg
+        Actions:
+          - ActionTitle: txt_C0ei8
+            Description: txt_GOGG0
+          - ActionTitle: txt_iaK44
+            Description: txt_Ga0aS
+          - ActionTitle: txt_meSSe
+            Description: n/a
+          - ActionTitle: txt_OeQeG
+            Description: n/a
+          - ActionTitle: txt_iOGm4
+            Description: txt_i0Aee
+      - TaskTitle: Mutilation
+        PictureFile: Mutilation.jpg
+        Actions:
+          - ActionTitle: txt_G8eW8
+            Description: n/a
+          - ActionTitle: txt_AG4k0
+            Description: txt_W744K
+          - ActionTitle: txt_O48a0
+            Description: n/a
+          - ActionTitle: txt_GKqWq
+            Description: n/a
+          - ActionTitle: txt_8e8ae
+            Description: txt_iaqGm
+      - TaskTitle: Necrosis
+        PictureFile: Necrosis.jpg
+        Actions:
+          - ActionTitle: txt_OG0iO
+            Description: txt_iGiGK
+          - ActionTitle: txt_S8qWi
+            Description: txt_OCGhK
+          - ActionTitle: txt_uGqT0
+            Description: n/a
+          - ActionTitle: txt_aia4e
+            Description: n/a
+          - ActionTitle: txt_iuS0a
+            Description: txt_4QKKS
+      - TaskTitle: txt_KSudm
+        PictureFile: FractureOpen.jpg
+        Actions:
+          - ActionTitle: txt_iO0uK
+            Description: txt_kaOiu
+          - ActionTitle: txt_OGG1S
+            Description: txt_M4WMe
+          - ActionTitle: txt_GCUeS
+            Description: n/a
+          - ActionTitle: txt_8e8iu
+            Description: n/a
+          - ActionTitle: txt_ueCiq
+            Description: txt_0CK8i
+      - TaskTitle: txt_OGO0K
+        PictureFile: Wound.jpg
+        Actions:
+          - ActionTitle: txt_0ASS8
+            Description: txt_0GEGK
+          - ActionTitle: txt_08a0Y
+            Description: txt_SGVKG
+          - ActionTitle: txt_4WSm2
+            Description: n/a
+          - ActionTitle: txt_Duaea
+            Description: n/a
+          - ActionTitle: txt_niSas
+            Description: txt_Km4aC
+      - TaskTitle: txt_AWG1C
+        PictureFile: OrganFailure.jpg
+        Actions:
+          - ActionTitle: txt_2OWcO
+            Description: txt_WqavK
+          - ActionTitle: txt_Oi24O
+            Description: txt_qKcaS
+          - ActionTitle: txt_eCmiW
+            Description: n/a
+          - ActionTitle: txt_ai4mw
+            Description: n/a
+          - ActionTitle: txt_mKBKW
+            Description: txt_nKiu4
+      - TaskTitle: txt_iE04q
+        PictureFile: PoisonBite.jpg
+        Actions:
+          - ActionTitle: txt_98u8m
+            Description: txt_qqKWe
+          - ActionTitle: txt_si6q8
+            Description: txt_GaRCO
+          - ActionTitle: txt_WS1CC
+            Description: n/a
+          - ActionTitle: txt_OA0SW
+            Description: txt_C2SC8
+          - ActionTitle: txt_ueS02
+            Description: txt_COW0u
+      - TaskTitle: txt_8WmCu
+        PictureFile: RadiationBurn.jpg
+        Actions:
+          - ActionTitle: txt_qu8G4
+            Description: txt_Se4qf
+          - ActionTitle: txt_8KWqs
+            Description: txt_GC8Wi
+          - ActionTitle: txt_8SMa8
+            Description: txt_m0mK4
+          - ActionTitle: txt_4qGK8
+            Description: n/a
+          - ActionTitle: txt_SWGSo
+            Description: txt_SSma0
+          - ActionTitle: CONDITIONS
+            Description: txt_WiMiu
+      - TaskTitle: txt_iq0aq
+        PictureFile: RadiationPoisoning.jpg
+        Actions:
+          - ActionTitle: txt_0mei0
+            Description: txt_OeSRm
+          - ActionTitle: txt_GWmWC
+            Description: txt_qWaSC
+          - ActionTitle: txt_7OimO
+            Description: n/a
+          - ActionTitle: txt_qi4aS
+            Description: n/a
+          - ActionTitle: txt_0mqOi
+            Description: txt_C8CGC
+      - TaskTitle: txt_4fwwm
+        PictureFile: RadiationSick1.jpg
+        Actions:
+          - ActionTitle: txt_08W02
+            Description: txt_K0O0t
+          - ActionTitle: txt_mqGG0
+            Description: txt_C7C4u
+          - ActionTitle: txt_QiWCC
+            Description: txt_mmGmR
+          - ActionTitle: txt_GTeiS
+            Description: n/a
+          - ActionTitle: txt_GiWeO
+            Description: txt_SmK40
+          - ActionTitle: CONDITIONS
+            Description: txt_0ipia
+      - TaskTitle: Sepsis
+        PictureFile: Sepsis.jpg
+        Actions:
+          - ActionTitle: txt_WQKie
+            Description: txt_Weqiu
+          - ActionTitle: txt_WuuGi
+            Description: txt_weO0K
+          - ActionTitle: txt_aOa4m
+            Description: n/a
+          - ActionTitle: txt_GSa48
+            Description: n/a
+          - ActionTitle: txt_4IWSG
+            Description: txt_WKKuW
+      - TaskTitle: Stunned
+        PictureFile: Stunned.jpg
+        Actions:
+          - ActionTitle: txt_O82me
+            Description: txt_C8OKG
+          - ActionTitle: txt_OiQqO
+            Description: n/a
+          - ActionTitle: txt_imDeG
+            Description: txt_SaWi3
+          - ActionTitle: txt_eaOue
+            Description: txt_qGuKO
+          - ActionTitle: txt_auiGS
+            Description: txt_ieW4E
+      - TaskTitle: txt_KM8Ge
+        PictureFile: Cold.jpg
+        Actions:
+          - ActionTitle: txt_GeiCG
+            Description: n/a
+          - ActionTitle: txt_KO8am
+            Description: n/a
+          - ActionTitle: txt_uam8e
+            Description: txt_km4Re
+          - ActionTitle: txt_ie48m
+            Description: txt_S4eqW
+          - ActionTitle: txt_4um8K
+            Description: txt_OmJWU
+          - ActionTitle: CONDITIONS
+            Description: txt_awueC
+      - TaskTitle: txt_WGOeW
+        PictureFile: Hot.jpg
+        Actions:
+          - ActionTitle: txt_006Oc
+            Description: n/a
+          - ActionTitle: txt_KmGZa
+            Description: n/a
+          - ActionTitle: txt_eBaqS
+            Description: txt_CiOqK
+          - ActionTitle: txt_KmmOG
+            Description: txt_0Ku4G
+          - ActionTitle: txt_gKOeG
+            Description: txt_S4S7e
+          - ActionTitle: CONDITIONS
+            Description: txt_m4aOe
+    Activatable: Always
+  - ChapterTitle: txt_Sima4
+    Category: FAQ
+    Description: txt_qKxWS
+    PictureFile: Farmers101.jpg
+    PlayerLevel: 1
+    Visibility: Always
+    Tasks:
+      - TaskTitle: txt_Ce4OK
+        PictureFile: Farmers101.jpg
+        Actions:
+          - ActionTitle: txt_aq4us
+            Description: txt_GEqO8
+          - ActionTitle: SPROUTS
+            Description: txt_GCu08
+          - ActionTitle: txt_aaaWW
+            Description: txt_q0WUl
+          - ActionTitle: txt_ee4CG
+            Description: txt_qquuS
+          - ActionTitle: txt_GcWS8
+            Description: txt_iS4yO
+      - TaskTitle: AlienParts01
+        PictureFile: AlienParts01.jpg
+        Actions:
+          - ActionTitle: txt_uqOo0
+            Description: txt_WCiKC
+          - ActionTitle: txt_0Kqun
+            Description: txt_WiaGS
+          - ActionTitle: txt_S8MuS
+            Description: txt_qS4FV
+          - ActionTitle: txt_04e0a
+            Description: txt_Kmm4C
+      - TaskTitle: AlienParts02
+        PictureFile: AlienParts02.jpg
+        Actions:
+          - ActionTitle: txt_6Smq8
+            Description: txt_iAmiG
+          - ActionTitle: txt_Me46a
+            Description: txt_4aecY
+          - ActionTitle: txt_KaKui
+            Description: txt_G0aOS
+          - ActionTitle: txt_Cqm8m
+            Description: txt_aeuKw
+      - TaskTitle: AlienParts03
+        PictureFile: AlienParts03.jpg
+        Actions:
+          - ActionTitle: txt_UOuq0
+            Description: txt_GOWC8
+          - ActionTitle: txt_mKGie
+            Description: txt_aqW48
+          - ActionTitle: txt_O4eO4
+            Description: txt_qWOmG
+          - ActionTitle: txt_3OK4G
+            Description: txt_SOKSS
+      - TaskTitle: AlienThorn
+        PictureFile: AlienThorn.jpg
+        Actions:
+          - ActionTitle: txt_a6um4
+            Description: txt_OqKGG
+          - ActionTitle: txt_MeuWi
+            Description: txt_mSWqS
+          - ActionTitle: txt_Smaim
+            Description: txt_WCWm4
+          - ActionTitle: txt_qO0qO
+            Description: txt_NWCe0
+      - TaskTitle: AlienTooth
+        PictureFile: AlienTooth.jpg
+        Actions:
+          - ActionTitle: txt_Ea00o
+            Description: txt_7uuga
+          - ActionTitle: txt_KCifW
+            Description: txt_iimWa
+          - ActionTitle: txt_SOOG4
+            Description: txt_alGaS
+          - ActionTitle: txt_8Oimm
+            Description: txt_qCqhC
+      - TaskTitle: Berries
+        PictureFile: Berries.jpg
+        Actions:
+          - ActionTitle: txt_aem0a
+            Description: txt_KK0Oa
+          - ActionTitle: txt_K0Sie
+            Description: txt_C4GG0
+          - ActionTitle: txt_OaQSO
+            Description: txt_me8uG
+          - ActionTitle: txt_RKK0m
+            Description: txt_eSS0e
+      - TaskTitle: Buds
+        PictureFile: Buds.jpg
+        Actions:
+          - ActionTitle: txt_0COSc
+            Description: txt_GCKu4
+          - ActionTitle: txt_OmaqO
+            Description: txt_NiW8S
+          - ActionTitle: txt_W4O8x
+            Description: txt_i4Ca4
+          - ActionTitle: txt_amiOm
+            Description: txt_tKiak
+      - TaskTitle: ConfettiMossScrapings
+        PictureFile: ConfettiMossScrapings.jpg
+        Actions:
+          - ActionTitle: txt_4qm8K
+            Description: txt_44Gq8
+          - ActionTitle: txt_GuuPp
+            Description: txt_i8WW0
+          - ActionTitle: txt_Jemqc
+            Description: txt_aGKaC
+          - ActionTitle: txt_Smm0i
+            Description: txt_mW4ru
+      - TaskTitle: Egg
+        PictureFile: Egg.jpg
+        Actions:
+          - ActionTitle: txt_0Kuam
+            Description: txt_Ckm6i
+          - ActionTitle: txt_Ciua4
+            Description: txt_mW888
+          - ActionTitle: txt_OKPGK
+            Description: txt_K44EW
+          - ActionTitle: txt_qKWa8
+            Description: txt_C4a4i
+      - TaskTitle: Fibers
+        PictureFile: Fiber.jpg
+        Actions:
+          - ActionTitle: txt_qCW5e
+            Description: txt_mOSWq
+          - ActionTitle: txt_8WdGS
+            Description: txt_WSWC4
+          - ActionTitle: txt_uWKM4
+            Description: txt_GWuW2
+          - ActionTitle: txt_4WW8u
+            Description: txt_iGmWS
+      - TaskTitle: FireMossScrapings
+        PictureFile: FireMossScrapings.jpg
+        Actions:
+          - ActionTitle: txt_g08WW
+            Description: txt_OuGhO
+          - ActionTitle: txt_i4iuC
+            Description: txt_qjCmO
+          - ActionTitle: txt_GmqKm
+            Description: txt_i0qee
+          - ActionTitle: txt_m0mO4
+            Description: txt_CesCa
+      - TaskTitle: Fruit
+        PictureFile: Fruit.jpg
+        Actions:
+          - ActionTitle: txt_qmWGW
+            Description: txt_EuOqi
+          - ActionTitle: txt_4OaCc
+            Description: txt_dK0eq
+          - ActionTitle: txt_eO0i0
+            Description: txt_SCimG
+          - ActionTitle: txt_iSGeq
+            Description: txt_WgGiW
+      - TaskTitle: Grain
+        PictureFile: Grain.jpg
+        Actions:
+          - ActionTitle: txt_aGuWm
+            Description: txt_mSgiW
+          - ActionTitle: txt_KWW8W
+            Description: txt_S0uCm
+          - ActionTitle: txt_848CC
+            Description: txt_eqCuX
+          - ActionTitle: txt_aOimK
+            Description: txt_8WKkk
+      - TaskTitle: HerbalLeaves
+        PictureFile: HerbalLeaves.jpg
+        Actions:
+          - ActionTitle: txt_G4uaO
+            Description: txt_94COe
+          - ActionTitle: txt_i4CmS
+            Description: txt_KCQm4
+          - ActionTitle: txt_K4uGa
+            Description: txt_ieiK4
+          - ActionTitle: txt_uOm0C
+            Description: txt_Wu8qK
+      - TaskTitle: Meat
+        PictureFile: Meat.jpg
+        Actions:
+          - ActionTitle: txt_ou4Ke
+            Description: txt_mC4We
+          - ActionTitle: txt_8adCS
+            Description: txt_KQae0
+          - ActionTitle: txt_ueCcS
+            Description: txt_uKGE8
+          - ActionTitle: txt_VuGCe
+            Description: txt_0OGCo
+      - TaskTitle: Milk
+        PictureFile: Milk.jpg
+        Actions:
+          - ActionTitle: txt_OCAuS
+            Description: txt_0m8Wu
+          - ActionTitle: txt_uWmC4
+            Description: txt_0CWKO
+          - ActionTitle: txt_0mGme
+            Description: txt_mCmlG
+          - ActionTitle: txt_KoSWC
+            Description: txt_SqC8W
+      - TaskTitle: Mushrooms
+        PictureFile: Mushrooms.jpg
+        Actions:
+          - ActionTitle: txt_eOC8K
+            Description: txt_0qaW0
+          - ActionTitle: txt_qeiWS
+            Description: txt_cmK8K
+          - ActionTitle: txt_SCW4a
+            Description: txt_Giwiq
+          - ActionTitle: txt_kGamS
+            Description: txt_u0qeC
+      - TaskTitle: NaturalStimulant
+        PictureFile: NaturalStimulant.jpg
+        Actions:
+          - ActionTitle: txt_OwiaG
+            Description: txt_GWUqS
+          - ActionTitle: txt_WSqii
+            Description: txt_uM0eS
+          - ActionTitle: txt_uZ98a
+            Description: txt_KuqJ0
+          - ActionTitle: txt_W8iKa
+            Description: txt_mRK4G
+      - TaskTitle: NaturalSweetener
+        PictureFile: NaturalSweetener.jpg
+        Actions:
+          - ActionTitle: txt_ei0qi
+            Description: txt_mSyO0
+          - ActionTitle: txt_aCSaq
+            Description: txt_eWGue
+          - ActionTitle: txt_OKSSe
+            Description: txt_O8c0K
+          - ActionTitle: txt_CKee0
+            Description: txt_8i4SK
+      - TaskTitle: PlantProtein
+        PictureFile: PlantProtein.jpg
+        Actions:
+          - ActionTitle: txt_Cq8au
+            Description: txt_iW8aW
+          - ActionTitle: txt_0muKu
+            Description: txt_KKaCq
+          - ActionTitle: txt_0CWaG
+            Description: txt_qGmiG
+          - ActionTitle: txt_iKSS0
+            Description: txt_0SWO0
+      - TaskTitle: Spice
+        PictureFile: Spice.jpg
+        Actions:
+          - ActionTitle: txt_lSu8O
+            Description: txt_W0C8a
+          - ActionTitle: txt_4namC
+            Description: txt_KaBK4
+          - ActionTitle: txt_0nKO4
+            Description: txt_S4miO
+          - ActionTitle: txt_mK0xo
+            Description: txt_Ii0Cl
+      - TaskTitle: Vegetables
+        PictureFile: Vegetables.jpg
+        Actions:
+          - ActionTitle: txt_eIasi
+            Description: txt_aw4Wm
+          - ActionTitle: txt_qmqua
+            Description: txt_0Gl0G
+          - ActionTitle: txt_qCOuq
+            Description: txt_KGqGe
+          - ActionTitle: txt_WuCSO
+            Description: txt_SKi0e
+    Activatable: Always
+  - ChapterTitle: txt_c8KeK
+    Category: FAQ
+    Description: txt_qaOKD
+    PictureFile: LargeReptiles.jpg
+    PlayerLevel: 1
+    Visibility: Always
+    Tasks:
+      - TaskTitle: txt_8aOi8
+        Actions:
+          - ActionTitle: txt_O1Gqi
+            Description: txt_iEi8b
+          - ActionTitle: ZIRAX
+            Description: txt_KSOuK
+          - ActionTitle: TALON
+            Description: txt_aC8eA
+          - ActionTitle: POLARIS
+            Description: txt_OOqiG
+          - ActionTitle: LEGACY
+            Description: txt_8W8mG
+          - ActionTitle: PREDATOR
+            Description: txt_SuGW4
+          - ActionTitle: PREY
+            Description: txt_SSuaG
+      - TaskTitle: txt_4qEeW
+        PictureFile: PlanetaryDrones.jpg
+        Actions:
+          - ActionTitle: txt_a0lie
+            Description: txt_UKaS0
+          - ActionTitle: txt_C880G
+            Description: txt_SS0W0
+          - ActionTitle: txt_08CGS
+            Description: txt_iqW84
+          - ActionTitle: txt_S4sOq
+            Description: txt_CS4S8
+      - TaskTitle: txt_0eKaG
+        PictureFile: SpaceDrones.jpg
+        Actions:
+          - ActionTitle: txt_aq0k4
+            Description: txt_OioCG
+          - ActionTitle: txt_4LK4S
+            Description: txt_A5Oqm
+      - TaskTitle: Vessels
+        PictureFile: Vessels.jpg
+        Actions:
+          - ActionTitle: txt_i884i
+            Description: txt_qg8KS
+          - ActionTitle: txt_C0OcW
+            Description: txt_846mU
+          - ActionTitle: txt_8qCht
+            Description: txt_0aSKD
+          - ActionTitle: txt_q06Ga
+            Description: txt_SqWb0
+      - TaskTitle: Mechanoids
+        PictureFile: Mechanoids.jpg
+        Actions:
+          - ActionTitle: txt_4SOWO
+            Description: txt_0Sv4O
+          - ActionTitle: txt_000aT
+            Description: txt_2W0gu
+          - ActionTitle: txt_qmOKK
+            Description: txt_GSWmO
+      - TaskTitle: txt_KeSPO
+        PictureFile: ZiraxTroopers.jpg
+        Actions:
+          - ActionTitle: txt_8mEig
+            Description: txt_qmmeG
+          - ActionTitle: txt_iemW8
+            Description: txt_KCir8
+          - ActionTitle: txt_u8Kta
+            Description: txt_gSqwq
+          - ActionTitle: SNIPERS
+            Description: txt_OaKWe
+          - ActionTitle: txt_AYSqq
+            Description: txt_e8OCe
+      - TaskTitle: Golems
+        PictureFile: Golems.jpg
+        Actions:
+          - ActionTitle: txt_m8aKa
+            Description: txt_SC4mK
+          - ActionTitle: txt_OCOOh
+            Description: txt_GqaeI
+          - ActionTitle: txt_OS8am
+            Description: txt_OqSK4
+          - ActionTitle: txt_0Ga6C
+            Description: txt_ePai4
+      - TaskTitle: txt_y4CW4
+        PictureFile: Natives.jpg
+        Actions:
+          - ActionTitle: txt_8meCq
+            Description: txt_KmemW
+          - ActionTitle: HEXAPODS
+            Description: txt_4iCSW
+          - ActionTitle: txt_0CGe4
+            Description: txt_mKaKq
+          - ActionTitle: CIVILIANS
+            Description: txt_OuRge
+          - ActionTitle: TRADERS
+            Description: txt_CKKIO
+      - TaskTitle: Mutants
+        PictureFile: Mutants.jpg
+        Actions:
+          - ActionTitle: OVERSEERS
+            Description: txt_aiimW
+          - ActionTitle: txt_O8i4q
+            Description: txt_GWYqK
+          - ActionTitle: txt_4K8q0
+            Description: txt_yeCEe
+      - TaskTitle: txt_oqqEa
+        PictureFile: Reptiles.jpg
+        Actions:
+          - ActionTitle: txt_8vqCi
+            Description: txt_4qKua
+          - ActionTitle: txt_Fiuaq
+            Description: txt_8OOii
+          - ActionTitle: SPINOSAURS
+            Description: txt_MWmKC
+          - ActionTitle: OVIRAPTOR
+            Description: txt_aRGWW
+          - ActionTitle: txt_P4aeK
+            Description: txt_i4CGG
+      - TaskTitle: txt_qeGCa
+        PictureFile: LargeReptiles.jpg
+        Actions:
+          - ActionTitle: MEGALONOPSES
+            Description: txt_GmKeu
+          - ActionTitle: txt_luhSK
+            Description: txt_iGuKK
+          - ActionTitle: TRICERATOPSES
+            Description: txt_uie0K
+      - TaskTitle: Spiders
+        PictureFile: Spiders.jpg
+        Actions:
+          - ActionTitle: txt_OCO84
+            Description: txt_TICa0
+          - ActionTitle: txt_SMuOm
+            Description: txt_aa8iO
+          - ActionTitle: txt_C84Se
+            Description: txt_e8i4W
+          - ActionTitle: txt_WGWC8
+            Description: txt_meCKK
+      - TaskTitle: Bugs
+        PictureFile: Bugs.jpg
+        Actions:
+          - ActionTitle: txt_G4Kpq
+            Description: txt_emWK4
+          - ActionTitle: txt_0SiWe
+            Description: txt_0CK8G
+          - ActionTitle: txt_8OuGu
+            Description: txt_CSSaC
+      - TaskTitle: txt_uquCi
+        PictureFile: Worms.jpg
+        Actions:
+          - ActionTitle: CAVEWORMS
+            Description: txt_OSK8e
+          - ActionTitle: txt_qmqLb
+            Description: txt_maeCC
+          - ActionTitle: txt_4SiGa
+            Description: txt_mC00m
+      - TaskTitle: Creatures
+        PictureFile: Creatures.jpg
+        Actions:
+          - ActionTitle: CRAWLER
+            Description: txt_CGa40
+          - ActionTitle: OTYUGH
+            Description: txt_m8aKG
+          - ActionTitle: SLIMES
+            Description: txt_WIi0K
+    Activatable: Always
+  - ChapterTitle: txt_e0m4Q
+    Category: FAQ
+    Description: txt_4SCOC
+    PictureFile: UCH.jpg
+    PlayerLevel: 1
+    Visibility: Always
+    Tasks:
+      - TaskTitle: txt_fut4g
+        PictureFile: UCH.jpg
+        Actions:
+          - ActionTitle: SUMMARY
+            Description: txt_0m7LG
+          - ActionTitle: txt_0ee0e
+            Description: txt_OaSS4
+          - ActionTitle: txt_qa8CC
+            Description: txt_0CSSQ
+          - ActionTitle: HISTORY
+            Description: txt_qmqia
+      - TaskTitle: txt_SKmum
+        PictureFile: ZiraxEmpire.jpg
+        Actions:
+          - ActionTitle: SUMMARY
+            Description: txt_kWOCq
+          - ActionTitle: txt_Kea8a
+            Description: txt_0SGam
+          - ActionTitle: txt_W4kG8
+            Description: txt_WSqm8
+          - ActionTitle: txt_KeK8a
+            Description: txt_mYjKu
+          - ActionTitle: HISTORY
+            Description: txt_uSmOe
+      - TaskTitle: txt_6mWi8
+        PictureFile: TalonGuardians.jpg
+        Actions:
+          - ActionTitle: SUMMARY
+            Description: txt_agimi
+          - ActionTitle: txt_4SsWK
+            Description: txt_8G48W
+          - ActionTitle: txt_4eG8a
+            Description: Neutral
+          - ActionTitle: txt_4m4SM
+            Description: txt_OWaSm
+          - ActionTitle: HISTORY
+            Description: txt_mqeK4
+      - TaskTitle: txt_Ou4OS
+        PictureFile: TradersGuild.jpg
+        Actions:
+          - ActionTitle: SUMMARY
+            Description: txt_OQmW4
+          - ActionTitle: txt_4FC0e
+            Description: txt_8Wep4
+          - ActionTitle: txt_8WS84
+            Description: Neutral
+          - ActionTitle: txt_Ocgui
+            Description: txt_qqSOu
+          - ActionTitle: HISTORY
+            Description: txt_COQi0
+    Activatable: Always
+  - ChapterTitle: chptitleKnowledgebase
+    Category: FAQ
+    Description: txt_uBWCu
+    PictureFile: dangerspace.jpg
+    PlayerLevel: 1
+    Visibility: Always
+    Tasks:
+      - TaskTitle: tasktitleGGM
+        PictureFile: GGM.jpg
+        Actions:
+          - ActionTitle: acttitleBasics
+            Description: actdescBasics
+          - ActionTitle: acttitleTechtree
+            Description: actdescTechtree
+          - ActionTitle: acttitleOP
+            Description: actdescOP
+          - ActionTitle: acttitleLook
+            Description: actdescLook
+          - ActionTitle: acttitlePvPvE
+            Description: actdescPvPvE
+      - TaskTitle: tasktitleGGM2
+        Actions:
+          - ActionTitle: acttitleRegistry
+            Description: actdescRegistry
+          - ActionTitle: acttitleMarketplace
+            Description: actdescMarketplace
+          - ActionTitle: acttitleMapmarkers
+            Description: actdescMapmarkers
+      - TaskTitle: tasktitleTemperatur
+        Actions:
+          - ActionTitle: acttitleTInfo
+            Description: actdescTInfo
+          - ActionTitle: acttitleRadInfo
+            Description: actdescRadInfo
+          - ActionTitle: acttitleTempRadDevices
+            Description: actdescTempRadDevices
+          - ActionTitle: acttitleWeather
+            Description: actdescWeather
+      - TaskTitle: tasktitleOxygenRooms
+        Actions:
+          - ActionTitle: acttitlelORglobal
+            Description: actdescORglobal
+          - ActionTitle: acttitleOquest
+            Description: actdescOquest
+      - TaskTitle: tasktitlePlayerArmor
+        Actions:
+          - ActionTitle: acttitlePlayerA
+            Description: actdescPlayerA
+          - ActionTitle: acttitleBooster
+            Description: actdescBooster
+          - ActionTitle: acttitleDandR
+            Description: actdescDandR
+      - TaskTitle: tasktitleTeleport
+        Actions:
+          - ActionTitle: acttitlePortal
+            Description: actdescPortal
+          - ActionTitle: acttitleInstances
+            Description: actdescInstances
+      - TaskTitle: tasktitleSI
+        PictureFile: SI.jpg
+        Actions:
+          - ActionTitle: acttitleSIwork
+            Description: actdescSIwork
+          - ActionTitle: acttitleBAcollaps
+            Description: actdescBAcollaps
+          - ActionTitle: acttitleSIoff
+            Description: actdescSIoff
+      - TaskTitle: tasktitleBuilding
+        PictureFile: Building.jpg
+        Actions:
+          - ActionTitle: acttitleMatz
+            Description: actdescMatz
+          - ActionTitle: acttitleBlocks
+            Description: actdescBlocks
+          - ActionTitle: acttitleBrotate
+            Description: actdescBrotate
+          - ActionTitle: acttitlePlane
+            Description: actdescPlane
+          - ActionTitle: acttitleMisc
+            Description: actdescMisc
+      - TaskTitle: tasktitleBuilding2
+        PictureFile: Building2.jpg
+        Actions:
+          - ActionTitle: acttitleMirror
+            Description: actdescMirror
+          - ActionTitle: acttitlePaint
+            Description: actdescPaint
+          - ActionTitle: acttitleWopac
+            Description: actdescWopac
+          - ActionTitle: acttitleSettings
+            Description: actdescSettings
+          - ActionTitle: acttitleRename
+            Description: actdescRename
+      - TaskTitle: tasktitleVessel
+        PictureFile: Vessel.jpg
+        Actions:
+          - ActionTitle: acttitleDieO2
+            Description: actdescDieO2
+          - ActionTitle: acttitleFlipped
+            Description: actdescFlipped
+          - ActionTitle: acttitleHorizon
+            Description: actdescHorizon
+          - ActionTitle: acttitleCVtip
+            Description: actdescCVtip
+          - ActionTitle: acttitleMCockpit
+            Description: actdescMCockpit
+      - TaskTitle: tasktitleVessel2
+        PictureFile: Vessel2.jpg
+        Actions:
+          - ActionTitle: acttitleDocking
+            Description: actdescDocking
+          - ActionTitle: acttitleAccessD
+            Description: actdescAccessD
+          - ActionTitle: acttitleWarp
+            Description: actdescWarp
+      - TaskTitle: tasktitleWeapon
+        PictureFile: Weapon.jpg
+        Actions:
+          - ActionTitle: acttitleRange
+            Description: actdescRange
+          - ActionTitle: acttitleDamageW
+            Description: actdescDamageW
+          - ActionTitle: acttitleEpicW
+            Description: actdescEpicW
+          - ActionTitle: acttitleAmmo
+            Description: actdescAmmo
+          - ActionTitle: acttitleTaccess
+            Description: actdescTaccess
+      - TaskTitle: tasktitlePOI
+        PictureFile: POI.jpg
+        Actions:
+          - ActionTitle: acttitlePdoor
+            Description: actdescPdoor
+          - ActionTitle: acttitlePblocks
+            Description: actdescPblocks
+          - ActionTitle: acttitleTeleporter
+            Description: actdescTeleporter
+          - ActionTitle: acttitlePbase
+            Description: actdescPbase
+          - ActionTitle: acttitleAIvessels
+            Description: actdescAIvessels
+      - TaskTitle: tasktitlePdrone
+        PictureFile: Pdrone.jpg
+        Actions:
+          - ActionTitle: acttitlePlayerD
+            Description: actdescPlayerD
+      - TaskTitle: tasktitleFaction
+        PictureFile: Faction.jpg
+        Actions:
+          - ActionTitle: acttitleJoin
+            Description: actdescJoin
+          - ActionTitle: acttitleFvessel
+            Description: actdescFvessel
+          - ActionTitle: acttitleFoprot
+            Description: actdescFoprot
+          - ActionTitle: acttitleFsetting
+            Description: actdescFsetting
+          - ActionTitle: acttitleFally
+            Description: actdescFally
+      - TaskTitle: tasktitleCP
+        PictureFile: CP.jpg
+        Actions:
+          - ActionTitle: acttitleRemote
+            Description: actdescRemote
+          - ActionTitle: acttitleRenameD
+            Description: actdescRenameD
+          - ActionTitle: acttitleGroup
+            Description: actdescGroup
+          - ActionTitle: acttitleSetFaction
+            Description: actdescSetFaction
+          - ActionTitle: acttitleHome
+            Description: actdescHome
+      - TaskTitle: tasktitleTSigLog
+        PictureFile: CP.jpg
+        Actions:
+          - ActionTitle: acttitleTriggers
+            Description: actdescTriggers
+          - ActionTitle: acttitleHowto
+            Description: actdescHowto
+          - ActionTitle: acttitleTtips
+            Description: actdescTtips
+          - ActionTitle: acttitleSignal
+            Description: actdescSignal
+      - TaskTitle: tasktitleBP
+        PictureFile: BP.jpg
+        Actions:
+          - ActionTitle: acttitleCreate
+            Description: actdescCreate
+          - ActionTitle: acttitleSpawn
+            Description: actdescSpawn
+          - ActionTitle: acttitleShortcut
+            Description: actdescShortcut
+          - ActionTitle: acttitlePublish
+            Description: actdescPublish
+          - ActionTitle: acttitleBPmisc
+            Description: actdescBPmisc
+      - TaskTitle: tasktitleCreative
+        PictureFile: Creative.jpg
+        Actions:
+          - ActionTitle: acttitleRemove
+            Description: actdescRemove
+          - ActionTitle: acttitleCmirror
+            Description: actdescCmirror
+          - ActionTitle: acttitleCmatz
+            Description: actdescCmatz
+          - ActionTitle: acttitleCpoi
+            Description: actdescCpoi
+      - TaskTitle: tasktitleConsole
+        PictureFile: Console.jpg
+        Actions:
+          - ActionTitle: acttitleUse
+            Description: actdescUse
+          - ActionTitle: acttitleDestr
+            Description: actdescDestr
+          - ActionTitle: acttitleAdmin
+            Description: actdescAdmin
+          - ActionTitle: acttitlePgroup
+            Description: actdescPgroup
+      - TaskTitle: tasktitlePDAInfo
+        PictureFile: PDAInfo.jpg
+        Actions:
+          - ActionTitle: acttitleDeactivate
+            Description: actdescDeactivate
+          - ActionTitle: acttitleTsks
+            Description: actdescTsks
+          - ActionTitle: acttitleFuture
+            Description: actdescFuture
+      - TaskTitle: tasktitleGlobMisc
+        PictureFile: GlobMisc.jpg
+        Actions:
+          - ActionTitle: acttitlePlayer
+            Description: actdescPlayer
+          - ActionTitle: acttitleReport
+            Description: actdescReport
+          - ActionTitle: acttitleSaveGame
+            Description: actdescSaveGame
+          - ActionTitle: acttitleEAC
+            Description: actdescEAC
+    Activatable: Always 
