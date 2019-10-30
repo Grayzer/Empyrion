@@ -71,6 +71,9 @@ Chapters:
         Count: "50"
     Description: txt_h8CqC
     NoSkip: "true"
+    PlayerLevel: "1"
+    Activatable: Always
+    Visibility: Always
   - ChapterTitle: txt_Wa8a4
     Category: Tutorial
     VisibleOnStartPlayfields:
@@ -108,6 +111,9 @@ Chapters:
     Description: txt_Cu8Gi
     AutoActivateOnGameStart: "true"
     NoSkip: "true"
+    PlayerLevel: "1"
+    Activatable: Always
+    Visibility: Always
   - ChapterTitle: txt_uPS8i
     Category: Tutorial
     VisibleOnStartPlayfields:
@@ -144,6 +150,9 @@ Chapters:
         Count: "1"
     Description: txt_qICCm
     NoSkip: "true"
+    PlayerLevel: "1"
+    Activatable: Always
+    Visibility: Always
   - ChapterTitle: txt_iSKW4
     Category: Tutorial
     VisibleOnStartPlayfields:
@@ -179,7 +188,10 @@ Chapters:
     NoSkip: "true"
     Preamble: txt_q0mWK
     Description: txt_eSCei
-  - ChapterTitle: Pest Control - Temperate
+    PlayerLevel: "1"
+    Activatable: Always
+    Visibility: Always
+  - ChapterTitle: txt_OpGWC
     Category: TalonMission
     PlayerLevel: 1
     Visibility: Always
@@ -190,8 +202,8 @@ Chapters:
       Delay: 60
       NumRepeats: 1
       DelayAdd: 30
-    Description: "Predators are roaming our territory, frighten our children and attacking our workers.\n\nWill you take care of this threat and [fff000]fend of the predators[-]?"
-    CompletedMessage: "norm;30|The Talon community gratefully gives thanks to you for your deeds."
+    Description: txt_uKe4u
+    CompletedMessage: "norm;30|txt_a8qS8"
     Rewards:
       - Type: Reputation
         Count: 1000
@@ -200,10 +212,10 @@ Chapters:
       - Item: GoldCoins
         Count: 10
     Tasks:
-      - TaskTitle: Hunt Predators
+      - TaskTitle: txt_WCqm0
         Actions:
-          - ActionTitle: Kill Predators
-            Description: "Targets that count towards the mission:\nAlienBug (any)\nCaveWorm (any)\n\n Creepy\nOtyugh\nOviraptor\nRaptor (any)\nSpider (any)\nSpinosaurus\nTelluropod"
+          - ActionTitle: txt_6mGmS
+            Description: txt_Oe08C
             Check: SubjectKilled
             Names:
               - AlienBug01
@@ -227,7 +239,7 @@ Chapters:
               - Creepy
             Amount: 10
             AllowManualCompletion: true
-  - ChapterTitle: The Unholy - Temperate
+  - ChapterTitle: txt_K0aew
     Category: TalonMission
     PlayerLevel: 1
     Visibility: Always
@@ -238,8 +250,8 @@ Chapters:
       Delay: 60
       NumRepeats: 1
       DelayAdd: 30
-    Description: "The world is filled with places where the unholy is hiding from our eyes.\n\nWe can feel it - will you help us to [fff000]find some of its hiding places?[-]"
-    CompletedMessage: "norm;30|The Talon community gratefully gives thanks to you for your deeds."
+    Description: txt_uSmKK
+    CompletedMessage: "norm;30|txt_q0OS0"
     Rewards:
       - Type: Reputation
         Count: 1000
@@ -248,9 +260,9 @@ Chapters:
       - Item: GoldCoins
         Count: 10
     Tasks:
-      - TaskTitle: Scout Legacy POIs
+      - TaskTitle: txt_e0SkW
         Actions:
-          - ActionTitle: Locate Spot 1
+          - ActionTitle: txt_KSYCE
             Description: ===
             Check: NearPoi
             Guiding: Destination
@@ -261,7 +273,7 @@ Chapters:
               - AlienWatchtower
               - ArtifactsFloating
             AllowManualCompletion: true
-          - ActionTitle: Locate Spot 2
+          - ActionTitle: txt_GquO8
             Description: ===
             Check: NearPoi
             Guiding: Destination
@@ -270,7 +282,7 @@ Chapters:
               - AbandonedPOI
               - ArtifactsFloating
             AllowManualCompletion: true
-  - ChapterTitle: Torching the Weed - Temperate
+  - ChapterTitle: txt_0S9Q4
     Category: TalonMission
     PlayerLevel: 1
     Visibility: Always
@@ -281,8 +293,8 @@ Chapters:
       Delay: 60
       NumRepeats: 1
       DelayAdd: 30
-    Description: "The radiated zones are a source of power for the unholy.\n\nWill you help us stopping their spread by [fff000]harvesting the contaminated wood[-]\nfrom the unnatural plants that grow inside the zones?"
-    CompletedMessage: "norm;30|The Talon community gratefully gives thanks to you for your deeds."
+    Description: txt_8Siie
+    CompletedMessage: "norm;30|txt_8qe4m"
     Rewards:
       - Type: Reputation
         Count: 3000
@@ -291,16 +303,16 @@ Chapters:
       - Item: GoldCoins
         Count: 20
     Tasks:
-      - TaskTitle: Chop down plants
+      - TaskTitle: txt_iqK6S
         Actions:
-          - ActionTitle: Harvest Wood Logs
+          - ActionTitle: txt_maGWa
             Description: ===
             Check: ItemsPickedUp
             Types:
               - WoodLogs
             Amount: 20
             AllowManualCompletion: true
-  - ChapterTitle: Action and Reaction - Temperate
+  - ChapterTitle: txt_meCu8
     Category: TalonMission
     PlayerLevel: 1
     Visibility: Always
@@ -311,8 +323,8 @@ Chapters:
       Delay: 60
       NumRepeats: 1
       DelayAdd: 30
-    Description: "Our attempts to halt the spread of the unholy seems to have triggered a reaction.\n\nOur Elders feel that our villages will soon be under attack.\nWill you help us to [fff000]fend off The Legacy?[-] assault?"
-    CompletedMessage: "norm;30|The Talon community gratefully gives thanks to you for your deeds."
+    Description: txt_8Yi0G
+    CompletedMessage: "norm;30|txt_S10Um"
     Rewards:
       - Type: Reputation
         Count: 3000
@@ -321,9 +333,9 @@ Chapters:
       - Item: GoldCoins
         Count: 20
     Tasks:
-      - TaskTitle: Fire Brigade
+      - TaskTitle: txt_CqeUC
         Actions:
-          - ActionTitle: Find Settlement
+          - ActionTitle: txt_SjG4u
             Description: ===
             Check: NearPoi
             Names:
@@ -336,16 +348,16 @@ Chapters:
               - TribalBazarStone
             Guiding: Destination
             AllowManualCompletion: true
-            CompletedMessage: "norm;30|I can already feel them coming..."
+            CompletedMessage: "norm;30|txt_qG0u0"
         OnCompletePlayfieldOps:
           - "SpawnEnemy: 2; Overseer; 30"
           - "SpawnEnemy: 2; TotalHorror; 25"
           - "SpawnEnemy: 1; GolemSwamp; 35"
-      - TaskTitle: Defend Settlement
+      - TaskTitle: txt_summu
         StartDelay: 15
         Actions:
-          - ActionTitle: Kill Creatures
-            Description: "The following creatures have been identified as The Legacy: GolemSwamp\nOverseer\nTotalHorror"
+          - ActionTitle: txt_Oq8um
+            Description: txt_S4qWC
             Check: SubjectKilled
             Names:
               - Overseer
@@ -353,7 +365,7 @@ Chapters:
               - GolemSwamp
             Amount: "3"
             AllowManualCompletion: true
-  - ChapterTitle: Pinholes do Hurt I - Temperate
+  - ChapterTitle: txt_8Ei8K
     Category: TalonMission
     PlayerLevel: 1
     Visibility: Always
@@ -364,8 +376,8 @@ Chapters:
       Delay: 60
       NumRepeats: 1
       DelayAdd: 30
-    Description: "The Zirax have oppressed us long enough!\n\nBut we do not want to directly assault them. Instead, we would like to express...our arguments.\nWill you lend us a hand in our campaign and [fff000]deliver our message[-] to some of their troops?"
-    CompletedMessage: "norm;30|The Talon community gratefully gives thanks to you for your deeds."
+    Description: txt_uOKG6
+    CompletedMessage: "norm;30|txt_aGUqS"
     Rewards:
       - Type: Reputation
         Count: 4000
@@ -374,10 +386,10 @@ Chapters:
       - Item: GoldCoins
         Count: 30
     Tasks:
-      - TaskTitle: Assassinate Zirax Troops
+      - TaskTitle: txt_q0O0a
         Actions:
-          - ActionTitle: Kill Zirax
-            Description: "Targets that count towards the mission goal:\nAny drone\nAny Zirax trooper (Patrol and in POIs)\nZirax Ripper Dogs\nZirax Traders\nMechanoids and Turret Robots\nArmored Golem"
+          - ActionTitle: txt_qC8ag
+            Description: txt_4W8G0
             Check: SubjectKilled
             Names:
               - DronesDroneSmallFast01Rocket
@@ -421,7 +433,7 @@ Chapters:
               - ZiraxRipperDogPatrol
             Amount: 15
             AllowManualCompletion: true
-  - ChapterTitle: Pinholes do Hurt II - Temperate
+  - ChapterTitle: txt_WmW4C
     Category: TalonMission
     PlayerLevel: 1
     Visibility: Always
@@ -432,8 +444,8 @@ Chapters:
       Delay: 60
       NumRepeats: 1
       DelayAdd: 30
-    Description: "Killing only the troopers does not seem to make them listen a lot.\nWe need to shut down what fuels their bases.\n\nWould you mind to assist us in some sabot...ehm..in demonstrating our determination\nand [fff000]shut down some of their generators or fuel tanks[-]?"
-    CompletedMessage: "norm;30|The Talon community gratefully gives thanks to you for your deeds."
+    Description: txt_WqCGi
+    CompletedMessage: "norm;30|txt_uGKqO"
     Rewards:
       - Type: Reputation
         Count: 5000
@@ -442,9 +454,9 @@ Chapters:
       - Item: GoldCoins
         Count: 40
     Tasks:
-      - TaskTitle: Blow Up Fuel Tanks and Generators
+      - TaskTitle: txt_Ca04W
         Actions:
-          - ActionTitle: Destroy Devices
+          - ActionTitle: txt_u8Oe0
             Description: ===
             Check: BlockDestroyed
             Names:
@@ -471,7 +483,7 @@ Chapters:
               - FuelTankPOI
             Amount: 3
             AllowManualCompletion: true
-  - ChapterTitle: Privacy Matters
+  - ChapterTitle: txt_WmZqK
     Category: PolarisMission
     PlayerLevel: 1
     Visibility: Always
@@ -482,8 +494,8 @@ Chapters:
       Delay: 60
       NumRepeats: 1
       DelayAdd: 30
-    Description: "Greetings from the Polaris Megacorp, my dear friend!\n\nYou look like someone that has grown to like some...privacy.\n\nWe, as a company, are the biggest advocates of privacy - but we are afraid,\nthe Zirax Empire does not really value this like you and we do\n\n. Do you think you can [fff000]shut down some of their drones[-]...\njust in favor of the wildlife and its unimpaired living, of course?"
-    CompletedMessage: "norm;30|POLARIS board of directors gratefully appreciates your formidable services."
+    Description: txt_eOGKm
+    CompletedMessage: "norm;30|txt_DmWSm"
     Rewards:
       - Type: Reputation
         Count: 1000
@@ -492,7 +504,7 @@ Chapters:
       - Item: MoneyCard
         Count: 500
     Tasks:
-      - TaskTitle: Find Location
+      - TaskTitle: txt_qj0IS
         Actions:
           - ActionTitle: Locate
             Description: ===
@@ -502,17 +514,17 @@ Chapters:
               - JunkT2
             Guiding: Destination
             AllowManualCompletion: true
-            CompletedMessage: Last time i noticed some of the drones floating around here...
+            CompletedMessage: txt_M0KeG
         OnCompletePlayfieldOps:
           - "SpawnDrone: 1; DroneSmallFast01Rocket; NearPlayer"
           - "SpawnDrone: 1; DroneSmallFast01Minigun; NearPlayer"
-      - TaskTitle: Destroy Drones
+      - TaskTitle: txt_4m4aO
         StartDelay: 10
         OnActivatePlayfieldOps:
           - "SpawnDrone: 2; DroneSmallFast01Minigun; NearPlayer"
         Actions:
-          - ActionTitle: Destroy Drones
-            Description: "Targets that count towards the mission: Any drone"
+          - ActionTitle: txt_e8iSq
+            Description: txt_qO8eu
             Check: SubjectKilled
             Names:
               - DroneSmallFast01Rocket
@@ -539,7 +551,7 @@ Chapters:
               - SpaceDroneLaser
             Amount: "1"
             AllowManualCompletion: true
-  - ChapterTitle: Wildlife Cam
+  - ChapterTitle: txt_aKumW
     Category: PolarisMission
     PlayerLevel: 1
     Visibility: Always
@@ -550,8 +562,8 @@ Chapters:
       Delay: 60
       NumRepeats: 1
       DelayAdd: 30
-    Description: "Wonderful performance in your last mission!\nBut we are afraid we need to invest more time in the well-being of the creatures of this planet - especially around ore deposits.\n\nSome minerals seem to affect the wildlife and we do not have a prospector...I mean, skilled explorers, at hand.\n\nYour bearing shows you are a skilled Explorer.\nSo may we ask you for this favor again and [fff000]scout a few ore deposits[-] - only for checking the living conditions of the native animals, of course."
-    CompletedMessage: "norm;30|POLARIS board of directors gratefully appreciates your formidable services."
+    Description: txt_0VaxK
+    CompletedMessage: "norm;30|txt_uKGat"
     Rewards:
       - Type: Reputation
         Count: 1000
@@ -560,9 +572,9 @@ Chapters:
       - Item: MoneyCard
         Count: 500
     Tasks:
-      - TaskTitle: Scout Ore Deposits
+      - TaskTitle: txt_8qhSq
         Actions:
-          - ActionTitle: Find Deposit 1
+          - ActionTitle: txt_CqCaK
             Description: ===
             Check: NearResource
             Guiding: Destination
@@ -580,7 +592,7 @@ Chapters:
               - PromethiumResource
               - GoldResource
             AllowManualCompletion: true
-          - ActionTitle: Find Deposit 2
+          - ActionTitle: txt_eC8WW
             Description: ===
             Check: NearResource
             Guiding: Destination
@@ -598,7 +610,7 @@ Chapters:
               - PromethiumResource
               - GoldResource
             AllowManualCompletion: true
-          - ActionTitle: Find Deposit 3
+          - ActionTitle: txt_i0i0S
             Description: ===
             Check: NearResource
             Guiding: Destination
@@ -616,7 +628,7 @@ Chapters:
               - PromethiumResource
               - GoldResource
             AllowManualCompletion: true
-  - ChapterTitle: Power down the Zone
+  - ChapterTitle: txt_SGqii
     Category: PolarisMission
     PlayerLevel: 1
     Visibility: Always
@@ -627,8 +639,8 @@ Chapters:
       Delay: 60
       NumRepeats: 1
       DelayAdd: 30
-    Description: "Currently, our biggest concern are the radiated zones on this planet.\n\nThe promethium stones and deposits in that area seem to fuel the radiated zones ecosystem and harm our worke...the precious lifeforms there.\n\nWe would like to ask you to venture in such a zone,\ncheck what is happening there and [fff000]bring back a few samples of promethium[-] so we can make profit...examine it!"
-    CompletedMessage: "norm;30|POLARIS board of directors gratefully appreciates your formidable services."
+    Description: txt_qq0KK
+    CompletedMessage: "norm;30|txt_e8KqB"
     Rewards:
       - Type: Reputation
         Count: 3000
@@ -637,16 +649,16 @@ Chapters:
       - Item: MoneyCard
         Count: 1000
     Tasks:
-      - TaskTitle: Extract Promethium Ore
+      - TaskTitle: txt_uec8i
         Actions:
-          - ActionTitle: Collect Promethium Ore
+          - ActionTitle: txt_eOKe5
             Description: ===
             Check: ItemsPickedUp
             Types:
               - PromethiumOre
             Amount: 15
             AllowManualCompletion: true
-  - ChapterTitle: Weaponized Negotiations
+  - ChapterTitle: txt_6uY8j
     Category: PolarisMission
     PlayerLevel: 1
     Visibility: Always
@@ -657,8 +669,8 @@ Chapters:
       Delay: 60
       NumRepeats: 1
       DelayAdd: 30
-    Description: "What a shame!\n\nIt seems the Zirax do not value our combined efforts to improve our companies\n..the planets..situation and have sent in an attack force to one of our facilities.\n\nOn behalf of the POLARIS board of directors, we ask you to head there and help with the defences!"
-    CompletedMessage: "norm;30|POLARIS board of directors gratefully appreciates your formidable services."
+    Description: txt_8eiWm
+    CompletedMessage: "norm;30|txt_KSeWb"
     Rewards:
       - Type: Reputation
         Count: 3000
@@ -667,9 +679,9 @@ Chapters:
       - Item: MoneyCard
         Count: 1000
     Tasks:
-      - TaskTitle: Fire Brigade
+      - TaskTitle: txt_8CWCm
         Actions:
-          - ActionTitle: Find Facility
+          - ActionTitle: txt_nLuSM
             Description: ===
             Check: NearPoi
             Names:
@@ -681,14 +693,14 @@ Chapters:
               - PolarisMiningAux
             Guiding: Destination
             AllowManualCompletion: true
-            CompletedMessage: "norm;20|Are these POLARIS guys trying to fool me with their 'caring about the environment' drivel...?"
+            CompletedMessage: "norm;20|txt_W0q8e"
         OnCompletePlayfieldOps:
           - "SpawnDrone: 2; DroneSmallFast01Rocket; NearPlayer"
           - "SpawnDrone: 1; DroneSmallFast01Plasma; NearPlayer"
-      - TaskTitle: Defend Facility
+      - TaskTitle: txt_eCmma
         StartDelay: "6"
         Actions:
-          - ActionTitle: Destroy Drones
+          - ActionTitle: txt_qm8Gq
             Description: ===
             Check: SubjectKilled
             Names:
@@ -696,7 +708,7 @@ Chapters:
               - DroneSmallFast01Plasma
             Amount: "2"
             AllowManualCompletion: true
-  - ChapterTitle: Counter Strike I
+  - ChapterTitle: txt_qIepW
     Category: PolarisMission
     PlayerLevel: 1
     Visibility: Always
@@ -707,8 +719,8 @@ Chapters:
       Delay: 60
       NumRepeats: 1
       DelayAdd: 30
-    Description: "The Zirax have gone too far once again and are posing a risk to our company operations .. i mean, primarily to the natives, of course!\n\nWe need to help them getting back on the right track, don't you think?\n\nFirst, we should 'inform' some of their personnel and deliver a loud and clear warning.\n\nDo you mind delivering that little notice to the recipients, will you? "
-    CompletedMessage: "norm;30|POLARIS board of directors gratefully appreciates your formidable services."
+    Description: txt_QCG4C
+    CompletedMessage: "norm;30|txt_3mi4G"
     Rewards:
       - Type: Reputation
         Count: 4000
@@ -717,10 +729,10 @@ Chapters:
       - Item: MoneyCard
         Count: 1500
     Tasks:
-      - TaskTitle: Decimate Zirax Personnel
+      - TaskTitle: txt_m8SOb
         Actions:
-          - ActionTitle: Kill Zirax
-            Description: "Targets that count towards the mission goal:\nAny drone\nAny Zirax trooper (Patrol and in POIs)\nZirax Ripper Dogs\nZirax Traders\nMechanoids and Turret Robots\nArmored Golem"
+          - ActionTitle: txt_K0aei
+            Description: txt_e0400
             Check: SubjectKilled
             Names:
               - Mechanoid
@@ -764,7 +776,7 @@ Chapters:
               - SpaceDroneLaser
             Amount: 15
             AllowManualCompletion: true
-  - ChapterTitle: Counter Strike II
+  - ChapterTitle: txt_iKuWu
     Category: PolarisMission
     PlayerLevel: 1
     Activatable: ByReputation
@@ -774,8 +786,8 @@ Chapters:
       Delay: 60
       NumRepeats: 1
       DelayAdd: 30
-    Description: "Do you believe that! The Zirax actually not only seem to not agree on our company operations, but also store dangerous substances in 3rd party non-licensed containers?\n\nThat's something we cannot accept, correct?\n\nCan you possibly step by a Zirax facility and check if the storage areas are up to our high company standards?\n\nYou are entitled to seize any goods and advice the personnel to assist, retreat or resign their facility."
-    CompletedMessage: "norm;30|POLARIS board of directors gratefully appreciates your formidable services."
+    Description: txt_imiCC
+    CompletedMessage: "norm;30|txt_PeISi"
     Rewards:
       - Type: Reputation
         Count: 5000
@@ -784,9 +796,9 @@ Chapters:
       - Item: MoneyCard
         Count: 2000
     Tasks:
-      - TaskTitle: Destroy Containers
+      - TaskTitle: txt_Uue4w
         Actions:
-          - ActionTitle: Destroy Containers
+          - ActionTitle: txt_8i8eG
             Description: ===
             Check: BlockDestroyed
             Names:
@@ -829,7 +841,8 @@ Chapters:
               - ScifiContainerPowerLarge
             Amount: 3
             AllowManualCompletion: true
-  - ChapterTitle: Taming the Mood
+    Visibility: Always
+  - ChapterTitle: txt_KW0GO
     Category: ZiraxMission
     PlayerLevel: 1
     Visibility: Always
@@ -840,8 +853,8 @@ Chapters:
       Delay: 60
       DelayAdd: 30
       NumRepeats: 1
-    Description: "Praise the Emperor, stranger!\n\nSome of our lieutenants have told me you had helped them in various situations.\n\nNow you can proof your worth for the Zirax Empire\n\nGet out there and [fff000]kill some of those worthless creatures[-] crouching and running around and do not care for anything.\n\nI am sick of looking at them. Prey...pfff."
-    CompletedMessage: "norm;30|The ZIRAX generously take note of your dedication to the Empire."
+    Description: txt_aYCOe
+    CompletedMessage: "norm;30|txt_CCKge"
     Rewards:
       - Type: Reputation
         Count: 1000
@@ -852,10 +865,10 @@ Chapters:
       - Item: PentaxidOre
         Count: 25
     Tasks:
-      - TaskTitle: Decimate Creatures
+      - TaskTitle: txt_WOWq0
         Actions:
-          - ActionTitle: Kill PREY
-            Description: "Targets that count towards the mission:\nMegalonops (any)\nPangolin\nParasaur\nSlime (any)\nTriceratops\nWormDesert (any)\nOtyugh\nOviraptor\nLizardMule"
+          - ActionTitle: txt_mCS80
+            Description: txt_WOGKG
             Check: SubjectKilled
             Names:
               - Triceratops
@@ -874,7 +887,7 @@ Chapters:
               - ParasaurBaby
             Amount: 10
             AllowManualCompletion: true
-  - ChapterTitle: Untrusted Trading
+  - ChapterTitle: txt_QWSG4
     Category: ZiraxMission
     PlayerLevel: 1
     Visibility: Always
@@ -885,8 +898,8 @@ Chapters:
       Delay: 60
       DelayAdd: 30
       NumRepeats: 1
-    Description: "These POLARIS tricksters think we let them do whatever they want.\n\nEven the local governor believes in their 'environmental first' campaign nonsense, while they ruthless exploit any deposit they can get their hands on.\n\nYou will help us to reveal their real interests!\n[fff000]Locate and investigate one of their Trading Stations.[-]\n\nI am quite sure they even work with those Talon scumbags..."
-    CompletedMessage: "norm;30|The ZIRAX generously take note of your dedication to the Empire."
+    Description: txt_u4i8V
+    CompletedMessage: "norm;30|txt_SOa4u"
     Rewards:
       - Type: Reputation
         Count: 1000
@@ -897,16 +910,16 @@ Chapters:
       - Item: PentaxidOre
         Count: 25
     Tasks:
-      - TaskTitle: POLARIS Trading Station
+      - TaskTitle: txt_Hieau
         Actions:
-          - ActionTitle: Locate facility
+          - ActionTitle: txt_aO4WS
             Description: ===
             Check: NearPoi
             Guiding: Destination
             Names:
               - TS_Planet
             AllowManualCompletion: true
-  - ChapterTitle: Radiated Trace
+  - ChapterTitle: txt_O0OoC
     Category: ZiraxMission
     PlayerLevel: 1
     Visibility: Always
@@ -917,8 +930,8 @@ Chapters:
       Delay: 60
       NumRepeats: 1
       DelayAdd: 30
-    Description: "A recently seized cargo transport lead us to the assumption that the POLARIS are harvesting rare materials in the radiated zones without permission.\nIf i would not know their obvious profit plans any better, I would have guessed they are searching for something particular.\n\nWe want you to follow this trace, closely investigate and explore such a zone and [fff000]bring back some of the Pentaxid Crystals[-]\nso we can get an idea, why these zones are of such an importance for POLARIS!"
-    CompletedMessage: "norm;30|The ZIRAX generously take note of your dedication to the Empire."
+    Description: txt_csWie
+    CompletedMessage: "norm;30|txt_GqGaq"
     Rewards:
       - Type: Reputation
         Count: 3000
@@ -929,16 +942,16 @@ Chapters:
       - Item: PentaxidOre
         Count: 50
     Tasks:
-      - TaskTitle: Extract Pentaxid
+      - TaskTitle: txt_SjaOm
         Actions:
-          - ActionTitle: Collect Pentaxid
+          - ActionTitle: txt_KKK0K
             Description: ===
             Check: ItemsPickedUp
             Types:
               - PentaxidOre
             Amount: 5
             AllowManualCompletion: true
-  - ChapterTitle: Crime Scene Cleaner
+  - ChapterTitle: txt_i8m6K
     Category: ZiraxMission
     PlayerLevel: 1
     Visibility: Always
@@ -949,8 +962,8 @@ Chapters:
       Delay: 60
       DelayAdd: 30
       NumRepeats: 1
-    Description: "Every week the same troubles.\nOne of our patrols accidentally shot down a representative of one of the other Zirax houses.\nIs this MY fault if their worthless officers do not sign the trespassing formulas? Exactly!\n\nCan you please grab a weapon and silence this turmoil at the crashsite?"
-    CompletedMessage: "norm;30|The ZIRAX generously take note of your dedication to the Empire."
+    Description: txt_e8WnW
+    CompletedMessage: "norm;30|txt_Oa8q0"
     Rewards:
       - Type: Reputation
         Count: 3000
@@ -961,7 +974,7 @@ Chapters:
       - Item: PentaxidOre
         Count: 50
     Tasks:
-      - TaskTitle: Locate Crashsite
+      - TaskTitle: txt_iuCmG
         Actions:
           - ActionTitle: Locate
             Description: ===
@@ -974,16 +987,16 @@ Chapters:
               - CrashedTitanBack
             Guiding: Destination
             AllowManualCompletion: true
-            CompletedMessage: "norm;30|Hm. Nobody out here. This is a trap? Yes, of course..."
+            CompletedMessage: "norm;30|txt_axqua"
         OnCompletePlayfieldOps:
           - "SpawnEnemy: 4; Hexapod; 50"
           - "SpawnEnemy: 4; AlienAssassinRed; 50"
           - "SpawnEnemy: 2; Overseer; 70"
           - "SpawnEnemy: 2; GolemDesert; 30"
-      - TaskTitle: Survive Ambush
+      - TaskTitle: txt_OuuaC
         StartDelay: 30
         Actions:
-          - ActionTitle: Kill Creatures
+          - ActionTitle: txt_Eq0WK
             Description: ===
             Check: SubjectKilled
             Names:
@@ -993,7 +1006,7 @@ Chapters:
               - GolemDesert
             Amount: 10
             AllowManualCompletion: true
-  - ChapterTitle: Supreme Court I
+  - ChapterTitle: txt_iq4ii
     Category: ZiraxMission
     PlayerLevel: 1
     Visibility: Always
@@ -1004,8 +1017,8 @@ Chapters:
       Delay: 60
       DelayAdd: 30
       NumRepeats: 1
-    Description: "These pesky Talon! Now they have gone too far. I do not know how, but they destroyed several of our base generators and fuel tanks!\n\nThe governor wants to set a warning example.\n\nSearch for their settlements and bazaars and kill their Chiefs, Guards, their Sentinels and Traders and destroy the statues they pray towards.\nNo mercy!"
-    CompletedMessage: "norm;30|The ZIRAX generously take note of your dedication to the Empire."
+    Description: txt_iqGiS
+    CompletedMessage: "norm;30|txt_Se44b"
     Rewards:
       - Type: Reputation
         Count: 4000
@@ -1016,21 +1029,21 @@ Chapters:
       - Item: PentaxidOre
         Count: 75
     Tasks:
-      - TaskTitle: Warning Example
+      - TaskTitle: txt_Ameq8
         Actions:
-          - ActionTitle: Kill a Talon Chief
+          - ActionTitle: txt_SWOeM
             Description: ===
             Check: SubjectKilled
             Names:
               - TalonChief
             AllowManualCompletion: true
-          - ActionTitle: Kill a Talon Sentinel
+          - ActionTitle: txt_FKSOG
             Description: ===
             Check: SubjectKilled
             Names:
               - TalonSentinel
             AllowManualCompletion: true
-          - ActionTitle: Kill a Talon Guardian
+          - ActionTitle: txt_8aWAq
             Description: ===
             Check: SubjectKilled
             Names:
@@ -1038,14 +1051,14 @@ Chapters:
               - TalonGuardianRed
               - TalonGuardianBlue
             AllowManualCompletion: true
-          - ActionTitle: Kill a Talon Trader
+          - ActionTitle: txt_O8iai
             Description: ===
             Check: SubjectKilled
             Names:
               - TraderTalon
               - TraderTalon2
             AllowManualCompletion: true
-          - ActionTitle: Destroy Statues
+          - ActionTitle: txt_aaq0W
             Description: ===
             Check: BlockDestroyed
             Types:
@@ -1067,7 +1080,7 @@ Chapters:
               - TigerStatueSmall
             Amount: 4
             AllowManualCompletion: true
-  - ChapterTitle: Supreme Court II
+  - ChapterTitle: txt_iSG0a
     Category: ZiraxMission
     PlayerLevel: 1
     Visibility: Always
@@ -1077,8 +1090,9 @@ Chapters:
     RepeatConditions:
       Delay: 60
       DelayAdd: 30
-    Description: "Ha! Now we got them with their dirty company hands deep into illegal transactions!\n\nA scout team has caught a POLARIS team selling medicals, building material and other commodities to the Talon.\nWe are sure, they also selling them weapons, so we NEED to act now!\n\nZirax High Court has ordered to clear the POLARIS Trading compound by weapon fire.\n\nGo there and proof you loyalty to the Empire. No survivors."
-    CompletedMessage: "norm;30|The ZIRAX generously take note of your dedication to the Empire."
+      NumRepeats: 1
+    Description: txt_aiumi
+    CompletedMessage: "norm;30|txt_K4Yn0"
     Rewards:
       - Type: Reputation
         Count: 5000
@@ -1089,16 +1103,16 @@ Chapters:
       - Item: PentaxidOre
         Count: 100
     Tasks:
-      - TaskTitle: Out of Business
+      - TaskTitle: txt_aCWau
         Actions:
-          - ActionTitle: Find Trading Station
+          - ActionTitle: txt_u8lmi
             Description: ===
             Check: NearPoi
             Guiding: Destination
             Names:
               - TS_Planet
             AllowManualCompletion: true
-          - ActionTitle: Kill some Traders
+          - ActionTitle: txt_GISaK
             Description: ===
             Check: SubjectKilled
             Names:
@@ -2370,7 +2384,6 @@ Chapters:
     Rewards:
       - Item: ZascosiumIngot
         Count: "999"
-
   - ChapterTitle: txt_4uiD0
     Category: FAQ
     Description: txt_iiKfq
@@ -3563,4 +3576,4 @@ Chapters:
             Description: actdescSaveGame
           - ActionTitle: acttitleEAC
             Description: actdescEAC
-    Activatable: Always 
+    Activatable: Always
