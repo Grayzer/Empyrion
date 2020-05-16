@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+п»їusing System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using UnityEngine;
@@ -15,9 +15,9 @@ public class MyBaseAttack : PdaScript {
     string startingChapterName = "";
 
     public MyBaseAttack() {
-        Data.Creator = "Eleon Game Studios [перевод Mungus]";
-        Data.CompletedMessage = "15|Когда солнце садится за горизонт, кровь мерцает на угасающем солнце, вы смотрите на своих братьев... без слов, это слишком хорошо понято: это только начало...";
-        Data.FailedMessage = "15;t|Среди стонов и криков вы смотрите на небо и делаете последний вздох, солдат Зиракс подходит к вам и прикладывает свой бластер к вашему лицу...";
+        Data.Creator = "Eleon Game Studios [РїРµСЂРµРІРѕРґ Mungus]";
+        Data.CompletedMessage = "15|РљРѕРіРґР° СЃРѕР»РЅС†Рµ СЃР°РґРёС‚СЃСЏ Р·Р° РіРѕСЂРёР·РѕРЅС‚, РєСЂРѕРІСЊ РјРµСЂС†Р°РµС‚ РЅР° СѓРіР°СЃР°СЋС‰РµРј СЃРѕР»РЅС†Рµ, РІС‹ СЃРјРѕС‚СЂРёС‚Рµ РЅР° СЃРІРѕРёС… Р±СЂР°С‚СЊРµРІ... Р±РµР· СЃР»РѕРІ, СЌС‚Рѕ СЃР»РёС€РєРѕРј С…РѕСЂРѕС€Рѕ РїРѕРЅСЏС‚Рѕ: СЌС‚Рѕ С‚РѕР»СЊРєРѕ РЅР°С‡Р°Р»Рѕ...";
+        Data.FailedMessage = "15;t|РЎСЂРµРґРё СЃС‚РѕРЅРѕРІ Рё РєСЂРёРєРѕРІ РІС‹ СЃРјРѕС‚СЂРёС‚Рµ РЅР° РЅРµР±Рѕ Рё РґРµР»Р°РµС‚Рµ РїРѕСЃР»РµРґРЅРёР№ РІР·РґРѕС…, СЃРѕР»РґР°С‚ Р—РёСЂР°РєСЃ РїРѕРґС…РѕРґРёС‚ Рє РІР°Рј Рё РїСЂРёРєР»Р°РґС‹РІР°РµС‚ СЃРІРѕР№ Р±Р»Р°СЃС‚РµСЂ Рє РІР°С€РµРјСѓ Р»РёС†Сѓ...";
     }
 
     // override to check for conditions to start the script and select the starting chapter name
@@ -46,11 +46,11 @@ public class ChapterZirax : Chapter {
     public Vector3 playerBaseDropPosition;
 
     public ChapterZirax(string _id) : base(_id) {
-        chapterData.ChapterTitle = "Вторжение Зиракс";
+        chapterData.ChapterTitle = "Р’С‚РѕСЂР¶РµРЅРёРµ Р—РёСЂР°РєСЃ";
         chapterData.Category = ChapterCategory.UCHMission;
-        chapterData.Description = "[ffff00]Приготовьтесь к вторжению Зиракс![-]\n\nВы находитесь в изолированном форпосте в далеком мире. У вас есть отчеты " +
-                                  "о скором вторжении Зиракс. Вы должны защищать заставу любой ценой.\n\n[ffff00]Найдите время, чтобы ознакомиться с этой базой[-].\n\n" +
-                                  "[ff0000]Вы не поставлена задача добычи полезных ископаемых или разработке какой-либо из вашего оборудования. Расходные материалы, оружие, боеприпасы и многое другое будут сброшены на посадочной площадке.[-]";
+        chapterData.Description = "[ffff00]РџСЂРёРіРѕС‚РѕРІСЊС‚РµСЃСЊ Рє РІС‚РѕСЂР¶РµРЅРёСЋ Р—РёСЂР°РєСЃ![-]\n\nР’С‹ РЅР°С…РѕРґРёС‚РµСЃСЊ РІ РёР·РѕР»РёСЂРѕРІР°РЅРЅРѕРј С„РѕСЂРїРѕСЃС‚Рµ РІ РґР°Р»РµРєРѕРј РјРёСЂРµ. РЈ РІР°СЃ РµСЃС‚СЊ РѕС‚С‡РµС‚С‹ " +
+                                  "Рѕ СЃРєРѕСЂРѕРј РІС‚РѕСЂР¶РµРЅРёРё Р—РёСЂР°РєСЃ. Р’С‹ РґРѕР»Р¶РЅС‹ Р·Р°С‰РёС‰Р°С‚СЊ Р·Р°СЃС‚Р°РІСѓ Р»СЋР±РѕР№ С†РµРЅРѕР№.\n\n[ffff00]РќР°Р№РґРёС‚Рµ РІСЂРµРјСЏ, С‡С‚РѕР±С‹ РѕР·РЅР°РєРѕРјРёС‚СЊСЃСЏ СЃ СЌС‚РѕР№ Р±Р°Р·РѕР№[-].\n\n" +
+                                  "[ff0000]Р’С‹ РЅРµ РїРѕСЃС‚Р°РІР»РµРЅР° Р·Р°РґР°С‡Р° РґРѕР±С‹С‡Рё РїРѕР»РµР·РЅС‹С… РёСЃРєРѕРїР°РµРјС‹С… РёР»Рё СЂР°Р·СЂР°Р±РѕС‚РєРµ РєР°РєРѕР№-Р»РёР±Рѕ РёР· РІР°С€РµРіРѕ РѕР±РѕСЂСѓРґРѕРІР°РЅРёСЏ. Р Р°СЃС…РѕРґРЅС‹Рµ РјР°С‚РµСЂРёР°Р»С‹, РѕСЂСѓР¶РёРµ, Р±РѕРµРїСЂРёРїР°СЃС‹ Рё РјРЅРѕРіРѕРµ РґСЂСѓРіРѕРµ Р±СѓРґСѓС‚ СЃР±СЂРѕС€РµРЅС‹ РЅР° РїРѕСЃР°РґРѕС‡РЅРѕР№ РїР»РѕС‰Р°РґРєРµ.[-]";
 
         chapterData.NoSkip = true;
         chapterData.PlayerLevel = 1;
@@ -168,15 +168,15 @@ public class InitialPrep : Task {
         taskComplete += _completeCallback;
         //playerJoined += OnPlayerConnect;
 
-        data.TaskTitle = "Добро пожаловать и подготовка";
-        data.StartMessage = "15|[ffff00]Были предоставлены маркеры карты для важных контейнеров.[-]\n\nОбратите внимание на эти места и используйте знаки в любое время.";
+        data.TaskTitle = "Р”РѕР±СЂРѕ РїРѕР¶Р°Р»РѕРІР°С‚СЊ Рё РїРѕРґРіРѕС‚РѕРІРєР°";
+        data.StartMessage = "15|[ffff00]Р‘С‹Р»Рё РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅС‹ РјР°СЂРєРµСЂС‹ РєР°СЂС‚С‹ РґР»СЏ РІР°Р¶РЅС‹С… РєРѕРЅС‚РµР№РЅРµСЂРѕРІ.[-]\n\nРћР±СЂР°С‚РёС‚Рµ РІРЅРёРјР°РЅРёРµ РЅР° СЌС‚Рё РјРµСЃС‚Р° Рё РёСЃРїРѕР»СЊР·СѓР№С‚Рµ Р·РЅР°РєРё РІ Р»СЋР±РѕРµ РІСЂРµРјСЏ.";
         data.StartDelay = 1;
         state.Id = PdaManagerBridge.CreateId(_id);
 
         // wait for players to join
         ActionData startData = new ActionData();
-        startData.ActionTitle = "В ожидании игроков: ";
-        startData.Description = "Подготовка к входящему вторжению Зиракс.";
+        startData.ActionTitle = "Р’ РѕР¶РёРґР°РЅРёРё РёРіСЂРѕРєРѕРІ: ";
+        startData.Description = "РџРѕРґРіРѕС‚РѕРІРєР° Рє РІС…РѕРґСЏС‰РµРјСѓ РІС‚РѕСЂР¶РµРЅРёСЋ Р—РёСЂР°РєСЃ.";
         startData.CompletedMessage = "";
         startData.SetTimer = waitTime;
         startData.IncrementCounter = false;
@@ -245,9 +245,9 @@ public class WavePrepTask : Task {
         taskComplete += _completeCallback;
 
         // set up task data
-        data.TaskTitle = "Подготовка к атаке";
-        data.StartMessage = string.Format("10;t|Ударная команда, готовься к атаке! ETA в T-{0}.[-]\n\nЗИРАКС АТАКУЕТ НЕМЕДЛЕННО, ЭТО НЕ БУР!\n\n" +
-                                          "[b]Я ПОВТОРЯЮ: ЭТО [i]НЕ[/i] БУР![/b]", prepTime);
+        data.TaskTitle = "РџРѕРґРіРѕС‚РѕРІРєР° Рє Р°С‚Р°РєРµ";
+        data.StartMessage = string.Format("10;t|РЈРґР°СЂРЅР°СЏ РєРѕРјР°РЅРґР°, РіРѕС‚РѕРІСЊСЃСЏ Рє Р°С‚Р°РєРµ! ETA РІ T-{0}.[-]\n\nР—РР РђРљРЎ РђРўРђРљРЈР•Рў РќР•РњР•Р”Р›Р•РќРќРћ, Р­РўРћ РќР• Р‘РЈР !\n\n" +
+                                          "[b]РЇ РџРћР’РўРћР РЇР®: Р­РўРћ [i]РќР•[/i] Р‘РЈР ![/b]", prepTime);
         data.StartDelay = 3;
 
         // update the task state id
@@ -255,9 +255,9 @@ public class WavePrepTask : Task {
 
         // create and add actions
         ActionData setTimerActionData = new ActionData();
-        setTimerActionData.ActionTitle = "Входящий ETA: ";
-        setTimerActionData.Description = "Размещайте оборону и готовьтесь к атаке.";
-        setTimerActionData.CompletedMessage = "7|Хорошо, дамы, вот  и все. Это нужно будет  сделать.";
+        setTimerActionData.ActionTitle = "Р’С…РѕРґСЏС‰РёР№ ETA: ";
+        setTimerActionData.Description = "Р Р°Р·РјРµС‰Р°Р№С‚Рµ РѕР±РѕСЂРѕРЅСѓ Рё РіРѕС‚РѕРІСЊС‚РµСЃСЊ Рє Р°С‚Р°РєРµ.";
+        setTimerActionData.CompletedMessage = "7|РҐРѕСЂРѕС€Рѕ, РґР°РјС‹, РІРѕС‚  Рё РІСЃРµ. Р­С‚Рѕ РЅСѓР¶РЅРѕ Р±СѓРґРµС‚  СЃРґРµР»Р°С‚СЊ.";
         setTimerActionData.AllowManualCompletion = false;
         setTimerActionData.SetTimer = prepTime; // in seconds
         setTimerActionData.IncrementCounter = false;
@@ -332,7 +332,7 @@ public class WaveDefendTask : DefendTask {
     const int maxScenVal = 3;
     int waveNumber;
 
-    const string taskTitleFmtStr = "[b][ff0000]ОТБИТА ВОЛНА: {0}[-][/b]";
+    const string taskTitleFmtStr = "[b][ff0000]РћРўР‘РРўРђ Р’РћР›РќРђ: {0}[-][/b]";
 
     public WaveDefendTask(string _id, System.Action<Task> _onTaskComplete, int _waveNumber = 1) : base(_id) {
         rand = new System.Random();
@@ -344,8 +344,8 @@ public class WaveDefendTask : DefendTask {
 
         // setup the task data
         data.TaskTitle = string.Format(taskTitleFmtStr, waveNumber); //
-        data.StartMessage = "10;t|[ffff00]Ударная команда, занимай позиции![-]";
-        data.CompletedMessage = "10|Это последняя из них.\n\nВнимание, Орбитальное командование посылает  [ffff00]контейнеры для пополнения запасов[-].\n\nЗаберите их [ff0000]и возвращайтесь назад![-]";
+        data.StartMessage = "10;t|[ffff00]РЈРґР°СЂРЅР°СЏ РєРѕРјР°РЅРґР°, Р·Р°РЅРёРјР°Р№ РїРѕР·РёС†РёРё![-]";
+        data.CompletedMessage = "10|Р­С‚Рѕ РїРѕСЃР»РµРґРЅСЏСЏ РёР· РЅРёС….\n\nР’РЅРёРјР°РЅРёРµ, РћСЂР±РёС‚Р°Р»СЊРЅРѕРµ РєРѕРјР°РЅРґРѕРІР°РЅРёРµ РїРѕСЃС‹Р»Р°РµС‚  [ffff00]РєРѕРЅС‚РµР№РЅРµСЂС‹ РґР»СЏ РїРѕРїРѕР»РЅРµРЅРёСЏ Р·Р°РїР°СЃРѕРІ[-].\n\nР—Р°Р±РµСЂРёС‚Рµ РёС… [ff0000]Рё РІРѕР·РІСЂР°С‰Р°Р№С‚РµСЃСЊ РЅР°Р·Р°Рґ![-]";
         data.StartDelay = 2;
 
         // set the task state id
@@ -440,13 +440,13 @@ public class RetakeBaseTask : Task {
     const string cNpcCoreBlockName = "CoreNPC";
     const string cPlayerCoreBlockName = "Core";
 
-    string completedMessageSuccess = "10;t|Это было слишком близко, девочки, если вы позволите этому случиться снова, вам придется ответить мне!";
-    string completedMessageFail = "[ffff00]Зиракс захватили вашу базу! Миссия[-] [ff0000]ПРОВАЛЕНА![-]";
+    string completedMessageSuccess = "10;t|Р­С‚Рѕ Р±С‹Р»Рѕ СЃР»РёС€РєРѕРј Р±Р»РёР·РєРѕ, РґРµРІРѕС‡РєРё, РµСЃР»Рё РІС‹ РїРѕР·РІРѕР»РёС‚Рµ СЌС‚РѕРјСѓ СЃР»СѓС‡РёС‚СЊСЃСЏ СЃРЅРѕРІР°, РІР°Рј РїСЂРёРґРµС‚СЃСЏ РѕС‚РІРµС‚РёС‚СЊ РјРЅРµ!";
+    string completedMessageFail = "[ffff00]Р—РёСЂР°РєСЃ Р·Р°С…РІР°С‚РёР»Рё РІР°С€Сѓ Р±Р°Р·Сѓ! РњРёСЃСЃРёСЏ[-] [ff0000]РџР РћР’РђР›Р•РќРђ![-]";
 
     public RetakeBaseTask(string _id, int _retakeTime) : base(_id) {
         // set up task data
-        data.TaskTitle = "Восстановите базу!";
-        data.StartMessage = "10;t|Мы должны восстановить нашу базу - иначе все кончено! Пошевеливайтесь!";
+        data.TaskTitle = "Р’РѕСЃСЃС‚Р°РЅРѕРІРёС‚Рµ Р±Р°Р·Сѓ!";
+        data.StartMessage = "10;t|РњС‹ РґРѕР»Р¶РЅС‹ РІРѕСЃСЃС‚Р°РЅРѕРІРёС‚СЊ РЅР°С€Сѓ Р±Р°Р·Сѓ - РёРЅР°С‡Рµ РІСЃРµ РєРѕРЅС‡РµРЅРѕ! РџРѕС€РµРІРµР»РёРІР°Р№С‚РµСЃСЊ!";
         data.StartDelay = 1;
 
         // update the task state id
