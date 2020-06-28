@@ -1,0 +1,3886 @@
+# -------
+# Created with eWPDA v1.12.8
+# Website: https://empyrion-homeworld.net/tools/ewpda
+# -------
+Creator: RexXxuS
+Chapters:
+  - ChapterTitle: txt_Ceiu0
+    Category: FAQ
+    Tasks:
+      - TaskTitle: txt_GaeWC
+        Actions:
+          - ActionTitle: txt_COC80
+            Description: txt_KiWGS
+          - ActionTitle: txt_GW040
+            Description: txt_CS048
+          - ActionTitle: txt_u0GG4
+            Description: txt_qS04G
+      - TaskTitle: txt_SWS0q
+        Actions:
+          - ActionTitle: txt_mm4qe
+            Description: txt_QGq8q
+          - ActionTitle: txt_iqiu0
+            Description: txt_OuKGa
+      - TaskTitle: txt_ausgm
+        Actions:
+          - ActionTitle: txt_WdKS0
+            Description: txt_wSbS4
+          - ActionTitle: txt_a0eeG
+            Description: txt_C8Gma
+          - ActionTitle: txt_uC0m4
+            Description: txt_4SkKO
+          - ActionTitle: txt_4e800
+            Description: txt_GeamQ
+          - ActionTitle: txt_GGOuK
+            Description: txt_mGa4W
+    NoSkip: false
+    PlayerLevel: 1
+    Activatable: Always
+    Visibility: Always
+  - ChapterTitle: 10 Tips for GETTING STARTED
+    Category: FAQ
+    Description: >-
+      1. Play the Robinson Protocol (Singleplayer, Default Random Scenario)
+
+      2. Craft the free-of-cost [ffff00]SURVIVAL TOOL[-] in your build-in
+      [ffff00]Survival Constructor[-] (TAB)
+
+      3. Use RIGHT-MOUSE button to set your weapons and tools to the correct
+      WORKING MODE before using!
+
+      4. Do not waste your STAMINA, as the Survival Tool relies on it and
+      rebuilding stamina will cost EXTRA FOOD POINTS!
+
+      5. Drill as many rocks as you can get hold of, preferably Ore Rocks!
+
+      5a. Deco Rocks will not hold any ore, but different amounts of Crushed
+      Stones.
+
+      5b. These Crushed Stones are very useful as [ffff00]you can extract ores
+      from it[-] in the Portable Constructor!
+
+      5c. As soon as you found or crafted a Portable Constructor, [ffff00]craft
+      a DRILL T1[-] as this will allow you to drill underground ore deposits!
+      The required [ffff00]BIOFUEL[-] (Which can also power your vessels and
+      bases!) can be made from fiber, which can be made from wood logs or fiber
+      plant!
+
+      5d. Avoid getting trapped in a mine shaft by using your PERSONAL DRONE
+      (F5) for mining.
+
+      6. Cold and Heat can be countered eigher by the [ffff00]Portable
+      Heater/Cooler[-] (Survival Constructor) or Hot- and Cold Beverages/Juices!
+
+      7. Do grab anything you run into, but mind that most of the edible items
+      will SPOIL/Perish.
+
+      7a. Craft higher tier items from your collected items asap! Those have an
+      increased perish time and do not spoil that fast!
+
+      7b. Plants will regrow - if you find a rare plant, mark it on your minimap
+      with a waypoint! [ffff00]Check Empyriopedia > Game Mechanics Q&A > Global
+      Game Mechanics Part II[-] for more info on how to do that!
+
+      8. Remember, that other players can NOT see your markers, even when they
+      are in your faction!. You need to SHARE your markers on the MAP (M) and
+      other players need to pick them FROM the MAP screen!
+
+      9. The PORTABLE CONSTRUCTOR can build a LIGHT ARMOR in the PORTABLE
+      CONSTRUCTOR, but you need a ARMOR LOCKER (in a vessel or your base) to
+      equip it! The Locker is also craftable in the Portable Constructor
+
+      [ff4444]10. Read the JOURNALS and GUIDES in the list on the left for MORE
+      INFO about gameplay and environment![-]
+    PictureFile: readfirst.jpg
+    PlayerLevel: 1
+    Visibility: Always
+    Tasks:
+      - TaskTitle: Click HEADLINE and PDA INFO
+        Actions:
+          - ActionTitle: Rules to follow
+            Description: >-
+              [ffff00]Click on the header of this chapter (10 Tips for GETTING
+              STARTED) in the list on the LEFT to reveal the content of this
+              chapter[-]
+
+              [ffff00]IF nothing is shown, make sure the button PDA INFO is
+              highlighted in the TOP RIGHT![-]
+    NoSkip: false
+  - ChapterTitle: DOCTORS JOURNAL
+    Category: FAQ
+    Description: >-
+      [i]When getting stranded in a remote place,
+
+      it is always useful to know what diseases
+
+      you could probably be faced with
+
+      ..and how to cure them.
+
+
+      [/i]Forel Mayne, MD
+
+      UCH Medical Corps
+
+      2470 AD
+
+
+      ---
+
+      [ff4444]To show all topics of this guide, click the DROPDOWN ARROW of this
+      chapters HEADLINE in the list on the left!
+
+      Click the SUB-task to reveal the info contained.
+
+      Make sure the PDA INFO button on the TOP RIGHT of the screen is
+      selected![-]
+    PictureFile: pfbmedical.jpg
+    PlayerLevel: 1
+    Visibility: Always
+    Tasks:
+      - TaskTitle: DOCTORS 101
+        Actions:
+          - ActionTitle: Rules to follow
+            Description: >-
+              1. Cure a disease in its early stage, as any following stage will
+              make it worse.
+
+
+              2. All diseases can be cured with one of this medication classes:
+                *Antibotics
+                *Antitoxin
+                *Antiparasite
+                *Antiradiation
+                *Bones
+
+              3. Exception: Effects that are related to outside temperature are
+              cured f.ex. by going to a a warmer or cooler place
+
+
+              4. The diseases progress in stages. Each stage has a defined class
+              of medical items to use:
+                *Stage 1: Ointments (f.ex Antibiotic Ointment)
+                *Stage 2: Pills (f.ex. Antibiotic Pills)
+                *Stage 3: Injections (f.ex. Antibiotic Injections; Will also cure Stage 2)
+
+              5. While medical items are effective only agains a few diseases at
+              the same time, [ff4444]Medikits and Medical Stations[-] offer a
+              much broader range of available cures!
+
+
+              6. Food, Beverages or using furniture for sleeping, taking a
+              shower and more are helping to get rid of some of the diseases or
+              at least stop their progress!
+
+
+              [ff4444]Open the DROPDOWN of the DOCTORS JOURNAL on the left to
+              learn more about the diseases and their remedies![-]
+      - TaskTitle: STAGES OF DISEASES
+        Actions:
+          - ActionTitle: TEMPERATURE BRANCH
+            Description: |-
+              [bcd3d4](In-Suit Temperature)
+              Too Hot (>35°) >> Heat Stroke (>45°) >> Heat Collapse (>55°)
+              Too Cold (<15°) >> Hypothermia (<10°) >> Freezing (<5°)[-]
+          - ActionTitle: ANTIBIOTICS BRANCH
+            Description: |-
+              [bcd3d4]Open Wound >> Infected Wound >> Sepsis
+              Dermal Burn >> Infected Wound >> Sepsis
+              Frostbite >> Necrosis >> (Intoxication)[-]
+          - ActionTitle: ANTITOXIC BRANCH
+            Description: |-
+              [bcd3d4]Poison Bite >> Intoxication >> Organ Failure
+              Indigestion >> Food Poisoning >> Fever Attack >> Organ Failure [-]
+          - ActionTitle: BONES BRANCH
+            Description: |-
+              [bcd3d4]Broken Leg >>> Mutilation
+              Closed Fracture >> Open Fracture >> Mutilation[-]
+          - ActionTitle: PARASITES BRANCH
+            Description: '[bcd3d4]Dermal Parasite >> Endo Parasite >> Alien Parasite'
+          - ActionTitle: RADIATION BRANCH
+            Description: >-
+              [bcd3d4]Radiation Burn (>1 Rad) >> Radiation Poisoning >>
+              Radiation Sickness (>4 Rad)[-]
+          - ActionTitle: HANGOVER BRANCH
+            Description: >-
+              [bcd3d4]Hangover >> Bad Trip[-]
+
+
+              [ff4444]Open the DROPDOWN of the DOCTORS JOURNAL on the left to
+              learn more about the diseases and their remedies![-]
+      - TaskTitle: Alien Parasite
+        PictureFile: AlienParasite.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: |-
+              [ffff00]- Antiparasite Injection
+              - Decontamination Kit[-]
+          - ActionTitle: MEDICAL STATIONS
+            Description: '[ffff00]- Medical Station Type 4[-]'
+          - ActionTitle: OTHER CURES
+            Description: n/a
+          - ActionTitle: OTHER CONSUMABLES
+            Description: n/a
+          - ActionTitle: SIDE EFFECTS..
+            Description: |2-
+                ..when received: [ff4444]Fever Attack[-]
+                ..when cured: -
+                ..when not cured: [ff4444]Death[-]
+      - TaskTitle: Bad Trip
+        PictureFile: BadTrip.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: n/a
+          - ActionTitle: MEDICAL STATIONS
+            Description: n/a
+          - ActionTitle: OTHER CURES
+            Description: |-
+              - Sleeping
+              - Use Toilet
+          - ActionTitle: OTHER CONSUMABLES
+            Description: |-
+              - Milk
+              - Hot Beverage
+          - ActionTitle: SIDE EFFECTS..
+            Description: |2-
+                ..when received: -
+                ..when cured: -
+                ..when not cured: [ff4444]Hangover[-]
+          - ActionTitle: CONDITIONS
+            Description: Over-consumption of Energy Pills and Natural Stimulant
+      - TaskTitle: Broken Leg
+        PictureFile: BrokenLeg.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: |-
+              [ffff00]- Bandages
+              - Trauma Kit[-]
+          - ActionTitle: MEDICAL STATIONS
+            Description: '[ffff00]- Medical Station Type 3[-]'
+          - ActionTitle: OTHER CURES
+            Description: n/a
+          - ActionTitle: OTHER CONSUMABLES
+            Description: n/a
+          - ActionTitle: SIDE EFFECTS..
+            Description: |2-
+                ..when received: -
+                ..when cured: -
+                ..when not cured: [ff4444]Mutilation[-]
+      - TaskTitle: Closed Fracture
+        PictureFile: FractureClosed.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: |-
+              [ffff00]- Bandages
+              - Trauma Kit[-]
+          - ActionTitle: MEDICAL STATIONS
+            Description: '[ffff00]- Medical Station Type 3[-]'
+          - ActionTitle: OTHER CURES
+            Description: n/a
+          - ActionTitle: OTHER CONSUMABLES
+            Description: n/a
+          - ActionTitle: SIDE EFFECTS..
+            Description: |2-
+                ..when received: -
+                ..when cured: -
+                ..when not cured: [ff4444]Mutilation[-]
+      - TaskTitle: Dermal Burn
+        PictureFile: DermalBurn.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: |-
+              [ffff00]- Antibiotic Ointment
+              - Antibiotic Pills
+              - Antibiotic Injection
+              - Trauma Kit[-]
+          - ActionTitle: MEDICAL STATIONS
+            Description: |-
+              [ffff00]- Medic Station
+              - Medical Station Type 2[-]
+          - ActionTitle: OTHER CURES
+            Description: n/a
+          - ActionTitle: OTHER CONSUMABLES
+            Description: |-
+              - Natural Sweetener
+               - Herbal Leaves
+          - ActionTitle: SIDE EFFECTS..
+            Description: |2-
+                ..when received: -
+                ..when cured: -
+                ..when not cured: [ff4444]Infected Wound[-]
+      - TaskTitle: Dermal Parasite
+        PictureFile: DermalParasite.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: |-
+              [ffff00]- Antitoxic Ointment
+              - Antiparasite Pills
+              - Antiparasite Injection
+              - Decontamination Kit[-]
+          - ActionTitle: MEDICAL STATIONS
+            Description: |-
+              [ffff00]- Medical Station Type 1
+              - Medical Station Type 4[-]
+          - ActionTitle: OTHER CURES
+            Description: n/a
+          - ActionTitle: OTHER CONSUMABLES
+            Description: n/a
+          - ActionTitle: SIDE EFFECTS..
+            Description: |2-
+                ..when received: -
+                ..when cured: [ff4444]Open Wound[-]
+                ..when not cured: [ff4444]Endo Parasite[-]
+      - TaskTitle: Endo Parasite
+        PictureFile: EndoParasite.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: |-
+              [ffff00]- Antiparasite Pills
+              - Antiparasite Injection
+              - Decontamination Kit[-]
+          - ActionTitle: MEDICAL STATIONS
+            Description: '[ffff00]- Medical Station Type 4[-]'
+          - ActionTitle: OTHER CURES
+            Description: n/a
+          - ActionTitle: OTHER CONSUMABLES
+            Description: n/a
+          - ActionTitle: SIDE EFFECTS..
+            Description: |2-
+                ..when received: [ff4444]Infected Wound[-]
+                ..when cured: -
+                ..when not cured: [ff4444]Alien Parasite[-]
+      - TaskTitle: Fever Attack
+        PictureFile: FeverAttack.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: |-
+              [ffff00]- Anti Toxic Injection
+              - Detox Kit[-]
+          - ActionTitle: MEDICAL STATIONS
+            Description: |-
+              [ffff00]- Medical Station Type 1
+              - Medical Station Type 4[-]
+          - ActionTitle: OTHER CURES
+            Description: n/a
+          - ActionTitle: OTHER CONSUMABLES
+            Description: n/a
+          - ActionTitle: SIDE EFFECTS..
+            Description: |2-
+                ..when received: -
+                ..when cured: -
+                ..when not cured: [ff4444]Organ Failure[-]
+      - TaskTitle: Food Poisoning
+        PictureFile: PoisonFood.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: |-
+              [ffff00]- Antitoxic Pills
+              - Antitoxic Injection
+              - Detox Kit[-]
+          - ActionTitle: MEDICAL STATIONS
+            Description: |-
+              [ffff00]- Medic Station
+              - Medical Station Type 1[-]
+          - ActionTitle: OTHER CURES
+            Description: n/a
+          - ActionTitle: OTHER CONSUMABLES
+            Description: n/a
+          - ActionTitle: SIDE EFFECTS..
+            Description: |2-
+                ..when received: -
+                ..when cured: -
+                ..when not cured: [ff4444]Fever Attack[-]
+      - TaskTitle: Freezing (to death)
+        PictureFile: BlackoutCold.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: n/a
+          - ActionTitle: MEDICAL STATIONS
+            Description: n/a
+          - ActionTitle: OTHER CURES
+            Description: |-
+              - [ffff00]Increase In-Suit Temperature above 5°C by..[-]
+                  ..Sleeping
+                  ..taking a Shower
+                  ..going inside a powered base or vessel
+                  ..using the Mobile AirCon
+          - ActionTitle: OTHER CONSUMABLES
+            Description: >-
+              - Hot Beverages and most meals will increase your temperature as
+              well
+          - ActionTitle: SIDE EFFECTS..
+            Description: |2-
+                ..when received: -
+                ..when cured: -
+                ..when not cured: [ff4444]Death[-]
+          - ActionTitle: CONDITIONS
+            Description: In-Suit Temperature lower than 5°C
+      - TaskTitle: Frostbite
+        PictureFile: Frostbite.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: |-
+              [ffff00]- Antibiotic Ointment
+              -Antibiotic Pills
+              - Antibiotic Injection
+              - Trauma Kit[-]
+          - ActionTitle: MEDICAL STATIONS
+            Description: |-
+              [ffff00]- Medic Station
+              - Medical Station Type 2[-]
+          - ActionTitle: OTHER CURES
+            Description: n/a
+          - ActionTitle: OTHER CONSUMABLES
+            Description: '- Spice'
+          - ActionTitle: SIDE EFFECTS..
+            Description: |2-
+                ..when received: -
+                ..when cured: -
+                ..when not cured: [ff4444]Necrosis[-]
+      - TaskTitle: Hangover
+        PictureFile: Hangover.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: n/a
+          - ActionTitle: MEDICAL STATIONS
+            Description: n/a
+          - ActionTitle: OTHER CURES
+            Description: |-
+              - Sleeping
+              - Use Toilet
+          - ActionTitle: OTHER CONSUMABLES
+            Description: |-
+              - Purified Water
+              - Hot Beverage
+              - Fruit Juice
+          - ActionTitle: SIDE EFFECTS..
+            Description: |2-
+                ..when received: -
+                ..when cured: -
+                ..when not cured: [ff4444]Bad Trip[-]
+          - ActionTitle: CONDITIONS
+            Description: Over-consumption of alcoholic beverages and energy drinks
+      - TaskTitle: Heat Collapse
+        PictureFile: BlackoutHot.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: n/a
+          - ActionTitle: MEDICAL STATIONS
+            Description: n/a
+          - ActionTitle: OTHER CURES
+            Description: |-
+              - [ffff00]Decrease In-Suit Temperature below 55°C by..[-]
+                  ..Sleeping
+                  ..taking a Shower
+                  ..going inside a powered base or vessel
+                  ..using the Mobile AirCon
+          - ActionTitle: OTHER CONSUMABLES
+            Description: >-
+              - Purified Water, Juices, Milk, Fruits and a few meals will
+              decrease your temperature
+          - ActionTitle: SIDE EFFECTS..
+            Description: |2-
+                ..when received: -
+                ..when cured: -
+                ..when not cured: [ff4444]Death[-]
+          - ActionTitle: CONDITIONS
+            Description: In-Suit Temperature higher than 55°C
+      - TaskTitle: Heat Stroke
+        PictureFile: HeatStroke.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: n/a
+          - ActionTitle: MEDICAL STATIONS
+            Description: n/a
+          - ActionTitle: OTHER CURES
+            Description: |-
+              - [ffff00]Decrease In-Suit Temperature below 45°C by..[-]
+                  ..Sleeping
+                  ..taking a Shower
+                  ..going inside a powered base or vessel
+                  ..using the Mobile AirCon
+          - ActionTitle: OTHER CONSUMABLES
+            Description: >-
+              - Purified Water, Juices, Milk, Fruits and a few meals will
+              decrease your temperature
+          - ActionTitle: SIDE EFFECTS..
+            Description: |2-
+                ..when received: -
+                ..when cured: -
+                ..when not cured: [ff4444]Death[-]
+          - ActionTitle: CONDITIONS
+            Description: In-Suit Temperature higher than 45°C
+      - TaskTitle: Hypothermia
+        PictureFile: Freezing.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: n/a
+          - ActionTitle: MEDICAL STATIONS
+            Description: n/a
+          - ActionTitle: OTHER CURES
+            Description: |-
+              - [ffff00]Increase In-Suit Temperature above 10°C by..[-]
+                  ..Sleeping
+                  ..taking a Shower
+                  ..going inside a powered base or vessel
+                  ..using the Mobile AirCon
+          - ActionTitle: OTHER CONSUMABLES
+            Description: >-
+              - Hot Beverages and most meals will increase your temperature as
+              well
+          - ActionTitle: SIDE EFFECTS..
+            Description: |2-
+                ..when received: -
+                ..when cured: -
+                ..when not cured: [ff4444]Death[-]
+          - ActionTitle: CONDITIONS
+            Description: In-Suit Temperature lower than 10°C
+      - TaskTitle: Indigestion
+        PictureFile: Indigestion.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: |-
+              [ffff00]- Stomach Pills
+              - Antitoxic Pills
+              - Antitoxic Injection
+              - Detox Kit[-]
+          - ActionTitle: MEDICAL STATIONS
+            Description: '[ffff00]- Medical Station Type 1[-]'
+          - ActionTitle: OTHER CURES
+            Description: '- Use Toilet'
+          - ActionTitle: OTHER CONSUMABLES
+            Description: |-
+              - Natural Sweetener
+              - Herbal Leaves
+              - Spice (small chance to cause Indigestion again!)
+          - ActionTitle: SIDE EFFECTS..
+            Description: |2-
+                ..when received: -
+                ..when cured: -
+                ..when not cured: [ff4444]Food Poisoning[-]
+          - ActionTitle: CAN SOURCE FROM
+            Description: |-
+              - Eating raw ingredients, plants or crops
+              - Overusing Pills and Injections
+      - TaskTitle: Infected Wound
+        PictureFile: InfectedWound.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: |-
+              [ffff00]- Antibiotic Pills
+              - Antibiotic Injection
+              - Trauma Kit[-]
+          - ActionTitle: MEDICAL STATIONS
+            Description: '[ffff00]- Medical Station Type 2[-]'
+          - ActionTitle: OTHER CURES
+            Description: n/a
+          - ActionTitle: OTHER CONSUMABLES
+            Description: n/a
+          - ActionTitle: SIDE EFFECTS..
+            Description: |2-
+                ..when received: -
+                ..when cured: -
+                ..when not cured: [ff4444]Sepsis[-]
+      - TaskTitle: Intoxication
+        PictureFile: Intoxication.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: |-
+              [ffff00]- Antitoxic Pills
+              - Antitoxic Injection
+              - Detox Kit[-]
+          - ActionTitle: MEDICAL STATIONS
+            Description: '[ffff00]- Medical Station Type 1[-]'
+          - ActionTitle: OTHER CURES
+            Description: n/a
+          - ActionTitle: OTHER CONSUMABLES
+            Description: n/a
+          - ActionTitle: SIDE EFFECTS..
+            Description: |2-
+                ..when received: -
+                ..when cured: -
+                ..when not cured: [ff4444]Organ Failure[-]
+      - TaskTitle: Mutilation
+        PictureFile: Mutilation.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: n/a
+          - ActionTitle: MEDICAL STATIONS
+            Description: '[ffff00]- Medical Station Type 3[-]'
+          - ActionTitle: OTHER CURES
+            Description: n/a
+          - ActionTitle: OTHER CONSUMABLES
+            Description: n/a
+          - ActionTitle: SIDE EFFECTS..
+            Description: |2-
+                ..when received: -
+                ..when cured: -
+                ..when not cured: [ff4444]Very slow movement / No stamina[-]
+      - TaskTitle: Necrosis
+        PictureFile: Necrosis.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: |-
+              [ffff00]- Antibiotic Ointment
+              - Antibiotic Pills
+              - Antibiotic Injection
+              - Trauma Kit[-]
+          - ActionTitle: MEDICAL STATIONS
+            Description: '[ffff00]- Medical Station Type 2[-]'
+          - ActionTitle: OTHER CURES
+            Description: n/a
+          - ActionTitle: OTHER CONSUMABLES
+            Description: n/a
+          - ActionTitle: SIDE EFFECTS..
+            Description: |2-
+                ..when received: -
+                ..when cured: -
+                ..when not cured: [ff4444]Intoxication[-]
+      - TaskTitle: Open Fracture
+        PictureFile: FractureOpen.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: |-
+              [ffff00]- Bandages
+              - Trauma Kit[-]
+          - ActionTitle: MEDICAL STATIONS
+            Description: '[ffff00]- Medical Station Type 3[-]'
+          - ActionTitle: OTHER CURES
+            Description: n/a
+          - ActionTitle: OTHER CONSUMABLES
+            Description: n/a
+          - ActionTitle: SIDE EFFECTS..
+            Description: |2-
+                ..when received: -
+                ..when cured: -
+                ..when not cured: [ff4444]Mutilation[-]
+      - TaskTitle: Open Wound
+        PictureFile: Wound.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: |-
+              [ffff00]- Bandages
+              - Antibiotic Ointment
+              - Antibiotic Pills
+              - Antibiotic Injection
+              - Health Pack
+              - Trauma Kit[-]
+          - ActionTitle: MEDICAL STATIONS
+            Description: '[ffff00]- Medical Station Type 2[-]'
+          - ActionTitle: OTHER CURES
+            Description: n/a
+          - ActionTitle: OTHER CONSUMABLES
+            Description: n/a
+          - ActionTitle: SIDE EFFECTS..
+            Description: |2-
+                ..when received: -
+                ..when cured: -
+                ..when not cured: [ff4444]Infected Wound[-]
+      - TaskTitle: Organ Failure
+        PictureFile: OrganFailure.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: |-
+              [ffff00]- Antitoxic Injection
+              - Detox Kit[-]
+          - ActionTitle: MEDICAL STATIONS
+            Description: '[ffff00]- Medical Station Type 1[-]'
+          - ActionTitle: OTHER CURES
+            Description: n/a
+          - ActionTitle: OTHER CONSUMABLES
+            Description: n/a
+          - ActionTitle: SIDE EFFECTS..
+            Description: |2-
+                ..when received: -
+                ..when cured: -
+                ..when not cured: [ff4444]Death[-]
+      - TaskTitle: Poison Bit
+        PictureFile: PoisonBite.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: |-
+              [ffff00]- Antitoxic Ointment
+              - Antitoxic Pills
+              -Antitoxic Injection
+              - Detox Kit[-]
+          - ActionTitle: MEDICAL STATIONS
+            Description: '[ffff00]- Medical Station Type 1 [-]'
+          - ActionTitle: OTHER CURES
+            Description: n/a
+          - ActionTitle: OTHER CONSUMABLES
+            Description: |-
+              -Natural Sweetener
+              - Herbal Leaves
+              - Mushrooms
+              - Varon Root
+          - ActionTitle: SIDE EFFECTS..
+            Description: |2-
+                ..when received: -
+                ..when cured: -
+                ..when not cured: [ff4444]Intoxication[-]
+      - TaskTitle: Radiation Burn
+        PictureFile: RadiationBurn.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: |-
+              [ffff00]- Antiradiation Ointment
+              - Radiation Pills
+              - Antiradiation Injection
+              - Decontamination Kit[-]
+          - ActionTitle: MEDICAL STATIONS
+            Description: '[ffff00]- Medical Station Type 4[-]'
+          - ActionTitle: REQUIRED ADDITIONAL CURES
+            Description: |-
+              - You also [ffff00]NEED TO LOWER Body Radiation below 1[-] by..
+                  ..taking a Shower
+                  ..consuming Radiation Pills
+          - ActionTitle: OTHER CONSUMABLES
+            Description: n/a
+          - ActionTitle: SIDE EFFECTS..
+            Description: |2-
+                ..when received: [ff4444]Open Wound[-]
+                ..when cured: -
+                ..when not cured: [ff4444]Radiation Poisoning[-]
+          - ActionTitle: CONDITIONS
+            Description: Body Radiation > 1
+      - TaskTitle: Radiation Poisoning
+        PictureFile: RadiationPoisoning.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: |-
+              [ffff00]- Radiation Pills
+              - Antiradiation Injection
+              - Decontamination Kit[-]
+          - ActionTitle: MEDICAL STATIONS
+            Description: '[ffff00]- Medical Station Type 4[-]'
+          - ActionTitle: OTHER CURES
+            Description: n/a
+          - ActionTitle: OTHER CONSUMABLES
+            Description: n/a
+          - ActionTitle: SIDE EFFECTS..
+            Description: |2-
+                ..when received: [ff4444]Intoxication[-]
+                ..when cured: -
+                ..when not cured: [ff4444]Radiation Sickness[-]
+      - TaskTitle: Radiation Sickness
+        PictureFile: RadiationSick1.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: |-
+              [ffff00]- Antiradiation Injection
+              - Decontamination Kit[-]
+          - ActionTitle: MEDICAL STATIONS
+            Description: '[ffff00]- Medical Station Type 4[-]'
+          - ActionTitle: REQUIRED ADDITIONAL CURES
+            Description: |-
+              - You also [ffff00]NEED TO LOWER Body Radiation below 1[-] by..
+                  ..taking a Shower
+                  ..consuming Radiation Pills
+          - ActionTitle: OTHER CONSUMABLES
+            Description: n/a
+          - ActionTitle: SIDE EFFECTS..
+            Description: |2-
+                ..when received: [ff4444]Intoxication[-]
+                ..when cured: -
+                ..when not cured: [ff4444]Death[-]
+          - ActionTitle: CONDITIONS
+            Description: Body Radiation > 4
+      - TaskTitle: Sepsis
+        PictureFile: Sepsis.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: |-
+              [ffff00]- Antibiotic Injection
+              - Trauma Kit[-]
+          - ActionTitle: MEDICAL STATIONS
+            Description: '[ffff00]- Medical Station Type 2[-]'
+          - ActionTitle: OTHER CURES
+            Description: n/a
+          - ActionTitle: OTHER CONSUMABLES
+            Description: n/a
+          - ActionTitle: SIDE EFFECTS..
+            Description: |2-
+                ..when received: [ff4444]Fever Attack[-]
+                ..when cured: -
+                ..when not cured: [ff4444]Death[-]
+      - TaskTitle: Stunned
+        PictureFile: Stunned.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: |-
+              - Energy Pills
+              - Adrenaline Injection
+          - ActionTitle: MEDICAL STATIONS
+            Description: n/a
+          - ActionTitle: OTHER CURES
+            Description: '- [ffff00]Wait until effect is removed (5 seconds)[-]'
+          - ActionTitle: OTHER CONSUMABLES
+            Description: |-
+              - Natural Stimulant
+              - Energy Drink
+          - ActionTitle: SIDE EFFECTS..
+            Description: |2-
+                ..when received: -
+                ..when cured: -
+                ..when not cured: -
+      - TaskTitle: Too Cold
+        PictureFile: Cold.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: n/a
+          - ActionTitle: MEDICAL STATIONS
+            Description: n/a
+          - ActionTitle: OTHER CURES
+            Description: |-
+              - [ffff00]Increase In-Suit Temperature above 15°C by..[-]
+                  ..Sleeping
+                  ..taking a Shower
+                  ..going inside a powered base or vessel
+                  ..using the Mobile AirCon
+          - ActionTitle: OTHER CONSUMABLES
+            Description: >-
+              - Hot Beverages and most meals will increase your temperature as
+              well
+          - ActionTitle: SIDE EFFECTS..
+            Description: |2-
+                ..when received: -
+                ..when cured: -
+                ..when not cured: [ff4444]Starving[-]
+          - ActionTitle: CONDITIONS
+            Description: In-Suit Temperature lower than 15°C
+      - TaskTitle: Too Hot
+        PictureFile: Hot.jpg
+        Actions:
+          - ActionTitle: MEDICAL ITEMS
+            Description: n/a
+          - ActionTitle: MEDICAL STATIONS
+            Description: n/a
+          - ActionTitle: OTHER CURES
+            Description: |-
+              - [ffff00]Decrease In-Suit Temperature below 35°C by..[-]
+                  ..Sleeping
+                  ..taking a Shower
+                  ..going inside a powered base or vessel
+                  ..using the Mobile AirCon
+          - ActionTitle: OTHER CONSUMABLES
+            Description: >-
+              - Purified Water, Juices, Milk, Fruits and a few meals will
+              decrease your temperature
+          - ActionTitle: SIDE EFFECTS..
+            Description: |2-
+                ..when received: -
+                ..when cured: -
+                ..when not cured: [ff4444]Stamina Low[-]
+          - ActionTitle: CONDITIONS
+            Description: In-Suit Temperature higher than 35°C
+    NoSkip: false
+  - ChapterTitle: BIOLOGISTS GUIDE
+    Category: FAQ
+    Description: >-
+      [i]We always assume that evolution
+
+      in the universe follows the same rules,
+
+      so there is a high chance that we do not
+
+      see anything extraordinary when looking to the stars.
+
+      Of course, the chances that we are wrong, are equally high.
+
+
+      [/i]Ernest Jakkard, Sc.D
+
+      UCH Xenobiological Research Facility
+
+      2468 AD
+
+
+      ---
+
+      [ff4444]To show all topics of this guide, click the DROPDOWN ARROW of this
+      chapters HEADLINE in the list on the left!
+
+      Click the SUB-task to reveal the info contained.
+
+      Make sure the PDA INFO button on the TOP RIGHT of the screen is
+      selected![-]
+    PictureFile: Farmers101.jpg
+    PlayerLevel: 1
+    Visibility: Always
+    Tasks:
+      - TaskTitle: FARMERS 101
+        PictureFile: Farmers101.jpg
+        Actions:
+          - ActionTitle: INGREDIENT GROUPS
+            Description: >-
+              [bcd3d4]Your suit will automatically test and categorize any
+              biological and non-biological item according to similarities found
+              with earth organisms with the build-in xenobiological testing
+              procedure. This means: Even if an item might look different or
+              drop from a plant that does not even remotely look earth-like,
+              anything you can harvest from a plant will be categorized into
+              [-][ffff00]Nutrition Groups[-][bcd3d4] and displayed as:
+              PlantProtein, Natural Sweetener, Grain, Berries, Fruit, Mushroom,
+              Natural Stimulant, Vegetables, Spice, Buds.[-]
+
+              [ffff00]Medical ingredients[-][bcd3d4] are displayed as: Herbal
+              Leaves, Confetti Moss Scrapings, Fire Moss Scrapings, Alien Tooth,
+              Alien Parts, Alien Plasma T6, Alien Plasma ZR1, Alien Thorn[-]
+
+
+              Note: Eating ingredients or raw food has a risk of getting you an
+              Indigestion!
+          - ActionTitle: SPROUTS
+            Description: >-
+              [bcd3d4]Sprouts are created in the food processor from an
+              item/crop of the plant and Nutrient Solution.
+
+              Example: Plant Protein + Nutrient Solution will give you an Ahax
+              Sprout.[-]
+          - ActionTitle: GROWING CONDITIONS
+            Description: >-
+              [bcd3d4]Oxygen: Always required | No O2 = [-][ffff00]Plant will
+              stop growing[-][bcd3d4]
+
+              Temperature: 15-35°C | lower 0 or higher than 50 = [ff4444]Plant
+              will die[-]
+
+              Radiation: 0[-] | RAD higher than 3 = [ff4444]Plant will die[-][-]
+          - ActionTitle: REQUIRED TECH
+            Description: >-
+              [bcd3d4] - Base / Vessel needs to be powered | No Power  =
+              [ffff00]Plant will stop growing[-][-]
+               - Inside a base or Vessel you need a GROWING LIGHT. Place it on the ceiling with exactly 2 blocks in between the top side of the growing plot and the ceiling where the Growing Light is placed
+              - A growing light can support 3x3 growing plots at max when placed
+              at the ceiling in the center spot of this array.
+               - If the outside conditions meet the Growing Conditions, you can set up a farm without a growing light on the outside. In this case OUTSIDE = open to the sky with no roof (includes NO windows)[-]
+          - ActionTitle: ALTERNATIVE CRAFTING
+            Description: >-
+              [bcd3d4]For most of the items, protocols allow to
+              [ffff00]alternatively craft them from different ingredients[-] as
+              well. For example: Milk, Meat, Plantprotein and most of the
+              Medical ingredients like Scrapings, Alien Parts and Plasma can be
+              converted from substitutes![-]
+      - TaskTitle: AlienParts01
+        PictureFile: AlienParts01.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: |-
+              [bcd3d4]  *Reef Plant
+                *Red Coral[-]
+          - ActionTitle: FARMABLE WITH
+            Description: '[bcd3d4]  *n/a[-]'
+          - ActionTitle: CRAFTABLE FROM
+            Description: '[bcd3d4]  *Egg + Alien Parts + Nitrocellulose[-]'
+          - ActionTitle: USED FOR
+            Description: '[bcd3d4]  *Medikits[-]'
+      - TaskTitle: AlienParts02
+        PictureFile: AlienParts02.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: '[bcd3d4]  *Loot of NPC and creatures[-]'
+          - ActionTitle: FARMABLE WITH
+            Description: '[bcd3d4]  *n/a[-]'
+          - ActionTitle: CRAFTABLE FROM
+            Description: '[bcd3d4]  *Meat + Alien Tooth + Nutrient Solution[-]'
+          - ActionTitle: USED FOR
+            Description: '[bcd3d4]  *Antiparasite medication[-]'
+      - TaskTitle: AlienParts03
+        PictureFile: AlienParts03.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: |-
+              [bcd3d4]  *Pod Plant
+                *White Coral [-]
+          - ActionTitle: FARMABLE WITH
+            Description: '[bcd3d4]  *n/a[-]'
+          - ActionTitle: CRAFTABLE FROM
+            Description: '[bcd3d4]  *Egg + Alien plasma ZR1 + Nitrocellulose'
+          - ActionTitle: USED FOR
+            Description: '[bcd3d4]  *Medikits[-]'
+      - TaskTitle: AlienThorn
+        PictureFile: AlienThorn.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: |-
+              [bcd3d4]  *Opuntia Cactus
+                *Thorn Plant
+                *Beehive Cactus [-]
+          - ActionTitle: FARMABLE WITH
+            Description: '[bcd3d4]  *n/a [-]'
+          - ActionTitle: CRAFTABLE FROM
+            Description: '[bcd3d4]  *Alien Tooth + Nitrocellulose + Pentaxid Ore'
+          - ActionTitle: USED FOR
+            Description: '[bcd3d4]  *Medikits[-]'
+      - TaskTitle: AlienTooth
+        PictureFile: AlienTooth.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: '[bcd3d4]  *Loot of NPC and creatures[-]'
+          - ActionTitle: FARMABLE WITH
+            Description: '[bcd3d4]  *n/a[-]'
+          - ActionTitle: CRAFTABLE FROM
+            Description: '[bcd3d4]  *n/a[-]'
+          - ActionTitle: USED FOR
+            Description: |-
+              [bcd3d4]  *Antitoxic medication
+                *Medikits[-]
+      - TaskTitle: Berries
+        PictureFile: Berries.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: '[bcd3d4]  *Akua Berries bush[-]'
+          - ActionTitle: FARMABLE WITH
+            Description: '[bcd3d4]  *Akua Berries bush[-]'
+          - ActionTitle: CRAFTABLE FROM
+            Description: '[bcd3d4]  *n/a[-]'
+          - ActionTitle: USED FOR
+            Description: |-
+              [bcd3d4]  *[ffff00]Reducing Body Temperature[-]
+                *Healthy Juices
+                *Meals[-]
+      - TaskTitle: Buds
+        PictureFile: Buds.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: '[bcd3d4]  *Blue Alien Flower[-]'
+          - ActionTitle: FARMABLE WITH
+            Description: '[bcd3d4]  *n/a[-]'
+          - ActionTitle: CRAFTABLE FROM
+            Description: '[bcd3d4]  *n/a[-]'
+          - ActionTitle: USED FOR
+            Description: >-
+              [bcd3d4]  *Creating Hot Beverages ([ffff00]Increasing Body
+              Temperature[-])[-]
+      - TaskTitle: ConfettiMossScrapings
+        PictureFile: ConfettiMossScrapings.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: |-
+              [bcd3d4]  *Confetti Moss
+                *Dimple Dome
+                *Dimple Dome Snow[-]
+          - ActionTitle: FARMABLE WITH
+            Description: '[bcd3d4]  *n/a[-]'
+          - ActionTitle: CRAFTABLE FROM
+            Description: '[bcd3d4]  *Crushed Stones + Mushrooms + Promethium Pellets[-]'
+          - ActionTitle: USED FOR
+            Description: |-
+              [bcd3d4]  *Required ingredient for all PILL medications
+                *Medikits
+                *Stamina Boosters[-]
+      - TaskTitle: Egg
+        PictureFile: Egg.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: '[bcd3d4]  *Loot of NPC and creatures[-]'
+          - ActionTitle: FARMABLE WITH
+            Description: '[bcd3d4]  *n/a[-]'
+          - ActionTitle: CRAFTABLE FROM
+            Description: '[bcd3d4]  *n/a[-]'
+          - ActionTitle: USED FOR
+            Description: '[bcd3d4]  *Ingredient for meals[-]'
+      - TaskTitle: Fibers
+        PictureFile: Fiber.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: '[bcd3d4]  *Fiber Plant[-]'
+          - ActionTitle: FARMABLE WITH
+            Description: '[bcd3d4]  *Fiber Plant[-]'
+          - ActionTitle: CRAFTABLE FROM
+            Description: '[bcd3d4]  *Wood Logs[-]'
+          - ActionTitle: USED FOR
+            Description: |-
+              [bcd3d4]  *Crafting BioFuel and Survival Tent
+                *Crafting ingredient for Farming tech and devices
+                *Ingredient for Bandages and Medikits[-]
+      - TaskTitle: FireMossScrapings
+        PictureFile: FireMossScrapings.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: '[bcd3d4]  *Fire Moss[-]'
+          - ActionTitle: FARMABLE WITH
+            Description: '[bcd3d4]  *n/a [-]'
+          - ActionTitle: CRAFTABLE FROM
+            Description: '[bcd3d4]  *Crushed Stones + Mushrooms + Promethium Pellets[-]'
+          - ActionTitle: USED FOR
+            Description: |-
+              [bcd3d4]  *Required ingredient for all INJECTION medications
+                *Medikits
+              ..*Stamina Boosters[-]
+      - TaskTitle: Fruit
+        PictureFile: Fruit.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: |-
+              [bcd3d4]  *Pearthing Plant
+                *Space Orange Tree[-]
+          - ActionTitle: FARMABLE WITH
+            Description: |-
+              [bcd3d4]  *Pearthing Plant
+                *Space Orange Tree[-][-]
+          - ActionTitle: CRAFTABLE FROM
+            Description: '[bcd3d4]  *n/a[-]'
+          - ActionTitle: USED FOR
+            Description: |-
+              [bcd3d4]  *[ffff00]Reducing Body Temperature[-]
+                *Healthy Juices
+                *Meals[-]
+      - TaskTitle: Grain
+        PictureFile: Grain.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: '[bcd3d4]  *Wild Grain[-]'
+          - ActionTitle: FARMABLE WITH
+            Description: |-
+              [bcd3d4]  *Corn plant
+                *Wheat plant[-]
+          - ActionTitle: CRAFTABLE FROM
+            Description: '[bcd3d4]  *n/a[-]'
+          - ActionTitle: USED FOR
+            Description: '[bcd3d4]  *Meals[-]'
+      - TaskTitle: HerbalLeaves
+        PictureFile: HerbalLeaves.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: |-
+              [bcd3d4]  *Pixie Stalks & Pixie Stalks Snow
+              Aloe Vera[-]
+          - ActionTitle: FARMABLE WITH
+            Description: '[bcd3d4]  *Aloe Vera[-]'
+          - ActionTitle: CRAFTABLE FROM
+            Description: '[bcd3d4]  *n/a[-]'
+          - ActionTitle: USED FOR
+            Description: |-
+              [bcd3d4]  *[ffff00]Removes INDIGESTION when consumed[-]
+                *Basic ingredient for nearly all medications and Medikits[-]
+      - TaskTitle: Meat
+        PictureFile: Meat.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: '[bcd3d4]    *Loot of NPC and creatures[-]'
+          - ActionTitle: FARMABLE WITH
+            Description: '[bcd3d4]  *n/a[-]'
+          - ActionTitle: CRAFTABLE FROM
+            Description: '[bcd3d4]  *Plant Protein + Vegetables[-]'
+          - ActionTitle: USED FOR
+            Description: |-
+              [bcd3d4]  *Growing Alien Parts
+                *Ingredient for meals[-]
+      - TaskTitle: Milk
+        PictureFile: Milk.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: '[bcd3d4]    *Loot of NPC and creatures[-]'
+          - ActionTitle: FARMABLE WITH
+            Description: '[bcd3d4]  *n/a[-]'
+          - ActionTitle: CRAFTABLE FROM
+            Description: '[bcd3d4]  *Plant Protein + Purified Water[-]'
+          - ActionTitle: USED FOR
+            Description: '[bcd3d4]  *Ingredient for meals[-]'
+      - TaskTitle: Mushrooms
+        PictureFile: Mushrooms.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: |-
+              [bcd3d4]  *Green Spiky Mushroom
+                *Brown Mushroom
+                *Tall Green Mushroom[-]
+          - ActionTitle: FARMABLE WITH
+            Description: '[bcd3d4]  *Brown Mushroom[-]'
+          - ActionTitle: CRAFTABLE FROM
+            Description: '[bcd3d4]  *n/a[-]'
+          - ActionTitle: USED FOR
+            Description: |-
+              [bcd3d4]  *[ffff00]Removes POISON BITE when consumed[-]
+                *Ingredient for all Radiation medications
+                *Medikits[-]
+      - TaskTitle: NaturalStimulant
+        PictureFile: NaturalStimulant.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: |-
+              [bcd3d4]  *Kavae Plant
+                *Brain Fungus & Brain Fungus Snow
+                *Pulpit Fungus[-]
+          - ActionTitle: FARMABLE WITH
+            Description: '[bcd3d4]  *Kavae Plant[-]'
+          - ActionTitle: CRAFTABLE FROM
+            Description: '[bcd3d4]  *n/a[-]'
+          - ActionTitle: USED FOR
+            Description: |-
+              [bcd3d4]  *[ffff00]Removes STUNNED when consumed[-]
+               [-]  *Ingredient for all stamina-boosting Drinks and Drugs[-]
+      - TaskTitle: NaturalSweetener
+        PictureFile: NaturalSweetener.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: '[bcd3d4]  *Alien Worm plant[-]'
+          - ActionTitle: FARMABLE WITH
+            Description: '[bcd3d4]  *Alien Worm plant [-]'
+          - ActionTitle: CRAFTABLE FROM
+            Description: '[bcd3d4]  *n/a[-]'
+          - ActionTitle: USED FOR
+            Description: |-
+              [bcd3d4]  *[ffff00]Removes DERMAL BURN when consumed[-]
+                *Sweetening Ingredient for meals and bakery products[-]
+      - TaskTitle: PlantProtein
+        PictureFile: PlantProtein.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: |-
+              [bcd3d4]  *Corndogs & Corndogs Snow
+                *Ahax plant
+                *Seaweed & Hydrilla
+                *Big Alien Flower[-]
+          - ActionTitle: FARMABLE WITH
+            Description: '[bcd3d4]  *Ahax plant[-]'
+          - ActionTitle: CRAFTABLE FROM
+            Description: '[bcd3d4]  *Vegetables[-]'
+          - ActionTitle: USED FOR
+            Description: |-
+              [bcd3d4]  *Ingredient for all Ointment medications
+                *Ingredient for Parasite medications
+                *Ingredient for Bandages
+                *Meals[-]
+      - TaskTitle: Spice
+        PictureFile: Spice.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: '[bcd3d4]  *Cobra Leaves[-]'
+          - ActionTitle: FARMABLE WITH
+            Description: '[bcd3d4]  *Cobra Leaves[-]'
+          - ActionTitle: CRAFTABLE FROM
+            Description: '[bcd3d4]  *n/a[-]'
+          - ActionTitle: USED FOR
+            Description: |-
+              [bcd3d4]  *[ffff00]Increases Body Temperature when consumed[-]
+                *Can remove INDIGESTION but also has a chance to cause INDIGESTION again when consumed[-]
+                *Meals
+                *Stomach Pills
+                *Energy Pills
+      - TaskTitle: Vegetables
+        PictureFile: Vegetables.jpg
+        Actions:
+          - ActionTitle: COLLECTABLE FROM
+            Description: |-
+              [bcd3d4]  *Egg Plant
+                *Large Eggplant
+                *Tomato plant
+                *Pumpkin plant
+                *Blue Pepper[-]
+          - ActionTitle: FARMABLE WITH
+            Description: |-
+              [bcd3d4]  *Pumpkin plant
+                *Blue Pepper
+                *Tomato plant
+                *Large Eggplant[-]
+          - ActionTitle: CRAFTABLE FROM
+            Description: '[bcd3d4]  *n/a[-]'
+          - ActionTitle: USED FOR
+            Description: |-
+              [bcd3d4]  *Healthy Juices
+                *Basic ingredient for a lot of meals[-]
+    NoSkip: false
+  - ChapterTitle: EXPLORERS JOURNAL
+    Category: FAQ
+    Description: >-
+      [i]The Universe is full of dangers,
+
+      and wonders,
+
+      and wonderful dangers!
+
+
+      [/i]Motto of 2nd Exploration Corps
+
+      UCH
+
+      Founded 2460 AD
+
+
+      ---
+
+      [ff4444]To show all topics of this guide, click the DROPDOWN ARROW of this
+      chapters HEADLINE in the list on the left!
+
+      Click the SUB-task to reveal the info contained.
+
+      Make sure the PDA INFO button on the TOP RIGHT of the screen is
+      selected![-]
+    PictureFile: LargeReptiles.jpg
+    PlayerLevel: 1
+    Visibility: Always
+    Tasks:
+      - TaskTitle: Planetary Drones
+        PictureFile: PlanetaryDrones.jpg
+        Actions:
+          - ActionTitle: SMALL DRONES
+            Description: |-
+              [bcd3d4]MODE: Attack on sight
+              ARMAMENT: Minigun, Cannon, Rockets, Plasma
+              HITPOINTS: Low
+              MOVEMENT: Slow[-]
+          - ActionTitle: LARGE DRONES
+            Description: |-
+              [bcd3d4]MODE: Attack on sight
+              ARMAMENT: Single & Double Minigun, Single & Double Cannon,  Plasma
+              HITPOINTS: Medium
+              MOVEMENT: Slow[-]
+          - ActionTitle: HEAVY DRONES
+            Description: |-
+              [bcd3d4]MODE: Attack on sight
+              ARMAMENT:  Minigun, Plasma
+              HITPOINTS: High
+              MOVEMENT: Slow[-]
+          - ActionTitle: BOMBER DRONES
+            Description: |-
+              [bcd3d4]MODE: Attack on sight
+              ARMAMENT:  Cluster Bombs
+              HITPOINTS: High
+              MOVEMENT: Fast[-]
+      - TaskTitle: Space Drones
+        PictureFile: SpaceDrones.jpg
+        Actions:
+          - ActionTitle: LASER DRONES
+            Description: |-
+              [bcd3d4]MODE: Attack on sight
+              ARMAMENT: Laser Pulse Cannon
+              HITPOINTS: Medium
+              MOVEMENT: Medium[-]
+          - ActionTitle: PLASMA DRONES
+            Description: |-
+              [bcd3d4]MODE: Attack on sight
+              ARMAMENT: Plasma Cannon
+              HITPOINTS: Medium
+              MOVEMENT: Slow[-]
+      - TaskTitle: Vessels
+        PictureFile: Vessels.jpg
+        Actions:
+          - ActionTitle: TROOP TRANSPORTERS (Planet)
+            Description: |-
+              [bcd3d4]MODE: Drops Reinforcements to attacked positions
+              ARMAMENT: non
+              HITPOINTS: High
+              MOVEMENT: Medium[-]
+          - ActionTitle: PATROL VESSELS (Planet)
+            Description: |-
+              [bcd3d4]MODE: Attack on sight
+              ARMAMENT: Light to Medium
+              HITPOINTS: Medium to High
+              MOVEMENT: Slow to Medium[-]
+          - ActionTitle: PATROL VESSELS (Space)
+            Description: |-
+              [bcd3d4]MODE: Attack on sight
+              ARMAMENT: Heavy
+              HITPOINTS: High to Very High
+              MOVEMENT: Slow to Medium[-]
+          - ActionTitle: FREIGHTERS (Space)
+            Description: |-
+              [bcd3d4]MODE: Attack on sight
+              ARMAMENT: Light to Medium
+              HITPOINTS: Medium to High
+              MOVEMENT: Slow[-]
+      - TaskTitle: Mechanoids
+        PictureFile: Mechanoids.jpg
+        Actions:
+          - ActionTitle: TURRET ROBOTS SMALL
+            Description: |-
+              [bcd3d4]MODE: Attack on sight
+              ARMAMENT: Fast-tracking Double-Miniguns
+              HITPOINTS: Low
+              ATTACK SPEED: Very Slow
+          - ActionTitle: TURRET ROBOTS LARGE
+            Description: |-
+              [bcd3d4]MODE: Attack on sight
+              ARMAMENT: Laser Weapons
+              HITPOINTS: Medium
+              ATTACK SPEED: Slow
+          - ActionTitle: ASSAULT CYBORGS
+            Description: |-
+              [bcd3d4]MODE: Attack when provoked
+              ARMAMENT: Laser Weapons
+              HITPOINTS: Medium
+              ATTACK SPEED: Slow
+      - TaskTitle: Zirax Empire Troops
+        PictureFile: ZiraxTroopers.jpg
+        Actions:
+          - ActionTitle: SHOTGUN TROOPERS
+            Description: |-
+              [bcd3d4]MODE: Attack on sight
+              ARMAMENT: Shotgun
+              HITPOINTS: Low
+              ATTACK SPEED: Slow
+          - ActionTitle: MINIGUN TROOPERS
+            Description: |-
+              [bcd3d4]MODE: Attack on sight
+              ARMAMENT: Miniguns
+              HITPOINTS: Low
+              ATTACK SPEED: Slow
+          - ActionTitle: LASER TROOPERS
+            Description: |-
+              [bcd3d4]MODE: Attack on sight
+              ARMAMENT: Laser Rifle
+              HITPOINTS: Medium
+              ATTACK SPEED: Slow
+          - ActionTitle: SNIPERS
+            Description: |-
+              [bcd3d4]MODE: Attack on sight
+              ARMAMENT: Sniper Rifle
+              HITPOINTS: Medium
+              ATTACK SPEED: Slow
+          - ActionTitle: ROCKET TROOPERS
+            Description: |-
+              [bcd3d4]MODE: Attack on sight
+              ARMAMENT: Rocket Launcher
+              HITPOINTS: Medium
+              ATTACK SPEED: Slow
+      - TaskTitle: Golems
+        PictureFile: Golems.jpg
+        Actions:
+          - ActionTitle: SWAMP GOLEMS
+            Description: |-
+              [bcd3d4]MODE: Attack on sight
+              ARMAMENT: Fists
+              HITPOINTS: High
+              ATTACK SPEED: Medium
+          - ActionTitle: DESERT GOLEMS
+            Description: |-
+              [bcd3d4]MODE: Attack on sight
+              ARMAMENT: Fists
+              HITPOINTS: High
+              ATTACK SPEED: Medium
+          - ActionTitle: ARMORED GOLEMS
+            Description: |-
+              [bcd3d4]MODE: Attack on sight
+              ARMAMENT: Fists
+              HITPOINTS: Very High
+              ATTACK SPEED: Medium
+          - ActionTitle: SNOW GOLEMS
+            Description: |-
+              [bcd3d4]MODE: Attack on sight
+              ARMAMENT: Fists
+              HITPOINTS: High
+              ATTACK SPEED: Medium
+      - TaskTitle: Native and other NPCs
+        PictureFile: Natives.jpg
+        Actions:
+          - ActionTitle: TALON GUARDIANS
+            Description: |-
+              [bcd3d4]MODE: Attack when provoked
+              ARMAMENT: Melee
+              HITPOINTS: Medium
+              ATTACK SPEED: Medium
+          - ActionTitle: HEXAPODS
+            Description: |-
+              [bcd3d4]MODE: Attack on sight
+              ARMAMENT: Melee
+              HITPOINTS: Medium
+              ATTACK SPEED: High
+          - ActionTitle: ALIEN ASSASSINS
+            Description: |-
+              [bcd3d4]MODE: Attack on sight
+              ARMAMENT: Melee
+              HITPOINTS: Medium
+              ATTACK SPEED: High
+          - ActionTitle: CIVILIANS
+            Description: |-
+              [bcd3d4]MODE: Attack when provoked
+              ARMAMENT: Laser Pistol
+          - ActionTitle: TRADERS
+            Description: |-
+              [bcd3d4]MODE: Attack when provoked
+              ARMAMENT: Laser Pistol
+      - TaskTitle: Mutants
+        PictureFile: Mutants.jpg
+        Actions:
+          - ActionTitle: OVERSEERS
+            Description: |-
+              [bcd3d4]MODE: Attack on sight
+              ARMAMENT: Melee
+              HITPOINTS: Medium
+              ATTACK SPEED: High
+          - ActionTitle: PLANT MONSTERS
+            Description: |-
+              [bcd3d4]MODE: Attack on sight
+              ARMAMENT: Melee
+              HITPOINTS: Low
+              ATTACK SPEED: Medium
+          - ActionTitle: TOTAL HORRORS
+            Description: |-
+              [bcd3d4]MODE: Attack on sight
+              ARMAMENT: Melee
+              HITPOINTS: Medium
+              ATTACK SPEED: Medium
+      - TaskTitle: Reptiles I
+        PictureFile: Reptiles.jpg
+        Actions:
+          - ActionTitle: RAPTOR HERDS
+            Description: |-
+              [bcd3d4]MODE: Attack when provoked
+              ARMAMENT: Melee
+              HITPOINTS: Low
+              ATTACK SPEED: Very High
+          - ActionTitle: SINGLE RAPTORS
+            Description: |-
+              [bcd3d4]MODE: Attack on sight
+              ARMAMENT: Melee
+              HITPOINTS: Low
+              ATTACK SPEED: Very High
+          - ActionTitle: SPINOSAURS
+            Description: |-
+              [bcd3d4]MODE: Attack on sight
+              ARMAMENT: Melee
+              HITPOINTS: Low
+              ATTACK SPEED: Very High
+          - ActionTitle: OVIRAPTOR
+            Description: |-
+              [bcd3d4]MODE: Attack when provoked
+              ARMAMENT: Melee
+              HITPOINTS: Low
+              ATTACK SPEED: Very High
+          - ActionTitle: PARASAURS GROUP
+            Description: >-
+              States
+                *Calm - walk slowly around, grazing
+                *Low alert - stop walking, raise up (whole group)
+                *High alert - run away from danger together
+              Alerting factors
+                *Noise - shooting a weapon / using items (drill) (max 50 meters)
+                *Damage
+              Vision
+                *If they can see you, and you are moving. (max 90 meters)
+                *not moving persons are not a threat, only if the person gets too close to the animals (20m)
+                *Death of group member
+              >> THE CLOSER THE ALERTING FACTOR IS, THE MORE WILL THE ANIMAL
+              REACT
+      - TaskTitle: Reptiles II
+        PictureFile: LargeReptiles.jpg
+        Actions:
+          - ActionTitle: MEGALONOPSES
+            Description: '[bcd3d4]MODE: Attack when provoked'
+          - ActionTitle: LIZARD MULE
+            Description: '[bcd3d4]MODE: Will run away'
+          - ActionTitle: TRICERATOPSES
+            Description: |-
+              [bcd3d4]  *Has vision, alert, fear
+              States
+                *Calm, no player around - walks randomly
+                *Calm, player around - walks around player, makes small roar animation
+                *After small damage - goes to Rage
+              Modifiers for 'Rage':
+                *If far from player, will make big roar and charge the player
+                *After the start of the charge, he will not make any turns, so it is possible to avoid.
+                *If the charge is not avoided, the damage is deadly! As he is running he is giving damage periodically - so it is possible that he will damage the player multiple times
+                *If the player is close, he will make close range attacks with probability of roars
+                *If he is in rage and player goes to water, trice will stay out and mage angry roars
+      - TaskTitle: Spiders
+        PictureFile: Spiders.jpg
+        Actions:
+          - ActionTitle: SPIDERS (01)
+            Description: |-
+              [bcd3d4]MODE: Attack on sight
+              ARMAMENT: Melee
+              HITPOINTS: Low
+              ATTACK SPEED: High
+          - ActionTitle: SPIDERS (02)
+            Description: |-
+              [bcd3d4]MODE: Attack on sight
+              ARMAMENT: Melee
+              HITPOINTS: Medium
+              ATTACK SPEED: Medium
+          - ActionTitle: SPIDERS (03)
+            Description: |-
+              [bcd3d4]MODE: Attack on sight
+              ARMAMENT: Ranged Attack
+              HITPOINTS: Medium
+              ATTACK SPEED: Very High
+          - ActionTitle: SPIDERS GROUP BEHAVIOR
+            Description: >-
+              Spiders will appear in a group, but they act more individually,
+              they will share fear, and the more spiders is there together, the
+              faster they will recover from fear
+
+              States:
+                *calm - walks around
+                *low alert - angry gestures, walks towards player
+                *hi alert - attacks player
+                *alerted, but target not accessible(in water)
+                *When player is in water > angry gestures, random walk
+              Variants
+                *when they see the player, they will attack him
+                *they can get scared and run away, they will come back, once they 'shake off the fear'
+                *the more spiders there is together, the less they fear
+              Fear factors
+                *proximity to player
+                *noises (shooting, drilling)
+                *damage - damage to one spider will create fear in the whole group
+                *fear from death of a group member
+              NOTE:
+               - Spiders can be alerted, but without seeing the player, in this case it will run around 'searching' the source of the alert
+               - The ability to scare the spider is to make the fight more dynamic, to give the player more breathing room and something interesting. The spider should not run away completely.
+      - TaskTitle: Bugs
+        PictureFile: Bugs.jpg
+        Actions:
+          - ActionTitle: ALIEN BUGS (01)
+            Description: |-
+              Group
+                *Has vision and fear
+                *Acts as individual, shares fear in group
+              States
+                *Calm - walks around
+                *Low alert + player nearby - keeps distance from player, but rotates towards him and maked gestures
+              ..*Scared
+              Modifier for 'Scared':
+                *High probability of running away
+                *Low probability of attacking the player - one attempt to hit, then run away
+          - ActionTitle: ALIEN BUGS (02)
+            Description: |-
+              [bcd3d4]MODE: Attack on sight
+              ARMAMENT: Melee
+              HITPOINTS: Medium
+              ATTACK SPEED: Medium
+          - ActionTitle: ALIEN BUGS (03)
+            Description: |-
+              Single
+                *Has vision and alert
+              States
+                *Calm - walks around
+                *Alerted - attacks the player with a projectile
+              Modifiers for 'Alerted':
+                *If the player is far, he will walk towards him
+                *If he is too far from spawn position, it will return back to it
+                *If the player is too close, it will keep distance
+                *During the attack he will fire 1 - 3 projectiles, then change position
+      - TaskTitle: Worms and Wormlikes
+        PictureFile: Worms.jpg
+        Actions:
+          - ActionTitle: CAVEWORMS
+            Description: '[bcd3d4]MODE: Attack on sight'
+          - ActionTitle: DESERT WORMS
+            Description: '[bcd3d4]MODE: Attack when provoked'
+          - ActionTitle: LARGE DESERT WORMS
+            Description: '[bcd3d4]MODE: Attack when provoked'
+      - TaskTitle: Creatures
+        PictureFile: Creatures.jpg
+        Actions:
+          - ActionTitle: CRAWLER
+            Description: '[bcd3d4]MODE: Attack on sight'
+          - ActionTitle: OTYUGH
+            Description: '[bcd3d4]MODE: Attack when provoked'
+          - ActionTitle: SLIMES
+            Description: '[bcd3d4]MODE: Attack when provoked'
+    NoSkip: false
+  - ChapterTitle: FACTION REPORT
+    Category: FAQ
+    Description: >-
+      [i]If you do not pay attention
+
+      to what happens around you,
+
+      your First Contact might
+
+      also be your last contact.
+
+
+      [/i]Henry Robinson, General
+
+      UCH First Contact Group
+
+      2471 AD
+
+
+      ---
+
+      [ff4444]To show all topics of this guide, click the DROPDOWN ARROW of this
+      chapters HEADLINE in the list on the left!
+
+      Click the SUB-task to reveal the info contained.
+
+      Make sure the PDA INFO button on the TOP RIGHT of the screen is
+      selected![-]
+    PictureFile: UCH.jpg
+    PlayerLevel: 1
+    Visibility: Always
+    Tasks:
+      - TaskTitle: UNITED COUNCIL OF HUMANITY (UCH )
+        PictureFile: UCH.jpg
+        Actions:
+          - ActionTitle: SUMMARY
+            Description: >-
+              [bcd3d4]The UCH was founded as a NGO back in the early 23rd
+              century to research the predicted collapse of the Terran
+              ecosystem. By end of the 24th century, after an accelerated rate
+              of riots and catastrophic events, power was granted to the UCH
+              authority to take care of the survival of the Terran
+              civilization.[-]
+          - ActionTitle: INTEL REPORT
+            Description: |-
+              [bcd3d4]Founded: 2217 AD
+              Government: Military
+              Religion: None
+              Home Planet: Terra (Milky Way)
+              Main Planet: N/A
+              Territory Size: N/A[-]
+          - ActionTitle: ADDITIONAL INTEL
+            Description: >-
+              [bcd3d4]A decade has passed since the Terran’s arrival to the
+              Andromeda Galaxy, which was plagued with heartache and disaster.
+
+              The UCH Supreme Command still leads the Terran faction, despite
+              the personnel fatalities on their initial jump from reactor
+              explosions as a result of the unstable hyper drives constructed on
+              Earth, as well as the loss of intelligence and the unfortunate
+              demise of the MS Titan.
+
+
+              The UCH has successfully recruited Alien inhabitants to fill up
+              the ranks, but the constant quarrels with the Zirax Empire have
+              reduced Expedition fleet and resources to critical levels across
+              the territories. Concurrently, the UCH has managed to set up
+              self-sustaining operation bases in secret locations which are
+              constantly tracked by the Zirax to eliminate the 'Intruders'.[-]
+          - ActionTitle: HISTORY
+            Description: >-
+              [bcd3d4]With the discovery of the alien ship in 2402 AD, the UCH
+              developed a plan to establish contact with the mysterious race
+              that had deserted the ship in Antartica. Operation Phoenix, which
+              was Earth’s last ditch effort to save itself from an impending
+              apocalypse, was spearheaded by it’s flagship, the MS Titan.
+
+
+              The voyage was cut short on it’s first jump when the UCH vessels
+              made first contact with a predatory species known as the Zirax.
+              Outgunned and caught off guard by the enemy, losses were abundant
+              in the initial contact with this new species. Ships, crew members
+              and materials were lost in an instant and Earth’s flagship the MS
+              Titan was destroyed and along with nearly all of the UCH’s leading
+              officers. The remaining ships managed to retreat from the battle
+              and hide in deep space, out of range of the Zirax Empire.
+              Survivors of the battle were left to fend for themselves, of which
+              only a few found their way back to the UCH.
+
+
+              Scientists are still gathering data and examining whether the term
+              'Empyrion' used loosely throughout history is a physical location
+              or a spiritual/philosophical belief. Some members of the UCH
+              command, believe someone positioned the Alien Ship to lure us into
+              a trap, knowing the warp drives were dysfunctional. This is still
+              being debated and the UCH has yet to find concrete evidence on the
+              Zirax involvement behind the attack.[-]
+      - TaskTitle: ZIRAX EMPIRE
+        PictureFile: ZiraxEmpire.jpg
+        Actions:
+          - ActionTitle: SUMMARY
+            Description: '[bcd3d4]no data yet[-]'
+          - ActionTitle: INTEL REPORT
+            Description: '[bcd3d4]no data yet'
+          - ActionTitle: RELATIONSHIP WITH UCH
+            Description: no data yet
+          - ActionTitle: ADDITIONAL INTEL
+            Description: no data yet
+          - ActionTitle: HISTORY
+            Description: no data yet
+      - TaskTitle: TALON GUARDIANS
+        PictureFile: TalonGuardians.jpg
+        Actions:
+          - ActionTitle: SUMMARY
+            Description: '[bcd3d4]no data yet[-]'
+          - ActionTitle: INTEL REPORT
+            Description: '[bcd3d4]no data yet'
+          - ActionTitle: RELATIONSHIP WITH UCH
+            Description: no data yet
+          - ActionTitle: ADDITIONAL INTEL
+            Description: no data yet
+          - ActionTitle: HISTORY
+            Description: no data yet
+      - TaskTitle: TRADERS GUILD
+        PictureFile: TradersGuild.jpg
+        Actions:
+          - ActionTitle: SUMMARY
+            Description: '[bcd3d4]no data yet[-]'
+          - ActionTitle: INTEL REPORT
+            Description: '[bcd3d4]no data yet'
+          - ActionTitle: RELATIONSHIP WITH UCH
+            Description: no data yet
+          - ActionTitle: ADDITIONAL INTEL
+            Description: no data yet
+          - ActionTitle: HISTORY
+            Description: no data yet
+    NoSkip: false
+  - ChapterTitle: chptitleKnowledgebase
+    Category: FAQ
+    Description: >-
+
+
+      ---
+
+      [ff4444]To show all topics of this guide, click the DROPDOWN ARROW of this
+      chapters HEADLINE in the list on the left!
+
+      Click the SUB-task to reveal the info contained.
+
+      Make sure the PDA INFO button on the TOP RIGHT of the screen is
+      selected![-]
+    PictureFile: dangerspace.jpg
+    PlayerLevel: 1
+    Visibility: Always
+    Tasks:
+      - TaskTitle: tasktitleGGM
+        PictureFile: GGM.jpg
+        Actions:
+          - ActionTitle: acttitleBasics
+            Description: actdescBasics
+          - ActionTitle: acttitleTechtree
+            Description: actdescTechtree
+          - ActionTitle: acttitleOP
+            Description: actdescOP
+          - ActionTitle: acttitleLook
+            Description: actdescLook
+          - ActionTitle: acttitlePvPvE
+            Description: actdescPvPvE
+      - TaskTitle: tasktitleGGM2
+        Actions:
+          - ActionTitle: acttitleRegistry
+            Description: actdescRegistry
+          - ActionTitle: acttitleMarketplace
+            Description: actdescMarketplace
+          - ActionTitle: acttitleMapmarkers
+            Description: actdescMapmarkers
+      - TaskTitle: tasktitleTemperatur
+        Actions:
+          - ActionTitle: acttitleTInfo
+            Description: actdescTInfo
+          - ActionTitle: acttitleRadInfo
+            Description: actdescRadInfo
+          - ActionTitle: acttitleTempRadDevices
+            Description: actdescTempRadDevices
+          - ActionTitle: acttitleWeather
+            Description: actdescWeather
+      - TaskTitle: tasktitleOxygenRooms
+        Actions:
+          - ActionTitle: acttitlelORglobal
+            Description: actdescORglobal
+          - ActionTitle: acttitleOquest
+            Description: actdescOquest
+      - TaskTitle: tasktitlePlayerArmor
+        Actions:
+          - ActionTitle: acttitlePlayerA
+            Description: actdescPlayerA
+          - ActionTitle: acttitleBooster
+            Description: actdescBooster
+          - ActionTitle: acttitleDandR
+            Description: actdescDandR
+      - TaskTitle: tasktitleTeleport
+        Actions:
+          - ActionTitle: acttitlePortal
+            Description: actdescPortal
+          - ActionTitle: acttitleInstances
+            Description: actdescInstances
+      - TaskTitle: tasktitleSI
+        PictureFile: SI.jpg
+        Actions:
+          - ActionTitle: acttitleSIwork
+            Description: actdescSIwork
+          - ActionTitle: acttitleBAcollaps
+            Description: actdescBAcollaps
+          - ActionTitle: acttitleSIoff
+            Description: actdescSIoff
+      - TaskTitle: tasktitleBuilding
+        PictureFile: Building.jpg
+        Actions:
+          - ActionTitle: acttitleMatz
+            Description: actdescMatz
+          - ActionTitle: acttitleBlocks
+            Description: actdescBlocks
+          - ActionTitle: acttitleBrotate
+            Description: actdescBrotate
+          - ActionTitle: acttitlePlane
+            Description: actdescPlane
+          - ActionTitle: acttitleMisc
+            Description: actdescMisc
+      - TaskTitle: tasktitleBuilding2
+        PictureFile: Building2.jpg
+        Actions:
+          - ActionTitle: acttitleMirror
+            Description: actdescMirror
+          - ActionTitle: acttitlePaint
+            Description: actdescPaint
+          - ActionTitle: acttitleWopac
+            Description: actdescWopac
+          - ActionTitle: acttitleSettings
+            Description: actdescSettings
+          - ActionTitle: acttitleRename
+            Description: actdescRename
+      - TaskTitle: tasktitleVessel
+        PictureFile: Vessel.jpg
+        Actions:
+          - ActionTitle: acttitleDieO2
+            Description: actdescDieO2
+          - ActionTitle: acttitleFlipped
+            Description: actdescFlipped
+          - ActionTitle: acttitleHorizon
+            Description: actdescHorizon
+          - ActionTitle: acttitleCVtip
+            Description: actdescCVtip
+          - ActionTitle: acttitleMCockpit
+            Description: actdescMCockpit
+      - TaskTitle: tasktitleVessel2
+        PictureFile: Vessel2.jpg
+        Actions:
+          - ActionTitle: acttitleDocking
+            Description: actdescDocking
+          - ActionTitle: acttitleAccessD
+            Description: actdescAccessD
+          - ActionTitle: acttitleWarp
+            Description: actdescWarp
+      - TaskTitle: tasktitleWeapon
+        PictureFile: Weapon.jpg
+        Actions:
+          - ActionTitle: acttitleRange
+            Description: actdescRange
+          - ActionTitle: acttitleDamageW
+            Description: actdescDamageW
+          - ActionTitle: acttitleEpicW
+            Description: actdescEpicW
+          - ActionTitle: acttitleAmmo
+            Description: actdescAmmo
+          - ActionTitle: acttitleTaccess
+            Description: actdescTaccess
+      - TaskTitle: tasktitlePOI
+        PictureFile: POI.jpg
+        Actions:
+          - ActionTitle: acttitlePdoor
+            Description: actdescPdoor
+          - ActionTitle: acttitlePblocks
+            Description: actdescPblocks
+          - ActionTitle: acttitleTeleporter
+            Description: actdescTeleporter
+          - ActionTitle: acttitlePbase
+            Description: actdescPbase
+          - ActionTitle: acttitleAIvessels
+            Description: actdescAIvessels
+      - TaskTitle: tasktitlePdrone
+        PictureFile: Pdrone.jpg
+        Actions:
+          - ActionTitle: acttitlePlayerD
+            Description: actdescPlayerD
+      - TaskTitle: tasktitleFaction
+        PictureFile: Faction.jpg
+        Actions:
+          - ActionTitle: acttitleJoin
+            Description: actdescJoin
+          - ActionTitle: acttitleFvessel
+            Description: actdescFvessel
+          - ActionTitle: acttitleFoprot
+            Description: actdescFoprot
+          - ActionTitle: acttitleFsetting
+            Description: actdescFsetting
+          - ActionTitle: acttitleFally
+            Description: actdescFally
+      - TaskTitle: tasktitleCP
+        PictureFile: CP.jpg
+        Actions:
+          - ActionTitle: acttitleRemote
+            Description: actdescRemote
+          - ActionTitle: acttitleRenameD
+            Description: actdescRenameD
+          - ActionTitle: acttitleGroup
+            Description: actdescGroup
+          - ActionTitle: acttitleSetFaction
+            Description: actdescSetFaction
+          - ActionTitle: acttitleHome
+            Description: actdescHome
+      - TaskTitle: tasktitleTSigLog
+        PictureFile: CP.jpg
+        Actions:
+          - ActionTitle: acttitleTriggers
+            Description: actdescTriggers
+          - ActionTitle: acttitleHowto
+            Description: actdescHowto
+          - ActionTitle: acttitleTtips
+            Description: actdescTtips
+          - ActionTitle: acttitleSignal
+            Description: actdescSignal
+      - TaskTitle: tasktitleBP
+        PictureFile: BP.jpg
+        Actions:
+          - ActionTitle: acttitleCreate
+            Description: actdescCreate
+          - ActionTitle: acttitleSpawn
+            Description: actdescSpawn
+          - ActionTitle: acttitleShortcut
+            Description: actdescShortcut
+          - ActionTitle: acttitlePublish
+            Description: actdescPublish
+          - ActionTitle: acttitleBPmisc
+            Description: actdescBPmisc
+      - TaskTitle: tasktitleCreative
+        PictureFile: Creative.jpg
+        Actions:
+          - ActionTitle: acttitleRemove
+            Description: actdescRemove
+          - ActionTitle: acttitleCmirror
+            Description: actdescCmirror
+          - ActionTitle: acttitleCmatz
+            Description: actdescCmatz
+          - ActionTitle: acttitleCpoi
+            Description: actdescCpoi
+      - TaskTitle: tasktitleConsole
+        PictureFile: Console.jpg
+        Actions:
+          - ActionTitle: acttitleUse
+            Description: actdescUse
+          - ActionTitle: acttitleDestr
+            Description: actdescDestr
+          - ActionTitle: acttitleAdmin
+            Description: actdescAdmin
+          - ActionTitle: acttitlePgroup
+            Description: actdescPgroup
+      - TaskTitle: tasktitlePDAInfo
+        PictureFile: PDAInfo.jpg
+        Actions:
+          - ActionTitle: acttitleDeactivate
+            Description: actdescDeactivate
+          - ActionTitle: acttitleTsks
+            Description: actdescTsks
+          - ActionTitle: acttitleFuture
+            Description: actdescFuture
+      - TaskTitle: tasktitleGlobMisc
+        PictureFile: GlobMisc.jpg
+        Actions:
+          - ActionTitle: acttitlePlayer
+            Description: actdescPlayer
+          - ActionTitle: acttitleReport
+            Description: actdescReport
+          - ActionTitle: acttitleSaveGame
+            Description: actdescSaveGame
+          - ActionTitle: acttitleEAC
+            Description: actdescEAC
+    NoSkip: false
+  - ChapterTitle: txt_OiO4G
+    Category: Tutorial
+    VisibleOnStartPlayfields:
+      - Atlon
+      - Mato
+    Tasks:
+      - TaskTitle: txt_OK0qa
+        Actions:
+          - ActionTitle: txt_iEh4G
+            Description: txt_mSOaO
+            Check: InventoryOpened
+            Names:
+              - ContainerPersonal
+            CompletedMessage: high;20|txt_SOeGe
+            AllowManualCompletion: true
+        OnCompletePlayfieldOps:
+          - 'SpawnDrone: 1; DroneSmallSlow02Minigun; NearPlayer'
+        Rewards:
+          - Item: LaserRifle
+            Count: 1
+          - Item: PulseLaserChargeRifle
+            Count: 300
+      - TaskTitle: txt_CSKOm
+        Actions:
+          - ActionTitle: txt_S4Sq4
+            Description: txt_qqCmS
+            Check: SubjectKilled
+            Names:
+              - DroneSmallSlow02Minigun
+            Amount: 1
+    AutoActivateOnGameStart: true
+    Preamble: txt_WmCx8
+    Rewards:
+      - Item: PentaxidOre
+        Count: 50
+    Description: txt_h8CqC
+    NoSkip: true
+    PlayerLevel: 1
+    Activatable: Always
+    Visibility: Always
+  - ChapterTitle: txt_Wa8a4
+    Category: Tutorial
+    VisibleOnStartPlayfields:
+      - Itaka
+      - Korro
+    Tasks:
+      - TaskTitle: txt_0UuSa
+        Actions:
+          - ActionTitle: txt_eimKG
+            Description: txt_8PiO8
+            Check: InventoryOpened
+            Names:
+              - ContainerPersonal
+            AllowManualCompletion: true
+        Rewards:
+          - Item: LaserRifle
+            Count: 1
+          - Item: PulseLaserChargeRifle
+            Count: 300
+      - TaskTitle: txt_GoOC4
+        Actions:
+          - ActionTitle: txt_RGOOm
+            Description: txt_WpWu8
+            Check: WindowOpened
+            Names:
+              - Player
+    Preamble: txt_OeW0O
+    Rewards:
+      - Item: Pizza
+        Count: 2
+      - Item: Shotgun2
+        Count: 1
+      - Item: ShotgunShells
+        Count: 125
+    Description: txt_Cu8Gi
+    AutoActivateOnGameStart: true
+    NoSkip: true
+    PlayerLevel: 1
+    Activatable: Always
+    Visibility: Always
+  - ChapterTitle: txt_uPS8i
+    Category: Tutorial
+    VisibleOnStartPlayfields:
+      - Taldor
+      - Trader Outpost
+    Tasks:
+      - TaskTitle: txt_uG8Oi
+        Actions:
+          - ActionTitle: txt_M8wCG
+            Description: txt_emgkG
+            Check: InventoryOpened
+            Names:
+              - ContainerPersonal
+            AllowManualCompletion: true
+        Rewards:
+          - Item: LaserRifle
+            Count: 1
+          - Item: PulseLaserChargeRifle
+            Count: 300
+      - TaskTitle: txt_OGKaa
+        Actions:
+          - ActionTitle: txt_eS0ma
+            Description: txt_aO2Wu
+            Check: WindowOpened
+            Names:
+              - TraderNPC
+            CompletedMessage: mbox;20|txt_emO84
+    AutoActivateOnGameStart: true
+    Preamble: txt_ieOW4
+    Rewards:
+      - Item: 50Caliber
+        Count: 250
+      - Item: LaserPistolT2
+        Count: 1
+      - Type: Reputation
+        Faction:
+          - Polaris
+        Count: 19000
+    Description: txt_qICCm
+    NoSkip: true
+    PlayerLevel: 1
+    Activatable: Always
+    Visibility: Always
+  - ChapterTitle: txt_iSKW4
+    Category: Tutorial
+    VisibleOnStartPlayfields:
+      - Merdar
+      - Merdar Sector
+    Tasks:
+      - TaskTitle: txt_mCauK
+        Actions:
+          - ActionTitle: txt_a4e84
+            Description: txt_eAS0e
+            Check: PlayfieldEntered
+            Names:
+              - Merdar
+            CompletedMessage: mbox;20|txt_OSa4a|txt_mq0XC
+      - TaskTitle: txt_RQeef
+        Actions:
+          - ActionTitle: txt_CmaGe
+            Description: txt_8WK0m
+            Check: ItemsConsumed
+            Types:
+              - Medikit01
+            CompletedMessage: norm;20|txt_qr0i8
+    Rewards:
+      - Item: AssaultRifle
+        Count: 1
+      - Item: 5.8mmBullet
+        Count: 500
+      - Item: Sniper
+        Count: 1
+      - Item: 12.7mmBullet
+        Count: 250
+    AutoActivateOnGameStart: true
+    NoSkip: true
+    Preamble: txt_q0mWK
+    Description: txt_eSCei
+    PlayerLevel: 1
+    Activatable: Always
+    Visibility: Always
+  - ChapterTitle: Pest Control - Temperate
+    Category: TalonMission
+    PlayerLevel: 1
+    Visibility: Always
+    Activatable: ByReputation
+    ReputationLevel: 12001
+    HideTasks: true
+    RepeatConditions:
+      NumRepeats: 1
+    Description: >-
+      Predators are roaming our territory, frighten our children and attacking
+      our workers.
+
+
+      Will you take care of this threat and [fff000]fend of the predators[-]?
+    CompletedMessage: norm;30|The Talon community gratefully gives thanks to you for your deeds.
+    Rewards:
+      - Type: Reputation
+        Count: 1000
+        Faction:
+          - Talon
+      - Item: GoldCoins
+        Count: 10
+    Tasks:
+      - TaskTitle: Hunt Predators
+        Actions:
+          - ActionTitle: Kill Predators
+            Description: |-
+              Targets that count towards the mission:
+              AlienBug (any)
+              CaveWorm (any)
+
+               Creepy
+              Otyugh
+              Oviraptor
+              Raptor (any)
+              Spider (any)
+              Spinosaurus
+              Telluropod
+            Check: SubjectKilled
+            Names:
+              - AlienBug01
+              - AlienBug02
+              - AlienBug03
+              - AlienBug04
+              - CaveWormGreen
+              - CaveWormGrey
+              - CaveWormWhite
+              - Otyugh
+              - Oviraptor
+              - Raptor
+              - RaptorNight
+              - Spider01
+              - Spider02
+              - Spider03
+              - Spinosaurus
+              - Telluropod
+              - PlantMonster
+              - CaveWormGreyOld
+              - Creepy
+            Amount: 10
+            AllowManualCompletion: true
+    NoSkip: true
+  - ChapterTitle: The Unholy - Temperate
+    Category: TalonMission
+    PlayerLevel: 1
+    Visibility: Always
+    Activatable: ByReputation
+    ReputationLevel: 12001
+    HideTasks: true
+    RepeatConditions:
+      NumRepeats: 1
+    Description: >-
+      The world is filled with places where the unholy is hiding from our eyes.
+
+
+      We can feel it - will you help us to [fff000]find some of its hiding
+      places?[-]
+    CompletedMessage: norm;30|The Talon community gratefully gives thanks to you for your deeds.
+    Rewards:
+      - Type: Reputation
+        Count: 1000
+        Faction:
+          - Talon
+      - Item: GoldCoins
+        Count: 10
+    Tasks:
+      - TaskTitle: Scout Legacy POIs
+        Actions:
+          - ActionTitle: Locate Spot 1
+            Description: ===
+            Check: NearPoi
+            Guiding: Destination
+            Names:
+              - Artifacts
+              - AbandonedPOI
+              - AlienTowerDMG
+              - AlienWatchtower
+              - ArtifactsFloating
+            AllowManualCompletion: true
+          - ActionTitle: Locate Spot 2
+            Description: ===
+            Check: NearPoi
+            Guiding: Destination
+            Names:
+              - Artifacts
+              - AbandonedPOI
+              - ArtifactsFloating
+            AllowManualCompletion: true
+    NoSkip: false
+  - ChapterTitle: Torching the Weed - Temperate
+    Category: TalonMission
+    PlayerLevel: 1
+    Visibility: Always
+    Activatable: ByReputation
+    ReputationLevel: 18001
+    HideTasks: true
+    RepeatConditions:
+      NumRepeats: 1
+    Description: >-
+      The radiated zones are a source of power for the unholy.
+
+
+      Will you help us stopping their spread by [fff000]harvesting the
+      contaminated wood[-]
+
+      from the unnatural plants that grow inside the zones?
+    CompletedMessage: norm;30|The Talon community gratefully gives thanks to you for your deeds.
+    Rewards:
+      - Type: Reputation
+        Count: 3000
+        Faction:
+          - Talon
+      - Item: GoldCoins
+        Count: 20
+    Tasks:
+      - TaskTitle: Chop down plants
+        Actions:
+          - ActionTitle: Harvest Wood Logs
+            Description: ===
+            Check: ItemsPickedUp
+            Types:
+              - WoodLogs
+            Amount: 20
+            AllowManualCompletion: true
+    NoSkip: false
+  - ChapterTitle: Action and Reaction - Temperate
+    Category: TalonMission
+    PlayerLevel: 1
+    Visibility: Always
+    Activatable: ByReputation
+    ReputationLevel: 18001
+    HideTasks: true
+    RepeatConditions:
+      NumRepeats: 1
+    Description: >-
+      Our attempts to halt the spread of the unholy seems to have triggered a
+      reaction.
+
+
+      Our Elders feel that our villages will soon be under attack.
+
+      Will you help us to [fff000]fend off The Legacy?[-] assault?
+    CompletedMessage: norm;30|The Talon community gratefully gives thanks to you for your deeds.
+    Rewards:
+      - Type: Reputation
+        Count: 3000
+        Faction:
+          - Talon
+      - Item: GoldCoins
+        Count: 20
+    Tasks:
+      - TaskTitle: Fire Brigade
+        Actions:
+          - ActionTitle: Find Settlement
+            Description: ===
+            Check: NearPoi
+            Names:
+              - TribalVillage
+              - TribalField
+              - TribalBazar
+              - TribalBazarAux
+              - TribalRecreation
+              - TribalVillageStone
+              - TribalBazarStone
+            Guiding: Destination
+            AllowManualCompletion: true
+            CompletedMessage: norm;30|I can already feel them coming...
+        OnCompletePlayfieldOps:
+          - 'SpawnEnemy: 2; Overseer; 30'
+          - 'SpawnEnemy: 2; TotalHorror; 25'
+          - 'SpawnEnemy: 1; GolemSwamp; 35'
+      - TaskTitle: Defend Settlement
+        StartDelay: 15
+        Actions:
+          - ActionTitle: Kill Creatures
+            Description: >-
+              The following creatures have been identified as The Legacy:
+              GolemSwamp
+
+              Overseer
+
+              TotalHorror
+            Check: SubjectKilled
+            Names:
+              - Overseer
+              - TotalHorror
+              - GolemSwamp
+            Amount: 3
+            AllowManualCompletion: true
+    NoSkip: false
+  - ChapterTitle: Pinholes do Hurt I - Temperate
+    Category: TalonMission
+    PlayerLevel: 1
+    Visibility: Always
+    Activatable: ByReputation
+    ReputationLevel: 24001
+    HideTasks: true
+    RepeatConditions:
+      NumRepeats: 1
+    Description: >-
+      The Zirax have oppressed us long enough!
+
+
+      But we do not want to directly assault them. Instead, we would like to
+      express...our arguments.
+
+      Will you lend us a hand in our campaign and [fff000]deliver our message[-]
+      to some of their troops?
+    CompletedMessage: norm;30|The Talon community gratefully gives thanks to you for your deeds.
+    Rewards:
+      - Type: Reputation
+        Count: 4000
+        Faction:
+          - Talon
+      - Item: GoldCoins
+        Count: 30
+    Tasks:
+      - TaskTitle: Assassinate Zirax Troops
+        Actions:
+          - ActionTitle: Kill Zirax
+            Description: |-
+              Targets that count towards the mission goal:
+              Any drone
+              Any Zirax trooper (Patrol and in POIs)
+              Zirax Ripper Dogs
+              Zirax Traders
+              Mechanoids and Turret Robots
+              Armored Golem
+            Check: SubjectKilled
+            Names:
+              - DronesDroneSmallFast01Rocket
+              - DroneSmallFast01Minigun
+              - DroneSmallFast01Plasma
+              - DroneSmallSlow01Minigun
+              - DroneSmallSlow01Cannon
+              - DroneSmallSlow02Minigun
+              - DroneLargeSlow01Minigun
+              - DroneLargeSlow01Plasma
+              - DroneLargeSlow02Minigun
+              - DroneLargeSlow02Cannon
+              - DroneLargeSlowGardian
+              - DroneTroopsTransport
+              - DroneTroopsTransport01
+              - EnemyDroneV2Minigun
+              - EnemyDroneV2Plasma
+              - DroneSmallAttackBase
+              - DroneLargeAttackBase
+              - DroneBaseAttackRocket
+              - DroneBaseAttackMinigun
+              - DroneBomberAttackBase
+              - SpaceDronePlasma
+              - SpaceDroneLaser
+              - Mechanoid
+              - TurretRobotV2
+              - ArmoredGolem
+              - RipperDog
+              - TraderZirax
+              - ZiraxLaser
+              - ZiraxMinigun
+              - ZiraxMinigunDebug
+              - ZiraxRocket
+              - ZiraxShotgun
+              - ZiraxSniper
+              - ZiraxTest
+              - ZiraxMinigunPatrol
+              - ZiraxRocketPatrol
+              - ZiraxShotgunPatrol
+              - ZiraxMechanoidPatrol
+              - ZiraxRipperDogPatrol
+            Amount: 15
+            AllowManualCompletion: true
+    NoSkip: false
+  - ChapterTitle: Pinholes do Hurt II - Temperate
+    Category: TalonMission
+    PlayerLevel: 1
+    Visibility: Always
+    Activatable: ByReputation
+    ReputationLevel: 24001
+    HideTasks: true
+    RepeatConditions:
+      NumRepeats: 1
+    Description: >-
+      Killing only the troopers does not seem to make them listen a lot.
+
+      We need to shut down what fuels their bases.
+
+
+      Would you mind to assist us in some sabot...ehm..in demonstrating our
+      determination
+
+      and [fff000]shut down some of their generators or fuel tanks[-]?
+    CompletedMessage: norm;30|The Talon community gratefully gives thanks to you for your deeds.
+    Rewards:
+      - Type: Reputation
+        Count: 5000
+        Faction:
+          - Talon
+      - Item: GoldCoins
+        Count: 40
+    Tasks:
+      - TaskTitle: Blow Up Fuel Tanks and Generators
+        Actions:
+          - ActionTitle: Destroy Devices
+            Description: ===
+            Check: BlockDestroyed
+            Names:
+              - DroneBaseT1
+              - XenuMainframe
+              - XenuRadarMain
+              - XenuRadarAddition
+              - XenuRadarTurretRocket
+              - XenuRadarTurret
+              - XenuShrine
+              - XenuMain
+              - XenuAuxT2
+              - XenuDefenceT2
+              - XenuBunker
+              - XenuAuxT1
+            Types:
+              - GeneratorMS
+              - GeneratorBA
+              - GeneratorMST2
+              - SolarGenerator
+              - FuelTankMSLarge
+              - FuelTankMSLargeT2
+              - FuelTankMSSmall
+              - FuelTankPOI
+            Amount: 3
+            AllowManualCompletion: true
+    NoSkip: false
+  - ChapterTitle: Privacy Matters
+    Category: PolarisMission
+    PlayerLevel: 1
+    Visibility: Always
+    Activatable: ByReputation
+    ReputationLevel: 12001
+    HideTasks: true
+    RepeatConditions:
+      NumRepeats: 1
+    Description: >-
+      Greetings from the Polaris Megacorp, my dear friend!
+
+
+      You look like someone that has grown to like some...privacy.
+
+
+      We, as a company, are the biggest advocates of privacy - but we are
+      afraid,
+
+      the Zirax Empire does not really value this like you and we do
+
+
+      . Do you think you can [fff000]shut down some of their drones[-]...
+
+      just in favor of the wildlife and its unimpaired living, of course?
+    CompletedMessage: >-
+      norm;30|POLARIS board of directors gratefully appreciates your formidable
+      services.
+    Rewards:
+      - Type: Reputation
+        Count: 1000
+        Faction:
+          - Polaris
+      - Item: MoneyCard
+        Count: 500
+    Tasks:
+      - TaskTitle: Find Location
+        Actions:
+          - ActionTitle: Locate
+            Description: ===
+            Check: NearPoi
+            Names:
+              - JunkT1
+              - JunkT2
+            Guiding: Destination
+            AllowManualCompletion: true
+            CompletedMessage: Last time i noticed some of the drones floating around here...
+        OnCompletePlayfieldOps:
+          - 'SpawnDrone: 1; DroneSmallFast01Rocket; NearPlayer'
+          - 'SpawnDrone: 1; DroneSmallFast01Minigun; NearPlayer'
+      - TaskTitle: Destroy Drones
+        StartDelay: 10
+        OnActivatePlayfieldOps:
+          - 'SpawnDrone: 2; DroneSmallFast01Minigun; NearPlayer'
+        Actions:
+          - ActionTitle: Destroy Drones
+            Description: pda_WK8Km
+            Check: SubjectKilled
+            Names:
+              - DroneSmallFast01Rocket
+              - DroneSmallFast01Minigun
+              - DroneSmallFast01Plasma
+              - DroneSmallSlow01Minigun
+              - DroneSmallSlow01Cannon
+              - DroneSmallSlow02Minigun
+              - DroneLargeSlow01Minigun
+              - DroneLargeSlow01Plasma
+              - DroneLargeSlow02Minigun
+              - DroneLargeSlow02Cannon
+              - DroneLargeSlowGardian
+              - DroneTroopsTransport
+              - DroneTroopsTransport01
+              - EnemyDroneV2Minigun
+              - EnemyDroneV2Plasma
+              - DroneSmallAttackBase
+              - DroneLargeAttackBase
+              - DroneBaseAttackRocket
+              - DroneBaseAttackMinigun
+              - DroneBomberAttackBase
+              - SpaceDronePlasma
+              - SpaceDroneLaser
+            Amount: 1
+            AllowManualCompletion: false
+    NoSkip: false
+  - ChapterTitle: Wildlife Cam
+    Category: PolarisMission
+    PlayerLevel: 1
+    Visibility: Always
+    Activatable: ByReputation
+    ReputationLevel: 12001
+    HideTasks: true
+    RepeatConditions:
+      NumRepeats: 1
+    Description: >-
+      Wonderful performance in your last mission!
+
+      But we are afraid we need to invest more time in the well-being of the
+      creatures of this planet - especially around ore deposits.
+
+
+      Some minerals seem to affect the wildlife and we do not have a
+      prospector...I mean, skilled explorers, at hand.
+
+
+      Your bearing shows you are a skilled Explorer.
+
+      So may we ask you for this favor again and [fff000]scout a few ore
+      deposits[-] - only for checking the living conditions of the native
+      animals, of course.
+    CompletedMessage: >-
+      norm;30|POLARIS board of directors gratefully appreciates your formidable
+      services.
+    Rewards:
+      - Type: Reputation
+        Count: 1000
+        Faction:
+          - Polaris
+      - Item: MoneyCard
+        Count: 500
+    Tasks:
+      - TaskTitle: Scout Ore Deposits
+        Actions:
+          - ActionTitle: Find Deposit 1
+            Description: ===
+            Check: NearResource
+            Guiding: Destination
+            Types:
+              - IronResource
+              - CopperResource
+              - CobaltResource
+              - SiliconResource
+              - NeodymiumResource
+              - SathiumResource
+              - ErestrumResource
+              - ZascosiumResource
+              - MagnesiumResource
+              - PentaxidResource
+              - PromethiumResource
+              - GoldResource
+            AllowManualCompletion: true
+          - ActionTitle: Find Deposit 2
+            Description: ===
+            Check: NearResource
+            Guiding: Destination
+            Types:
+              - IronResource
+              - CopperResource
+              - CobaltResource
+              - SiliconResource
+              - NeodymiumResource
+              - SathiumResource
+              - ErestrumResource
+              - ZascosiumResource
+              - MagnesiumResource
+              - PentaxidResource
+              - PromethiumResource
+              - GoldResource
+            AllowManualCompletion: true
+          - ActionTitle: Find Deposit 3
+            Description: ===
+            Check: NearResource
+            Guiding: Destination
+            Types:
+              - IronResource
+              - CopperResource
+              - CobaltResource
+              - SiliconResource
+              - NeodymiumResource
+              - SathiumResource
+              - ErestrumResource
+              - ZascosiumResource
+              - MagnesiumResource
+              - PentaxidResource
+              - PromethiumResource
+              - GoldResource
+            AllowManualCompletion: false
+    NoSkip: false
+  - ChapterTitle: Power down the Zone
+    Category: PolarisMission
+    PlayerLevel: 1
+    Visibility: Always
+    Activatable: ByReputation
+    ReputationLevel: 18001
+    HideTasks: true
+    RepeatConditions:
+      NumRepeats: 1
+    Description: >-
+      Currently, our biggest concern are the radiated zones on this planet.
+
+
+      The promethium stones and deposits in that area seem to fuel the radiated
+      zones ecosystem and harm our worke...the precious lifeforms there.
+
+
+      We would like to ask you to venture in such a zone,
+
+      check what is happening there and [fff000]bring back a few samples of
+      promethium[-] so we can make profit...examine it!
+    CompletedMessage: >-
+      norm;30|POLARIS board of directors gratefully appreciates your formidable
+      services.
+    Rewards:
+      - Type: Reputation
+        Count: 3000
+        Faction:
+          - Polaris
+      - Item: MoneyCard
+        Count: 1000
+    Tasks:
+      - TaskTitle: Extract Promethium Ore
+        Actions:
+          - ActionTitle: Collect Promethium Ore
+            Description: ===
+            Check: ItemsPickedUp
+            Types:
+              - PromethiumOre
+            Amount: 15
+            AllowManualCompletion: false
+    NoSkip: false
+  - ChapterTitle: Weaponized Negotiations
+    Category: PolarisMission
+    PlayerLevel: 1
+    Visibility: Always
+    Activatable: ByReputation
+    ReputationLevel: 18001
+    HideTasks: true
+    RepeatConditions:
+      NumRepeats: 1
+    Description: >-
+      What a shame!
+
+
+      It seems the Zirax do not value our combined efforts to improve our
+      companies
+
+      ..the planets..situation and have sent in an attack force to one of our
+      facilities.
+
+
+      On behalf of the POLARIS board of directors, we ask you to head there and
+      help with the defences!
+    CompletedMessage: >-
+      norm;30|POLARIS board of directors gratefully appreciates your formidable
+      services.
+    Rewards:
+      - Type: Reputation
+        Count: 3000
+        Faction:
+          - Polaris
+      - Item: MoneyCard
+        Count: 1000
+    Tasks:
+      - TaskTitle: Fire Brigade
+        Actions:
+          - ActionTitle: Find Facility
+            Description: ===
+            Check: NearPoi
+            Names:
+              - PolarisIndustrialMain
+              - PolarisLogisticsMain
+              - PolarisIndustrialAux
+              - PolarisLogisticsAux
+              - PolarisMiningMain
+              - PolarisMiningAux
+            Guiding: Destination
+            AllowManualCompletion: true
+            CompletedMessage: >-
+              norm;20|Are these POLARIS guys trying to fool me with their
+              'caring about the environment' drivel...?
+        OnCompletePlayfieldOps:
+          - 'SpawnDrone: 2; DroneSmallFast01Rocket; NearPlayer'
+          - 'SpawnDrone: 1; DroneSmallFast01Plasma; NearPlayer'
+      - TaskTitle: Defend Facility
+        StartDelay: 6
+        Actions:
+          - ActionTitle: Destroy Drones
+            Description: ===
+            Check: SubjectKilled
+            Names:
+              - DroneSmallFast01Rocket
+              - DroneSmallFast01Plasma
+            Amount: 2
+            AllowManualCompletion: false
+    NoSkip: false
+  - ChapterTitle: Counter Strike I
+    Category: PolarisMission
+    PlayerLevel: 1
+    Visibility: Always
+    Activatable: ByReputation
+    ReputationLevel: 24001
+    HideTasks: true
+    RepeatConditions:
+      NumRepeats: 1
+    Description: >-
+      The Zirax have gone too far once again and are posing a risk to our
+      company operations .. i mean, primarily to the natives, of course!
+
+
+      We need to help them getting back on the right track, don't you think?
+
+
+      First, we should 'inform' some of their personnel and deliver a loud and
+      clear warning.
+
+
+      Do you mind delivering that little notice to the recipients, will you? 
+    CompletedMessage: >-
+      norm;30|POLARIS board of directors gratefully appreciates your formidable
+      services.
+    Rewards:
+      - Type: Reputation
+        Count: 4000
+        Faction:
+          - Polaris
+      - Item: MoneyCard
+        Count: 1500
+    Tasks:
+      - TaskTitle: Decimate Zirax Personnel
+        Actions:
+          - ActionTitle: Kill Zirax
+            Description: |-
+              Targets that count towards the mission goal:
+              Any drone
+              Any Zirax trooper (Patrol and in POIs)
+              Zirax Ripper Dogs
+              Zirax Traders
+              Mechanoids and Turret Robots
+              Armored Golem
+            Check: SubjectKilled
+            Names:
+              - Mechanoid
+              - TurretRobotV2
+              - ArmoredGolem
+              - RipperDog
+              - TraderZirax
+              - ZiraxLaser
+              - ZiraxMinigun
+              - ZiraxMinigunDebug
+              - ZiraxRocket
+              - ZiraxShotgun
+              - ZiraxSniper
+              - ZiraxTest
+              - ZiraxMinigunPatrol
+              - ZiraxRocketPatrol
+              - ZiraxShotgunPatrol
+              - ZiraxMechanoidPatrol
+              - ZiraxRipperDogPatrol
+              - DronesDroneSmallFast01Rocket
+              - DroneSmallFast01Minigun
+              - DroneSmallFast01Plasma
+              - DroneSmallSlow01Minigun
+              - DroneSmallSlow01Cannon
+              - DroneSmallSlow02Minigun
+              - DroneLargeSlow01Minigun
+              - DroneLargeSlow01Plasma
+              - DroneLargeSlow02Minigun
+              - DroneLargeSlow02Cannon
+              - DroneLargeSlowGardian
+              - DroneTroopsTransport
+              - DroneTroopsTransport01
+              - EnemyDroneV2Minigun
+              - EnemyDroneV2Plasma
+              - DroneSmallAttackBase
+              - DroneLargeAttackBase
+              - DroneBaseAttackRocket
+              - DroneBaseAttackMinigun
+              - DroneBomberAttackBase
+              - SpaceDronePlasma
+              - SpaceDroneLaser
+            Amount: 15
+            AllowManualCompletion: false
+    NoSkip: false
+  - ChapterTitle: Counter Strike II
+    Category: PolarisMission
+    PlayerLevel: 1
+    Activatable: ByReputation
+    ReputationLevel: 24001
+    HideTasks: true
+    RepeatConditions:
+      NumRepeats: 1
+    Description: >-
+      Do you believe that! The Zirax actually not only seem to not agree on our
+      company operations, but also store dangerous substances in 3rd party
+      non-licensed containers?
+
+
+      That's something we cannot accept, correct?
+
+
+      Can you possibly step by a Zirax facility and check if the storage areas
+      are up to our high company standards?
+
+
+      You are entitled to seize any goods and advice the personnel to assist,
+      retreat or resign their facility.
+    CompletedMessage: >-
+      norm;30|POLARIS board of directors gratefully appreciates your formidable
+      services.
+    Rewards:
+      - Type: Reputation
+        Count: 5000
+        Faction:
+          - Polaris
+      - Item: MoneyCard
+        Count: 2000
+    Tasks:
+      - TaskTitle: Destroy Containers
+        Actions:
+          - ActionTitle: Destroy Containers
+            Description: ===
+            Check: BlockDestroyed
+            Names:
+              - DroneBaseT1
+              - XenuMainframe
+              - XenuRadarMain
+              - XenuRadarAddition
+              - XenuRadarTurretRocket
+              - XenuRadarTurret
+              - XenuShrine
+              - XenuMain
+              - XenuAuxT2
+              - XenuDefenceT2
+              - XenuBunker
+              - XenuAuxT1
+            Types:
+              - ContainerMS01
+              - ScifiContainer2
+              - ScifiContainer1
+              - ScifiContainerPower
+              - ContainerAmmoLarge
+              - ContainerAmmoSmall
+              - ContainerHarvest
+              - CargoContainerSmall
+              - CargoContainerMedium
+              - CargoContainerSV
+              - ContainerControllerLarge
+              - ContainerExtensionLarge
+              - ContainerControllerSmall
+              - ContainerExtensionSmall
+              - ContainerHarvestControllerSmall
+              - ContainerHarvestControllerLarge
+              - ContainerAmmoControllerSmall
+              - ContainerAmmoControllerLarge
+              - ContainerLargeBlocks
+              - ContainerSmallBlocks
+              - ContainerMS01Large
+              - ScifiContainer1Large
+              - ScifiContainer2Large
+              - ScifiContainerPowerLarge
+            Amount: 3
+            AllowManualCompletion: false
+    NoSkip: false
+  - ChapterTitle: Taming the Mood
+    Category: ZiraxMission
+    PlayerLevel: 1
+    Visibility: Always
+    Activatable: ByReputation
+    ReputationLevel: 12001
+    HideTasks: true
+    RepeatConditions:
+      NumRepeats: 1
+    Description: >-
+      Praise the Emperor, stranger!
+
+
+      Some of our lieutenants have told me you had helped them in various
+      situations.
+
+
+      Now you can proof your worth for the Zirax Empire
+
+
+      Get out there and [fff000]kill some of those worthless creatures[-]
+      crouching and running around and do not care for anything.
+
+
+      I am sick of looking at them. Prey...pfff.
+    CompletedMessage: norm;30|The ZIRAX generously take note of your dedication to the Empire.
+    Rewards:
+      - Type: Reputation
+        Count: 1000
+        Faction:
+          - Zirax
+      - Item: MoneyCard
+        Count: 500
+      - Item: PentaxidOre
+        Count: 25
+    Tasks:
+      - TaskTitle: Decimate Creatures
+        Actions:
+          - ActionTitle: Kill PREY
+            Description: |-
+              Targets that count towards the mission:
+              Megalonops (any)
+              Pangolin
+              Parasaur
+              Slime (any)
+              Triceratops
+              WormDesert (any)
+              Otyugh
+              Oviraptor
+              LizardMule
+            Check: SubjectKilled
+            Names:
+              - Triceratops
+              - MegalonopsGrey
+              - MegalonopsGreen
+              - Slime
+              - SlimeWhite
+              - Parasaur
+              - Pangolin
+              - WormDesert
+              - Otyugh
+              - LizardMule
+              - Oviraptor
+              - WormDesertLarge
+              - LizardMuleBaby
+              - ParasaurBaby
+            Amount: 10
+            AllowManualCompletion: true
+    NoSkip: false
+  - ChapterTitle: Untrusted Trading
+    Category: ZiraxMission
+    PlayerLevel: 1
+    Visibility: Always
+    Activatable: ByReputation
+    ReputationLevel: 12001
+    HideTasks: true
+    RepeatConditions:
+      NumRepeats: 1
+    Description: >-
+      These POLARIS tricksters think we let them do whatever they want.
+
+
+      Even the local governor believes in their 'environmental first' campaign
+      nonsense, while they ruthless exploit any deposit they can get their hands
+      on.
+
+
+      You will help us to reveal their real interests!
+
+      [fff000]Locate and investigate one of their Trading Stations.[-]
+
+
+      I am quite sure they even work with those Talon scumbags...
+    CompletedMessage: norm;30|The ZIRAX generously take note of your dedication to the Empire.
+    Rewards:
+      - Type: Reputation
+        Count: 1000
+        Faction:
+          - Zirax
+      - Item: MoneyCard
+        Count: 500
+      - Item: PentaxidOre
+        Count: 25
+    Tasks:
+      - TaskTitle: POLARIS Trading Station
+        Actions:
+          - ActionTitle: Locate facility
+            Description: ===
+            Check: NearPoi
+            Guiding: Destination
+            Names:
+              - TS_Planet
+            AllowManualCompletion: true
+    NoSkip: false
+  - ChapterTitle: Radiated Trace
+    Category: ZiraxMission
+    PlayerLevel: 1
+    Visibility: Always
+    Activatable: ByReputation
+    ReputationLevel: 18001
+    HideTasks: true
+    RepeatConditions:
+      NumRepeats: 1
+    Description: >-
+      A recently seized cargo transport lead us to the assumption that the
+      POLARIS are harvesting rare materials in the radiated zones without
+      permission.
+
+      If i would not know their obvious profit plans any better, I would have
+      guessed they are searching for something particular.
+
+
+      We want you to follow this trace, closely investigate and explore such a
+      zone and [fff000]bring back some of the Pentaxid Crystals[-]
+
+      so we can get an idea, why these zones are of such an importance for
+      POLARIS!
+    CompletedMessage: norm;30|The ZIRAX generously take note of your dedication to the Empire.
+    Rewards:
+      - Type: Reputation
+        Count: 3000
+        Faction:
+          - Zirax
+      - Item: MoneyCard
+        Count: 1000
+      - Item: PentaxidOre
+        Count: 50
+    Tasks:
+      - TaskTitle: Extract Pentaxid
+        Actions:
+          - ActionTitle: Collect Pentaxid
+            Description: ===
+            Check: ItemsPickedUp
+            Types:
+              - PentaxidOre
+            Amount: 5
+            AllowManualCompletion: true
+    NoSkip: false
+  - ChapterTitle: Crime Scene Cleaner
+    Category: ZiraxMission
+    PlayerLevel: 1
+    Visibility: Always
+    Activatable: ByReputation
+    ReputationLevel: 18001
+    HideTasks: true
+    RepeatConditions:
+      NumRepeats: 1
+    Description: >-
+      Every week the same troubles.
+
+      One of our patrols accidentally shot down a representative of one of the
+      other Zirax houses.
+
+      Is this MY fault if their worthless officers do not sign the trespassing
+      formulas? Exactly!
+
+
+      Can you please grab a weapon and silence this turmoil at the crashsite?
+    CompletedMessage: norm;30|The ZIRAX generously take note of your dedication to the Empire.
+    Rewards:
+      - Type: Reputation
+        Count: 3000
+        Faction:
+          - Zirax
+      - Item: MoneyCard
+        Count: 1000
+      - Item: PentaxidOre
+        Count: 50
+    Tasks:
+      - TaskTitle: Locate Crashsite
+        Actions:
+          - ActionTitle: Locate
+            Description: ===
+            Check: NearPoi
+            Names:
+              - JunkT1
+              - JunkT2
+              - CrashedTitanFront
+              - CrashedTitanMid
+              - CrashedTitanBack
+            Guiding: Destination
+            AllowManualCompletion: true
+            CompletedMessage: 'norm;30|Hm. Nobody out here. This is a trap? Yes, of course...'
+        OnCompletePlayfieldOps:
+          - 'SpawnEnemy: 4; Hexapod; 50'
+          - 'SpawnEnemy: 4; AlienAssassinRed; 50'
+          - 'SpawnEnemy: 2; Overseer; 70'
+          - 'SpawnEnemy: 2; GolemDesert; 30'
+      - TaskTitle: Survive Ambush
+        StartDelay: 30
+        Actions:
+          - ActionTitle: Kill Creatures
+            Description: ===
+            Check: SubjectKilled
+            Names:
+              - Hexapod
+              - Overseer
+              - AlienAssassinRed
+              - GolemDesert
+            Amount: 10
+            AllowManualCompletion: true
+    NoSkip: false
+  - ChapterTitle: Supreme Court I
+    Category: ZiraxMission
+    PlayerLevel: 1
+    Visibility: Always
+    Activatable: ByReputation
+    ReputationLevel: 24001
+    HideTasks: true
+    RepeatConditions:
+      NumRepeats: 1
+    Description: >-
+      These pesky Talon! Now they have gone too far. I do not know how, but they
+      destroyed several of our base generators and fuel tanks!
+
+
+      The governor wants to set a warning example.
+
+
+      Search for their settlements and bazaars and kill their Chiefs, Guards,
+      their Sentinels and Traders and destroy the statues they pray towards.
+
+      No mercy!
+    CompletedMessage: norm;30|The ZIRAX generously take note of your dedication to the Empire.
+    Rewards:
+      - Type: Reputation
+        Count: 4000
+        Faction:
+          - Zirax
+      - Item: MoneyCard
+        Count: 1500
+      - Item: PentaxidOre
+        Count: 75
+    Tasks:
+      - TaskTitle: Warning Example
+        Actions:
+          - ActionTitle: Kill a Talon Chief
+            Description: ===
+            Check: SubjectKilled
+            Names:
+              - TalonChief
+            AllowManualCompletion: true
+          - ActionTitle: Kill a Talon Sentinel
+            Description: ===
+            Check: SubjectKilled
+            Names:
+              - TalonSentinel
+            AllowManualCompletion: true
+          - ActionTitle: Kill a Talon Guardian
+            Description: ===
+            Check: SubjectKilled
+            Names:
+              - TalonGuardian
+              - TalonGuardianRed
+              - TalonGuardianBlue
+            AllowManualCompletion: true
+          - ActionTitle: Kill a Talon Trader
+            Description: ===
+            Check: SubjectKilled
+            Names:
+              - TraderTalon
+              - TraderTalon2
+            AllowManualCompletion: true
+          - ActionTitle: Destroy Statues
+            Description: ===
+            Check: BlockDestroyed
+            Types:
+              - Runestone
+              - StoneBarbarian
+              - CelticCross
+              - DemonHead
+              - DemonicStatue
+              - GothicFountain
+              - GreekHead
+              - MayanStatueSnake
+              - SnakeStatue
+              - StatueSkull
+              - TigerStatue
+              - AncientStatue
+              - DemonicStatueSmall
+              - MayanStatueSnakeSmall
+              - SnakeStatueSmall
+              - TigerStatueSmall
+            Amount: 4
+            AllowManualCompletion: true
+    NoSkip: false
+  - ChapterTitle: Supreme Court II
+    Category: ZiraxMission
+    PlayerLevel: 1
+    Visibility: Always
+    Activatable: ByReputation
+    ReputationLevel: 24001
+    HideTasks: true
+    RepeatConditions:
+      Delay: 60
+      DelayAdd: 30
+    Description: >-
+      Ha! Now we got them with their dirty company hands deep into illegal
+      transactions!
+
+
+      A scout team has caught a POLARIS team selling medicals, building material
+      and other commodities to the Talon.
+
+      We are sure, they also selling them weapons, so we NEED to act now!
+
+
+      Zirax High Court has ordered to clear the POLARIS Trading compound by
+      weapon fire.
+
+
+      Go there and proof you loyalty to the Empire. No survivors.
+    CompletedMessage: norm;30|The ZIRAX generously take note of your dedication to the Empire.
+    Rewards:
+      - Type: Reputation
+        Count: 5000
+        Faction:
+          - Zirax
+      - Item: MoneyCard
+        Count: 2000
+      - Item: PentaxidOre
+        Count: 100
+    Tasks:
+      - TaskTitle: Out of Business
+        Actions:
+          - ActionTitle: Find Trading Station
+            Description: ===
+            Check: NearPoi
+            Guiding: Destination
+            Names:
+              - TS_Planet
+            AllowManualCompletion: true
+          - ActionTitle: Kill some Traders
+            Description: ===
+            Check: SubjectKilled
+            Names:
+              - Trader1
+              - Trader2
+              - Trader3
+              - Trader4
+              - Trader5
+              - Trader6
+              - TraderHuman
+              - TraderTalon
+              - TraderTalon2
+              - TraderZirax
+            Amount: 3
+            AllowManualCompletion: true
+    NoSkip: false
+  - ChapterTitle: chptitleMiningC
+    Category: FactionMission
+    Description: chpdescMiningC
+    PictureFile: miningcorp.jpg
+    PlayerLevel: 1
+    Visibility: Always
+    Rewards:
+      - Item: ContainerMS01
+        Count: 4
+      - Item: ContainerAmmoLarge
+        Count: 4
+      - Item: ConstructorT2
+        Count: 1
+    Tasks:
+      - TaskTitle: tasktitleMiningCo
+        PictureFile: miningcorp.jpg
+        Actions:
+          - ActionTitle: acttitlePromMC
+            Description: actdescPromMC
+            Check: ItemsPickedUp
+            Types:
+              - PromethiumOre
+            Amount: 1000
+            CompletedMessage: $
+          - ActionTitle: acttitleMagMC
+            Description: actdescMagMC
+            Check: ItemsPickedUp
+            Types:
+              - MagnesiumOre
+            Amount: 1000
+            CompletedMessage: $
+          - ActionTitle: acttitleCobaltMC
+            Description: actdescCobaltMC
+            Check: ItemsPickedUp
+            Types:
+              - CobaltOre
+            Amount: 1000
+            CompletedMessage: $
+          - ActionTitle: acttitleSathMC
+            Description: actdescSathMC
+            Check: ItemsPickedUp
+            Types:
+              - SathiumOre
+            Amount: 500
+            CompletedMessage: $
+          - ActionTitle: acttitleNeoMC
+            Description: actdescNeoMC
+            Check: ItemsPickedUp
+            Types:
+              - NeodymiumOre
+            Amount: 500
+            CompletedMessage: $
+    NoSkip: false
+    Activatable: Always
+  - ChapterTitle: chptitleGasStation
+    Category: FactionMission
+    Description: chpdescGasStation
+    PictureFile: gasstation.jpg
+    PlayerLevel: 1
+    Visibility: Always
+    Rewards:
+      - Item: FuelTankMSLargeT2
+        Count: 4
+      - Item: PentaxidTank
+        Count: 1
+    Tasks:
+      - TaskTitle: tasktitleGStation
+        PictureFile: gasstation.jpg
+        Actions:
+          - ActionTitle: acttitleGSlfp
+            Description: actdescGSlfp
+            Check: ItemsCrafted
+            Names:
+              - ConstructorT1V2
+              - ConstructorT2
+              - ConstructorSmallV2
+              - ConstructorSV
+              - ConstructorHV
+              - ConstructorSurvival
+            Types:
+              - EnergyCellLarge
+            Amount: 1000
+            CompletedMessage: $
+          - ActionTitle: acttitleGSpenta
+            Description: actdescGSpenta
+            Check: ItemsCrafted
+            Names:
+              - ConstructorT1V2
+              - ConstructorT2
+              - ConstructorSmallV2
+              - ConstructorSV
+              - ConstructorHV
+              - ConstructorSurvival
+            Amount: 100
+            CompletedMessage: $
+    NoSkip: true
+    Activatable: Always
+  - ChapterTitle: chptitlePfBMedi
+    Category: FactionMission
+    Description: chpdescPfBMedi
+    PictureFile: pfbmedical.jpg
+    PlayerLevel: 1
+    Visibility: Always
+    Rewards:
+      - Item: Medikit03
+        Count: 10
+    Tasks:
+      - TaskTitle: tasktitlePfBMedical
+        PictureFile: pfbmedical.jpg
+        Actions:
+          - ActionTitle: acttitleHealthPack
+            Description: actdescDoctorsJournal
+            Check: ItemsCrafted
+            Names:
+              - FoodProcessorV2
+            Types:
+              - Medikit04
+            Amount: 15
+            CompletedMessage: $
+          - ActionTitle: acttitleTraumaKit
+            Description: actdescDoctorsJournal
+            Check: ItemsCrafted
+            Names:
+              - FoodProcessorV2
+            Types:
+              - Medikit01
+            Amount: 10
+            CompletedMessage: $
+          - ActionTitle: acttitleDetoxKit
+            Description: actdescDoctorsJournal
+            Check: ItemsCrafted
+            Names:
+              - FoodProcessorV2
+            Types:
+              - Medikit02
+            Amount: 10
+            CompletedMessage: $
+          - ActionTitle: acttitleDeconKit
+            Description: actdescDoctorsJournal
+            Check: ItemsCrafted
+            Names:
+              - FoodProcessorV2
+            Types:
+              - Medikit03
+            Amount: 5
+            CompletedMessage: $
+    NoSkip: false
+  - ChapterTitle: chptitlePfBSupport
+    Category: FactionMission
+    Description: chpdescPfBSupport
+    PictureFile: pfbsupport.jpg
+    PlayerLevel: 1
+    Visibility: Always
+    Rewards:
+      - Item: EmergencyRations
+        Count: 10
+    Tasks:
+      - TaskTitle: tasktitlePfBSupp
+        PictureFile: pfbsupport.jpg
+        Actions:
+          - ActionTitle: acttitlePfBcannM
+            Description: actdescPfBcannM
+            Check: ItemsCrafted
+            Names:
+              - FoodProcessorV2
+            Types:
+              - CannedMeat
+            Amount: 5
+            CompletedMessage: $
+          - ActionTitle: acttitlePfBcannV
+            Description: actdescPfBcannV
+            Check: ItemsCrafted
+            Names:
+              - FoodProcessorV2
+            Types:
+              - CannedVegetables
+            Amount: 5
+            CompletedMessage: $
+    NoSkip: false
+  - ChapterTitle: chptitleRaidApoi
+    Category: FactionMission
+    Description: chpdescRaidApoi
+    PictureFile: raidpoi.jpg
+    PlayerLevel: 1
+    Visibility: Always
+    Rewards:
+      - Item: Sniper2Epic
+        Count: 1
+      - Item: Sniper2Epic
+        Count: 1
+      - Item: Sniper2Epic
+        Count: 1
+      - Item: Sniper2Epic
+        Count: 1
+    Tasks:
+      - TaskTitle: tasktitleRaidAlienP
+        PictureFile: raidpoi.jpg
+        Actions:
+          - ActionTitle: acttitleEpsilonA
+            Description: actdescConquerAS
+            Check: BlockDestroyed
+            Types:
+              - CoreNPC
+            Names:
+              - EpsilonMain
+              - EpsilonAuxT1
+              - EpsilonDefenceT1
+              - EpsilonAuxT2
+              - EpsilonBunker
+            CompletedMessage: $
+          - ActionTitle: acttitleXenuO
+            Description: actdescConquerAS
+            Check: BlockDestroyed
+            Types:
+              - CoreNPC
+            Names:
+              - XenuMainframe
+              - XenuRadarMain
+              - XenuRadarAddition
+              - XenuRadarTurret
+              - XenuShrine
+              - XenuAuxT2
+              - XenuAuxT1
+              - XenuDefenceT2
+              - XenuBunker
+            CompletedMessage: $
+          - ActionTitle: acttitleGhostRM
+            Description: actdescConquerAS
+            Check: BlockDestroyed
+            Types:
+              - CoreNPC
+            Names:
+              - GhostMain
+              - GhostAuxT1
+              - GhostAuxT2
+              - GhostDefenceT1
+              - GhostBunker
+              - GhostT1
+            CompletedMessage: $
+          - ActionTitle: acttitleRados
+            Description: actdescConquerAS
+            Check: BlockDestroyed
+            Types:
+              - CoreNPC
+            Names:
+              - RadosMain
+              - RadosAuxT1
+              - RadosDefenceT1
+              - RadosBunker
+              - RadosAuxT2
+            CompletedMessage: $
+    NoSkip: false
+  - ChapterTitle: txt_uaS0O
+    Category: SoloMission
+    Description: txt_08SSO
+    RepeatConditions:
+      NumRepeats: 0
+      Delay: 720
+      DelayAdd: 1
+    HideTasks: true
+    PlayerLevel: 25
+    Activatable: WhenChecked
+    Visibility: Always
+    ChapterActivation:
+      - ActivationMessageType: Auto
+        Check: DialogOption
+        NotifyMessage: txt_e4aCK
+        Guiding: TempIndoor
+        GuidingDistance: 50
+        TriggerDistance: 3
+        Names:
+          - IvD_Mission_Keeper_Check_Yes
+        Value: 1
+    Tasks:
+      - TaskTitle: txt_suWcW
+        Actions:
+          - ActionTitle: txt_s0qim
+            Check: NearUnit
+            Guiding: TempIndoor
+            GuidingDistance: 500
+            Description: txt_WCiiw
+            Names:
+              - Galactic Trading HQ
+              - Freighter Heist Mission
+      - TaskTitle: txt_GOCeT
+        Actions:
+          - ActionTitle: txt_e4Gie
+            Description: txt_eqqWe
+            Check: PlayfieldEntered
+            Names:
+              - Gold Freighter Mission
+            CompletedMessage: mbox;20|txt_aqM8m|txt_LqikK
+          - ActionTitle: txt_L4a8i
+            Description: txt_8WuC4
+            Check: Signal
+            Names:
+              - Start
+      - TaskTitle: txt_0GGma
+        Actions:
+          - ActionTitle: txt_KGWWW
+            Description: txt_a880e
+            Check: Signal
+            Names:
+              - 06Cargo
+              - 06 Cargo
+          - ActionTitle: txt_cqiiS
+            Description: txt_0iI8O
+            Check: InventoryContainsCountOfItem
+            Required: NeedOne
+            Amount: 10
+            Names:
+              - Player
+            Types:
+              - GoldOre
+          - ActionTitle: txt_4mSC0
+            Description: txt_Cqeii
+            Check: Signal
+            Names:
+              - Cargo01
+      - TaskTitle: txt_KmCCG
+        Actions:
+          - ActionTitle: txt_OOaOK
+            Description: txt_uKG4q
+            Check: Signal
+            Names:
+              - 05Cargo
+              - 05 Cargo
+          - ActionTitle: txt_eiCOi
+            Description: txt_4O08a
+            Check: InventoryContainsCountOfItem
+            Required: NeedOne
+            Amount: 20
+            Names:
+              - Player
+            Types:
+              - GoldOre
+          - ActionTitle: txt_aWKOG
+            Description: txt_Kim08
+            Check: Signal
+            Names:
+              - Cargo02
+      - TaskTitle: txt_Uuimu
+        Actions:
+          - ActionTitle: txt_0C4eK
+            Description: txt_aGaG8
+            Check: Signal
+            Names:
+              - 04Cargo
+              - 04 Cargo
+          - ActionTitle: txt_8CI8e
+            Description: txt_Wuq40
+            Check: InventoryContainsCountOfItem
+            Required: NeedOne
+            Amount: 30
+            Names:
+              - Player
+            Types:
+              - GoldOre
+          - ActionTitle: txt_SSYi8
+            Description: txt_Ki08W
+            Check: Signal
+            Names:
+              - Cargo03
+      - TaskTitle: txt_0o4em
+        Actions:
+          - ActionTitle: txt_OiiGu
+            Description: txt_ZuMqS
+            Check: Signal
+            Names:
+              - 03Cargo
+              - 03 Cargo
+          - ActionTitle: txt_8OqGK
+            Description: txt_SEwni
+            Check: InventoryContainsCountOfItem
+            Required: NeedOne
+            Amount: 40
+            Names:
+              - Player
+            Types:
+              - GoldOre
+          - ActionTitle: txt_ROCaa
+            Description: txt_COCa4
+            Check: Signal
+            Names:
+              - Cargo04
+      - TaskTitle: txt_uv0qa
+        Actions:
+          - ActionTitle: txt_OuSFi
+            Description: txt_JqGem
+            Check: Signal
+            Names:
+              - 02Cargo
+              - 02 Cargo
+          - ActionTitle: txt_meG4S
+            Description: txt_SqqeG
+            Check: InventoryContainsCountOfItem
+            Required: NeedOne
+            Amount: 50
+            Names:
+              - Player
+            Types:
+              - GoldOre
+          - ActionTitle: txt_iGCLW
+            Description: txt_SGieu
+            Check: Signal
+            Names:
+              - Cargo05
+      - TaskTitle: txt_CaGWU
+        Actions:
+          - ActionTitle: txt_Cmmeu
+            Description: txt_qeui8
+            Check: Signal
+            Names:
+              - 01Cargo
+              - 01 Cargo
+          - ActionTitle: txt_C4kqa
+            Description: txt_e0qCq
+            Check: InventoryContainsCountOfItem
+            Required: NeedOne
+            Amount: 60
+            Names:
+              - Player
+            Types:
+              - GoldOre
+      - TaskTitle: txt_CSm8u
+        Actions:
+          - ActionTitle: txt_quZWG
+            Description: txt_aWiWW
+            Check: Signal
+            Names:
+              - Cargo06
+      - TaskTitle: txt_Ce0Sm
+        Actions:
+          - ActionTitle: txt_lmei8
+            Description: txt_OquuO
+            Check: PlayfieldEntered
+            Names:
+              - Galactic Trading Station
+    Rewards:
+      - Item: GoldIngot
+        Count: 999
+      - Item: SmallOptronicBridge
+        Count: 3
+      - Item: SmallOptronicMatrix
+        Count: 3
+      - Item: LargeOptronicBridge
+        Count: 3
+    NoSkip: false
+  - ChapterTitle: txt_mubmm
+    Category: SoloMission
+    NoSkip: true
+    PlayerLevel: 1
+    Activatable: Always
+    Visibility: Always
+    ChapterActivation:
+      - ActivationMessageType: Auto
+        Check: InventoryContains
+        Guiding: TempIndoor
+        GuidingDistance: 20
+        TriggerDistance: 3
+        NotifyMessage: mbox;20|txt_mAaai
+        Names:
+          - Player
+        Required: NeedAll
+        Amount: 1
+        PopupActivatesChapter: 'true'
+        NoSkip: 'true'
+        Types:
+          - 'Token:1111'
+          - 'Token:1222'
+          - 'Token:1333'
+    Description: txt_KuGsW
+    Tasks:
+      - TaskTitle: pda_eeGqe
+        Actions:
+          - ActionTitle: pda_WSBKW
+            Description: pda_4QOK0
+            CompletedMessage: ''
+            Check: NearUnit
+            GuidingDistance: 20
+            TriggerDistance: 3
+            Names:
+              - IvDII Galactic Trading
+              - Epic Gift Cargo
+        OnCompletePlayerOps:
+          - 'InventoryOp: Token#1#8030#1'
+      - TaskTitle: txt_iCq8u
+        Actions:
+          - ActionTitle: txt_GeWmq
+            Description: txt_KWGSW
+            Check: InventoryOpened
+            Names:
+              - ContainerPersonal
