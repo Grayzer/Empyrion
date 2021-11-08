@@ -2022,3 +2022,9 @@ dialogue_0CqmOWC,Report has been exported: Biological Data,Отчет экспо
 dialogue_Wi884uK,Report has been exported: Material Data,Отчет экспортирован: Данные о материалах
 dialogue_qSKSuOO,Report has been exported: Archeological Data,Отчет экспортирован: Археологические данные
 dialogue_5O0a4mK,Report has been exported: Anomalous Data,Отчет экспортирован: Данные о Аномалиях
+dialogue_Keq8uai,Communication Console,Консоль связи
+dialogue_e4404mC,Military Console,Военная консоль
+dialogue_SOCahZK,Security Console,Консоль безопасности
+dialogue_S0GCeCO,Research Data Console,Консоль данных исследований
+dialogue_aGWiiWK,Exploration Data Console,Консоль данных разведки
+dialogue_ii4uaS6,Reset Local <color=#ffffff>Report download</color> count <color=#ff0000>(unlocks ALL report console in POI)</color>,Локальный сброс <color=#ffffff>Скачать отчет</color> count <color=#ff0000>(разблокирует ВСЕ консоли отчетов в ТИ)</color>

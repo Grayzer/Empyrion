@@ -5705,3 +5705,8 @@ lblLegalNotes,Legal Notes,Юридические примечания
 lblBpTags,Blueprint Tags,Теги чертежей
 lblReleaseNotes,Release Notes,Примечания к выпуску
 lblMoreInfo,More Info,Подробнее
+btnWaterQuality,Water Quality,Качество воды
+hintWaterQuality,Set water quality,Установить качество воды
+lblLow,Low,Низкое
+lblMedium,Medium,Среднее
+lblHigh,High,Высокое
